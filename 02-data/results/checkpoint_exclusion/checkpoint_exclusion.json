@@ -1,0 +1,130 @@
+{
+  "excluded": "gemma4_31b",
+  "checkpoints": [
+    "gemma4_31b_it",
+    "llama31_70",
+    "llama31_70_it",
+    "qwen36_27b"
+  ],
+  "scope": "diagnostic checkpoint-exclusion sensitivity; not a redefined primary estimand; descriptive unadjusted intervals",
+  "main_grid": [
+    {
+      "family": "neuron",
+      "lang": "zh",
+      "delta_C": 5.2,
+      "delta_C_ci": [
+        1.9,
+        8.8
+      ],
+      "delta_DFR": 0.0,
+      "delta_DFR_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "neuron",
+      "lang": "ko",
+      "delta_C": 4.8,
+      "delta_C_ci": [
+        -0.0,
+        9.9
+      ],
+      "delta_DFR": 0.0,
+      "delta_DFR_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "vT",
+      "lang": "ko",
+      "delta_C": 4.3,
+      "delta_C_ci": [
+        -3.1,
+        11.8
+      ],
+      "delta_DFR": 0.0,
+      "delta_DFR_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "vT",
+      "lang": "es",
+      "delta_C": 1.1,
+      "delta_C_ci": [
+        -6.7,
+        8.4
+      ],
+      "delta_DFR": 5.3,
+      "delta_DFR_ci": [
+        -1.1,
+        11.6
+      ]
+    },
+    {
+      "family": "vT",
+      "lang": "zh",
+      "delta_C": 3.1,
+      "delta_C_ci": [
+        -2.7,
+        9.0
+      ],
+      "delta_DFR": 0.7,
+      "delta_DFR_ci": [
+        0.0,
+        2.1
+      ]
+    }
+  ],
+  "neuron_comparators": {
+    "zh": {
+      "delta_R": [
+        5.8,
+        [
+          2.8,
+          9.5
+        ]
+      ],
+      "delta_M": [
+        4.9,
+        [
+          2.0,
+          8.4
+        ]
+      ],
+      "delta_L": [
+        5.0,
+        [
+          2.0,
+          8.6
+        ]
+      ]
+    },
+    "ko": {
+      "delta_R": [
+        3.0,
+        [
+          -0.8,
+          7.1
+        ]
+      ],
+      "delta_M": [
+        4.0,
+        [
+          0.3,
+          7.8
+        ]
+      ],
+      "delta_L": [
+        2.4,
+        [
+          -0.9,
+          6.2
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+# Dataset construction parameters. Self-contained build: multilingual two-hop Wikidata chains.
+
+languages: [en, ko, zh, ja, es]    # five languages, no translation; native renderings
+en_is_pivot: true                  # both subsets are conditioned on EN-success
+subject_surface_form: en           # subject A kept in English surface form across languages
+readout_token: "Answer:"           # ASCII in every language; colon position is language-invariant
+
+# Item accepted only when the gold answer C maps to the SAME Wikidata entity in all five languages.
+require_five_lang_entity_match: true
+
+# Five query variants per chain.
+query_variants:
+  - two_hop                        # A --r1--> B --r2--> C, ask for C (bridge B latent)
+  - first_hop                      # positive control: A --r1--> B
+  - second_hop                     # positive control: B --r2--> C
+  - shortcut_no_e1                 # negative control
+  - shortcut_no_r1                 # negative control
+
+# Chain mining.
+#   sparql : one heavy query with the 5-language label join (throttles hard on cloud IPs).
+#   rest   : a LIGHT chain query (QIDs only) + batched wbgetentities label fetch (the scale path ---
+#            far less throttled; recommended for remote builds). dump : local Wikidata dump (heaviest setup).
+source: rest                       # sparql | rest | dump
+sparql_endpoint: https://query.wikidata.org/sparql
+wbgetentities_api: https://www.wikidata.org/w/api.php    # REST label fetch (50 entities/call)
+sparql_template: src/beacon/data/sparql/mine_chains.rq   # five-label join + single-answer guard
+
+# COUNTRY-BRIDGE two-hop chains. e.g. hop_id Q105550_P27_Q408_P36 = "the capital of the nationality
+# of Rod Laver", bridge = Australia. Structure: A --r1--> COUNTRY (latent bridge) --r2--> national attribute.
+#   r1 (A -> country): P27 citizenship (A = person) or P495 country of origin (A = work). single_r1
+#                      keeps single-citizenship / single-origin subjects (no "which country?").
+#   r2 (country -> attribute): a FUNCTIONAL, RETRIEVABLE national attribute --- P36 capital, P38
+#                      currency, P35 head of state, P1304 central bank, P85 anthem. single_r2 enforces it.
+# Country attributes are used instead of e.g. person-parent relations because they ARE retrievable
+# (Japan->Tokyo); a famous person's parent is often unknown, so second_hop would fail for CAPABILITY.
+# Answer is country-bounded (~190/type), but: 5 attribute types broaden it; head-of-state (P35) is a
+# PERSON (diverse); and the matched-success control shares the failure set's answer distribution, so
+# answer identity cannot drive the fail/success split. Dominant relation pairs by count:
+# P495->P38(89), P495->P36(81), P27->P35(57), P495->P1304(52), P27->P36(41), P27->P38(32).
+# subject_type logged for structure-diversity stratification; A kept EN.
+relation_pairs:
+  - {id: 1, r1: P27,  r2: P36,   shape: "person -> citizenship country -> capital",       subject_type: person, single_r1: true, single_r2: true}
+  - {id: 2, r1: P27,  r2: P38,   shape: "person -> citizenship country -> currency",      subject_type: person, single_r1: true, single_r2: true}
+  - {id: 3, r1: P27,  r2: P35,   shape: "person -> citizenship country -> head of state", subject_type: person, single_r1: true, single_r2: true}
+  - {id: 4, r1: P27,  r2: P1304, shape: "person -> citizenship country -> central bank",  subject_type: person, single_r1: true, single_r2: true}
+  - {id: 5, r1: P495, r2: P36,   shape: "work -> country of origin -> capital",           subject_type: work,   single_r1: true, single_r2: true}
+  - {id: 6, r1: P495, r2: P38,   shape: "work -> country of origin -> currency",          subject_type: work,   single_r1: true, single_r2: true}
+  - {id: 7, r1: P495, r2: P35,   shape: "work -> country of origin -> head of state",     subject_type: work,   single_r1: true, single_r2: true}
+  - {id: 8, r1: P495, r2: P1304, shape: "work -> country of origin -> central bank",      subject_type: work,   single_r1: true, single_r2: true}
+bridge_type_qid: Q6256             # B must be a country: enforce ?b wdt:P31/wdt:P279* wd:Q6256
+use_bridge_type: true              # bridge_type_qid, when set, overrides per-pair bridge types
+# EXCLUDE as a hop only where genuinely unusable: P749 parent org (multiple), P1412 languages spoken
+# (many), P571 inception (point-in-time, an item FILTER not a hop). P27 is USED as r1 with single_r1
+# (single-citizenship subjects).
+relations_excluded: [P749, P1412, P571]
+
+# Five-language label requirement. Cross-language entity identity holds by QID binding; the per-language
+# requirement reduces to "a non-empty rdfs:label exists in each language."
+label_languages: [en, ko, zh, ja, es]
+require_all_labels: true           # accept item only if A/B/C each carry a label in every language
+use_label_service: false           # force explicit per-language rdfs:label binding; the auto label
+                                   # service silently falls back to the QID string for label-less entities
+zh_fallback: zh-hans               # accept zh-hans for zh to lift coverage
+
+# Yield: over-mine, then let eval + the five-language label drop narrow to the subsets.
+min_chains_per_language_pair: 2000 # over-mine TARGET, not a final count
+oversample_factor: 8               # mine ~8x raw chains per pair before eval (5--10x range)
+
+# Logged per item at mine time so frequency-covariate matching needs no second pass.
+item_schema_extras:
+  - a_freq_bucket                  # sitelink-count bucket for subject A
+  - c_freq_bucket                  # sitelink-count bucket for answer C
+
+# Subset definitions (built by data/subsets.py from per-item eval flags).
+subsets:
+  failure: en_correct_X_incorrect  # label = fail
+  matched_success: en_X_both_correct  # label = success, same chains answered correctly in X

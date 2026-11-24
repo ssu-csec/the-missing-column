@@ -1,0 +1,3555 @@
+{
+ "model": "qwen36_27b",
+ "max_new": 32,
+ "per_chain": {
+  "P27_P1304_Q107467": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국중앙은행(잉글랜드 은행)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行（Bank of England）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q113409": {
+   "en": {
+    "correct": false,
+    "txt": "National Bank of Poland (Narodowy Bank Polski)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "폴란드 국립 은행(NBP)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "チェコ国立銀行（ČNB）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q116482": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "센tral Bank of West African States (BCEAO)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル・セントラルバンク（Banque Centrale des États de l'Afrique de l'Ouest / BCEAO）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q117150": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Lithuania"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리투아니아 은행(Bank of Lithuania)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リトアニア国立銀行（Bank of Lithuania）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q12897": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Brazil (Banco Central do Brasil)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "브라질 연방준비제도이사회(Banco Central do Brasil)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブラジル連邦準備制度（Central Bank of Brazil）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q13230": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위시 국립 은행(SNB)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q133946": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Egypt"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "중앙아프리카 공화국 은행(BCEAC)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エジプト・セントラルバンク（Central Bank of Egypt）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q13531": {
+   "en": {
+    "correct": false,
+    "txt": "Sveriges Riksbank (the Swedish Central Bank)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스웨덴 국립중앙은행(Riksbank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデン国立銀行（リクスバンク）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q137387": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Tanzania"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "탄자니아 은행(Bank of Tanzania)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "タンザニア・ボラノ銀行（Bank of Tanzania）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q137732": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Iceland (Seðlabanki Íslands)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드중앙은행(Sentrálbanki Íslands)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイスランド国立銀行（Central Bank of Iceland）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q165852": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Slovenia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "슬로베니아 은행(Bank of Slovenia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スロベニア・バンク（Bank of Slovenia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1743": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank (Germany) and Sveriges Riksbank (Sweden)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방중앙은행(Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行（Deutsche Bundesbank）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1753": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Italy"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행(Banca d'Italia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア共和国中央銀行（Banca d'Italia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q178708": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "라트비아 국립 은행(National Bank of Latvia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラトビア国立銀行（Bank of Latvia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q182673": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "라트비아 은행(Bank of Latvia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラトビア国立銀行（Bank of Latvia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1878": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank (Germany) and National Bank of Belgium (Belgium)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방중앙은행(Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行（Deutsche Bundesbank）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1950": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Italy"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행(Banca d'Italia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア共和国中央銀行（Banca d'Italia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1955": {
+   "en": {
+    "correct": true,
+    "txt": "Banca d'Italia (Bank of Italy)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행(Banca d'Italia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア共和国中央銀行（Banca d'Italia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1984": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위터 국립 은행(SNB)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行（SNB）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1991": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia (Bank of Italy)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위터 국립 은행(SNB)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行（SNB）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q286997": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Sudan"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "중앙아프리카 공화국 은행(BCEAC)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アルジェリア・ディナール（Bank of Algeria）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q303": {
+   "en": {
+    "correct": true,
+    "txt": "Federal Reserve System"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "미联储(연방준비제도)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "連邦準備制度（FRB）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q3281": {
+   "en": {
+    "correct": true,
+    "txt": "Sveriges Riksbank (the Central Bank of Sweden)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "노르웨이 은행(Norges Bank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ノルウェー国立銀行（Norges Bank）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q331201": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Sudan"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리비아중앙은행(Central Bank of Libya)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アルジェリア・ディナール（または、発行元である「アルジェリアカントラル」）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q354705": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Canada"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국 은행(Bank of England)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行（Bank of England）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q4790": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Italy"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행(Banca d'Italia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア・バンカデイトリア（Bank of Italy）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q4864": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Russia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아 연방중앙은행(Bank of Russia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア連邦中央銀行（Bank of Russia）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q6100": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Russia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아 연방중앙은행 (Bank of Russia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア連邦中央銀行（Bank of Russia）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q70155": {
+   "en": {
+    "correct": false,
+    "txt": "Sveriges Riksbank (the Central Bank of Sweden)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "노르웨이 은행(Norges Bank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ノルウェー国立銀行（Norges Bank）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q72347": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey (Türkiye Cumhuriyet Merkez Bankası)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "터키중앙은행(TCMB)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トルコ共和国中央銀行（CBRT）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q73920": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Romania (BNR)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루마니아 국립 은행(NBR)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ルーマニア国立銀行（BNR）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q83712": {
+   "en": {
+    "correct": true,
+    "txt": "Banco de Portugal"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "포르투갈 은행(Banco de Portugal)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポルトガル・バンク（Banco de Portugal）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q85430": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey (Türkiye Cumhuriyet Merkez Bankası)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "터키중앙은행(TCMB)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トルコ共和国中央銀行（TCMB）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q93356": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Ireland"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드중앙은행(Central Bank of Ireland)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイルランド・セントラルバンク（Central Bank of Ireland）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q949": {
+   "en": {
+    "correct": true,
+    "txt": "Federal Reserve System"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "미联储(연방준비제도)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "連邦準備制度（FRB）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P35_Q1933": {
+   "en": {
+    "correct": false,
+    "txt": "King Carl XVI Gustaf"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스베란 요보프 보리소브"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ステファン・ロヴェーン（スウェーデン首相）  \n※注：スウェドンは立憲君主制であり、国王カール16"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P35_Q307142": {
+   "en": {
+    "correct": false,
+    "txt": "King Abdullah II bin Al-Hussein"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "압둘라 빈 하마드 알 아티야"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ヨルダン国王アブドゥッラー2世"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q337955": {
+   "en": {
+    "correct": false,
+    "txt": "Emmerson Mnangagwa"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "시릴 라마포사"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "シリアン・マラカニツィ（Siryon Malanikizi）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q338072": {
+   "en": {
+    "correct": true,
+    "txt": "King Mswati III"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "시릴 라마포사"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "シリル・ラマポーザ（Cyril Ramaphosa）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q6668": {
+   "en": {
+    "correct": false,
+    "txt": "King Carl XVI Gustaf"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마그달레나 안데르손"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スウェーデン国王カール16世グスタフ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q1008088": {
+   "en": {
+    "correct": false,
+    "txt": "Washington, D.C."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "워싱턴 D.C."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ワシントンD.C."
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q113409": {
+   "en": {
+    "correct": false,
+    "txt": "Warsaw"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "바르샤바"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ワルシャワ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q120128": {
+   "en": {
+    "correct": true,
+    "txt": "London (United Kingdom) or Abuja (Nigeria). *Note: Ike Shorus holds dual British and Nigerian citizenship.* \n\nIf a single primary nationality must"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アブジャ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q120621": {
+   "en": {
+    "correct": false,
+    "txt": "Mexico City"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "멕시코시티"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "サンサルバドル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12608": {
+   "en": {
+    "correct": true,
+    "txt": "Bern (Switzerland) or Paris (France). He held dual Swiss and French nationality."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "베른"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q126294": {
+   "en": {
+    "correct": false,
+    "txt": "Maseru"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "나이라비"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "キンシャサ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q126640": {
+   "en": {
+    "correct": false,
+    "txt": "Buenos Aires"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "부에노스아이레스"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブエノスアイレス"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12881": {
+   "en": {
+    "correct": false,
+    "txt": "Lisbon"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "리우데자네이루(1960~2023) 또는 브라질리아(현재)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リオデジャネイロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q13230": {
+   "en": {
+    "correct": true,
+    "txt": "Bern (or Paris)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "베른"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q133946": {
+   "en": {
+    "correct": false,
+    "txt": "Cairo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "도하"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カイロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q153503": {
+   "en": {
+    "correct": false,
+    "txt": "Santo Domingo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "멕시코시티"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "サンティアゴ・デ・ロス・カバリェロス（ドミニカ共和国）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q169174": {
+   "en": {
+    "correct": false,
+    "txt": "Oslo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "헬싱키"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "タリン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q281713": {
+   "en": {
+    "correct": false,
+    "txt": "Kingston"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q311366": {
+   "en": {
+    "correct": true,
+    "txt": "Port of Spain"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "포트 오브 스페인"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポートオブスペイン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q4742": {
+   "en": {
+    "correct": false,
+    "txt": "Lisbon"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "리우데자네이루(또는 브라질리아)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リスボン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q7999": {
+   "en": {
+    "correct": true,
+    "txt": "Madrid (or Barcelona)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "바르셀로나(카탈루냐) 또는 마드리드(스페인)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "バルセロナ（スペイン）またはマドリード（スペイン）。Lluís Llatchはカタルーニャ出身のカタロニア人であり、"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q80937": {
+   "en": {
+    "correct": false,
+    "txt": "Santo Domingo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "산토도밍고"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ハバナ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q127004": {
+   "en": {
+    "correct": true,
+    "txt": "Albanian lek (ALL)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "알바니아 레크 (ALL)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "レク（Lek）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q127350": {
+   "en": {
+    "correct": false,
+    "txt": "Russian ruble (RUB) and Belarusian ruble BYN)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루블"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルーブル（KZT）※カザフスタン・テング"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q12773": {
+   "en": {
+    "correct": true,
+    "txt": "Hungarian forint (HUF) and Romanian leu (RON)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "레알"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "レアル（ブラジル・レアル）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q12819": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티 (PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q129533": {
+   "en": {
+    "correct": true,
+    "txt": "Uruguayan peso (historically); currently Uruguayan new peso or Peso Uruguayo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "페소"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ペソ（ウルグアイ・ペソ）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q13007": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN) and Euro (EUR)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티(PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q13017": {
+   "en": {
+    "correct": true,
+    "txt": "Hungarian forint (HUF) or Euro (EUR), as he was a Hungarian citizen and Hungary uses both historically and currently within the EU context for reference,"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "헝가리 포린트(HUF)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "フォリント（HUF）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1568174": {
+   "en": {
+    "correct": true,
+    "txt": "Seychellois rupee"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "세이셸 루피"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "セーシェル・ルピー（SCR）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q157197": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q162202": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD) or United States Dollar (USD). \n\n*(Note: Nicki_MINAJ holds dual citizenship in Trinidad & Tob"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러(USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q162862": {
+   "en": {
+    "correct": true,
+    "txt": "Albanian lek (ALL)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "알바니아 레크"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アルバニア・レク"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q165833": {
+   "en": {
+    "correct": true,
+    "txt": "Albanian lek (ALL)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "알바니아 레크"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "レク（Lek）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q166658": {
+   "en": {
+    "correct": false,
+    "txt": "Jamaican dollar (or US Dollar)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러(USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q166661": {
+   "en": {
+    "correct": true,
+    "txt": "Ukrainian hryvnia (UAH)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우크라이나 그리브냐(UAH)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウクライナ・フリヴニャ（UAH）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1755": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티 (PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q176131": {
+   "en": {
+    "correct": true,
+    "txt": "Ukrainian hryvnia (UAH) and Russian ruble (RUB)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아제르바이잔 마나트(AZN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウクライナ・フリヴニャ（UAH）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q185693": {
+   "en": {
+    "correct": false,
+    "txt": "Eastern Caribbean dollar (XCD)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "동카리브해달러(EC$) 또는 동카리비안 달러(ECDollar), EC Dollar, Eastern Caribbean dollar"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブ・ドル（XCD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q193690": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian lari (GEL)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "조지아 라리(GEL)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ジョージア lari（ラリ）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q195495": {
+   "en": {
+    "correct": false,
+    "txt": "Argentine peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "페소 아르헨티노 (ARS)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スペイン・ペセタ（現在はユーロ）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q197549": {
+   "en": {
+    "correct": false,
+    "txt": "Russian ruble (RUB) and Belarusian ruble BYN)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러블"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウクライナ・フリヴニャ（UAH）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q1984": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss franc (CHF)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "스위스 프랑(CHF)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スイスフラン（CHF）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q202437": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q202877": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD) or Eastern Caribbean Dollar (XCD)* \n\n*(Note: While Trinidad and Tobabo uses its own dollar,"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "동카리브해 달러(ECD) 또는 트리니다드 토바고 달러(TTD), 바베이도스 доллар(BBD 등 지역별 다름"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブ・ドル（EC$）またはトリニダードトバゴ・ドルTTD"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q210069": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우간다 실링(Ugandan shilling)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q211849": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian lari (GEL)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "조지아 라리(GEL)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジョージア lari（GEL）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q213270": {
+   "en": {
+    "correct": false,
+    "txt": "Euro (€) / CFP Franc (XPF)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로(€)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q215585": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q270339": {
+   "en": {
+    "correct": false,
+    "txt": "Eastern Caribbean dollar (XCD) and Trinidad and Tobago dollars (TTD)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "캐나다 달러(CAD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブ・ドル（XCD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q272126": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링(SOS)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q290220": {
+   "en": {
+    "correct": true,
+    "txt": "Sudanese pound (SDG) or Saudi riyal (SAR), as she holds dual Sudanese and British/Saudi residency status; however,"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "파운드 스테를링(GBP) 및 파운드를 사용하는 영국과 스코틀랜드, 그리고 이집트镑(Egyptian Pound)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポンド・ステルリング（GBP）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q291911": {
+   "en": {
+    "correct": false,
+    "txt": "Euro (€) / Netherlands Antillean guilder (ANG) or Surinamese dollar ($), depending on specific nationality context within Dutch Kingdom/Sur"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "호주 달러(AUD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "オーストラリアドル（AUD）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q293470": {
+   "en": {
+    "correct": true,
+    "txt": "Bolivian boliviano (BOB)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "페소"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ペソ（ボリビア・ノエヴォ）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q299029": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD) or Eastern Caribbean Dollar (XCD)* \n\n*(Note: While born in Trinidad & Tobago, she became"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "자메이카 달러(JMD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジャマイカ・ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q308151": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling (SOS) and US dollar (USD)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング（または米ドル）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q308184": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q311366": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "트린다드 토바고 달러(TTD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q317864": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링(SOS)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q319153": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q319916": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (RWF)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウガンダ・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q320005": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "우간다 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q323582": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (FRW)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ルワンダ・フラン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q327918": {
+   "en": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar (TTD) or Eastern Caribbean Dollar (XCD)* \n\n*(Note: Rudy Insalalli was a Trinidadian-born politician"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "동카리브해 달러(XCD) 또는 트리니다드 토바고 달러(TTD), 바베이도스 달러(BBD) 등 동카리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブ・ドル（XCD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q337955": {
+   "en": {
+    "correct": false,
+    "txt": "Zimbabwean dollar (USD)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "사티(USD) 또는 랜드(ZAR, 남아프리카공화국과 동남아 국가들이 사용함 - 오해 주의). 정확히는 **"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "南アフリカランド（ZAR）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q362948": {
+   "en": {
+    "correct": true,
+    "txt": "Seychellois rupee (historically); Seychelles rupeea currently used in his native nation; he was also a US citizen where USD"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "세이셸 루피"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルピア（セーシェル・ルーピー）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q380734": {
+   "en": {
+    "correct": true,
+    "txt": "Surinamese dollar (SRD) or previously Suriname guilder (SRG). Note that he also held Dutch nationality; its currency was historically the"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "수리남 달러(SRD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スルナム（SRD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q381201": {
+   "en": {
+    "correct": true,
+    "txt": "Guyanese dollar (GYD) and US Dollar (USD)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "가이아나 달러(GYD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギニアピサオ（Guinea-Bissau Peso）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q381954": {
+   "en": {
+    "correct": true,
+    "txt": "Moldovan leu (MDL) or Romanian lei (RON), as he holds dual Moldovan and Romanian citizenship."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "몰도바 레우(MD L)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "レウ（MDL）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q391281": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (RWF)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ルワンダ・フラン"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4742": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian real (BRL) and Euro (EUR)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 헤알 (BRL)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "レアル（ポルトガル語：Real、ISOコード：BRL）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4774": {
+   "en": {
+    "correct": true,
+    "txt": "Hungarian forint (HUF) or Hungarian pengő (historical). Currently HUF as he was a citizen of Hungary/Austria-Hungary. The"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "헝가리 포린트(HUF)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "フォリント（HUF）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4835": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티 (PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4836": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN) and Euro (EUR)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티 (PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4837": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티 (PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q615817": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar (USD) or British Pound Sterling (£), depending on which nationality refers to his US birthplace vs UK residence/citizenship status; however,"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "뉴질랜드 달러(NZD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ニュージーランド・ドル（NZD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q6399": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티 (PLN)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランド・ズウォティ（PLN）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q718256": {
+   "en": {
+    "correct": true,
+    "txt": "Guyanese dollar (GYD)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "가이아나 달러(GYD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギアナドル（GYD）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q72071": {
+   "en": {
+    "correct": false,
+    "txt": "Bulgarian lev (BGN) or Euro (EUR). The Bulgarian lev remains legal tender until 2031; otherwise it's EUR as Bulgaria"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마케도니아 데나르 (MKD)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マケドニア・デナール（MKD）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q72550": {
+   "en": {
+    "correct": true,
+    "txt": "Macedonian denar (MKD) or Euro (EUR)* \n\n*(Note: North Macedonia uses the Macedonian Denar as its official legal tender but"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마케도니아 데나르"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "北マケドニア・デナール（MKD）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q7524": {
+   "en": {
+    "correct": false,
+    "txt": "Australian dollar (AUD) and British pound sterling (£/GBP). \n\n*(Note: Sue Gardner holds dual Australian-British citizenship; Australia's currency is AUD"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러(USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q77589": {
+   "en": {
+    "correct": true,
+    "txt": "Euro (€) / Czech koruna (CZK)* \n\n*(Note: \"Dolly Buster\" was a stage name used by several adult film actresses"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "달러(USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデンクローナ（SEK）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q80358": {
+   "en": {
+    "correct": true,
+    "txt": "Macedonian denar (MKD) or Euro (EUR)* \n\n*(Note: North Macedonia uses the Macedonian Denar as its official legal tender but"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마케도니아 데나르 (MKD)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マケドニア・デナール（MKD）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q80772": {
+   "en": {
+    "correct": false,
+    "txt": "Honduran lempira"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "페소"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ボリビア・boliviano（ボリービアーノ）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q82871": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우간다 실링(Ugandan shilling)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q10184": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank (Germany)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방중앙은행(Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行（Deutsche Bundesbank）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q109260": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Russia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아 연방중앙은행 (Bank of Russia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア連邦中央銀行（Bank of Russia）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q12016": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Italy (Banca d'Italia)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도(Fed)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア・バンク（Banca d'Italia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q12116": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Italy"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행(Banca d'Italia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア共和国銀行（Banca d'Italia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q152088": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Belgium (NBB)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "네덜란드 은행(De Nederlandsche Bank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国連邦準備制度（FRB）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1626853": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Uganda and Central Bank of Kenya (Matoke originates from East Africa)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "탄자니아 은행(Bank of Tanzania)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウガンダ・バンク（Bank of Uganda）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q189410": {
+   "en": {
+    "correct": false,
+    "txt": "Bank Indonesia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "한국은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "マレーシア・センチュラルバンク（Bank Negara Malaysia）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q194297": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Ireland"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드중앙은행(Central Bank of Ireland)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行（Bank of England）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q219980": {
+   "en": {
+    "correct": true,
+    "txt": "Pensoft Publishers (Bulgaria) - Bulgarian National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "체코 국립 은행(Czech National Bank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ZooKeysは学術雑誌であり、国ではないため「原産国」やその「中央银行」という概念が存在しません。したがって、この"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q220635": {
+   "en": {
+    "correct": true,
+    "txt": "Banco de Portugal"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국 은행(Bank of England)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行（Bank of England）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q223409": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey (Türkiye Cumhuriyet Merkez Bankası)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "터키 공화국 은행(central bank of Turkey)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トルコ共和国中央銀行（Central Bank of the Republic of Türkiye）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q229655": {
+   "en": {
+    "correct": false,
+    "txt": "State Bank of Pakistan"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국 은행(잉글랜드 뱅크)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデン・リクスバンク"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q263471": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "세네갈 은행(Banque Centrale du Sénégal)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル・セントラルバンク（Banque Centrale des États de l'Afrique de l'Ouest / BCEAO）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q4626": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank (Federal Republic of Germany) and National Bank of Belgium"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방중앙은행(Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行（Deutsche Bundesbank）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q611972": {
+   "en": {
+    "correct": false,
+    "txt": "The question contains a factual error; there is no known sovereign state named \"Pirates of the Seas.\" Therefore, it has no central bank. If you meant"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도(Fed)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "存在しません（『Pirates of the Caribbean』は映画作品であり、実在する国ではないため）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q690126": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "에스토니아 은행 (Eesti Pank) 또는 라트비아 국립은행 (Latvijas Banka)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラトビア国立銀行（Bank of Latvia）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q76210": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Belgium"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "한국은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エジプト・セントラルバンク（Central Bank of Egypt）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q76407": {
+   "en": {
+    "correct": false,
+    "txt": "Reserve Bank of Australia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "한국은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q94606": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Iran (Bank Markazi)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "이란중앙은행(central bank of the islamic republic of iran)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1068280": {
+   "en": {
+    "correct": false,
+    "txt": "Paris (France) or Belgrade (Serbia/Yugoslavia). The song was composed by Frenchman André Popp but made famous in Yugoslavia; however"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "파리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "パリ（フランス）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q12016": {
+   "en": {
+    "correct": true,
+    "txt": "Venice (or Rome)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "로마"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベネチア（イタリア）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P36_Q120838": {
+   "en": {
+    "correct": false,
+    "txt": "San Juan"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "산티아고"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "サンフアン（プエルトリコ）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q123935": {
+   "en": {
+    "correct": true,
+    "txt": "Madrid (or Rome)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "로마"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ローマ（イタリア）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1301968": {
+   "en": {
+    "correct": false,
+    "txt": "Bangkok"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "방콕"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジャカルタ（インドネシア）またはクアラルンプール（マレーシア）。ワットは東南アジア料理であり、特定の単一国家を"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q130578": {
+   "en": {
+    "correct": false,
+    "txt": "Berlin (Germany) or Prague (Czech Republic)* \n\n*(Note: The game was developed by Piranha Bytes in Germany and published by Atari/Deep Silver"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブダペスト"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q137836": {
+   "en": {
+    "correct": false,
+    "txt": "London (United Kingdom) or Paris (France). The character was created by British author David McKee but first published in France as *L'Hippopotame"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン（イギリス）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q171731": {
+   "en": {
+    "correct": true,
+    "txt": "Ankara"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イスタンブール（トルコ）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1778051": {
+   "en": {
+    "correct": true,
+    "txt": "Bishkek (Kyrgyzstan) or Nur-Sultan/Astana (Kazakhstan). The kobyz/kobyz is a traditional instrument native"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아스타나"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ビシュケク"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P36_Q202166": {
+   "en": {
+    "correct": true,
+    "txt": "Luxembourg City"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아스톤"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アムステルダム"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3303259": {
+   "en": {
+    "correct": false,
+    "txt": "Tirana"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "티라나"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ティラナ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q429395": {
+   "en": {
+    "correct": false,
+    "txt": "London (United Kingdom) or Paris (France). *Note: \"Seven Box\" was a UK-based company; if referring to the French brand \"Septbox"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン（イギリス）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q457341": {
+   "en": {
+    "correct": true,
+    "txt": "Accra"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아크라(Accra)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アクラ（アクラ）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q461344": {
+   "en": {
+    "correct": false,
+    "txt": "Berlin (or Bonn)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "베를린"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルリン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q76407": {
+   "en": {
+    "correct": false,
+    "txt": "London (United Kingdom) or New York City (USA). *Note: \"Life with Boys\" was a British sitcom produced by Thames Television for ITV.* Therefore"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "서울특별시"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ソウル特別市（韓国）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q890297": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn (Estonia) or Riga (Latvia), as both countries share this tradition; however, Estonia often claims its origins in 1"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "탈린, 리가, 빌뉴스"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "タリン、リガ、ヴィルニュス"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1104949": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar (USD)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러(USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q112035": {
+   "en": {
+    "correct": false,
+    "txt": "Canadian dollar (CAD) or US Dollar (USD), as it was released in both Canada and the United States by The Weeknd's label XO/Republic Records"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러(USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q135401": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian real (BRL)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 헤알 (BRL)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "レアル（BRL）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1626853": {
+   "en": {
+    "correct": false,
+    "txt": "There is no single \"country of origin\" for matoke; it is a staple food in several East African countries (such as Uganda and Rwanda) that"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "탄자니아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング、ケニア・シャilling、タンザニア・リラなど（東アフリカ諸国）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1723744": {
+   "en": {
+    "correct": false,
+    "txt": "Japanese yen (JPY) or South Korean won (KRW), depending on whether referring to Japan's *The Monthly Shōnen Magazine* spin-off magazine"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "호주 달러(AUD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本円（JPY）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q2839301": {
+   "en": {
+    "correct": false,
+    "txt": "Pound sterling (£)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "파운드 스테를링(GBP)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "インドルピー（INR）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3057375": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (RWF)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ルワンダ・フラン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q306130": {
+   "en": {
+    "correct": true,
+    "txt": "Icelandic króna (ISK)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드 크루나(ISK)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ノルウェー・クローネ（NOK）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3636864": {
+   "en": {
+    "correct": false,
+    "txt": "Indian rupee (INR) or Pakistani rupee"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "인도 루피(INR)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル（USD）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3831139": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링(SOS)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q610022": {
+   "en": {
+    "correct": false,
+    "txt": "Haitian gourde (HTG) or US dollar (USD)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "일본 엔(¥)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本円（JPY）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q65086435": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "소말리아 실링(Somali shilling)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング（SOS）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q752785": {
+   "en": {
+    "correct": false,
+    "txt": "Eastern Caribbean dollar (XCD) and Trinidad and Tobago dollars (TTD)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "동카리브해 달러(East Caribbean Dollar) 또는 미국 달러(US Dollar, 세인트빈센트 그레나딘 기준)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カリブ海地域（トリニダード・トバゴなど）で発祥したため、国によって異なりますが、代表的なトリニIDAD・ト"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q846538": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling (SOS)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링(SOS)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング（SOS）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  }
+ }
+}

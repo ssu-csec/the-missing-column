@@ -1,0 +1,7168 @@
+{
+ "model": "gemma4_31b_it",
+ "protocol": {
+  "floor_max_new": 32,
+  "entity_free_floor": true,
+  "l1": 42,
+  "alpha1": 1.0,
+  "adaptation": "v_r from prompt-level diff (see docstring)",
+  "vr_chains": [
+   "P495_P1304_Q427541",
+   "P27_P38_Q335479",
+   "P27_P1304_Q1220",
+   "P27_P1304_Q167522",
+   "P495_P38_Q335626",
+   "P27_P38_Q74404",
+   "P495_P35_Q3224301",
+   "P27_P1304_Q210734",
+   "P27_P38_Q170038",
+   "P495_P36_Q116933",
+   "P27_P38_Q7410",
+   "P27_P1304_Q209942",
+   "P27_P1304_Q6300",
+   "P495_P38_Q1051735",
+   "P27_P1304_Q290220",
+   "P27_P36_Q115012",
+   "P27_P1304_Q330695",
+   "P27_P1304_Q18165",
+   "P27_P38_Q170380",
+   "P27_P36_Q163167",
+   "P27_P1304_Q3773",
+   "P495_P1304_Q2859552",
+   "P27_P1304_Q82895",
+   "P495_P38_Q186413",
+   "P27_P36_Q297",
+   "P27_P38_Q281713",
+   "P27_P35_Q6300",
+   "P27_P1304_Q176131",
+   "P495_P36_Q153639",
+   "P495_P36_Q170210",
+   "P495_P38_Q499396",
+   "P27_P38_Q272580",
+   "P27_P38_Q128936",
+   "P27_P38_Q443374",
+   "P27_P35_Q7747",
+   "P495_P36_Q312106",
+   "P27_P38_Q81227",
+   "P495_P1304_Q176322",
+   "P27_P38_Q11873",
+   "P27_P36_Q6530",
+   "P27_P1304_Q13541",
+   "P27_P1304_Q410",
+   "P27_P1304_Q117034",
+   "P27_P1304_Q133308",
+   "P27_P38_Q4768",
+   "P27_P38_Q330951",
+   "P27_P38_Q334518",
+   "P27_P38_Q75582",
+   "P495_P38_Q176322",
+   "P495_P36_Q1632884",
+   "P495_P36_Q7254",
+   "P495_P38_Q1737477",
+   "P495_P38_Q152761",
+   "P27_P36_Q167444",
+   "P495_P1304_Q4744",
+   "P495_P36_Q191034",
+   "P27_P36_Q12773",
+   "P27_P36_Q267687",
+   "P27_P36_Q6399",
+   "P495_P1304_Q6466"
+  ]
+ },
+ "best": {
+  "ko": {
+   "mode": "anchor",
+   "L2": 49,
+   "a2": 0.75,
+   "correct": 0.03333333333333333,
+   "entity": 0.03333333333333333,
+   "amb": 0
+  },
+  "ja": {
+   "mode": "anchor",
+   "L2": 49,
+   "a2": 0.75,
+   "correct": 0.03333333333333333,
+   "entity": 0.03333333333333333,
+   "amb": 0
+  },
+  "zh": {
+   "mode": "anchor",
+   "L2": 54,
+   "a2": 0.75,
+   "correct": 0.0,
+   "entity": 0.2,
+   "amb": 0
+  },
+  "es": {
+   "mode": "anchor",
+   "L2": 54,
+   "a2": 0.75,
+   "correct": 0.16666666666666666,
+   "entity": 0.16666666666666666,
+   "amb": 0
+  }
+ },
+ "n_calib": 30,
+ "n_eval": 120,
+ "calib_chains": [
+  "P495_P1304_Q427541",
+  "P27_P38_Q335479",
+  "P27_P1304_Q1220",
+  "P27_P1304_Q167522",
+  "P495_P35_Q3224301",
+  "P27_P1304_Q210734",
+  "P27_P1304_Q209942",
+  "P27_P1304_Q6300",
+  "P27_P1304_Q18165",
+  "P27_P38_Q170380",
+  "P27_P1304_Q3773",
+  "P495_P1304_Q2859552",
+  "P27_P38_Q281713",
+  "P27_P1304_Q176131",
+  "P495_P36_Q170210",
+  "P27_P38_Q443374",
+  "P495_P36_Q312106",
+  "P495_P1304_Q176322",
+  "P27_P38_Q11873",
+  "P27_P1304_Q410",
+  "P27_P38_Q334518",
+  "P495_P38_Q176322",
+  "P495_P38_Q152761",
+  "P27_P36_Q167444",
+  "P495_P1304_Q4744",
+  "P495_P1304_Q6466",
+  "P27_P1304_Q132361",
+  "P27_P38_Q276996",
+  "P495_P38_Q2142",
+  "P27_P1304_Q7524"
+ ],
+ "eval_chains": [
+  "P495_P36_Q924512",
+  "P495_P1304_Q7254",
+  "P495_P1304_Q82419",
+  "P27_P38_Q615817",
+  "P27_P38_Q4742",
+  "P495_P36_Q12016",
+  "P495_P38_Q610022",
+  "P27_P38_Q323582",
+  "P27_P1304_Q81144",
+  "P27_P1304_Q13132",
+  "P27_P1304_Q165852",
+  "P495_P36_Q742186",
+  "P27_P1304_Q115598",
+  "P27_P1304_Q1950",
+  "P495_P36_Q137836",
+  "P27_P38_Q320005",
+  "P27_P1304_Q128936",
+  "P27_P1304_Q6100",
+  "P27_P1304_Q121693",
+  "P27_P38_Q12773",
+  "P27_P38_Q72071",
+  "P27_P38_Q7524",
+  "P27_P1304_Q114450",
+  "P27_P1304_Q1991",
+  "P27_P38_Q213270",
+  "P27_P38_Q94755",
+  "P27_P1304_Q94154",
+  "P495_P1304_Q10184",
+  "P27_P1304_Q7371",
+  "P27_P38_Q82655",
+  "P27_P38_Q7515",
+  "P27_P1304_Q949",
+  "P495_P1304_Q4626",
+  "P27_P38_Q126940",
+  "P495_P1304_Q690126",
+  "P27_P1304_Q113409",
+  "P27_P36_Q153503",
+  "P27_P1304_Q4864",
+  "P495_P1304_Q611972",
+  "P27_P36_Q12854",
+  "P495_P1304_Q76407",
+  "P27_P38_Q381201",
+  "P495_P36_Q1786674",
+  "P27_P36_Q169174",
+  "P27_P1304_Q137732",
+  "P27_P36_Q116482",
+  "P495_P38_Q1817522",
+  "P27_P1304_Q331201",
+  "P495_P1304_Q1365",
+  "P27_P1304_Q1753",
+  "P495_P1304_Q94017",
+  "P27_P36_Q75697",
+  "P27_P38_Q197549",
+  "P27_P1304_Q4790",
+  "P27_P1304_Q2006",
+  "P27_P1304_Q185636",
+  "P27_P1304_Q73920",
+  "P27_P38_Q4836",
+  "P27_P1304_Q3281",
+  "P495_P36_Q2859552",
+  "P27_P1304_Q93356",
+  "P27_P1304_Q13531",
+  "P495_P1304_Q109260",
+  "P27_P38_Q80772",
+  "P27_P1304_Q12801",
+  "P495_P38_Q2839301",
+  "P495_P1304_Q229655",
+  "P495_P1304_Q194297",
+  "P27_P36_Q126640",
+  "P27_P1304_Q7515",
+  "P27_P38_Q80937",
+  "P495_P36_Q76407",
+  "P27_P38_Q362948",
+  "P27_P36_Q120621",
+  "P495_P1304_Q76210",
+  "P27_P1304_Q1878",
+  "P495_P1304_Q6147",
+  "P495_P1304_Q263471",
+  "P27_P38_Q166658",
+  "P27_P1304_Q303",
+  "P27_P1304_Q11878",
+  "P27_P38_Q327918",
+  "P495_P38_Q3636864",
+  "P495_P1304_Q219980",
+  "P495_P38_Q306130",
+  "P27_P1304_Q13012",
+  "P27_P1304_Q12897",
+  "P495_P38_Q65086435",
+  "P495_P38_Q1723744",
+  "P495_P38_Q170210",
+  "P27_P35_Q1933",
+  "P495_P38_Q2859552",
+  "P27_P36_Q113409",
+  "P495_P1304_Q94606",
+  "P495_P36_Q429395",
+  "P495_P36_Q1538018",
+  "P495_P38_Q3057375",
+  "P27_P38_Q4774",
+  "P27_P1304_Q134898",
+  "P495_P1304_Q220635",
+  "P27_P38_Q337955",
+  "P27_P36_Q80937",
+  "P27_P36_Q167937",
+  "P495_P1304_Q189410",
+  "P27_P36_Q133946",
+  "P27_P35_Q80352",
+  "P495_P1304_Q12116",
+  "P27_P38_Q77589",
+  "P27_P36_Q4742",
+  "P27_P38_Q263372",
+  "P27_P38_Q291911",
+  "P27_P1304_Q1955",
+  "P27_P38_Q166298",
+  "P495_P1304_Q886",
+  "P27_P35_Q337955",
+  "P27_P1304_Q107467",
+  "P27_P38_Q178027",
+  "P27_P36_Q12801",
+  "P27_P36_Q313479",
+  "P27_P35_Q6668"
+ ],
+ "floors": {
+  "P495_P1304_Q427541": "Banco de España.",
+  "P27_P38_Q335479": "Chelfo (o Shilling ugandés).",
+  "P27_P1304_Q1220": "Banca d'Italia",
+  "P27_P1304_Q167522": "Seðlabanki Íslands",
+  "P495_P35_Q3224301": "Joe Biden.",
+  "P27_P1304_Q210734": "Banque Centrale des États de l'Afrique de l'Ouest (BCEAO).",
+  "P27_P1304_Q209942": "Banque Centrale des États de l'Afrique de l'Ouest (BCEAO).",
+  "P27_P1304_Q6300": "Banco Central de la Federación Rusa.",
+  "P27_P1304_Q18165": "Magyar Nemzeti Bank.",
+  "P27_P38_Q170380": "Tugrik.",
+  "P27_P1304_Q3773": "Banco Central de la Federación Rusa.",
+  "P495_P1304_Q2859552": "Banco de España.",
+  "P27_P38_Q281713": "Dólar estadounidense.",
+  "P27_P1304_Q176131": "Banco Central de Rusia.",
+  "P495_P36_Q170210": "París",
+  "P27_P38_Q443374": "Dólar estadounidense.",
+  "P495_P36_Q312106": "No existe un país de origen registrado para \"Woxx\", ya que no es una entidad geográfica o nacional reconocida.",
+  "P495_P1304_Q176322": "Magyar Nemzeti Bank",
+  "P27_P38_Q11873": "Dólar estadounidense.",
+  "P27_P1304_Q410": "Reserva Federal (Fed).",
+  "P27_P38_Q334518": "Yen japonés.",
+  "P495_P38_Q176322": "Florín húngaro.",
+  "P495_P38_Q152761": "No tiene, es un lugar ficticio.",
+  "P27_P36_Q167444": "Yuba.",
+  "P495_P1304_Q4744": "Deutsche Bundesbank",
+  "P495_P1304_Q6466": "Banca d'Italia",
+  "P27_P1304_Q132361": "Eesti Pank.",
+  "P27_P38_Q276996": "Lempira.",
+  "P495_P38_Q2142": "Zeni.",
+  "P27_P1304_Q7524": "Reserva Federal.",
+  "P495_P36_Q924512": "No existe un país llamado Diena.",
+  "P495_P1304_Q7254": "Deutsche Bundesbank",
+  "P495_P1304_Q82419": "Banco de Japón.",
+  "P27_P38_Q615817": "Dólar estadounidense.",
+  "P27_P38_Q4742": "Euro.",
+  "P495_P36_Q12016": "Ottawa",
+  "P495_P38_Q610022": "Yen japonés.",
+  "P27_P38_Q323582": "Ninguna (es un personaje ficticio).",
+  "P27_P1304_Q81144": "Banco Búlgaro.",
+  "P27_P1304_Q13132": "No hay información pública disponible sobre la ciudadanía de Erik Mongrain.",
+  "P27_P1304_Q165852": "Banco Central de Eslovenia.",
+  "P495_P36_Q742186": "Ciudad de México.",
+  "P27_P1304_Q115598": "Banco Búlgaro.",
+  "P27_P1304_Q1950": "Banca d'Italia",
+  "P495_P36_Q137836": "Londres",
+  "P27_P38_Q320005": "Franco congoleño.",
+  "P27_P1304_Q128936": "Seðlabanki Íslands.",
+  "P27_P1304_Q6100": "Banco Central de la Federación Rusa.",
+  "P27_P1304_Q121693": "Seðlabanki Íslands.",
+  "P27_P38_Q12773": "Florín húngaro.",
+  "P27_P38_Q72071": "Corona checa.",
+  "P27_P38_Q7524": "Dólar estadounidense.",
+  "P27_P1304_Q114450": "Banco Búlgaro.",
+  "P27_P1304_Q1991": "Banca Nazionale del Swiss (BNS).",
+  "P27_P38_Q213270": "Dólar estadounidense.",
+  "P27_P38_Q94755": "Leu rumano.",
+  "P27_P1304_Q94154": "Banco Central Europeo.",
+  "P495_P1304_Q10184": "Deutsche Bundesbank",
+  "P27_P1304_Q7371": "Banca d'Italia",
+  "P27_P38_Q82655": "Rublo ruso.",
+  "P27_P38_Q7515": "Franco suizo.",
+  "P27_P1304_Q949": "Reserva Federal (Fed).",
+  "P495_P1304_Q4626": "Deutsche Bundesbank",
+  "P27_P38_Q126940": "No se proporciona información sobre la ciudadanía de Roberto Guerrero.",
+  "P495_P1304_Q690126": "Banco Central de Letonia.",
+  "P27_P1304_Q113409": "Banco Nacional de Ucrania.",
+  "P27_P36_Q153503": "Santo Domingo.",
+  "P27_P1304_Q4864": "Banco Central de la Federación Rusa.",
+  "P495_P1304_Q611972": "Bank of England",
+  "P27_P36_Q12854": "Berlín.",
+  "P495_P1304_Q76407": "Banco de España.",
+  "P27_P38_Q381201": "Dólar estadounidense.",
+  "P495_P36_Q1786674": "No existe un país llamado Krar.",
+  "P27_P36_Q169174": "Oslo",
+  "P27_P1304_Q137732": "Seðlabanki Íslands.",
+  "P27_P36_Q116482": "Conakry",
+  "P495_P38_Q1817522": "Euro.",
+  "P27_P1304_Q331201": "Banco Central de Libia.",
+  "P495_P1304_Q1365": "Reserve Bank of Australia",
+  "P27_P1304_Q1753": "Banca d'Italia.",
+  "P495_P1304_Q94017": "Banca d'Italia.",
+  "P27_P36_Q75697": "Montevideo",
+  "P27_P38_Q197549": "Rublo ruso.",
+  "P27_P1304_Q4790": "Banca d'Italia.",
+  "P27_P1304_Q2006": "Banca d'Italia.",
+  "P27_P1304_Q185636": "Banco Central de los Estados Unidos (Reserva Federal).",
+  "P27_P1304_Q73920": "Banca Națională a României.",
+  "P27_P38_Q4836": "Zloty polaco.",
+  "P27_P1304_Q3281": "Norges Bank.",
+  "P495_P36_Q2859552": "Londres",
+  "P27_P1304_Q93356": "Banco de Irlanda.",
+  "P27_P1304_Q13531": "Sveriges Riksbank.",
+  "P495_P1304_Q109260": "Banco Central de la Federación Rusa.",
+  "P27_P38_Q80772": "Dólar estadounidense.",
+  "P27_P1304_Q12801": "Banco Nacional de Bélgica.",
+  "P495_P38_Q2839301": "Rupia india.",
+  "P495_P1304_Q229655": "Banco de España.",
+  "P495_P1304_Q194297": "Bank of England",
+  "P27_P36_Q126640": "Buenos Aires.",
+  "P27_P1304_Q7515": "Banco Nacional de Bélgica.",
+  "P27_P38_Q80937": "Dólar estadounidense.",
+  "P495_P36_Q76407": "Madrid",
+  "P27_P38_Q362948": "Rupia de Seychelles.",
+  "P27_P36_Q120621": "San Salvador.",
+  "P495_P1304_Q76210": "Banco de Egipto.",
+  "P27_P1304_Q1878": "Deutsche Bundesbank.",
+  "P495_P1304_Q6147": "Banca d'Italia.",
+  "P495_P1304_Q263471": "Banque Centrale d'État du Sénégal.",
+  "P27_P38_Q166658": "Dólar estadounidense.",
+  "P27_P1304_Q303": "Reserva Federal (Fed)",
+  "P27_P1304_Q11878": "Reserva Federal (Federal Reserve).",
+  "P27_P38_Q327918": "Florín antillano.",
+  "P495_P38_Q3636864": "Yen japonés.",
+  "P495_P1304_Q219980": "Deutsche Bundesbank",
+  "P495_P38_Q306130": "Won surcoreano.",
+  "P27_P1304_Q13012": "Banco Central do Brasil.",
+  "P27_P1304_Q12897": "Banco Central do Brasil",
+  "P495_P38_Q65086435": "Yen japonés.",
+  "P495_P38_Q1723744": "Dólar australiano.",
+  "P495_P38_Q170210": "Euro",
+  "P27_P35_Q1933": "El rey Carlos XVI Gustavo.",
+  "P495_P38_Q2859552": "Yen japonés.",
+  "P27_P36_Q113409": "Varsovia.",
+  "P495_P1304_Q94606": "Banco Central de Grecia.",
+  "P495_P36_Q429395": "Seúl",
+  "P495_P36_Q1538018": "No existe un país llamado Xala.",
+  "P495_P38_Q3057375": "Dólar estadounidense.",
+  "P27_P38_Q4774": "Florín húngaro.",
+  "P27_P1304_Q134898": "Hrvatska narodna banka.",
+  "P495_P1304_Q220635": "Banco de España.",
+  "P27_P38_Q337955": "Lari georgiano.",
+  "P27_P36_Q80937": "Santo Domingo.",
+  "P27_P36_Q167937": "Luanda.",
+  "P495_P1304_Q189410": "Banco de Japón.",
+  "P27_P36_Q133946": "El Cairo.",
+  "P27_P35_Q80352": "Aleksandr Lukashenko.",
+  "P495_P1304_Q12116": "Banca d'Italia.",
+  "P27_P38_Q77589": "Corona danesa.",
+  "P27_P36_Q4742": "Lisboa",
+  "P27_P38_Q263372": "Shilling tanzano.",
+  "P27_P38_Q291911": "Dólar estadounidense.",
+  "P27_P1304_Q1955": "Banca Nazionale Svizzera (BNS).",
+  "P27_P38_Q166298": "Peso argentino.",
+  "P495_P1304_Q886": "Reserva Federal (Fed)",
+  "P27_P35_Q337955": "Salome Zourabichvili.",
+  "P27_P1304_Q107467": "Banco Búlgaro.",
+  "P27_P38_Q178027": "Franco congoleño.",
+  "P27_P36_Q12801": "Bruselas",
+  "P27_P36_Q313479": "Yuba",
+  "P27_P35_Q6668": "El Rey Carlos XVI Gustavo."
+ },
+ "eval": {
+  "ko": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No 정보. (Diena no는 구체적인 질문 대상이 아닙니다. 어떤 질문인지 구체적으로 알려주세요.)\n\n*죄송합니다"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche 레벤 (Deutsche 레벤) - 죄송합니다.\nDeutsche 레벤 (Deutsche 레벤) - 죄송합니다.\nDeutsche 레벤 ("
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 일본 (Banka 일본) / 일본은행 (Banka 일본) - Banka 일본 (Banka 일본) - Banka 일본 (Banka 일본"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "유로 (Euro)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "워싱턴 (Washington)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "우구구(우구구) - 아직 구체적인 국가 설정이 알려지지 않았습니다.\n\n(죄송합니다. 질문하신 'Mut"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙 (Bulgaria) - Banco 중앙 de 불가리아 (불가리아 중앙은행).\n\n죄송합니다. 질문하신 질문의 답변은 **불"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 드 카나다 (Bank of 캐나다) / Bank of Canada."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙 (중앙은행) de 슬로베니아 (Banka 특별히 슬로베니아 중앙은행).\n\n(질문하신 'Jaka"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "아제르바지바(바쿠) / 바쿠 (아제르바지바)\n(질문하신 'Yassa'가 아"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgaria 아직 (Bulgaria) - 아직 (Bulgaria) - 아직 (Bulgaria) - 아직 (Bulgaria) - 아직 (Bulgaria) -"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "프랑코 (원제: 르원/원제: 르원) - 구체적으로는 콩고 질문 대상자 Apolo N"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seðnefni (Seðnefni/중앙은행) - Seðnefni(Seðnefni) - Seð"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙예수금 (Banco 중앙예수금) - Banco 중앙예수금 (Banco 중앙예수금) - Banco 중앙예수금 ("
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seðnefæ기 (Seðnefni) / Seðnefni (Seðnefni) - 구체적으로는 세드"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "포린트 (원) / 헝가리 쿤 (이전) / 헝가리 쿤 (현재는 헝가리"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "코로나(원) (원) - 아니요, 질문하신 카티카 쿨라브코프(Katica Ḱulavk"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "달로(달로) - 아니요, 돕니다. (죄송합니다. 질문은 한국어 이전 질문의 이전 질문 질문은 스페"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgaria 아직 (Bulgaria 아직) - 죄송합니다.\n불가리움 (불가리움) - 죄송합니다.\n불가"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "스위스 중앙은행 (Swiss 중앙은행/중앙은행) - 구체적으로는 스위스 중앙은행(Swiss 중앙은행) 또는 스위"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "달라 (원) - 넵, 한국은 '원'입니다. (Dwayne Didon은 한국인입니다. 답변: 원)"
+    },
+    {
+     "out": "ko",
+     "entity": true,
+     "correct": true,
+     "es_repair": false,
+     "txt": "레우(몰도바 레우)"
+    },
+    {
+     "out": "ko",
+     "entity": true,
+     "correct": true,
+     "es_repair": false,
+     "txt": "Banco 중앙의 그리스(Banco de 그리스) / 이전 질문의 대상이 그리스 시민이라면 '그리스 은행(은행 네이키로)' 또는 '유"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche 연방 질문(Deutsche 연방 질문) - 죄송합니다.\nDeutsche 연방 질문(Deutsche 연방 질문) - 죄송합니다."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아) - 구체적으로는 'Banca d'이탈리아' (이"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "루블 (루블 질문 대상자가 러시아 이전 질문 대상자라면 루블, 현재 질문 대상자 Anna Ushenina는 러시아 질문 대상자이므로"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "프랑스 (유로) - 질문하신 마우드 멘텐(Maud 멘텐)은 네덜란드 이전의 네덜란드"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "연방예수금 질문 대상인 존 바딘의 이전 질문 대상 국가(미국)의 중앙은행은 연방 질문 대상인 질문 대상 국가"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche 레베(Deutsche 레베) - 죄송합니다.\nDeutsche 레베(Deutsche 레베) - 죄송합니다.\nDeutsche 레베("
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No disponemos de 정보 sobre la ciudadanía de Roberto Guerrero."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banka 질문 (Letonia) - 질문의 'Livonians'가 리보니아(라트베아/질문 대상)를 지"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙 (중앙은행) de 폴란드 (아직 구체적인 질문 대상의 국적이 명확히 알려지지 않았으나, 성함"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "산토스 (산토스) - 죄송합니다.\n산토스(산토스) - 죄송합니다.\n산토스("
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 러시아 (Banco 중앙의 러시아) - Banco 중앙의 러시아 (Banco 중앙의 러시아) - Banco 중앙의 러시아 (Banco 중앙의 러시아)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banka 네가 (Banka 네가) - 아직 구체적인 'Pirates of the Sea'라는 특정 국가가 이전 질문에 알림되지"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "베를린 (Berlín)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banka 네덜란드 (네덜란드 중앙은행) / 네덜란드 중앙은행 (네덜란드) - 구체적으로는 네덜란드 중앙"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "달라 (원) - 한국 (원) / 넵질 (아직 구체적인 국가 설정 전)\n\n죄송합니다. 질문하신 '"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seúl."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seðnefæ기 (Seðnefni) / Seðnefni (Seda-네프니) - 구체적으로는 아이"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conak리 (Conak리) - 죄송합니다.\n코나크리 (Conak리) - 죄송합니다.\n코나크"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "유로 (Euro)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 리비아 (중앙은행 리비아) / 중앙은행 리비아 (중앙은행 리비아) - 구체적으로"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserve 어느 (Reserve 어떤) - 질문하신 'Swept Away'가 어떤 구체적인 대상(영화, 이전 질문의 이전 질문 등)인지 명"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아) - 이전 질문의 'Graviera'가 '그리비에라'"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Monte비디오 (Monte비디오) - 죄송합니다.\n몬테비디오 (Monte비디오) - 죄송합니다.\n몬테비"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "루블 (원제: 루블) / 루블(러시아)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca di 질문 (아니요, 질문의 대상인 Deborah Compagnoni는 이탈리아 시민권자이며, 이탈리아의 중앙은행"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 질문 대상인 켄 부굴(Ken Bugul)은 세네갈의 작가이며, 세네질의 중앙은행은 **"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca central 이전 (Banca central 이전) - 구체적으로는 루마니아 질문 대상인 Adrian Diaconu가 루마니즈(루"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "즈론(Zloty)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Norges Bank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banka 중앙 (Banka 중앙) - No, 죄송합니다.\nBanka 중앙 (Banka 중앙) - No.\nBanka 중앙 ("
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 러시아 (Banco 중앙의 러시아) - Banco 중앙의 러시아 (Banco 중앙의 러시아) - Banco 중앙의 러시아 (Banco 중앙의 러시아)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원제(원제) - 아직 구체적인 정보가 없습니다. (Ever Palacios의 시민권 국가에 대한 정보가 제공되지 않았습니다.)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 벨기에(Banco 중앙의 벨기에) - 구체적으로는 벨기에 질문 대상자 Claude Piron의 이전 질문 질문 대상자 Claude"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "루피 (루피) / 힌트: 힌트: 힌트: 힌트: 힌트: 힌트:"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙 (한국은행) / 한국은행 (Banka 중앙 de 한국). 답변: 한국은행."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "중앙은행(중앙은행) - Bank of 질문 대상(아직 구체적인 질문 대상이 이전 질문에 아직 구체적인 질문 대상이"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "부에노스 아이레스 (Buenos Aires)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "벨기에 중앙은행 (은행 질문 대상인 마우드 멘텐의 이전 질문 대상 국가가 벨기에이므로, 벨기에 중앙은행/중"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원제(원제) 답변 대상자 'Hámilton Ricard'에 대한 구체적인 정보가 제공되지 않았습니다. 질문하시려는"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "마드리드 (Madrid)"
+    },
+    {
+     "out": "ko",
+     "entity": true,
+     "correct": true,
+     "es_repair": false,
+     "txt": "루피(루피) - 구체적으로는 세이셸 루피."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "산토 도밍게 (산토도밍게)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙 (한국은행) - 한국 (한국은행) / 한국은행 (Banka 중앙 de 한국).\n\n*질문하신 'The Blue Lotus'"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche 연톤 (Deutsche 아직) - 죄송합니다.\nDeutsche 아직 - 죄송합니다.\nDeutsche 아직 - 죄송합니다.\nDeutsche 아직 -"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아) - 이전 답변 수정: **Banca d'이탈리아** (B"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "중앙은행 (중앙은행의 구체적인 이전 질문 대상인 세네갈의 중앙은행은 '세네갈 중앙은행' 또는 '아"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원) (원) - 아니요, 실시오 스판(Silvio Spann)은 네덜란드 이전 질문 대상인지 확인 전, 네"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "연방 시스템(Federal Reserve)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve (연방 질문 대상자 Brett J. Gladman의 시민권 이전 질문 대상 국가가 미국인 경우)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원제(원제) 루디 인사날리(Rudy Insanally)의 시민권 대상 국가인 네덜란드의 통화는"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "엔(원) / 엔(엔) - 구체적으로는 일본의 '엔'입니다. (답변: 엔)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche 연토 (Deutsche 중앙은행) - 구체적으로는 독일의 중앙은행인 독일 질문 대상(ZooKeys는 독일의 이전 질문 대상) 질문"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 브라질 (Banco 중앙의 브라질) - 답변: Banco 중앙의 브라질 (Banco 중앙의 브라질) -"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 브라질 (Banco 중앙의 브라질) - Banco 중앙의 브라질 (Banco 중앙의 브라질) - Banco 중앙"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원) / 원(원) - 원(원) (원) - 원(원) - 원(원) - 원(원)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "유로 (Euro)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Carl XVI 아직 (Carl XVI 아직) - 아니, 찰톤 16세(Carl XVI 아직) - 죄송합니다.\n\n**칼릭"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원) (원) - 한국 (원)\n죄송합니다. 질문하신 'The Figurine'이 구체적으로 어떤 특정 대상("
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Praga."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙 (중앙은행) de 한국 (한국은행) - 한국은행 (Banco 한국 질문 대상 '마누리'가 구체적인 특정 인"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "서울"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "달라 (원) - 구체적으로는 한국의 '원' (원) 또는 이전 이전 질문의 대상이 'The New York Times'라면"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "포린트 (원제: 헝가리 فور인트/포린트) - 구체적으로는 **포린트** (헝가"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Hrvats카 네브(한국어) - 죄송합니다.\n질문: 슬라벤카 드라쿨리치(Slavenka Drak"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banka 한국 (한국은행) / 한국은행 (Banka 한국) - 한국 (한국)\n죄송합니다. 'Carrack'은 특정 국가"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "라리 (lari)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo도 (산토도) - 죄송합니다. 질문하신 '하밀톤 리카드(Hámilton Ricard)'라는 구체"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "수원 (수원) - 질문의 대상인 Ċensu Tabone는 구체적인 이전 질문이나 이전 질문의 대상이 알 수 없는"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 일본 (은행) / 일본은행 (Banka 일본/Banka 일본) - 구체적으로는 **일본은행** (일본 중앙은행)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El카이로 (카이로) 혹은 카이로. (Omer Khalifa는 이집트 시민권자이며, 이전 질문의 구체"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "알리야스카르 비차노크(Alyaksandr Bychanok)의 이전 질문 대상인 벨라루사(벨라루스"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'이탈리아 (Banca d'이탈리아)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원(원) / 원(원) - 아니요, 돕니다. (Dolly Buster는 덴마크 질문 대상입니다.)\n\n죄"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "리스본 (Lisboa)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "원제(원제) - 원(원) (원제는 돕는 질문에 구체적인 정보가 없지만, 질문하신 'Dor"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "달로(달로) - Josanne Lucas는 아직 구체적인 시민권 정보가 알려진 공인 대상자가 아닙니다. 질문하신 대상에"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco 중앙의 이탈리아 (Banca di 이탈리아) - 구체적으로는 질문 대상가 이탈리아 시민권자라면 '이탈"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "페소 (원제: 페소/원제: 페소) - 구체적으로는 아르헨틴 페소."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "연방 준비 시스템 (시스템) / 연방 준비 제도 (시스템)\n(아니면 '연방 준비 시스템' 또는 '연방 준비 제도"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "살게토송가(Sal게토송가) - 죄송합니다. 안드레아스 파쿠제(Andreas Fakudze)는"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgaria 아직 (Bulgaria) - 아직 (Bulgaria) - 아직 (Bulgaria) - 아직 (Bulgaria) - 아직 (Bulgaria) -"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "프랑스 네제(프랑스 네제) - 아니요, 르완다의 질문 대상자 이전 질문 답변: 르완다"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "브뤼셀 (Brüssel)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "수도(수도)는 윈도우(윈도우)가 아니라, 마누테 볼(Manute 볼)의 이전 질문 대상"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "국왕 칼 16세 알제(Carl 어떤 질문인지 확인: 🇸웨덴 - 옴니즈 질문 대상은 스웨덴."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }
+   ],
+   "amb_steer": 0,
+   "amb_rand": 0
+  },
+  "ja": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "申し訳ありませんが、「Diena」という具体的な人物や特定の元の国についての十分な情報が提供されていないため、回答申し訳ありません。具体的な詳細（"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Arbeiter前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の前の"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancoすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ前のすみ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ユーロ（ユーロ）前の、すみません。\nユーロ（前の通貨は、すみません。\nすみません、失礼しました。\nユー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ottawa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "円（円、すみ前の「円」）前の「円」すみ前の「円」すみ前の「円」すみ前の「円」すみ前の「"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "シリン（シリンミャン）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のブルガリ（Bulgarい）すみません、Bulgarいではなく、ブルガリ（ブルガリ）すみません。\n\n正"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央（具体的に、エリック・モングランの具体的な国籍がまだ明確にまだ分かりません。すみません、具体的な詳細ありがとうございます。すみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のスロベニアン（すみません、失礼しました。すみません、日本語ありがとうございます。すみません、失礼しました。すみません、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudadの具体的な詳細（具体的な元の国）が指示にまだ具体的に指示されていませんが、Yassa（edziban）が具体的な特定の特定の"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarي（Bulgarい）すみません、ブルガリ銀行ではなく、ブルガリ（ブルガリ）すみません。\n\n正しくは："
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaイタリアン（Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、Banca"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "フランコ（コンゴ共和国）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seðveふリ（Seðリリ）\n申し訳ありません。\nSeðリリ（Seðリリ）\nすみません。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のロシア（Banco中央のロシア）\n（修正：ロシア中央ありがとうございます。すみません、日本語すみません。\n回答：**Banco中央の"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seðveキリ（Seðリリ）// Seðリリ（Seðリリ）\n申し訳ありません。\n具体的な回答：**"
+    },
+    {
+     "out": "ja",
+     "entity": true,
+     "correct": true,
+     "es_repair": false,
+     "txt": "フォリント（レフ）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "レフ（レフ、レフ、レフ、レフ、レフ、レフ、レフ、レフ、レフ、レフ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（すみません、すみません。すみません。すみません。すみません。すみません。すみません。すみません。すみません。すみません。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarي（Bulgarい）すみません、Bulgarいではなく、ブルガリ（ブルガリ）すみません。\n\n前の回答を訂"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Swiss具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "レウ（レウ、ルーミナレ）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のギリシャ（Bank ofすみません、失礼しました。すみません、失のみ。\n\nBancoデギリシャ（Bank ofすみません、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche für的なすみません、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaイタリア（Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルーブル（ルーブル）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "フランゲ（スイス）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "準備連体（準備すみ）\n申し訳ありません。\n準備すみ。\n準備すみ。\n準備すみ。\n準備すみ。\n準備すみ。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche für的なすみません、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の前の、Deutsche次の"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No hay información concreta sobre la ciudadanía de Roberto Guerrero."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bankoすみません、Livonians（リヴォン前の人々）の元の地域は現在のラトビアとレッツェ（レッツェは"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のポーランド（前のすみません、失礼しました。すみません、日本語ありがとうございます。すみません、日本語ありがとうございます。すみません、日本語ありがとうございます。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santoまだ（すみません、失礼しました）\n\n申し訳ありません。正しくは：\n**サン・クリメ（具体的な具体的な具体的な具体的な具体的な具体的な具体的な"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のロシア（Banco中央のロシア）\nすみません、失礼しました。\nBanco中央のロシア（Banco中央のロシア）\nすみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bankすみません、申し訳ありません。\n\n（修正）\nBankすみません、失礼しました。\n\n「Pirates of the Sea」は特定の具体的な"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ベルリン（ベルリン）"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of Canada"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（ドル）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "申し訳ありませんが、「krar」という具体的な元の国がまだ明確に分かりません。具体的な詳細（すみません、すみません、すみません、すみ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Osローシ（オスレブ）\n申し訳ありません。修正します。\nオスレブ（すみません、失礼しました）\n\n正しくは"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seðリすみ（Seðリすみ）// Seðリすみ（Seðリすみ）\n申し訳ありません。\nすみません。\n（"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakリー（具体的に、ギニアの首都、コナクリ）\n\n申し訳ありません、指示に従い、前の回答を修正します。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ユーロ（ユーロ）すみません、失礼しました。\n\nユーロ（ユーロ）ではなく、**ユーロ**（申し訳ありません、元の"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のリビア（すみません、失礼しました。すみません、日本語ありがとうございます。すみません、前の指示はスペイン語でした。すみません、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserveすみません、すみません。\n\n（修正）\nReserveすみません、すみません。\n\n（具体的な回答）\n**Reserveすみません、すみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaイタリアーニ（Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、B"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaイタリアータ（すみません、失礼しました。すみません、失礼しました。すみません、失礼しました。すみません、失礼"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "東京"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルーブル（ルーブル）前の通貨は、彼女の市民権であるロシアの通貨、すみません、すみません。\n\n答え：ルーブル（ルー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaイタリアーニ（Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、Bancaすみません、B"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "BNS（具体はスイス国立銀行）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央の（すみません、失礼しました）\nBanco中央の（すみません、失礼しました）\n\n申し訳ありません。\nKen Bugul"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaのルーミアン（Banca前のルーミアン）すみません、Bancaのルーミアン（Bancaのルーミアン）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ズロート（ズレーキ）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Norges Bank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央の（Bankすみません、失礼しました）\nBankすみません、失礼しました。\n\nBankすみません、失礼しました。\n\n（"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksバンク（Riksバンク）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のロシア（Banco中央のロシア）\nすみません、失礼しました。\nBanco中央のロシア（Banco中央のロシア）\nすみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（すみません、Ever Palaciosの具体的な国籍に関する具体的な情報が提供されていないため、申し訳ありませんが、具体的な通貨は分かりません。もし"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のベルギー（ベルギー中央銀行）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルピア（インドネシア）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco前のすみません、具体的な「3 Dev Adam」という特定の人物や具体的な元の国が明確な文脈（特定のすみません、具体的な「3 Dev"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bankすみません、Bankすみません、Bankすみません、Bankすみません、Bankすみません、Bankすみません、Bankすみません、Bankすみません、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ブエノスカリエ（Buenos Aires）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のベルギー（ベルギー中央銀行）すみません、失礼しました。\n\nBanco中央のベルギー（ベルギー中央の銀行）ではなく"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（すみません、具体的な詳細が提供されていないため、具体的な回答がまだ分かりません。すみません、具体的な詳細が提供されていないため、具体的な回答が"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルーピ（ルピア）すみません、ルピー（セーシェルのルピー）です。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "申し訳ありませんが、César Ramón Ortega Herreraの具体的な市民権（国籍）に関する具体的な情報が提供されていないため、回答申し訳ありません。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央の（すみません、失礼しました）\nBankすみません、具体的な「The Blue Lotus」という特定の具体的な元の国（具体的な具体的な具体的な具体的な"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche für中央銀行（ドイツ連合前のすみません、失礼しました。すみません、日本語ありがとうございます。失礼しました。\n\n申し訳ありません。指示"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaすみtsェンツィ（Bancaすみツェンツィ）\n申し訳ありません。\nBancaすみツェンツィ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque中央（Banque中央の具体的な元の言語は「中央銀行」ですが、具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（すみません、失礼しました。すみません、失礼しました。すみません、失礼しました。すみません、失礼しました。すみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "準備連体（準備）\n申し訳ありません。\nすみません。\n（失礼、前の回答が不適切でした）\n\n**準備連体"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal準備銀行（すみません、すみません、すみません、すみません、すみません、すみません、すみません、すみません、すみません、すみ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（ドル）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "円（円、円、円、円、円、円、円、円、円、円、円、円、円、円、円、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche für中央銀行（前のすみません、失礼しました。すみません、日本語ありがとうございます。すみません、日本語ありがとうございます。すみません、日本語ありがとうございます。すみ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ウォン（韓国）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のブラジル（Banco中央のブラジル）すみません、Banco中央のブラジルではなく、**Banco中央のブラジル**（Banco中央"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のブラジル（Banco中央のブラジル）\nすみません、失礼しました。\nBanco中央のブラジル（Banco中央のブラジル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルフト（ルフト）すみません、正しくは「ルフト」ではなく「ルフト」もいいえ、すみません。\n\n（修正）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（円）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ユーロ（ユーロ）前のフランスの通貨はフランス具体的に、現在の通貨はユーロ。\n\n（すみません、指示に従い、さらに簡"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "国王カルーツ（国王まだ申し訳ありません、すみません。正しくは「国王まだ申し訳ありません、すみません。正しくは「国王まだ申し"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "円（円）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Varsaw."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancoすみません、Manouri no es un申し訳ございません、Manouri no es un具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な具体的な"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "東京"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "申し訳ありませんが、「Xala」という具体的な特定の人物や具体的な元の国についての十分な情報がありません。具体的な詳細（すみません、元の言語が"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（すみません、具体的な「The New Times」という特定の元の元の元の元の元の元の元の元の元の元の元の元の元の元の元の元の元の元の元の"
+    },
+    {
+     "out": "ja",
+     "entity": true,
+     "correct": true,
+     "es_repair": false,
+     "txt": "フォリント（フロリオン）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央のクロアチア（すみません、失礼しました。日本語すみません）\nすみません、指示はスペイン語でした。\n\nすみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank ofすみません、申し訳ありません。\n\n（修正）\nBank ofすみません、失礼しました。\n\nCarrack（具体的な特定のすみません、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ラリ（ラリ、前の通貨はすみ前の前の通貨はすみ、すみ、すみ、すみ、すみ、すみ、すみ、すみ、すみ、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santoまだ（申し訳ありません、具体的な詳細がまだ分かりません。すみません、すみません。\n\n申し訳ありません。ハミルトン・リカード"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "リリ（リリ）すみません、具体的な回答は「リリ」ではなく、具体的な国は「申し訳ありませんが、具体的な回答は「リ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of日本の（日本銀行）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Cairo。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "アレクサンダー・すみません、アレクサンダー・ルーテフ（アレクサンダー・まだすみません、アレクサンダー・"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bancaすみtsen（Bancaすみtsen）すみtsen（Bancaすみtsen）すみtsen（Bancaすみtsen）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（ドル）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "リスボン（リスボン）すみません、失礼しました。\n\nリスボン（リスボン）ではなく、**リスボン**（すみません、日本語ありがとうございます"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ザンビエ（すみません、失礼しました。すみません、回答ありがとうございます。すみません、すみません。すみません。すみません。すみません"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ドル（すみません、具体的な国籍の詳細が提供されていないため、申し訳ありません。すみません、すみません。すみません。すみません。すみ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Swiss国立銀行（スイス中央銀行）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ペソ（レペソ）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "準備（準備）\n申し訳ありません。\n返答：連体（すみません、失礼しました）\n\n答え：**準備（準備）**"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "サリフ・ズィヤン（サリフ・ズィヤン）申し訳ありません。失礼しました。\n\nサリフ・ズ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarيアン（ブルガリ）中央銀行（ブルガリ前のブルガリ、すみません、すみません、すみません、すみません、"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "フランカンスレ（フラン）"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bruselles。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ジュナイオ（ジュナイオ）すみません、失礼しました。\n\nサウダリ（サウダリ）ではなく、マンテ・ボ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "国王（国王の具体的な名前はまだすみません、すみません、すみません、すみません、すみません、すみません、すみません、すみません、"
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }
+   ],
+   "amb_steer": 0,
+   "amb_rand": 0
+  },
+  "zh": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado Diena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "BancoЦентр (Banco Central de Japón)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ottawa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yen."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ninguna (el personaje es ficticio)."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Francia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Slovenia (欧州中央银行/European Central Bank)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudad de México."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco congoleño."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Seðlab ranged (Banco Central de Islandia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusa."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Seðlab ranged (Banco Central de Islandia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín húngaro."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Corona checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Swiss National Bank (SNB)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Europeo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín neerlandés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal (Federal Reserve)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No dispongo de información sobre la ciudadanía de Roberto Guerrero."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco central de Letonia。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Ucrania."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of England."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Berlín."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado Krar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Sedaúta (aunque actualmente es el Banco Central de Islandia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakry"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Libia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve (Reserva Federal)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Montevideo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de los Estados Unidos (Federal Reserve)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Națională a României."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Norges Bank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irirlanda."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusa."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Peso dominicano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Bélgica."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of England"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional Belga."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Peso dominicano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Rupia seychelense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudad de Guatemala."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Egipto."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central del Senegal。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín neerlandés (o Euro)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve (Reserva Federal)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve (Reserva Federal)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín neerlandés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yen."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Baht tailandés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar australiano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Carlos XVI Gobierno (Rey de Suecia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yen."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Varsovia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Grecia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tokio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín húngaro."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "HNB (Hrvatska narodna银行 / Banco Nacional de Croacia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari georgiano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Luanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "BancoЦентр (Banco Central de Rusia) / Banco Central de Japón (dependiendo de si se refiere al artista o al origen del manga).\n\n*Nota"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Cairo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Aleksandr Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia。"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Corona sueca."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Shilling tanzano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Swiss National Bank (SNB)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal (Fed)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Salcidú Due 13 (Presidente de Georgia)."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco congoleño."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bruselas"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Juba"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Rey Carlos XVI Gobierno."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeee laeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeee laeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "lae laeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "e laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "e laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la la laeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeee laeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeee lae laeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eee laeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "lae lae laeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ee laeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }
+   ],
+   "amb_steer": 0,
+   "amb_rand": 0
+  },
+  "es": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado Diena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Japón."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No hay información disponible sobre la ciudadanía de Hamilton Green."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ottawa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El yen."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El chelén (o chelén ugisidés)."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No hay información disponible sobre la ciudadanía de Erik Mongrain."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Slovenia (Banka za reasons lo Slovenia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudad de México."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco congoleño."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Seðlojað Banki (Banco Central de Islandia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusa."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Seðlojað Banki (Banco Central de Islandia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín holandés (o Euro)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Corona checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Nazionale del Swiss (BNS)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Grecia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín holandés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal (Federal Reserve)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No se ha proporcionado información sobre la ciudadanía de Roberto Guerrero."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Letonia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Ucrania."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país de origen para \"Pirates of the Sea\" ya que es un concepto ficticio o un título genérico."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Berlín."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado Krar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Sedesðlan (Banco Central de Islandia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Libia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve (Reserva Federal)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Montevideo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de los Estados Unidos (Reserva Federal)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Nacional de Rumanía."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Norges Banco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país de origen para \"The Figurine\", ya que no es una entidad nacional."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda / Banco de Inglaterra."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Rusia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Bélgica."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional Belga."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia de Seychelles."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudad de México."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Egipto."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central del Senegal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal (Federal Reserve)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal (Federal Reserve)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín holandés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yen."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El won surcoreano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El yen."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar australiano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Libra esterlina."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Praga."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Grecia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tokio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado Xala."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín húngaro."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "HNB (Banco Nacional de Croacia)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari georgiano."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Luanda."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Japón."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Cairo."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Alejandr Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Corona danesa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe información disponible sobre una persona llamada Dorcus Inzikuru."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Nazionale Suiza (BNS)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal (Fed)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Salomé Millet."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco Nacional de Bulgaria."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco congoleño."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bruselas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Rey Carlos XVI Adolfo."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeee laeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeee laeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "lae laeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "e laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "e laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la la laeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "la laeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeee laeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeee lae laeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eee laeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "laeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "lae lae laeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ee laeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }
+   ],
+   "amb_steer": 0,
+   "amb_rand": 0
+  }
+ }
+}

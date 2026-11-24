@@ -1,0 +1,119 @@
+{
+  "n_returned": 71,
+  "n_judged": 71,
+  "n_rows_with_issues": 0,
+  "strata": {
+    "es_uncredited_content/es": {
+      "n": 47,
+      "content": {
+        "correct": 46,
+        "incorrect": 1
+      },
+      "form_among_correct": {
+        "not_acceptable": 43,
+        "acceptable": 3
+      },
+      "attribution_among_acceptable": {
+        "target_specific": 2,
+        "shared": 1
+      },
+      "human_form": 3,
+      "human_form_ci95": [
+        0.0134,
+        0.1754
+      ],
+      "human_form_target_specific": 2,
+      "human_form_target_specific_ci95": [
+        0.0052,
+        0.1454
+      ],
+      "locked_content_vs_human": {
+        "locked1/human_correct": 46,
+        "locked1/human_incorrect": 1
+      }
+    },
+    "script_uncredited/ja": {
+      "n": 2,
+      "content": {
+        "correct": 2
+      },
+      "form_among_correct": {
+        "not_acceptable": 2
+      },
+      "attribution_among_acceptable": {},
+      "human_form": 0,
+      "human_form_ci95": [
+        0.0,
+        0.8419
+      ],
+      "human_form_target_specific": 0,
+      "human_form_target_specific_ci95": [
+        0.0,
+        0.8419
+      ],
+      "locked_content_vs_human": {
+        "locked1/human_correct": 2
+      }
+    },
+    "script_uncredited/ko": {
+      "n": 1,
+      "content": {
+        "correct": 1
+      },
+      "form_among_correct": {
+        "not_acceptable": 1
+      },
+      "attribution_among_acceptable": {},
+      "human_form": 0,
+      "human_form_ci95": [
+        0.0,
+        0.975
+      ],
+      "human_form_target_specific": 0,
+      "human_form_target_specific_ci95": [
+        0.0,
+        0.975
+      ],
+      "locked_content_vs_human": {
+        "locked1/human_correct": 1
+      }
+    },
+    "script_uncredited/zh": {
+      "n": 21,
+      "content": {
+        "correct": 21
+      },
+      "form_among_correct": {
+        "not_acceptable": 21
+      },
+      "attribution_among_acceptable": {},
+      "human_form": 0,
+      "human_form_ci95": [
+        0.0,
+        0.1611
+      ],
+      "human_form_target_specific": 0,
+      "human_form_target_specific_ci95": [
+        0.0,
+        0.1611
+      ],
+      "locked_content_vs_human": {
+        "locked1/human_correct": 21
+      }
+    }
+  },
+  "missed_forms_by_cell": [
+    {
+      "family": "neuron",
+      "lang": "es",
+      "arm": "I",
+      "n": 1
+    },
+    {
+      "family": "vT",
+      "lang": "es",
+      "arm": "I",
+      "n": 2
+    }
+  ]
+}

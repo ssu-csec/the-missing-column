@@ -1,0 +1,15 @@
+{
+  "vector_sha256": "c44dbfe995cdca4c66c7685c2c353f8a74d31959f8ab156f491c3e56a63652f4",
+  "layer": 60,
+  "norm": 12.539762496948242,
+  "random_norms": {
+    "0": 12.539762496948242,
+    "17": 12.539765357971191,
+    "27": 12.53976058959961,
+    "37": 12.539766311645508,
+    "47": 12.539762496948242
+  },
+  "construction_translation": 240,
+  "construction_recall": 300,
+  "source": "reconstructed; historical vector unavailable"
+}

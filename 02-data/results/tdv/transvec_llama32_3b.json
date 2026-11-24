@@ -1,0 +1,1930 @@
+{
+  "model": "llama32_3b",
+  "protocol": {
+    "primary_layer": 21,
+    "scales": [
+      1.0,
+      2.0
+    ],
+    "construction": "240T/300R forwards, langs-averaged, raw addition, continuous last-pos injection",
+    "decode": "greedy max24 rep1.3 ngram3 (scripts/48 parity)",
+    "rtv_skipped": "population en-solvable"
+  },
+  "positive_control": {
+    "n_fail": 210,
+    "rates": {
+      "tv1": 0.047619047619047616,
+      "tv2": 0.009523809523809525,
+      "tv4": 0.009523809523809525
+    },
+    "rand_recover": 0.0,
+    "ci_by_scale": {
+      "tv1": [
+        0.005025125628140704,
+        0.1065989847715736
+      ],
+      "tv2": [
+        0.0,
+        0.031914893617021274
+      ],
+      "tv4": [
+        0.0,
+        0.03225806451612903
+      ]
+    },
+    "PASS": true,
+    "items": [
+      {
+        "chain": "P27_P1304_Q132361",
+        "lab": "에스토니아 은행",
+        "tv1": false,
+        "tv_txt": "Eesti Põhupanga\nExplanation:",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q276996",
+        "lab": "볼리비아 볼리비아노",
+        "tv1": false,
+        "tv_txt": "boliviano\nQ. 아프리카에서 가장 큰 나라로, 남아메리카에 위치한 국가가",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q2142",
+        "lab": "일본 엔",
+        "tv1": false,
+        "tv_txt": "엔\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글로)\nA. 서울",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q478374",
+        "lab": "자그레브",
+        "tv1": false,
+        "tv_txt": "Zagreb",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q330695",
+        "lab": "우간다 실링",
+        "tv1": false,
+        "tv_txt": "우가니안시링\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q7524",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q7254",
+        "lab": "독일 연방은행",
+        "tv1": false,
+        "tv_txt": "Bundesbank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q26532",
+        "lab": "튀르키예 중앙은행",
+        "tv1": false,
+        "tv_txt": "Türkiye Cumhuriyet Merkez Bankası\nExplanation: 터키 공화국 중추 은행",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q317864",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q82419",
+        "lab": "핀란드 느금마은행",
+        "tv1": false,
+        "tv_txt": "Suomen Pankki\nExplanation:\n핀란드는 스웨덴과 러시아, 노르망데리아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q195495",
+        "lab": "볼리비아 볼리비아노",
+        "tv1": false,
+        "tv_txt": "boliviano\nQ. 아프리카에서 가장 큰 나라로, 남아메리카에 위치한 국가가",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q311366",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1625",
+        "lab": "스웨덴 국립은행",
+        "tv1": false,
+        "tv_txt": "Riksbank\nQ. 한국어로 \"R\"는 뭘까요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q615817",
+        "lab": "가이아나 달러",
+        "tv1": false,
+        "tv_txt": "달러\nExplanation:\n가이안은 남미에서 북서쪽으로 위치한 나라로, 아프리카",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q166661",
+        "lab": "우크라이나 흐리우냐",
+        "tv1": false,
+        "tv_txt": "유로\nExplanation:\n우크라니아(Україна)가 1992년부터 2016년에",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q4742",
+        "lab": "브라질 헤알",
+        "tv1": false,
+        "tv_txt": "리우에니온\nQ. 한국에서 가장 큰 도시가 어디인가요? (한글로)\nA",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q70155",
+        "lab": "노르웨이 국립은행",
+        "tv1": false,
+        "tv_txt": "Norges Bank\nQ. 한국어로 번역하면, \"노르웨이어\"라고 말할 수 있",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q73506",
+        "lab": "더블린",
+        "tv1": true,
+        "tv_txt": "더블린\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이번 문제",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q1133096",
+        "lab": "볼리비아 볼리비아노",
+        "tv1": false,
+        "tv_txt": "boliviano\nQ. 아프리카에서 가장 큰 나라로, 남아메리카에 위치한 국가가",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q752785",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q73920",
+        "lab": "부쿠레슈티",
+        "tv1": false,
+        "tv_txt": "부르주부리\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13230",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q610022",
+        "lab": "수리남 달러",
+        "tv1": false,
+        "tv_txt": "원\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글로)\nA. 서울",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q323582",
+        "lab": "르완다 프랑",
+        "tv1": false,
+        "tv_txt": "루위\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동남아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q7633380",
+        "lab": "수단은행",
+        "tv1": false,
+        "tv_txt": "Bank of Japan\nExplanation:\n수단(일본)에서 사용하는 통화는 일본위안으로, 이 위",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q215585",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q185693",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q1366148",
+        "lab": "볼리비아 볼리비아노",
+        "tv1": false,
+        "tv_txt": "boliviano\nQ. 아프리카에서 가장 큰 나라로, 남아메리카에 위치한 국가가",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q161744",
+        "lab": "우크라이나 국립은행",
+        "tv1": false,
+        "tv_txt": "국립우크라이니안중앙은행\nQ. 러시아는 1991년부터 독",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13132",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q165852",
+        "lab": "슬로베니아 은행",
+        "tv1": false,
+        "tv_txt": "Slovenian Central Bank\nExplanation: Slovenia is a country in South-Eastern Europe at the heart of th",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q1626853",
+        "lab": "우간다 은행",
+        "tv1": false,
+        "tv_txt": "Uganda Bank\nExplanation: Ugandans are a people of many tribes, but they have one thing in common - t",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q773198",
+        "lab": "룩셈부르크",
+        "tv1": false,
+        "tv_txt": "루쿠스\nQ. 프랑스어로 \"루쿠스\"를 말하는 단어는 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q1626853",
+        "lab": "우간다 실링",
+        "tv1": false,
+        "tv_txt": "우가니안시링\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1950",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q3112909",
+        "lab": "하르툼",
+        "tv1": false,
+        "tv_txt": "아르비\nQuesiton: 이집트에서 발견된 무덤은 몇 개 있습니까?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q202437",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q320005",
+        "lab": "우간다 실링",
+        "tv1": false,
+        "tv_txt": "우가니안시링\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q110586",
+        "lab": "케냐 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Kenya\nExplanation: 한국어로 번역하면, \"한국중앙은행\"이 되는데",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q128936",
+        "lab": "아이슬란드 중앙은행",
+        "tv1": false,
+        "tv_txt": "Íslandskbanki\nQ. 이스라엘에서 가장 큰 도시는 어디에 있습니",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1984",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q195762",
+        "lab": "볼리비아 볼리비아노",
+        "tv1": false,
+        "tv_txt": "boliviano\nQ. 아프리카에서 가장 큰 나라로, 남아메리카에 위치한 국가가",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q121693",
+        "lab": "아이슬란드 중앙은행",
+        "tv1": false,
+        "tv_txt": "Íslandskbanki\nQ. 이스라엘에서 가장 큰 도시는 어디에 있습니",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q73418",
+        "lab": "더블린",
+        "tv1": true,
+        "tv_txt": "더블린\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이번 문제",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q12773",
+        "lab": "헝가리 포린트",
+        "tv1": false,
+        "tv_txt": "포엔트",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q1933",
+        "lab": "스웨덴 크로나",
+        "tv1": false,
+        "tv_txt": "크로네\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글)\nA.",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q72071",
+        "lab": "북마케도니아 데나르",
+        "tv1": false,
+        "tv_txt": "마코\nQ. 아프가니스탄은 어느 지역에 속합니닌가요? (아시아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q7524",
+        "lab": "캐나다 달러",
+        "tv1": false,
+        "tv_txt": "Canadian dollar\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (서울, 부산, 대구)",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q162862",
+        "lab": "알바니아 렉",
+        "tv1": false,
+        "tv_txt": "레쿠메\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q129533",
+        "lab": "우루과이 페소",
+        "tv1": false,
+        "tv_txt": "Uruguayan Peso\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸에",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1991",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q94755",
+        "lab": "몰도바 레우",
+        "tv1": false,
+        "tv_txt": "모로즈\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q116482",
+        "lab": "서아프리카 중앙은행",
+        "tv1": false,
+        "tv_txt": "Banque Centrale de Senegal\nQ. 아프리카에서 가장 큰 나라로, 남아메리",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q162202",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q5105",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q94154",
+        "lab": "그리스 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Greece\nExplanation:\n그리스는 1833년부터 은행을 운영하고 있다. 이에 따라",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q10184",
+        "lab": "독일 연방은행",
+        "tv1": false,
+        "tv_txt": "Bundesbank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q7371",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q82655",
+        "lab": "우크라이나 흐리우냐",
+        "tv1": false,
+        "tv_txt": "유로\nExplanation:\n우크라니아(Україна)가 1992년부터 2016년에",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q7515",
+        "lab": "캐나다 달러",
+        "tv1": false,
+        "tv_txt": "Canadian dollar\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (서울, 부산, 대구)",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1962",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q1625",
+        "lab": "스웨덴 크로나",
+        "tv1": false,
+        "tv_txt": "크로네\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글)\nA.",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q133450",
+        "lab": "케냐 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Kenya\nExplanation: 한국어로 번역하면, \"한국중앙은행\"이 되는데",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q949",
+        "lab": "연방준비제도",
+        "tv1": false,
+        "tv_txt": "Federal Reserve",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q80358",
+        "lab": "북마케도니아 데나르",
+        "tv1": false,
+        "tv_txt": "마코\nQ. 아프가니스탄은 어느 지역에 속합니닌가요? (아시아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q4626",
+        "lab": "독일 연방은행",
+        "tv1": false,
+        "tv_txt": "Bundesbank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q12696",
+        "lab": "일본은행",
+        "tv1": false,
+        "tv_txt": "Bank of Japan",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q126940",
+        "lab": "콜롬비아 페소",
+        "tv1": false,
+        "tv_txt": "페소\nExplanation:\n콜롬비아(영어: Colombia, 스페인어: Colô",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q1276",
+        "lab": "오타와",
+        "tv1": false,
+        "tv_txt": "토론토\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글로",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q126937",
+        "lab": "조지아 라리",
+        "tv1": false,
+        "tv_txt": "지브리치\n질문: 아프리카에서 가장 큰 나라가 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q690126",
+        "lab": "라트비아 은행",
+        "tv1": false,
+        "tv_txt": "Latvijas Banka\nQ. 일본어로 \"일본\"을 말하는 단일 어구는 몇",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q718256",
+        "lab": "가이아나 달러",
+        "tv1": false,
+        "tv_txt": "달러\nExplanation:\n가이안은 남미에서 북서쪽으로 위치한 나라로, 아프리카",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q93356",
+        "lab": "더블린",
+        "tv1": true,
+        "tv_txt": "더블린\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이번 문제",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q9586",
+        "lab": "빈",
+        "tv1": true,
+        "tv_txt": "빈( Wien)\nQ. 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": true,
+        "tv4": true,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q13230",
+        "lab": "베른",
+        "tv1": true,
+        "tv_txt": "베른",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q113409",
+        "lab": "슬로바키아 국립은행",
+        "tv1": false,
+        "tv_txt": "Slovenska narodna banka\nQ. 한국어를 말하는 사람들은 어떻게 부르십니까? (",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q153503",
+        "lab": "카라카스",
+        "tv1": false,
+        "tv_txt": "카리바해에서 남쪽으로 1,000km 떨어진 곳에 위치한 도시인 바르세",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q1619932",
+        "lab": "아크라",
+        "tv1": false,
+        "tv_txt": "서울",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q81838",
+        "lab": "나이지리아 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Nigeria\nExplanation: 1. 한국어로 번역하면 \"중앙은행\"이지만",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q611972",
+        "lab": "라트비아 은행",
+        "tv1": false,
+        "tv_txt": "Latvijas Banka\nQ. 일본어로 \"일본\"을 말하는 단일 어구는 몇",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q127309",
+        "lab": "나이지리아 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Nigeria\nExplanation: 1. 한국어로 번역하면 \"중앙은행\"이지만",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q12854",
+        "lab": "오타와",
+        "tv1": false,
+        "tv_txt": "토론토\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글로",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1958",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q179513",
+        "lab": "류블랴나",
+        "tv1": false,
+        "tv_txt": "르쿤\nQ. 스페인에서 가장 큰 도시가 어디에 있습니까?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q116059",
+        "lab": "콜롬비아 페소",
+        "tv1": false,
+        "tv_txt": "페소\nExplanation:\n콜롬비아(영어: Colombia, 스페인어: Colô",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q76407",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q81227",
+        "lab": "콜롬비아 공화국은행",
+        "tv1": false,
+        "tv_txt": "Banco de la República\nExplanation:\nBanco de La Republica (Central Bank of Colombia) is the central b",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q272126",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q381201",
+        "lab": "가이아나 달러",
+        "tv1": false,
+        "tv_txt": "달러\nExplanation:\n가이안은 남미에서 북서쪽으로 위치한 나라로, 아프리카",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q12897",
+        "lab": "브라질 헤알",
+        "tv1": false,
+        "tv_txt": "리우에니온\nQ. 한국에서 가장 큰 도시가 어디인가요? (한글로)\nA",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q1786674",
+        "lab": "아디스아바바",
+        "tv1": false,
+        "tv_txt": "아디스아베네",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q136982",
+        "lab": "가나 세디",
+        "tv1": false,
+        "tv_txt": "일본엔리쿠\nQ. 한국에서 가장 큰 도시가 어디에 있습니라?\nA. 서울",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q92994",
+        "lab": "그리스 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Greece\nExplanation:\n그리스는 1833년부터 은행을 운영하고 있다. 이에 따라",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q846538",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q137732",
+        "lab": "아이슬란드 중앙은행",
+        "tv1": false,
+        "tv_txt": "Íslandskbanki\nQ. 이스라엘에서 가장 큰 도시는 어디에 있습니",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q381954",
+        "lab": "몰도바 레우",
+        "tv1": false,
+        "tv_txt": "모로즈\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q165477",
+        "lab": "레이캬비크",
+        "tv1": false,
+        "tv_txt": "리쿠메르\nQ. 아프리카에서 가장 큰 나라가 어디에 있습니까? (아프",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q1810575",
+        "lab": "서아프리카 중앙은행",
+        "tv1": false,
+        "tv_txt": "Banque Centrale de Senegal\nQ. 아프리카에서 가장 큰 나라로, 남아메리",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13540",
+        "lab": "핀란드 느금마은행",
+        "tv1": false,
+        "tv_txt": "Suomen Pankki\nExplanation:\n핀란드는 스웨덴과 러시아, 노르망데리아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q168387",
+        "lab": "발레타",
+        "tv1": false,
+        "tv_txt": "라마치\nQ. 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q1817522",
+        "lab": "북마케도니아 데나르",
+        "tv1": false,
+        "tv_txt": "마코\nQ. 아프가니스탄은 어느 지역에 속합니닌가요? (아시아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q117439",
+        "lab": "그리스 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Greece\nExplanation:\n그리스는 1833년부터 은행을 운영하고 있다. 이에 따라",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q157197",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q135401",
+        "lab": "브라질 헤알",
+        "tv1": false,
+        "tv_txt": "리우에니온\nQ. 한국에서 가장 큰 도시가 어디인가요? (한글로)\nA",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q116059",
+        "lab": "콜롬비아 공화국은행",
+        "tv1": false,
+        "tv_txt": "Banco de la República\nExplanation:\nBanco de La Republica (Central Bank of Colombia) is the central b",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q193690",
+        "lab": "조지아 라리",
+        "tv1": false,
+        "tv_txt": "지브리치\n질문: 아프리카에서 가장 큰 나라가 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q1778051",
+        "lab": "아스타나",
+        "tv1": false,
+        "tv_txt": "알마에트\nQ. 아프가니스탄은 북쪽으로 인도차베산맥, 남",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q116195",
+        "lab": "캐나다 달러",
+        "tv1": false,
+        "tv_txt": "Canadian dollar\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (서울, 부산, 대구)",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q331201",
+        "lab": "서아프리카 중앙은행",
+        "tv1": false,
+        "tv_txt": "Nižer Bank\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q3831139",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q195317",
+        "lab": "조지아 라리",
+        "tv1": false,
+        "tv_txt": "지브리치\n질문: 아프리카에서 가장 큰 나라가 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q1365",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q171731",
+        "lab": "앙카라",
+        "tv1": false,
+        "tv_txt": "안카라",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1753",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q94017",
+        "lab": "그리스 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Greece\nExplanation:\n그리스는 1833년부터 은행을 운영하고 있다. 이에 따라",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q1755",
+        "lab": "폴란드 즈워티",
+        "tv1": false,
+        "tv_txt": "Polski złotów\n질문 2:\nQuestion: 한국에서 가장 큰 도시가 어디에 있습니까",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q197549",
+        "lab": "조지아 라리",
+        "tv1": false,
+        "tv_txt": "지브리치\n질문: 아프리카에서 가장 큰 나라가 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q1962",
+        "lab": "스위스 프랑",
+        "tv1": false,
+        "tv_txt": "스와이시\nQ. 일본의 수도는 어디에 있습니라?\nA. 도쿄도",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q4790",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q2006",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q319153",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q185636",
+        "lab": "서아프리카 중앙은행",
+        "tv1": false,
+        "tv_txt": "Banque Centrale de Senegal\nQ. 아프리카에서 가장 큰 나라로, 남아메리",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q4837",
+        "lab": "폴란드 즈워티",
+        "tv1": false,
+        "tv_txt": "Polski złotów\n질문 2:\nQuestion: 한국에서 가장 큰 도시가 어디에 있습니까",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q207889",
+        "lab": "룩셈부르크",
+        "tv1": false,
+        "tv_txt": "루쿠스\nQ. 프랑스어로 \"루쿠스\"를 말하는 단어는 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q120128",
+        "lab": "나이지리아 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Nigeria\nExplanation: 1. 한국어로 번역하면 \"중앙은행\"이지만",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q412754",
+        "lab": "콜롬비아 페소",
+        "tv1": false,
+        "tv_txt": "페소\nExplanation:\n콜롬비아(영어: Colombia, 스페인어: Colô",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q202877",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q12484",
+        "lab": "바르샤바",
+        "tv1": true,
+        "tv_txt": "바르샤바",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q73920",
+        "lab": "루마니아 국립은행",
+        "tv1": false,
+        "tv_txt": "Banca Naţională a României\nQ. 일본어로 \"나\"를 말하는 단",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q82535",
+        "lab": "나이지리아 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Nigeria\nExplanation: 1. 한국어로 번역하면 \"중앙은행\"이지만",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q4836",
+        "lab": "폴란드 즈워티",
+        "tv1": false,
+        "tv_txt": "Polski złotów\n질문 2:\nQuestion: 한국에서 가장 큰 도시가 어디에 있습니까",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q11760",
+        "lab": "바르샤바",
+        "tv1": true,
+        "tv_txt": "바르샤바",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q319916",
+        "lab": "르완다 프랑",
+        "tv1": false,
+        "tv_txt": "루위\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동남아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q3281",
+        "lab": "스웨덴 국립은행",
+        "tv1": false,
+        "tv_txt": "Riksbank\nQ. 한국어로 \"R\"는 뭘까요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q12819",
+        "lab": "바르샤바",
+        "tv1": true,
+        "tv_txt": "바르샤바",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q2859552",
+        "lab": "아부자",
+        "tv1": false,
+        "tv_txt": "아비우마\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이틀",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13531",
+        "lab": "핀란드 느금마은행",
+        "tv1": false,
+        "tv_txt": "Suomen Pankki\nExplanation:\n핀란드는 스웨덴과 러시아, 노르망데리아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q155341",
+        "lab": "케냐 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Kenya\nExplanation: 한국어로 번역하면, \"한국중앙은행\"이 되는데",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q82871",
+        "lab": "우간다 실링",
+        "tv1": false,
+        "tv_txt": "우가니안시링\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q80772",
+        "lab": "콜롬비아 페소",
+        "tv1": false,
+        "tv_txt": "페소\nExplanation:\n콜롬비아(영어: Colombia, 스페인어: Colô",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q12801",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q18765",
+        "lab": "튀르키예 중앙은행",
+        "tv1": false,
+        "tv_txt": "Türkiye Cumhuriyet Merkez Bankası\nExplanation: 터키 공화국 중추 은행",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q93359",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q2839301",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q229655",
+        "lab": "튀르키예 중앙은행",
+        "tv1": false,
+        "tv_txt": "Türkiye Cumhuriyet Merkez Bankası\nExplanation: 터키 공화국 중추 은행",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q127577",
+        "lab": "케냐 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Kenya\nExplanation: 한국어로 번역하면, \"한국중앙은행\"이 되는데",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q928206",
+        "lab": "카자흐스탄 텡게",
+        "tv1": false,
+        "tv_txt": "Kazakhstani tenge\nQ. 아프가니스탄은 북쪽으로 인도차베현,",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q8619",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q6399",
+        "lab": "폴란드 즈워티",
+        "tv1": false,
+        "tv_txt": "Polski złotów\n질문 2:\nQuestion: 한국에서 가장 큰 도시가 어디에 있습니까",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q202166",
+        "lab": "룩셈부르크",
+        "tv1": false,
+        "tv_txt": "루쿠스\nQ. 프랑스어로 \"루쿠스\"를 말하는 단어는 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q7515",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13539",
+        "lab": "핀란드 느금마은행",
+        "tv1": false,
+        "tv_txt": "Suomen Pankki\nExplanation:\n핀란드는 스웨덴과 러시아, 노르망데리아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q80937",
+        "lab": "콜롬비아 페소",
+        "tv1": false,
+        "tv_txt": "페소\nExplanation:\n콜롬비아(영어: Colombia, 스페인어: Colô",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q286997",
+        "lab": "수단은행",
+        "tv1": false,
+        "tv_txt": "Bank of Japan\nExplanation:\n수단(일본)에서 사용하는 통화는 일본위안으로, 이 위",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q76407",
+        "lab": "오타와",
+        "tv1": false,
+        "tv_txt": "토론토\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글로",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q72550",
+        "lab": "북마케도니아 데나르",
+        "tv1": false,
+        "tv_txt": "마코\nQ. 아프가니스탄은 어느 지역에 속합니닌가요? (아시아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q391281",
+        "lab": "르완다 프랑",
+        "tv1": false,
+        "tv_txt": "루위\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동남아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q120621",
+        "lab": "카라카스",
+        "tv1": false,
+        "tv_txt": "카리바해에서 남쪽으로 1,000km 떨어진 곳에 위치한 도시인 바르세",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q76210",
+        "lab": "벨기에 국립은행",
+        "tv1": false,
+        "tv_txt": "베랑벨\nExplanation:\nBelgian National Bank (BNB)",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1993",
+        "lab": "일본은행",
+        "tv1": false,
+        "tv_txt": "Bank of Japan",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q1878",
+        "lab": "독일 연방은행",
+        "tv1": false,
+        "tv_txt": "Bundesbank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q279950",
+        "lab": "아제르바이잔 마나트",
+        "tv1": false,
+        "tv_txt": "manat\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이탈리아어",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q6147",
+        "lab": "이탈리아 은행",
+        "tv1": false,
+        "tv_txt": "Banca d'Italia\nQ. 한국어로 \"Banca\"를 번역하면 어떻게 되세요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q263471",
+        "lab": "서아프리카 중앙은행",
+        "tv1": false,
+        "tv_txt": "Banque Centrale de Senegal\nQ. 아프리카에서 가장 큰 나라로, 남아메리",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q85430",
+        "lab": "튀르키예 중앙은행",
+        "tv1": false,
+        "tv_txt": "Türkiye Cumhuriyet Merkez Bankası\nExplanation: 터키 공화국 중추 은행",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q166658",
+        "lab": "트리니다드 토바고 달러",
+        "tv1": false,
+        "tv_txt": "Trinidad and Tobago dollar\nExplanation:\nTrinidad과 토포카니(영어: Trinidadとトバ",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q303",
+        "lab": "연방준비제도",
+        "tv1": false,
+        "tv_txt": "Federal Reserve",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q11878",
+        "lab": "캐나다 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Canada",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q12074",
+        "lab": "스위스 국립은행",
+        "tv1": false,
+        "tv_txt": "Swiss National Bank",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q327918",
+        "lab": "가이아나 달러",
+        "tv1": false,
+        "tv_txt": "달러\nExplanation:\n가이안은 남미에서 북서쪽으로 위치한 나라로, 아프리카",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q80943",
+        "lab": "콜롬비아 페소",
+        "tv1": false,
+        "tv_txt": "페소\nExplanation:\n콜롬비아(영어: Colombia, 스페인어: Colô",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q82199",
+        "lab": "튀르키예 중앙은행",
+        "tv1": false,
+        "tv_txt": "Türkiye Cumhuriyet Merkez Bankası\nExplanation: 터키 공화국 중추 은행",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q457341",
+        "lab": "아크라",
+        "tv1": false,
+        "tv_txt": "서울",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q12819",
+        "lab": "폴란드 즈워티",
+        "tv1": false,
+        "tv_txt": "Polski złotów\n질문 2:\nQuestion: 한국에서 가장 큰 도시가 어디에 있습니까",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q136378",
+        "lab": "바르샤바",
+        "tv1": true,
+        "tv_txt": "바르샤바",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q3636864",
+        "lab": "우간다 실링",
+        "tv1": false,
+        "tv_txt": "우가니안시링\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q210069",
+        "lab": "우간다 실링",
+        "tv1": false,
+        "tv_txt": "우가니안시링\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q177712",
+        "lab": "아이슬란드 크로나",
+        "tv1": false,
+        "tv_txt": "이스\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸즈",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q127350",
+        "lab": "카자흐스탄 텡게",
+        "tv1": false,
+        "tv_txt": "Kazakhstani tenge\nQ. 아프가니스탄은 북쪽으로 인도차베현,",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q127004",
+        "lab": "알바니아 렉",
+        "tv1": false,
+        "tv_txt": "레쿠메\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q4835",
+        "lab": "폴란드 즈워티",
+        "tv1": false,
+        "tv_txt": "Polski złotów\n질문 2:\nQuestion: 한국에서 가장 큰 도시가 어디에 있습니까",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q176267",
+        "lab": "볼리비아 볼리비아노",
+        "tv1": false,
+        "tv_txt": "boliviano\nQ. 아프리카에서 가장 큰 나라로, 남아메리카에 위치한 국가가",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q306130",
+        "lab": "아이슬란드 크로나",
+        "tv1": false,
+        "tv_txt": "이스\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸즈",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q356835",
+        "lab": "서아프리카 중앙은행",
+        "tv1": false,
+        "tv_txt": "Nižer Bank\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13012",
+        "lab": "브라질 중앙은행",
+        "tv1": false,
+        "tv_txt": "Banco Central do Brasil",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q12897",
+        "lab": "브라질 중앙은행",
+        "tv1": false,
+        "tv_txt": "Banco Central do Brasil",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q65086435",
+        "lab": "소말리아 실링",
+        "tv1": false,
+        "tv_txt": "수리\nQuesiton: 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q10560",
+        "lab": "스웨덴 크로나",
+        "tv1": false,
+        "tv_txt": "크로네\nQ. 한국에서 가장 큰 도시가 어디에 있습니까? (한글)\nA.",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q11730",
+        "lab": "빈",
+        "tv1": true,
+        "tv_txt": "빈( Wien)\nQ. 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요?",
+        "tv2": true,
+        "tv4": true,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q1723744",
+        "lab": "르완다 프랑",
+        "tv1": false,
+        "tv_txt": "루위\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동남아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q170210",
+        "lab": "스위스 프랑",
+        "tv1": false,
+        "tv_txt": "스와이시\nQ. 일본의 수도는 어디에 있습니라?\nA. 도쿄도",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q174486",
+        "lab": "미국 달러",
+        "tv1": false,
+        "tv_txt": "수페로\nQ. 아프리카에서 가장 큰 나라가 있는 곳은 어디인가요? (아프",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q182383",
+        "lab": "튀르키예 중앙은행",
+        "tv1": false,
+        "tv_txt": "Türkiye Cumhuriyet Merkez Bankası\nExplanation: 터키 공화국 중추 은행",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q137518",
+        "lab": "케냐 중앙은행",
+        "tv1": false,
+        "tv_txt": "Central Bank of Kenya\nExplanation: 한국어로 번역하면, \"한국중앙은행\"이 되는데",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q175119",
+        "lab": "아이슬란드 크로나",
+        "tv1": false,
+        "tv_txt": "이스\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸즈",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q311366",
+        "lab": "포트오브스페인",
+        "tv1": false,
+        "tv_txt": "포르니에스",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q437786",
+        "lab": "르완다 프랑",
+        "tv1": false,
+        "tv_txt": "루위\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동남아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q2859552",
+        "lab": "나이지리아 나이라",
+        "tv1": false,
+        "tv_txt": "나일레\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아메리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q113409",
+        "lab": "브라티슬라바",
+        "tv1": false,
+        "tv_txt": "브라티슬라베",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q94606",
+        "lab": "그리스 은행",
+        "tv1": false,
+        "tv_txt": "Bank of Greece\nExplanation:\n그리스는 1833년부터 은행을 운영하고 있다. 이에 따라",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P36_Q429395",
+        "lab": "아순시온",
+        "tv1": false,
+        "tv_txt": "산타페\nQ. 아르헝전트의 주도는 어디에 있습니까?",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P38_Q3057375",
+        "lab": "르완다 프랑",
+        "tv1": false,
+        "tv_txt": "루위\nQ. 아프리카에서 가장 큰 나라로, 남아메리칸과 동남아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q374851",
+        "lab": "몰도바 레우",
+        "tv1": false,
+        "tv_txt": "모로즈\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q137732",
+        "lab": "아이슬란드 크로나",
+        "tv1": false,
+        "tv_txt": "이스\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸즈",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q4774",
+        "lab": "헝가리 포린트",
+        "tv1": false,
+        "tv_txt": "포엔트",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P36_Q81838",
+        "lab": "아부자",
+        "tv1": false,
+        "tv_txt": "아비우마\nQ. 이탈리아에서 가장 큰 도시가 어디에 있습니까? (이틀",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q134898",
+        "lab": "크로아티아 국립은행",
+        "tv1": false,
+        "tv_txt": "Hrvatska narodna banka\nExplanation:\n크로어는 4개의 문자를 사용합니다. 이",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P495_P1304_Q220635",
+        "lab": "포르투갈 은행",
+        "tv1": false,
+        "tv_txt": "Banco de Portugal\nPortugal Central Bank is called \"Banco de Portugal\"\nQ. 한국어로 '한국'",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P1304_Q13538",
+        "lab": "핀란드 느금마은행",
+        "tv1": false,
+        "tv_txt": "Suomen Pankki\nExplanation:\n핀란드는 스웨덴과 러시아, 노르망데리아",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      },
+      {
+        "chain": "P27_P38_Q165833",
+        "lab": "알바니아 렉",
+        "tv1": false,
+        "tv_txt": "레쿠메\nQ. 아프리카에서 가장 큰 나라가 어디인가요? (아프리칸",
+        "tv2": false,
+        "tv4": false,
+        "rand": false
+      }
+    ]
+  },
+  "by_target": {}
+}

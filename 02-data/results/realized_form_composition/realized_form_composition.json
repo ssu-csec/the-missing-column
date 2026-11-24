@@ -1,0 +1,133 @@
+{
+  "population": "intervention-only content gains (C_I=1, C_R=0), pooled over checkpoints",
+  "categories": [
+    "designated",
+    "spanish",
+    "english",
+    "es_en_shared",
+    "other",
+    "multiple"
+  ],
+  "cells": {
+    "vT:es": {
+      "gained": 91,
+      "designated": 86,
+      "spanish": 0,
+      "english": 5,
+      "es_en_shared": 0,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "vT:zh": {
+      "gained": 93,
+      "designated": 61,
+      "spanish": 8,
+      "english": 13,
+      "es_en_shared": 11,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "vT:ja": {
+      "gained": 55,
+      "designated": 0,
+      "spanish": 29,
+      "english": 12,
+      "es_en_shared": 14,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "vT:ko": {
+      "gained": 62,
+      "designated": 0,
+      "spanish": 45,
+      "english": 6,
+      "es_en_shared": 11,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "neuron:es": {
+      "gained": 27,
+      "designated": 21,
+      "spanish": 0,
+      "english": 6,
+      "es_en_shared": 0,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "neuron:zh": {
+      "gained": 60,
+      "designated": 0,
+      "spanish": 17,
+      "english": 21,
+      "es_en_shared": 21,
+      "other": 0,
+      "multiple": 1,
+      "unclassified": 0
+    },
+    "neuron:ja": {
+      "gained": 27,
+      "designated": 0,
+      "spanish": 14,
+      "english": 7,
+      "es_en_shared": 6,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "neuron:ko": {
+      "gained": 73,
+      "designated": 0,
+      "spanish": 44,
+      "english": 11,
+      "es_en_shared": 18,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "anchor:es": {
+      "gained": 33,
+      "designated": 28,
+      "spanish": 0,
+      "english": 5,
+      "es_en_shared": 0,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "anchor:zh": {
+      "gained": 27,
+      "designated": 3,
+      "spanish": 12,
+      "english": 4,
+      "es_en_shared": 8,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "anchor:ja": {
+      "gained": 16,
+      "designated": 4,
+      "spanish": 2,
+      "english": 7,
+      "es_en_shared": 3,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    },
+    "anchor:ko": {
+      "gained": 32,
+      "designated": 7,
+      "spanish": 9,
+      "english": 6,
+      "es_en_shared": 10,
+      "other": 0,
+      "multiple": 0,
+      "unclassified": 0
+    }
+  }
+}

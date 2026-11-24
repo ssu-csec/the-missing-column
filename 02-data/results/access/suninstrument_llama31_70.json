@@ -1,0 +1,2670 @@
+{
+ "model": "llama31_70",
+ "k": 120,
+ "deep": [
+  40,
+  78
+ ],
+ "protocol": {
+  "active_ratio": 0.5,
+  "n_per_lang": 60,
+  "chat": false,
+  "solvmatrix": "results/panel/solv/solvmatrix_llama31_70.json",
+  "chains": "results/flip_inputs/chain_lang_prompts.json",
+  "targets": [
+   "es",
+   "ko",
+   "ja",
+   "zh"
+  ],
+  "rand_seed": 7,
+  "rand_n": 64,
+  "baseline": "script-matched-to-answer-token",
+  "floor_source": "fresh greedy decode",
+  "floor_max_new": 32,
+  "entity_free_floor": true,
+  "gate": "strict_x_correct T-fail + entity_match(strict_forms) en-solve",
+  "active_norm": "layer-matched random-group ratio"
+ },
+ "by_lang": {
+  "es": {
+   "n": 60,
+   "pseudo_fail_skipped": 0,
+   "quadrants": {
+    "lit_unspoken": 56,
+    "lit_wronglang": 0,
+    "silent": 4
+   },
+   "items": [
+    {
+     "chain": "P495_P35_Q3224301",
+     "act_T": 0.1265439808368683,
+     "act_en": 0.08801175951957703,
+     "rand_act_T": 0.029012385507424673,
+     "rand_act_en": 0.030068286259969077,
+     "active": true,
+     "floor": " El rey de Jordania.\nQuestion: ¿Cuál es el nombre del país de origen de Rana's Wedding?\nQuestion: ¿Cuál es el",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.011367388040526,
+      "es": 3.3396163833967876,
+      "ko": 8.096065773512237,
+      "ja": 10.502243963099318,
+      "zh": 8.334416460304055
+     }
+    },
+    {
+     "chain": "P27_P1304_Q210734",
+     "act_T": 0.1108959714571635,
+     "act_en": 0.09518060684204102,
+     "rand_act_T": 0.030568979183832803,
+     "rand_act_en": 0.025412487983703613,
+     "active": true,
+     "floor": " El banco central del país de ciudadanía de Youssou N’Dour es la Banque Centrale des États de l’Afrique",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P27_P38_Q7410",
+     "act_T": 0.17448547308643658,
+     "act_en": 0.2303521434466044,
+     "rand_act_T": 0.021277586619059246,
+     "rand_act_en": 0.021166171630223593,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Anna Sundström es el euro.\nQuestion: ¿Cuál es la moneda del país de ciudadan",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.412695425795391,
+      "es": 4.961896669701673,
+      "ko": 5.296512619970599,
+      "ja": 7.097261661750963,
+      "zh": 4.1047963810488
+     }
+    },
+    {
+     "chain": "P27_P1304_Q209942",
+     "act_T": 0.10826658109823863,
+     "act_en": 0.10711930990219116,
+     "rand_act_T": 0.022504985332489014,
+     "rand_act_en": 0.02298993170261383,
+     "active": true,
+     "floor": " Banco Central de la República de Senegal\nQuestion: ¿Cuál es el banco central del país de ciudadanía de Sadio Mané?\nAnswer",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P495_P36_Q170210",
+     "act_T": 0.07319879333178202,
+     "act_en": 0.14025958379109701,
+     "rand_act_T": 0.029954334100087483,
+     "rand_act_en": 0.025410368541876473,
+     "active": false,
+     "floor": " La capital del país de origen de absinthe es París.\nQuestion: ¿Cuál es la capital del país de origen de absinthe?\nAnswer",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.880589731386863,
+      "es": 7.880589731386863,
+      "ko": 4.113799573940923,
+      "ja": 4.949937678175047,
+      "zh": 5.3001458122744225
+     }
+    },
+    {
+     "chain": "P27_P38_Q443374",
+     "act_T": 0.09770438671112061,
+     "act_en": 0.09231283863385518,
+     "rand_act_T": 0.023359092076619466,
+     "rand_act_en": 0.021470773220062255,
+     "active": true,
+     "floor": " El florín de Aruba.\nQuestion: ¿Cuál es el nombre de la ciudad donde nació Cynthia McLeod?\nQuestion: ¿Cuál es",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.454806074500084,
+      "es": 9.496161359595135,
+      "ko": 1.6914606998907402,
+      "ja": 3.5210600884456653,
+      "zh": 3.7595808928017505
+     }
+    },
+    {
+     "chain": "P495_P36_Q312106",
+     "act_T": 0.07092410723368327,
+     "act_en": 0.10296126008033753,
+     "rand_act_T": 0.0261647234360377,
+     "rand_act_en": 0.02706483006477356,
+     "active": true,
+     "floor": " La capital de mi país de origen es Madrid.\nQuestion: ¿Cuál es la capital del país de origen de Woxx?\nAnswer: La capital de mi",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.3009139350033365,
+      "es": 7.387445164320525,
+      "ko": 2.6119558544596657,
+      "ja": 4.5099508059211075,
+      "zh": 4.129474232322536
+     }
+    },
+    {
+     "chain": "P27_P38_Q11873",
+     "act_T": 0.1902291138966878,
+     "act_en": 0.2028630574544271,
+     "rand_act_T": 0.024771795670191447,
+     "rand_act_en": 0.02272916833559672,
+     "active": true,
+     "floor": " Dale Frail es ciudadano de los Estados Unidos. La moneda de los Estados Unidos es el dólar.\nQuestion: ¿Cuál es la moneda",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.839717032271437,
+      "es": 1.1225901886355132,
+      "ko": 3.893007084960118,
+      "ja": 4.6681861052056774,
+      "zh": 6.3135574638145044
+     }
+    },
+    {
+     "chain": "P27_P36_Q6530",
+     "act_T": 0.43213308254877725,
+     "act_en": 0.3151660164197286,
+     "rand_act_T": 0.023121646294991176,
+     "rand_act_en": 0.01935607393582662,
+     "active": true,
+     "floor": " Stanisław Lem was a Polish writer of science fiction, philosophy and satire, and a trained physician. He was born in Lwów, Poland (now",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.7452092496678233,
+      "es": 5.985299347696127,
+      "ko": 2.0072302822809434,
+      "ja": 4.914382736489642,
+      "zh": 3.3856774019659497
+     }
+    },
+    {
+     "chain": "P27_P38_Q330951",
+     "act_T": 0.288898229598999,
+     "act_en": 0.2787504196166992,
+     "rand_act_T": 0.028458460172017416,
+     "rand_act_en": 0.029997543493906657,
+     "active": true,
+     "floor": " Francos.\nQuestion: ¿Cuál es la moneda del país de ciudadanía de Pierre-Célestin Rwigema?\nAnswer: Francos",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.861382487346418,
+      "es": 9.424039626144804,
+      "ko": 2.6183562064543366,
+      "ja": 3.8607636152300984,
+      "zh": 2.8399203814624343
+     }
+    },
+    {
+     "chain": "P27_P38_Q334518",
+     "act_T": 0.11590225100517274,
+     "act_en": 0.14601486523946125,
+     "rand_act_T": 0.02495451768239339,
+     "rand_act_en": 0.02251525844136874,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Jamukha es el Tugrik.\nQuestion: ¿Cuál es la moneda del país de ciudad",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.042358477177913,
+      "es": 2.808331417894806,
+      "ko": 3.2821760587976314,
+      "ja": 3.68646994541632,
+      "zh": 4.438193292007782
+     }
+    },
+    {
+     "chain": "P27_P36_Q167444",
+     "act_T": 0.24017988840738932,
+     "act_en": 0.25008307496706644,
+     "rand_act_T": 0.019369527200857797,
+     "rand_act_en": 0.018422677119572958,
+     "active": true,
+     "floor": " Juba\nQuestion: ¿Cuál es la capital del país de ciudadanía de John Garang?\nAnswer: Juba\nQuestion: ¿Cuál",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.4561270716949366,
+      "es": 8.620819776027929,
+      "ko": 4.151965736920829,
+      "ja": 7.265114160545636,
+      "zh": 1.2988504365785047
+     }
+    },
+    {
+     "chain": "P495_P36_Q191034",
+     "act_T": 0.20978229840596516,
+     "act_en": 0.21469095299641291,
+     "rand_act_T": 0.03177642027537028,
+     "rand_act_en": 0.024237631758054098,
+     "active": true,
+     "floor": " Oporto\nQuestion: ¿Cuál es la capital del país de origen de port wine?\nAnswer: Oporto\nQuestion: ¿Cuál es la capital",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.2177898702793755,
+      "es": 6.837508225406054,
+      "ko": 4.552544663136359,
+      "ja": 6.215832741218037,
+      "zh": 2.619292010582285
+     }
+    },
+    {
+     "chain": "P27_P36_Q267687",
+     "act_T": 0.18099409739176434,
+     "act_en": 0.18188758691151938,
+     "rand_act_T": 0.02044303814570109,
+     "rand_act_en": 0.022003341714541116,
+     "active": true,
+     "floor": " Pietru Caxaro was a Maltese poet and philosopher. He is best known for his Cantilena, a poem written in Maltese towards",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.90286169029423,
+      "es": 7.1802528765110765,
+      "ko": 2.6995312432409264,
+      "ja": 3.2764193034963682,
+      "zh": 3.7867031435016543
+     }
+    },
+    {
+     "chain": "P495_P1304_Q7254",
+     "act_T": 0.16497695446014404,
+     "act_en": 0.20116053024927774,
+     "rand_act_T": 0.02503510316212972,
+     "rand_act_en": 0.02273704409599304,
+     "active": true,
+     "floor": " El banco central del país de origen de Affenpinscher es el Banco Central Europeo (BCE).\nQuestion: ¿Cuál es el banco central del",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.803071142232511,
+      "es": 1.2257267304812558,
+      "ko": 3.9274883484467864,
+      "ja": 6.381762459874153,
+      "zh": 6.907657267991453
+     }
+    },
+    {
+     "chain": "P27_P38_Q317864",
+     "act_T": 0.12075050473213196,
+     "act_en": 0.11846553683280944,
+     "rand_act_T": 0.03281548023223877,
+     "rand_act_en": 0.02687465474009514,
+     "active": true,
+     "floor": " El dinar jordano es la moneda de Jordania.\nQuestion: ¿Cuál es la moneda del país de ciudadanía de Abdulq",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 1.7251279593328945,
+      "es": 10.574565465154592,
+      "ko": 5.001054073218256,
+      "ja": 6.853025551521569,
+      "zh": 3.5255460587213747
+     }
+    },
+    {
+     "chain": "P27_P1304_Q1625",
+     "act_T": 0.17353442000846067,
+     "act_en": 0.25258879189689953,
+     "rand_act_T": 0.04012215534845988,
+     "rand_act_en": 0.03586443265279134,
+     "active": true,
+     "floor": " Riksbank\nQuestion: ¿Cuál es el banco central del país de ciudadanía de Sigfrid Edström?\nAnswer: Rik",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 11.886411411862355,
+      "es": 1.4045769580989145,
+      "ko": 5.24469179357402,
+      "ja": 7.560712586622685,
+      "zh": 2.3123343449406093
+     }
+    },
+    {
+     "chain": "P27_P38_Q166661",
+     "act_T": 0.22176585992177328,
+     "act_en": 0.23197617928187053,
+     "rand_act_T": 0.028314713637034097,
+     "rand_act_en": 0.02419250806172689,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Victoria Petryk es el dólar canadiense.\nQuestion: ¿Cuál es la moneda del",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 1.576090181071777,
+      "es": 11.476621046254877,
+      "ko": 2.961862857468077,
+      "ja": 2.767582240543561,
+      "zh": 4.413752209919039
+     }
+    },
+    {
+     "chain": "P495_P36_Q12016",
+     "act_T": 0.07617537180582683,
+     "act_en": 0.11108702421188354,
+     "rand_act_T": 0.030238216121991474,
+     "rand_act_en": 0.0320045789082845,
+     "active": true,
+     "floor": " New York City, New York, U.S.\nQuestion: ¿Cuál es el nombre del primer álbum de The Four Seasons?\nQuestion: ¿Cu",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.4141836561266246,
+      "es": 4.618447307870156,
+      "ko": 5.0298618822707795,
+      "ja": 7.483155029593036,
+      "zh": 7.413170655541762
+     }
+    },
+    {
+     "chain": "P27_P36_Q73920",
+     "act_T": 0.2931088298559189,
+     "act_en": 0.3155096769332886,
+     "rand_act_T": 0.031523080666859944,
+     "rand_act_en": 0.029142231804629166,
+     "active": true,
+     "floor": " Adrian Diaconu is a Romanian boxer.\nQuestion: ¿Cuál es la capital del país de ciudadanía de Adrian Diaconu?\nAnswer: Adrian",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.8825003427919,
+      "es": 13.054283324396238,
+      "ko": 2.609485442051664,
+      "ja": 6.361214252829086,
+      "zh": 4.750027584959753
+     }
+    },
+    {
+     "chain": "P495_P38_Q610022",
+     "act_T": 0.09019615550835927,
+     "act_en": 0.09810287753740947,
+     "rand_act_T": 0.025485690434773764,
+     "rand_act_en": 0.03040658434232076,
+     "active": true,
+     "floor": " El euro es la moneda del país de origen de kaseko.\nQuestion: ¿Cuál es el nombre del país de origen de kaseko?\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.454806074500084,
+      "es": 9.496161359595135,
+      "ko": 1.6914606998907402,
+      "ja": 3.5210600884456653,
+      "zh": 3.7595808928017505
+     }
+    },
+    {
+     "chain": "P495_P1304_Q1626853",
+     "act_T": 0.09171882470448812,
+     "act_en": 0.09169853925704956,
+     "rand_act_T": 0.021245706329743066,
+     "rand_act_en": 0.019267594317595164,
+     "active": true,
+     "floor": " El banco central del país de origen de Matoke es el Banco Central de Uganda.\nQuestion: ¿Cuál es el banco central del país de origen de",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.866033148689894,
+      "es": 3.689009815425379,
+      "ko": 4.047900380624924,
+      "ja": 5.213760983635439,
+      "zh": 3.1048759655604954
+     }
+    },
+    {
+     "chain": "P27_P38_Q202437",
+     "act_T": 0.11319113771120708,
+     "act_en": 0.11414805054664612,
+     "rand_act_T": 0.026745704809824626,
+     "rand_act_en": 0.024213202794392905,
+     "active": true,
+     "floor": " El dólar estadounidense es la moneda del país de ciudadanía de Abdirizak Haji Hussein.\nQuestion: ¿Cuál es",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 1.7251279593328945,
+      "es": 10.574565465154592,
+      "ko": 5.001054073218256,
+      "ja": 6.853025551521569,
+      "zh": 3.5255460587213747
+     }
+    },
+    {
+     "chain": "P27_P1304_Q1991",
+     "act_T": 0.19939342737197877,
+     "act_en": 0.22862960497538248,
+     "rand_act_T": 0.024262285232543944,
+     "rand_act_en": 0.023592787981033325,
+     "active": true,
+     "floor": " El banco central del país de ciudadanía de Michela Figini es el Banco de la República de Colombia.\nQuestion: ¿Cuál es el banco",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.543241723469691,
+      "es": 1.7967146933369804,
+      "ko": 5.652722566155717,
+      "ja": 7.493665005691582,
+      "zh": 4.499771648377646
+     }
+    },
+    {
+     "chain": "P27_P1304_Q116482",
+     "act_T": 0.10794483025868734,
+     "act_en": 0.10333294073740641,
+     "rand_act_T": 0.021305187543233236,
+     "rand_act_en": 0.022370306650797527,
+     "active": true,
+     "floor": " Banco Central de la República de Guinea\nQuestion: ¿Cuál es el banco central del país de ciudadanía de Pape Abdou Camara?\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P27_P38_Q80358",
+     "act_T": 0.09730193614959717,
+     "act_en": 0.16474971771240235,
+     "rand_act_T": 0.026300803323586783,
+     "rand_act_en": 0.02425266628464063,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Mateja Matevski es el euro.\nQuestion: ¿Cuál es la moneda del país de ciudad",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.1751119882101193,
+      "es": 6.4803791554877535,
+      "ko": 5.654374025791185,
+      "ja": 3.6814450268866494,
+      "zh": 7.422396402223967
+     }
+    },
+    {
+     "chain": "P27_P38_Q126940",
+     "act_T": 0.14753623604774474,
+     "act_en": 0.22223894993464152,
+     "rand_act_T": 0.028390203913052876,
+     "rand_act_en": 0.027470249434312186,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Roberto Guerrero es el dólar estadounidense.\nQuestion: ¿Cuál es la moneda del país",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.036042275700311,
+      "es": 2.613582799800497,
+      "ko": 5.494450733240228,
+      "ja": 6.902129364025313,
+      "zh": 3.373663333004515
+     }
+    },
+    {
+     "chain": "P27_P38_Q126937",
+     "act_T": 0.18252952496210734,
+     "act_en": 0.15936040878295898,
+     "rand_act_T": 0.02393380602200826,
+     "rand_act_en": 0.0208158145348231,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Levan Mchedlidze es el lari.\nQuestion: ¿Cuál es la moneda del país",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 1.9871759731904604,
+      "es": 17.026157070707995,
+      "ko": 1.3425661428336753,
+      "ja": 3.087521972018294,
+      "zh": 1.8183472830569372
+     }
+    },
+    {
+     "chain": "P495_P1304_Q690126",
+     "act_T": 0.1215750773747762,
+     "act_en": 0.09837849140167236,
+     "rand_act_T": 0.030616978804270428,
+     "rand_act_en": 0.026774868369102478,
+     "active": true,
+     "floor": " El banco central del país de origen de Livonians es el Banco de Estonia.\nQuestion: ¿Cuál es el banco central del país de origen de Liv",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.824545691211824,
+      "es": 2.8058022725890623,
+      "ko": 5.306129068514565,
+      "ja": 6.433650039340137,
+      "zh": 8.079552909068298
+     }
+    },
+    {
+     "chain": "P27_P36_Q93356",
+     "act_T": 0.2883879085381826,
+     "act_en": 0.29848617141445477,
+     "rand_act_T": 0.033244311809539795,
+     "rand_act_en": 0.08053295612335205,
+     "active": true,
+     "floor": " Belfast\nQuestion: ¿Cuál es la capital del país de ciudadanía de Seamus Heaney?\nAnswer: Belfast\nQuestion: ¿Cuál es",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.393270578380907,
+      "es": 6.841128317784751,
+      "ko": 3.291994213592261,
+      "ja": 3.7738790388102643,
+      "zh": 4.102011322393082
+     }
+    },
+    {
+     "chain": "P27_P36_Q9586",
+     "act_T": 0.25464144547780354,
+     "act_en": 0.24741820494333902,
+     "rand_act_T": 0.026452247301737467,
+     "rand_act_en": 0.023142115275065104,
+     "active": true,
+     "floor": " Annemarie Moser-Pröll is an Austrian former alpine ski racer. She won the women's overall World Cup title five times, including three",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.4185115099244285,
+      "es": 12.19734534205054,
+      "ko": 1.4501069073594408,
+      "ja": 3.195662449899828,
+      "zh": 4.004155389615335
+     }
+    },
+    {
+     "chain": "P27_P36_Q13230",
+     "act_T": 0.1618393066028754,
+     "act_en": 0.19601608018080394,
+     "rand_act_T": 0.02239470879236857,
+     "rand_act_en": 0.018586476643880207,
+     "active": true,
+     "floor": " Ginebra\nQuestion: ¿Cuál es la capital del país de ciudadanía de Ferdinand de Saussure?\nAnswer: Ginebra\nQuestion",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.880589731386863,
+      "es": 7.880589731386863,
+      "ko": 4.113799573940923,
+      "ja": 4.949937678175047,
+      "zh": 5.3001458122744225
+     }
+    },
+    {
+     "chain": "P27_P38_Q12897",
+     "act_T": 0.25861233870188394,
+     "act_en": 0.2997314929962158,
+     "rand_act_T": 0.025817195077737172,
+     "rand_act_en": 0.02409132719039917,
+     "active": true,
+     "floor": " Real.\nQuestion: ¿Cuál es la moneda del país de ciudadanía de Maradona?\nAnswer: Peso.\nQuestion: ¿Cuál",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.232935642125085,
+      "es": 14.84355764486827,
+      "ko": 4.171821993368212,
+      "ja": 2.390735726803541,
+      "zh": 2.4681076337292325
+     }
+    },
+    {
+     "chain": "P27_P36_Q169174",
+     "act_T": 0.10250955621401468,
+     "act_en": 0.219452969233195,
+     "rand_act_T": 0.023363730311393736,
+     "rand_act_en": 0.022298564513524372,
+     "active": false,
+     "floor": " La capital de Noruega es Oslo.\nQuestion: ¿Cuál es la capital del país de ciudadanía de Andres Olvik?\nAnswer: La capital",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.726337621163111,
+      "es": 8.726337621163111,
+      "ko": 2.29665223963093,
+      "ja": 4.883943589229602,
+      "zh": 4.657754225248937
+     }
+    },
+    {
+     "chain": "P495_P38_Q135401",
+     "act_T": 0.18516897882024447,
+     "act_en": 0.2870688815911611,
+     "rand_act_T": 0.025558646768331528,
+     "rand_act_en": 0.028714388608932495,
+     "active": true,
+     "floor": " El real es la moneda de Brasil.\nQuestion: ¿Cuál es la moneda del país de origen de Xingu?\nAnswer: El real es la",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.232935642125085,
+      "es": 14.84355764486827,
+      "ko": 4.171821993368212,
+      "ja": 2.390735726803541,
+      "zh": 2.4681076337292325
+     }
+    },
+    {
+     "chain": "P495_P36_Q1778051",
+     "act_T": 0.33415210247039795,
+     "act_en": 0.27053735256195066,
+     "rand_act_T": 0.033047023415565493,
+     "rand_act_en": 0.03239234288533529,
+     "active": true,
+     "floor": " Almaty\nQuestion: ¿Cuál es la capital del país de origen de kobyz?\nAnswer: Almaty\nQuestion: ¿Cuál es",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.9465620443515945,
+      "es": 5.9465620443515945,
+      "ko": 5.879286669136491,
+      "ja": 8.924436593486462,
+      "zh": 8.153910106339026
+     }
+    },
+    {
+     "chain": "P495_P38_Q116195",
+     "act_T": 0.14856131871541342,
+     "act_en": 0.20036523342132567,
+     "rand_act_T": 0.030336961646874747,
+     "rand_act_en": 0.030612249672412873,
+     "active": true,
+     "floor": " El peso mexicano es la moneda de México.\nQuestion: ¿Cuál es la moneda del país de origen de Total Drama?\nAnswer: El",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.839717032271437,
+      "es": 1.1225901886355132,
+      "ko": 3.893007084960118,
+      "ja": 4.6681861052056774,
+      "zh": 6.3135574638145044
+     }
+    },
+    {
+     "chain": "P27_P1304_Q331201",
+     "act_T": 0.11713243722915649,
+     "act_en": 0.11947236061096192,
+     "rand_act_T": 0.016129682958126067,
+     "rand_act_en": 0.01634127696355184,
+     "active": true,
+     "floor": " El banco central del país de ciudadanía de Hamid Algabid es el Banco Central de Níger.\nQuestion: ¿Cuál es el banco",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P495_P1304_Q1365",
+     "act_T": 0.1159801165262858,
+     "act_en": 0.10468538602193196,
+     "rand_act_T": 0.022519399722417194,
+     "rand_act_en": 0.02500396966934204,
+     "active": true,
+     "floor": " El banco central del país de origen de Swept Away es el Banco Central de la República de Argentina.\nQuestion: ¿Cuál es el banco central del",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P27_P36_Q270783",
+     "act_T": 0.22173959414164227,
+     "act_en": 0.2210318088531494,
+     "rand_act_T": 0.02285901705423991,
+     "rand_act_en": 0.021654287974039715,
+     "active": true,
+     "floor": " Sharif Sheikh Ahmed is the President of Somalia.\nQuestion: ¿Cuál es la capital del país de ciudadanía de Sheikh Sharif Sheikh Ahmed?\nAnswer",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.465600834606448,
+      "es": 6.465600834606448,
+      "ko": 5.370307235047221,
+      "ja": 6.800371711462503,
+      "zh": 5.456819177925354
+     }
+    },
+    {
+     "chain": "P27_P38_Q197549",
+     "act_T": 0.11809204419453939,
+     "act_en": 0.11595067580540976,
+     "rand_act_T": 0.028038454055786134,
+     "rand_act_en": 0.02770835061868032,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Oksana Kalashnikova es el Rublo ruso.\nQuestion: ¿Cuál es la mon",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 1.9871759731904604,
+      "es": 17.026157070707995,
+      "ko": 1.3425661428336753,
+      "ja": 3.087521972018294,
+      "zh": 1.8183472830569372
+     }
+    },
+    {
+     "chain": "P27_P1304_Q4790",
+     "act_T": 0.10768727858861288,
+     "act_en": 0.10309734344482421,
+     "rand_act_T": 0.02969519793987274,
+     "rand_act_en": 0.025492468476295473,
+     "active": true,
+     "floor": " El banco central del país de ciudadanía de Michele Pellizzer es el Banco Central de la República Argentina.\nQuestion: ¿Cuál es el banco central",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P27_P38_Q80772",
+     "act_T": 0.16105709671974183,
+     "act_en": 0.19873509009679158,
+     "rand_act_T": 0.026068220535914104,
+     "rand_act_en": 0.02437540590763092,
+     "active": true,
+     "floor": " La moneda del país de ciudadanía de Ever Palacios es el dólar estadounidense.\nQuestion: ¿Cuál es la moneda del",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.036042275700311,
+      "es": 2.613582799800497,
+      "ko": 5.494450733240228,
+      "ja": 6.902129364025313,
+      "zh": 3.373663333004515
+     }
+    },
+    {
+     "chain": "P27_P38_Q80937",
+     "act_T": 0.13785515626271566,
+     "act_en": 0.2801504929860433,
+     "rand_act_T": 0.019936529795328777,
+     "rand_act_en": 0.017174263795216877,
+     "active": false,
+     "floor": " La moneda del país de ciudadanía de Hámilton Ricard es el dólar estadounidense.\nQuestion: ¿Cuál es la mon",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.036042275700311,
+      "es": 2.613582799800497,
+      "ko": 5.494450733240228,
+      "ja": 6.902129364025313,
+      "zh": 3.373663333004515
+     }
+    },
+    {
+     "chain": "P27_P38_Q391281",
+     "act_T": 0.2955617129802704,
+     "act_en": 0.2870946486790975,
+     "rand_act_T": 0.03106699585914612,
+     "rand_act_en": 0.025810458262761436,
+     "active": true,
+     "floor": " Francos.\nQuestion: ¿Cuál es la moneda del país de ciudadanía de Agathe Habyarimana?\nAnswer: Francos.\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.861382487346418,
+      "es": 9.424039626144804,
+      "ko": 2.6183562064543366,
+      "ja": 3.8607636152300984,
+      "zh": 2.8399203814624343
+     }
+    },
+    {
+     "chain": "P495_P1304_Q76210",
+     "act_T": 0.08396400610605875,
+     "act_en": 0.10887266099452972,
+     "rand_act_T": 0.026940353711446128,
+     "rand_act_en": 0.025524055957794188,
+     "active": true,
+     "floor": " The Bank of England.\nQuestion: ¿Cuál es el banco central del país de origen de The Adventures of Tintin?\nAnswer: The National Bank of",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.57597413304029,
+      "es": 2.111467880778946,
+      "ko": 3.001868443796411,
+      "ja": 4.166394290397875,
+      "zh": 4.907344253617339
+     }
+    },
+    {
+     "chain": "P495_P1304_Q263471",
+     "act_T": 0.09477006892363231,
+     "act_en": 0.0905205970009168,
+     "rand_act_T": 0.020669436454772948,
+     "rand_act_en": 0.021770958105723062,
+     "active": true,
+     "floor": " El banco central del país de origen de Orchestra Baobab es el Banco Central de Senegal.\nQuestion: ¿Cuál es el banco central del país de",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P27_P36_Q303",
+     "act_T": 0.12196681499481202,
+     "act_en": 0.18693809509277343,
+     "rand_act_T": 0.027709412574768066,
+     "rand_act_en": 0.021609999736150107,
+     "active": true,
+     "floor": " Memphis\nQuestion: ¿Cuál es la capital del país de ciudadanía de Elvis Presley?\nAnswer: Memphis\nQuestion: ¿Cuál es la",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.985190382903966,
+      "es": 8.985190382903966,
+      "ko": 4.30249579885276,
+      "ja": 5.658347929595038,
+      "zh": 3.4092242610640824
+     }
+    },
+    {
+     "chain": "P495_P38_Q3636864",
+     "act_T": 0.06651777774095535,
+     "act_en": 0.13732130452990532,
+     "rand_act_T": 0.02584429383277893,
+     "rand_act_en": 0.024109450976053874,
+     "active": false,
+     "floor": " Peso\nQuestion: ¿Cuál es el nombre del país de origen de Battle of the Souls?\nAnswer: México\nQuestion: ¿Cuál es el",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.3512842663330957,
+      "es": 10.847417693468742,
+      "ko": 3.9601832594780717,
+      "ja": 5.093421938654501,
+      "zh": 2.666159070300637
+     }
+    },
+    {
+     "chain": "P27_P38_Q127350",
+     "act_T": 0.14528759717941284,
+     "act_en": 0.20182763735453288,
+     "rand_act_T": 0.01937274932861328,
+     "rand_act_en": 0.018227391441663108,
+     "active": true,
+     "floor": " El rublo ruso es la moneda del país de ciudadanía de Alexey Poltoranin.\nQuestion: ¿Cuál es la moneda",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.5651222594315186,
+      "es": 11.081504620262422,
+      "ko": 2.1451226711506024,
+      "ja": 3.821985715738265,
+      "zh": 3.273801814619219
+     }
+    },
+    {
+     "chain": "P495_P1304_Q219980",
+     "act_T": 0.11429513295491536,
+     "act_en": 0.13732207616170247,
+     "rand_act_T": 0.027541905641555786,
+     "rand_act_en": 0.028618858257929484,
+     "active": true,
+     "floor": " Banco Central de la República Argentina.\nQuestion: ¿Cuál es el banco central del país de origen de ZooKeys?\nAnswer: Banco Central de la Rep",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.5868889819539618,
+      "es": 2.1986797784629744,
+      "ko": 3.063443944149185,
+      "ja": 4.248264375783037,
+      "zh": 4.735419234319124
+     }
+    },
+    {
+     "chain": "P495_P38_Q1723744",
+     "act_T": 0.19736174742380777,
+     "act_en": 0.30501837730407716,
+     "rand_act_T": 0.02752076784769694,
+     "rand_act_en": 0.025943443179130554,
+     "active": true,
+     "floor": " El Yen.\nQuestion: ¿Cuál es la moneda del país de origen de Kangura?\nAnswer: El Yen.\nQuestion: ¿Cuál es la",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.861382487346418,
+      "es": 9.424039626144804,
+      "ko": 2.6183562064543366,
+      "ja": 3.8607636152300984,
+      "zh": 2.8399203814624343
+     }
+    },
+    {
+     "chain": "P495_P38_Q170210",
+     "act_T": 0.2640710552533468,
+     "act_en": 0.29821859697500863,
+     "rand_act_T": 0.03189527988433838,
+     "rand_act_en": 0.033320951461791995,
+     "active": true,
+     "floor": " Francia\nQuestion: ¿Cuál es la moneda del país de origen de absinthe?\nAnswer: Francia\nQuestion: ¿Cuál es",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.796685905574122,
+      "es": 7.607654578663642,
+      "ko": 4.895965110568795,
+      "ja": 6.416853774164338,
+      "zh": 3.728267472528387
+     }
+    },
+    {
+     "chain": "P27_P38_Q174486",
+     "act_T": 0.1818213701248169,
+     "act_en": 0.13684152513742448,
+     "rand_act_T": 0.02203537623087565,
+     "rand_act_en": 0.019773984948794048,
+     "active": true,
+     "floor": " El sol es la moneda del Perú.\nQuestion: ¿Cuál es la moneda del país de ciudadanía de Antonio Valencia?\nAnswer: El",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 11.195329628244508,
+      "es": 2.5881948639289476,
+      "ko": 3.047093496687012,
+      "ja": 5.859195196651854,
+      "zh": 4.150490008163615
+     }
+    },
+    {
+     "chain": "P495_P38_Q3057375",
+     "act_T": 0.14637173811594645,
+     "act_en": 0.26814239819844565,
+     "rand_act_T": 0.022640102605024973,
+     "rand_act_en": 0.021150044600168862,
+     "active": true,
+     "floor": " La moneda del país de origen de The New Times es el dólar estadounidense.\nQuestion: ¿Cuál es el idioma oficial del país",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.861382487346418,
+      "es": 9.424039626144804,
+      "ko": 2.6183562064543366,
+      "ja": 3.8607636152300984,
+      "zh": 2.8399203814624343
+     }
+    },
+    {
+     "chain": "P27_P36_Q81838",
+     "act_T": 0.1065020481745402,
+     "act_en": 0.17661410967508953,
+     "rand_act_T": 0.024408703706770514,
+     "rand_act_en": 0.023343772192796073,
+     "active": true,
+     "floor": " Lagos\nQuestion: ¿Cuál es la capital del país de ciudadanía de Kennedy Igboananike?\nAnswer: Lagos\nQuestion: ¿Cuál",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.103099388128612,
+      "es": 6.127398613898549,
+      "ko": 6.559864097594982,
+      "ja": 9.748871326941298,
+      "zh": 8.996087388368323
+     }
+    },
+    {
+     "chain": "P495_P36_Q76825",
+     "act_T": 0.1686923126379649,
+     "act_en": 0.23940732479095458,
+     "rand_act_T": 0.023350820938746134,
+     "rand_act_en": 0.02599084973335266,
+     "active": true,
+     "floor": " Salvador de Bahía.\nQuestion: ¿Cuál es la capital del país de origen de Novos Baianos?\nAnswer: Salvador de Bahía.\nQuestion",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.1693939446267905,
+      "es": 7.1693939446267905,
+      "ko": 6.104526356444694,
+      "ja": 6.417185743979644,
+      "zh": 2.8098195291750017
+     }
+    },
+    {
+     "chain": "P495_P1304_Q12116",
+     "act_T": 0.10720675786336263,
+     "act_en": 0.09660916328430176,
+     "rand_act_T": 0.018534208337465923,
+     "rand_act_en": 0.019129681587219238,
+     "active": true,
+     "floor": " El Banco Central de la República de Corto Maltese.\nQuestion: ¿Cuál es el nombre del banco central de la República de Corto",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P27_P35_Q307142",
+     "act_T": 0.1323320209980011,
+     "act_en": 0.12025987325857083,
+     "rand_act_T": 0.031276861826578774,
+     "rand_act_en": 0.024870334068934123,
+     "active": true,
+     "floor": " El rey de Jordania.\nQuestion: ¿Quién es el jefe de Estado del país de ciudadanía de Aziz Duwaik?\nAnswer",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.011367388040526,
+      "es": 3.3396163833967876,
+      "ko": 8.096065773512237,
+      "ja": 10.502243963099318,
+      "zh": 8.334416460304055
+     }
+    },
+    {
+     "chain": "P27_P38_Q10490",
+     "act_T": 0.21101595362027487,
+     "act_en": 0.2790075699488322,
+     "rand_act_T": 0.02050951321919759,
+     "rand_act_en": 0.01710599660873413,
+     "active": true,
+     "floor": " Real.\nQuestion: ¿Cuál es la moneda del país de ciudadanía de Ayrton Senna?\nAnswer: Real.\nQuestion: ¿Cu",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.232935642125085,
+      "es": 14.84355764486827,
+      "ko": 4.171821993368212,
+      "ja": 2.390735726803541,
+      "zh": 2.4681076337292325
+     }
+    }
+   ],
+   "form_agg": {
+    "en": 5.1700294761688985,
+    "es": 6.638214095075909,
+    "ko": 3.9001934477307563,
+    "ja": 5.778591146157851,
+    "zh": 4.699660231194382
+   }
+  },
+  "ko": {
+   "n": 26,
+   "pseudo_fail_skipped": 34,
+   "quadrants": {
+    "lit_unspoken": 26,
+    "lit_wronglang": 0,
+    "silent": 0
+   },
+   "items": [
+    {
+     "chain": "P495_P1304_Q427541",
+     "act_T": 0.19199962615966798,
+     "act_en": 0.11037653436263402,
+     "rand_act_T": 0.023639522368709247,
+     "rand_act_en": 0.02389378547668457,
+     "active": true,
+     "floor": " Lietuvos bankas\nQuestion: LT United의 출신 국가의 중앙은행의 웹사이트 주소는 무엇입니까?\nAnswer: www.lb",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.700773206684971,
+      "es": 3.2804361556482036,
+      "ko": 3.925829483952839,
+      "ja": 5.879099360783584,
+      "zh": 4.457427815250412
+     }
+    },
+    {
+     "chain": "P27_P1304_Q1220",
+     "act_T": 0.14729114696383477,
+     "act_en": 0.10259084105491638,
+     "rand_act_T": 0.019886107246081034,
+     "rand_act_en": 0.019050725301106772,
+     "active": true,
+     "floor": " Banca d'Italia\nQuestion: Giorgio Napolitano의 국적의 중앙은행의 총재는 누구입니까?\nAnswer:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P495_P36_Q116933",
+     "act_T": 0.11425379117329916,
+     "act_en": 0.07796225547790528,
+     "rand_act_T": 0.022728301088015237,
+     "rand_act_en": 0.01879043181737264,
+     "active": true,
+     "floor": " 서울\nQuestion: VK의 출신 국가의 수도는 무엇입니까?\nAnswer: 서울\nQuestion: VK의 출신 국가의 수도는 무엇입",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.156210665561957,
+      "es": 7.478687584720319,
+      "ko": 5.692659268970601,
+      "ja": 7.606922370439861,
+      "zh": 6.667971753573511
+     }
+    },
+    {
+     "chain": "P27_P1304_Q209942",
+     "act_T": 0.14177419145901998,
+     "act_en": 0.10711930990219116,
+     "rand_act_T": 0.0242296834786733,
+     "rand_act_en": 0.02298993170261383,
+     "active": true,
+     "floor": " Central Bank of The Gambia\nQuestion: Sadio Mané의 국적의 국가원수는 누구입니까?\nAnswer: Adama Barrow\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P27_P1304_Q6300",
+     "act_T": 0.20696351590255896,
+     "act_en": 0.17034582495689393,
+     "rand_act_T": 0.026620004574457803,
+     "rand_act_en": 0.022283716996510824,
+     "active": true,
+     "floor": " Bank of Russia\nQuestion: Anna Chicherova의 국적의 중앙은행의 총재는 누구입니까?\nAnswer: Elvira Nabi",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.81807868584292,
+      "es": 2.1651711094309576,
+      "ko": 2.5727691744395997,
+      "ja": 4.981439655064605,
+      "zh": 3.017279537540162
+     }
+    },
+    {
+     "chain": "P495_P38_Q1051735",
+     "act_T": 0.22280990481376647,
+     "act_en": 0.17705319623152416,
+     "rand_act_T": 0.018126126130421957,
+     "rand_act_en": 0.01991298794746399,
+     "active": true,
+     "floor": " soca music의 출신 국가의 통화는 동카리브 달러입니다.\nQuestion: soca music의 출신 국가의 수도는 어디",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.006981615617406,
+      "es": 0.8797390955151059,
+      "ko": 5.947025744710118,
+      "ja": 6.956328710512025,
+      "zh": 6.475144271826139
+     }
+    },
+    {
+     "chain": "P27_P1304_Q290220",
+     "act_T": 0.23871994018554688,
+     "act_en": 0.1347227414449056,
+     "rand_act_T": 0.024265721440315247,
+     "rand_act_en": 0.021193481485048928,
+     "active": true,
+     "floor": " Leila Aboulela의 국적의 중앙은행은 Bank of Sudan입니다.\nQuestion: Leila Aboulela의 국적의 중앙",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.546440257196082,
+      "es": 4.037672048172681,
+      "ko": 2.061201726930449,
+      "ja": 3.99880120519083,
+      "zh": 4.0797821609303355
+     }
+    },
+    {
+     "chain": "P27_P36_Q115012",
+     "act_T": 0.22820076793432237,
+     "act_en": 0.2419904390970866,
+     "rand_act_T": 0.019110058744748432,
+     "rand_act_en": 0.016028279066085817,
+     "active": true,
+     "floor": " Bratislava\nQuestion: Tereza Fajksová의 국적은 무엇입니까?\nAnswer: Slovakia\nQuestion: Tereza F",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.076604209083598,
+      "es": 12.117173639999237,
+      "ko": 4.502668874076335,
+      "ja": 3.2353819773416035,
+      "zh": 1.9375286782160401
+     }
+    },
+    {
+     "chain": "P27_P1304_Q18165",
+     "act_T": 0.3295041124025981,
+     "act_en": 0.19800980091094972,
+     "rand_act_T": 0.025151554743448892,
+     "rand_act_en": 0.027081886927286785,
+     "active": true,
+     "floor": " Magyar Nemzeti Bank\nQuestion: Vilmos Aba-Novák의 국적의 국가원수는 누구입니까?\nAnswer: János",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.1645229277201,
+      "es": 1.9400256557855755,
+      "ko": 3.6004429045133293,
+      "ja": 6.4192853673012,
+      "zh": 3.298123554792255
+     }
+    },
+    {
+     "chain": "P27_P36_Q163167",
+     "act_T": 0.10085120201110839,
+     "act_en": 0.28843090633551277,
+     "rand_act_T": 0.013871644934018454,
+     "rand_act_en": 0.023027978045865892,
+     "active": true,
+     "floor": " Addis Ababa\nQuestion: Ardi Liives의 국적의 수도는 무엇입니까?\nAnswer: Addis Ababa\nQuestion: Ardi",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.726337621163111,
+      "es": 8.726337621163111,
+      "ko": 2.29665223963093,
+      "ja": 4.883943589229602,
+      "zh": 4.657754225248937
+     }
+    },
+    {
+     "chain": "P27_P1304_Q3773",
+     "act_T": 0.20556020736694336,
+     "act_en": 0.1493943452835083,
+     "rand_act_T": 0.020533260020116965,
+     "rand_act_en": 0.02020347515741984,
+     "active": true,
+     "floor": " Bank of Russia\nQuestion: Galina Zybina의 국적의 중앙은행의 총재는 누구입니까?\nAnswer: Elvira N",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.81807868584292,
+      "es": 2.1651711094309576,
+      "ko": 2.5727691744395997,
+      "ja": 4.981439655064605,
+      "zh": 3.017279537540162
+     }
+    },
+    {
+     "chain": "P27_P38_Q281713",
+     "act_T": 0.11283814907073975,
+     "act_en": 0.11708205540974935,
+     "rand_act_T": 0.021421680971980096,
+     "rand_act_en": 0.02368232011795044,
+     "active": true,
+     "floor": " Pound sterling\nQuestion: Jlloyd Samuel의 국적의 수도는 어디입니까?\nAnswer: London\nQuestion: Jlloyd Samuel의 국적",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.006981615617406,
+      "es": 0.8797390955151059,
+      "ko": 5.947025744710118,
+      "ja": 6.956328710512025,
+      "zh": 6.475144271826139
+     }
+    },
+    {
+     "chain": "P27_P35_Q6300",
+     "act_T": 0.24270978619654973,
+     "act_en": 0.16816303531328838,
+     "rand_act_T": 0.02268911600112915,
+     "rand_act_en": 0.020374321937561037,
+     "active": true,
+     "floor": " Dmitry Medvedev\nQuestion: Anna Chicherova의 국적의 수도는 어디입니까?\nAnswer: Moscow\nQuestion: Anna Chicherova의",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.088588405575138,
+      "es": 4.924759227957111,
+      "ko": 3.3494824810768478,
+      "ja": 2.5370118375576567,
+      "zh": 2.5505845845182193
+     }
+    },
+    {
+     "chain": "P495_P36_Q170210",
+     "act_T": 0.10839592715104421,
+     "act_en": 0.14025958379109701,
+     "rand_act_T": 0.023949172099431357,
+     "rand_act_en": 0.025410368541876473,
+     "active": true,
+     "floor": " Paris\nQuestion: absinthe의 출신 국가의 수도는 무엇입니까?\nAnswer: Paris\nQuestion: absinthe의 출신 국가의",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.880589731386863,
+      "es": 7.880589731386863,
+      "ko": 4.113799573940923,
+      "ja": 4.949937678175047,
+      "zh": 5.3001458122744225
+     }
+    },
+    {
+     "chain": "P27_P35_Q7747",
+     "act_T": 0.14701320024517675,
+     "act_en": 0.15441954135894775,
+     "rand_act_T": 0.032678413391113284,
+     "rand_act_en": 0.03319805463155111,
+     "active": true,
+     "floor": " Dmitry Medvedev\nQuestion: Vladimir Putin의 국적의 국가원수는 누구입니까?\nAnswer: Dmitry Medvedev\nQuestion: Vladimir Putin",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.088588405575138,
+      "es": 4.924759227957111,
+      "ko": 3.3494824810768478,
+      "ja": 2.5370118375576567,
+      "zh": 2.5505845845182193
+     }
+    },
+    {
+     "chain": "P495_P36_Q312106",
+     "act_T": 0.04619104067484538,
+     "act_en": 0.10296126008033753,
+     "rand_act_T": 0.02138003644843896,
+     "rand_act_en": 0.02706483006477356,
+     "active": true,
+     "floor": " 서울\nQuestion: Woxx의 출신 국가의 수도는 무엇입니까?\nAnswer: 서울\nQuestion: Woxx의 출신 국가의 수도는",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.3009139350033365,
+      "es": 7.387445164320525,
+      "ko": 2.6119558544596657,
+      "ja": 4.5099508059211075,
+      "zh": 4.129474232322536
+     }
+    },
+    {
+     "chain": "P495_P1304_Q176322",
+     "act_T": 0.3476996660232544,
+     "act_en": 0.22680228153864543,
+     "rand_act_T": 0.028026803334554037,
+     "rand_act_en": 0.027676443258921306,
+     "active": true,
+     "floor": " Magyar Nemzeti Bank\nQuestion: 2018년 1월 1일 기준으로, 유럽 연합의 공식 통화는 무엇",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.1645229277201,
+      "es": 1.9400256557855755,
+      "ko": 3.6004429045133293,
+      "ja": 6.4192853673012,
+      "zh": 3.298123554792255
+     }
+    },
+    {
+     "chain": "P27_P38_Q11873",
+     "act_T": 0.18494114875793458,
+     "act_en": 0.2028630574544271,
+     "rand_act_T": 0.02549021045366923,
+     "rand_act_en": 0.02272916833559672,
+     "active": true,
+     "floor": " 달러\nQuestion: Dale Frail의 국적은 어디입니까?\nAnswer: 미국\nQuestion: Dale Frail의 출생지는 어디입니까",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.839717032271437,
+      "es": 1.1225901886355132,
+      "ko": 3.893007084960118,
+      "ja": 4.6681861052056774,
+      "zh": 6.3135574638145044
+     }
+    },
+    {
+     "chain": "P27_P1304_Q13541",
+     "act_T": 0.21190661986668904,
+     "act_en": 0.15369653304417927,
+     "rand_act_T": 0.02762963275114695,
+     "rand_act_en": 0.02532533009847005,
+     "active": true,
+     "floor": " Suomen Pankki\nQuestion: Tuomas Ketola의 국적의 중앙은행의 약자는 무엇입니까?\nAnswer: BoF\nQuestion",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.143992075463757,
+      "es": 3.4197699415963143,
+      "ko": 3.186016391031444,
+      "ja": 5.393536731018685,
+      "zh": 3.9530376698239706
+     }
+    },
+    {
+     "chain": "P27_P1304_Q133308",
+     "act_T": 0.2165697157382965,
+     "act_en": 0.1461307128270467,
+     "rand_act_T": 0.022267842292785646,
+     "rand_act_en": 0.019365310668945312,
+     "active": true,
+     "floor": " Egypt\nExplanation: Mohamed ElBaradei is the former Director General of the International Atomic Energy Agency (IAEA), an inter-governmental organisation under the ausp",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.88237857708009,
+      "es": 1.094549928617198,
+      "ko": 1.0750618872698396,
+      "ja": 10.619961968390271,
+      "zh": 7.264292999170721
+     }
+    },
+    {
+     "chain": "P27_P38_Q334518",
+     "act_T": 0.1736167589823405,
+     "act_en": 0.14601486523946125,
+     "rand_act_T": 0.021360583106676736,
+     "rand_act_en": 0.02251525844136874,
+     "active": true,
+     "floor": " Tugrik\nQuestion: Jamukha의 국적의 수도는 어디입니까?\nAnswer: Ulaanbaatar\nQuestion: Jamukha",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.042358477177913,
+      "es": 2.808331417894806,
+      "ko": 3.2821760587976314,
+      "ja": 3.68646994541632,
+      "zh": 4.438193292007782
+     }
+    },
+    {
+     "chain": "P495_P1304_Q4744",
+     "act_T": 0.2519126574198405,
+     "act_en": 0.1763421853383382,
+     "rand_act_T": 0.024158628781636556,
+     "rand_act_en": 0.024528037508328757,
+     "active": true,
+     "floor": " 독일\nQuestion: Das wandernde Bild의 출신 국가의 수도는 무엇입니까?\nAnswer: 베를린\nQuestion: Das wandernde Bild의",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.803071142232511,
+      "es": 1.2257267304812558,
+      "ko": 3.9274883484467864,
+      "ja": 6.381762459874153,
+      "zh": 6.907657267991453
+     }
+    },
+    {
+     "chain": "P495_P1304_Q6466",
+     "act_T": 0.1580298900604248,
+     "act_en": 0.09961044788360596,
+     "rand_act_T": 0.02234059969584147,
+     "rand_act_en": 0.01860382010539373,
+     "active": true,
+     "floor": " Banca d'Italia\nQuestion: Reggiane Re.2007의 출신 국가의 중앙은행의 약자는 무엇입니까?\nAnswer:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P27_P35_Q200881",
+     "act_T": 0.3322103977203369,
+     "act_en": 0.12930100758870441,
+     "rand_act_T": 0.030003711581230164,
+     "rand_act_en": 0.025142510732014973,
+     "active": true,
+     "floor": " 카자흐스탄\nQuestion: Qasym-Zhomart Toqaev의 국적의 국가원수는 누구입니까?\nAnswer:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.510712849209085,
+      "es": 3.5921761586796492,
+      "ko": 6.562375387642533,
+      "ja": 6.51984676997381,
+      "zh": 6.925996676829527
+     }
+    },
+    {
+     "chain": "P27_P1304_Q132361",
+     "act_T": 0.09534781575202941,
+     "act_en": 0.1635799010594686,
+     "rand_act_T": 0.024650973764558635,
+     "rand_act_en": 0.025680943330128988,
+     "active": true,
+     "floor": " Narodowy Bank Polski\nQuestion: Janek Meet의 국적의 수도는 무엇입니까?\nAnswer: Warsaw\nQuestion: Janek Meet의",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.807286028226372,
+      "es": 2.8267803689814173,
+      "ko": 3.2315004908450646,
+      "ja": 8.697732376051135,
+      "zh": 5.161891589814331
+     }
+    },
+    {
+     "chain": "P495_P38_Q2142",
+     "act_T": 0.08228894472122192,
+     "act_en": 0.13883048792680105,
+     "rand_act_T": 0.019354520241419475,
+     "rand_act_en": 0.018333739538987478,
+     "active": true,
+     "floor": " Zeni\nQuestion: Goku의 출신 국가의 수도는 무엇입니까?\nAnswer: West City\nQuestion: Goku의 출신 국가의 국가는",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.317239588359371,
+      "es": 4.317239588359371,
+      "ko": 1.5159480314468965,
+      "ja": 2.614674308220856,
+      "zh": 5.846893331385218
+     }
+    }
+   ],
+   "form_agg": {
+    "en": 5.767373799931122,
+    "es": 3.869951205066592,
+    "ko": 3.572046261012684,
+    "ja": 5.6786151738753965,
+    "zh": 4.7896218869464064
+   }
+  },
+  "ja": {
+   "n": 32,
+   "pseudo_fail_skipped": 28,
+   "quadrants": {
+    "lit_unspoken": 32,
+    "lit_wronglang": 0,
+    "silent": 0
+   },
+   "items": [
+    {
+     "chain": "P27_P1304_Q1220",
+     "act_T": 0.15435218811035156,
+     "act_en": 0.10259084105491638,
+     "rand_act_T": 0.018862523138523102,
+     "rand_act_en": 0.019050725301106772,
+     "active": true,
+     "floor": " Banca d'Italia\nQuestion: Giorgio Napolitanoの国籍の中央銀行の通貨は何ですか？\nAnswer: Euro\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P495_P38_Q335626",
+     "act_T": 0.23380645513534545,
+     "act_en": 0.18846822182337444,
+     "rand_act_T": 0.026675405104955037,
+     "rand_act_en": 0.025110348562399545,
+     "active": true,
+     "floor": " króna\nQuestion: þorramaturの原産国はどこですか？\nAnswer: Iceland\nQuestion: þorramaturの原産国",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.212930929621507,
+      "es": 5.326809650643554,
+      "ko": 4.580060612235684,
+      "ja": 6.287772731797304,
+      "zh": 4.410052094928687
+     }
+    },
+    {
+     "chain": "P27_P1304_Q210734",
+     "act_T": 0.1296811580657959,
+     "act_en": 0.09518060684204102,
+     "rand_act_T": 0.026693025852243105,
+     "rand_act_en": 0.025412487983703613,
+     "active": true,
+     "floor": " Banque Centrale des Etats de l’Afrique de l’Ouest\nQuestion: Youssou N’Dourの国籍の中央",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P27_P38_Q170038",
+     "act_T": 0.22581696510314941,
+     "act_en": 0.20948381622632345,
+     "rand_act_T": 0.024699515104293822,
+     "rand_act_en": 0.02227062781651815,
+     "active": true,
+     "floor": " ISK\nQuestion: Jóhann Berg Guðmundssonの国籍の通貨の単位は何ですか？\nAnswer: króna",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.212930929621507,
+      "es": 5.326809650643554,
+      "ko": 4.580060612235684,
+      "ja": 6.287772731797304,
+      "zh": 4.410052094928687
+     }
+    },
+    {
+     "chain": "P495_P36_Q116933",
+     "act_T": 0.09847458600997924,
+     "act_en": 0.07796225547790528,
+     "rand_act_T": 0.024872155984242757,
+     "rand_act_en": 0.01879043181737264,
+     "active": true,
+     "floor": " ロンドン\nQuestion: VKの原産国は何ですか？\nAnswer: イギリス\nQuestion: VKの原産国は何ですか？\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.156210665561957,
+      "es": 7.478687584720319,
+      "ko": 5.692659268970601,
+      "ja": 7.606922370439861,
+      "zh": 6.667971753573511
+     }
+    },
+    {
+     "chain": "P27_P1304_Q209942",
+     "act_T": 0.1601985295613607,
+     "act_en": 0.10711930990219116,
+     "rand_act_T": 0.023483661810557048,
+     "rand_act_en": 0.02298993170261383,
+     "active": true,
+     "floor": " Central Bank of The Gambia\nQuestion: Sadio Manéの国籍の中央銀行の通貨は何ですか？\nAnswer: Gambian dalasi",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P27_P1304_Q6300",
+     "act_T": 0.21142831643422444,
+     "act_en": 0.17034582495689393,
+     "rand_act_T": 0.025123299658298494,
+     "rand_act_en": 0.022283716996510824,
+     "active": true,
+     "floor": " Bank of Russia\nQuestion: Anna Chicherovaの国籍の中央銀行の通貨は何ですか？\nAnswer: Russian ruble\nQuestion: Anna",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.81807868584292,
+      "es": 2.1651711094309576,
+      "ko": 2.5727691744395997,
+      "ja": 4.981439655064605,
+      "zh": 3.017279537540162
+     }
+    },
+    {
+     "chain": "P495_P38_Q1051735",
+     "act_T": 0.23336743116378783,
+     "act_en": 0.17705319623152416,
+     "rand_act_T": 0.02106788953145345,
+     "rand_act_en": 0.01991298794746399,
+     "active": true,
+     "floor": " 東カリブドル\nQuestion: soca musicの原産国はどこですか？\nAnswer: トリニダード・トバゴ\nQuestion",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.006981615617406,
+      "es": 0.8797390955151059,
+      "ko": 5.947025744710118,
+      "ja": 6.956328710512025,
+      "zh": 6.475144271826139
+     }
+    },
+    {
+     "chain": "P27_P1304_Q18165",
+     "act_T": 0.31212393641471864,
+     "act_en": 0.19800980091094972,
+     "rand_act_T": 0.02776343822479248,
+     "rand_act_en": 0.027081886927286785,
+     "active": true,
+     "floor": " Magyar Nemzeti Bank\nQuestion: Vilmos Aba-Novákの国籍の中央銀行の通貨は何ですか？\nAnswer: Hungarian for",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.1645229277201,
+      "es": 1.9400256557855755,
+      "ko": 3.6004429045133293,
+      "ja": 6.4192853673012,
+      "zh": 3.298123554792255
+     }
+    },
+    {
+     "chain": "P27_P36_Q163167",
+     "act_T": 0.0946195125579834,
+     "act_en": 0.28843090633551277,
+     "rand_act_T": 0.013025415316224098,
+     "rand_act_en": 0.023027978045865892,
+     "active": true,
+     "floor": " アディスアベバ\nQuestion: Ardi Liivesの国籍は何ですか？\nAnswer: エチオピア\nQuestion: Ardi",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.726337621163111,
+      "es": 8.726337621163111,
+      "ko": 2.29665223963093,
+      "ja": 4.883943589229602,
+      "zh": 4.657754225248937
+     }
+    },
+    {
+     "chain": "P27_P1304_Q3773",
+     "act_T": 0.1935956319173177,
+     "act_en": 0.1493943452835083,
+     "rand_act_T": 0.022059579690297444,
+     "rand_act_en": 0.02020347515741984,
+     "active": true,
+     "floor": " Bank of Russia\nQuestion: Galina Zybinaの国籍の中央銀行の通貨は何ですか？\nAnswer: Russian ruble\nQuestion:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.81807868584292,
+      "es": 2.1651711094309576,
+      "ko": 2.5727691744395997,
+      "ja": 4.981439655064605,
+      "zh": 3.017279537540162
+     }
+    },
+    {
+     "chain": "P495_P1304_Q2859552",
+     "act_T": 0.1181203822294871,
+     "act_en": 0.12630248963832855,
+     "rand_act_T": 0.01828124523162842,
+     "rand_act_en": 0.022114741305510204,
+     "active": true,
+     "floor": " The Figurineの原産国の中央銀行はThe Figurine Central Bankです。\nQuestion: The Figurineの原産国の中央",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.6209667337243445,
+      "es": 1.7890131485764869,
+      "ko": 3.742996503075119,
+      "ja": 6.461296867928468,
+      "zh": 3.9882337427116
+     }
+    },
+    {
+     "chain": "P27_P38_Q281713",
+     "act_T": 0.10971364974975586,
+     "act_en": 0.11708205540974935,
+     "rand_act_T": 0.02351959745089213,
+     "rand_act_en": 0.02368232011795044,
+     "active": true,
+     "floor": " Pound\nQuestion: Jlloyd Samuelの国籍の通貨は何ですか？\nAnswer: Pound\nQuestion: Jlloyd Samuelの国籍の",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.006981615617406,
+      "es": 0.8797390955151059,
+      "ko": 5.947025744710118,
+      "ja": 6.956328710512025,
+      "zh": 6.475144271826139
+     }
+    },
+    {
+     "chain": "P27_P1304_Q176131",
+     "act_T": 0.2618185877799988,
+     "act_en": 0.2237387975056966,
+     "rand_act_T": 0.02198796272277832,
+     "rand_act_en": 0.02353856960932414,
+     "active": true,
+     "floor": " ウクライナ\nQuestion: Inha Babakovaの国籍の中央銀行は何ですか？\nAnswer: ウクライナ\nQuestion: In",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.771215679473244,
+      "es": 1.6633701375685632,
+      "ko": 4.297788987110835,
+      "ja": 5.688976627076045,
+      "zh": 3.1012234960799105
+     }
+    },
+    {
+     "chain": "P495_P36_Q170210",
+     "act_T": 0.08366456031799316,
+     "act_en": 0.14025958379109701,
+     "rand_act_T": 0.028763376424709955,
+     "rand_act_en": 0.025410368541876473,
+     "active": true,
+     "floor": " Paris\nQuestion: absintheの原産国は何ですか？\nAnswer: France\nQuestion: absintheの原産国は何ですか？\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.880589731386863,
+      "es": 7.880589731386863,
+      "ko": 4.113799573940923,
+      "ja": 4.949937678175047,
+      "zh": 5.3001458122744225
+     }
+    },
+    {
+     "chain": "P495_P38_Q499396",
+     "act_T": 0.30192638635635377,
+     "act_en": 0.2875038097302119,
+     "rand_act_T": 0.024855156739552815,
+     "rand_act_en": 0.022408877809842426,
+     "active": true,
+     "floor": " コロン\nQuestion: Love in the Time of Choleraの原産国はどこですか？\nAnswer: コロンビア\nQuestion: Love in",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.036042275700311,
+      "es": 2.613582799800497,
+      "ko": 5.494450733240228,
+      "ja": 6.902129364025313,
+      "zh": 3.373663333004515
+     }
+    },
+    {
+     "chain": "P27_P38_Q128936",
+     "act_T": 0.2052158385515213,
+     "act_en": 0.1851604143778483,
+     "rand_act_T": 0.022491306283821663,
+     "rand_act_en": 0.020865740378697713,
+     "active": true,
+     "floor": " Króna\nQuestion: Kolbeinn Sigþórssonの国籍の通貨の通貨記号は何ですか？\nAnswer: kr\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.212930929621507,
+      "es": 5.326809650643554,
+      "ko": 4.580060612235684,
+      "ja": 6.287772731797304,
+      "zh": 4.410052094928687
+     }
+    },
+    {
+     "chain": "P27_P35_Q7747",
+     "act_T": 0.14823965827624003,
+     "act_en": 0.15441954135894775,
+     "rand_act_T": 0.03102077047030131,
+     "rand_act_en": 0.03319805463155111,
+     "active": true,
+     "floor": " Dmitry Medvedev\nQuestion: Vladimir Putinの国籍の首都はどこですか？\nAnswer: Moscow\nQuestion: Vladimir Putinの国籍の通",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.088588405575138,
+      "es": 4.924759227957111,
+      "ko": 3.3494824810768478,
+      "ja": 2.5370118375576567,
+      "zh": 2.5505845845182193
+     }
+    },
+    {
+     "chain": "P495_P36_Q312106",
+     "act_T": 0.051396592209736504,
+     "act_en": 0.10296126008033753,
+     "rand_act_T": 0.021975675225257875,
+     "rand_act_en": 0.02706483006477356,
+     "active": true,
+     "floor": " 東京\nQuestion: Woxxの原産国は何ですか？\nAnswer: 日本\nQuestion: Woxxの原産国は何ですか？\nAnswer:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.3009139350033365,
+      "es": 7.387445164320525,
+      "ko": 2.6119558544596657,
+      "ja": 4.5099508059211075,
+      "zh": 4.129474232322536
+     }
+    },
+    {
+     "chain": "P27_P38_Q81227",
+     "act_T": 0.31369378566741946,
+     "act_en": 0.2838691393534342,
+     "rand_act_T": 0.029846533139546712,
+     "rand_act_en": 0.03142216304937998,
+     "active": true,
+     "floor": " コロンビアペソ\nQuestion: Hernán Gaviriaの国籍は何ですか？\nAnswer: コロンビア\nQuestion: Hernán",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.036042275700311,
+      "es": 2.613582799800497,
+      "ko": 5.494450733240228,
+      "ja": 6.902129364025313,
+      "zh": 3.373663333004515
+     }
+    },
+    {
+     "chain": "P495_P1304_Q176322",
+     "act_T": 0.29194895426432294,
+     "act_en": 0.22680228153864543,
+     "rand_act_T": 0.02744573950767517,
+     "rand_act_en": 0.027676443258921306,
+     "active": true,
+     "floor": " Magyar Nemzeti Bank\nQuestion: 2010年、世界で最も人口の多い都市は何ですか？\nAnswer: 上海\nQuestion:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.1645229277201,
+      "es": 1.9400256557855755,
+      "ko": 3.6004429045133293,
+      "ja": 6.4192853673012,
+      "zh": 3.298123554792255
+     }
+    },
+    {
+     "chain": "P27_P38_Q11873",
+     "act_T": 0.1647055466969808,
+     "act_en": 0.2028630574544271,
+     "rand_act_T": 0.02780769467353821,
+     "rand_act_en": 0.02272916833559672,
+     "active": true,
+     "floor": " US Dollar\nQuestion: Dale Frailの国籍は何ですか？\nAnswer: United States of America\nQuestion: Dale Frailの出身地の",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.839717032271437,
+      "es": 1.1225901886355132,
+      "ko": 3.893007084960118,
+      "ja": 4.6681861052056774,
+      "zh": 6.3135574638145044
+     }
+    },
+    {
+     "chain": "P27_P1304_Q13541",
+     "act_T": 0.19816006819407145,
+     "act_en": 0.15369653304417927,
+     "rand_act_T": 0.03055143766105175,
+     "rand_act_en": 0.02532533009847005,
+     "active": true,
+     "floor": " Suomen Pankki\nQuestion: Tuomas Ketolaの国籍の中央銀行の通貨は何ですか？\nAnswer: Euro\nQuestion: Tu",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.143992075463757,
+      "es": 3.4197699415963143,
+      "ko": 3.186016391031444,
+      "ja": 5.393536731018685,
+      "zh": 3.9530376698239706
+     }
+    },
+    {
+     "chain": "P27_P38_Q334518",
+     "act_T": 0.1680050273736318,
+     "act_en": 0.14601486523946125,
+     "rand_act_T": 0.020666893323262533,
+     "rand_act_en": 0.02251525844136874,
+     "active": true,
+     "floor": " Tugrik\nQuestion: Jamukhaの国籍の通貨の通貨記号は何ですか？\nAnswer: ₮\nQuestion: Jam",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.042358477177913,
+      "es": 2.808331417894806,
+      "ko": 3.2821760587976314,
+      "ja": 3.68646994541632,
+      "zh": 4.438193292007782
+     }
+    },
+    {
+     "chain": "P27_P38_Q75582",
+     "act_T": 0.2525713160634041,
+     "act_en": 0.17664248943328859,
+     "rand_act_T": 0.028799740473429362,
+     "rand_act_en": 0.030139485994974773,
+     "active": true,
+     "floor": " Lek\nQuestion: Shkëlqim Caniの国籍の通貨の単位は何ですか？\nAnswer: Lek\nQuestion:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.9240199458872667,
+      "es": 12.168302585472702,
+      "ko": 4.242133078398183,
+      "ja": 4.436510157596786,
+      "zh": 4.417960322636645
+     }
+    },
+    {
+     "chain": "P495_P38_Q152761",
+     "act_T": 0.12153768539428711,
+     "act_en": 0.22717474301656088,
+     "rand_act_T": 0.02320551872253418,
+     "rand_act_en": 0.02202754020690918,
+     "active": true,
+     "floor": " Krone\nQuestion: Gorgorothの原産国は何ですか？\nAnswer: Norway\nQuestion: Gorgorothの原産国は",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.8575528275978286,
+      "es": 6.1298057185777,
+      "ko": 4.909660621211515,
+      "ja": 6.962059865036281,
+      "zh": 2.3933633629858377
+     }
+    },
+    {
+     "chain": "P495_P1304_Q4744",
+     "act_T": 0.2737421549856663,
+     "act_en": 0.1763421853383382,
+     "rand_act_T": 0.01741506059964498,
+     "rand_act_en": 0.024528037508328757,
+     "active": true,
+     "floor": " ドイツ\nQuestion: Das wandernde Bildの原産国の中央銀行の通貨は何ですか？\nAnswer: ユーロ\nQuestion: Das",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.803071142232511,
+      "es": 1.2257267304812558,
+      "ko": 3.9274883484467864,
+      "ja": 6.381762459874153,
+      "zh": 6.907657267991453
+     }
+    },
+    {
+     "chain": "P495_P36_Q191034",
+     "act_T": 0.27245108783245087,
+     "act_en": 0.21469095299641291,
+     "rand_act_T": 0.02727865179379781,
+     "rand_act_en": 0.024237631758054098,
+     "active": true,
+     "floor": " ポルトガル\nQuestion: port wineの原産国は何ですか？\nAnswer: ポルトガル\nQuestion: port wineの原産地",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.2177898702793755,
+      "es": 6.837508225406054,
+      "ko": 4.552544663136359,
+      "ja": 6.215832741218037,
+      "zh": 2.619292010582285
+     }
+    },
+    {
+     "chain": "P495_P1304_Q6466",
+     "act_T": 0.17313222090403238,
+     "act_en": 0.09961044788360596,
+     "rand_act_T": 0.01971260706583659,
+     "rand_act_en": 0.01860382010539373,
+     "active": true,
+     "floor": " Banca d'Italia\nQuestion: Reggiane Re.2007の原産国の中央銀行の通貨は何ですか？\nAnswer: Euro",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P27_P35_Q200881",
+     "act_T": 0.30507396856943764,
+     "act_en": 0.12930100758870441,
+     "rand_act_T": 0.032105358441670735,
+     "rand_act_en": 0.025142510732014973,
+     "active": true,
+     "floor": " カザフスタン\nQuestion: Qasym-Zhomart Toqaevの国籍の国家元首は誰ですか？\nAnswer: カザ",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.510712849209085,
+      "es": 3.5921761586796492,
+      "ko": 6.562375387642533,
+      "ja": 6.51984676997381,
+      "zh": 6.925996676829527
+     }
+    },
+    {
+     "chain": "P27_P1304_Q132361",
+     "act_T": 0.08637767632802328,
+     "act_en": 0.1635799010594686,
+     "rand_act_T": 0.02329044739405314,
+     "rand_act_en": 0.025680943330128988,
+     "active": true,
+     "floor": " National Bank of Poland\nQuestion: Janek Meetの国籍の中央銀行は何ですか？\nAnswer: National Bank of Poland\nQuestion: Janek Meet",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.807286028226372,
+      "es": 2.8267803689814173,
+      "ko": 3.2315004908450646,
+      "ja": 8.697732376051135,
+      "zh": 5.161891589814331
+     }
+    },
+    {
+     "chain": "P495_P38_Q2142",
+     "act_T": 0.12017183750867844,
+     "act_en": 0.13883048792680105,
+     "rand_act_T": 0.017540655533472695,
+     "rand_act_en": 0.018333739538987478,
+     "active": true,
+     "floor": " ドル\nQuestion: Gokuの原産国は何ですか？\nAnswer: アメリカ\nQuestion: Gokuの原産国は何ですか？\nAnswer:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.317239588359371,
+      "es": 4.317239588359371,
+      "ko": 1.5159480314468965,
+      "ja": 2.614674308220856,
+      "zh": 5.846893331385218
+     }
+    }
+   ],
+   "form_agg": {
+    "en": 5.467767524607552,
+    "es": 3.957609225766646,
+    "ko": 3.984741615130588,
+    "ja": 6.043617516158747,
+    "zh": 4.697746183487425
+   }
+  },
+  "zh": {
+   "n": 33,
+   "pseudo_fail_skipped": 27,
+   "quadrants": {
+    "lit_unspoken": 31,
+    "lit_wronglang": 0,
+    "silent": 2
+   },
+   "items": [
+    {
+     "chain": "P495_P1304_Q427541",
+     "act_T": 0.16283111373583475,
+     "act_en": 0.11037653436263402,
+     "rand_act_T": 0.02071712853697439,
+     "rand_act_en": 0.02389378547668457,
+     "active": true,
+     "floor": " European Central Bank\nQuestion: LT United的来源国家的货币是什么？\nAnswer: Euro\nQuestion: LT United的来源国家的首都是什么？\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.700773206684971,
+      "es": 3.2804361556482036,
+      "ko": 3.925829483952839,
+      "ja": 5.879099360783584,
+      "zh": 4.457427815250412
+     }
+    },
+    {
+     "chain": "P27_P1304_Q1220",
+     "act_T": 0.16303586959838867,
+     "act_en": 0.10259084105491638,
+     "rand_act_T": 0.018284960587819418,
+     "rand_act_en": 0.019050725301106772,
+     "active": true,
+     "floor": " Banca d'Italia\nQuestion: Giorgio Napolitano的国籍的货币是什么？\nAnswer: Euro\nQuestion: Giorgio",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P495_P35_Q3224301",
+     "act_T": 0.17691917419433595,
+     "act_en": 0.08801175951957703,
+     "rand_act_T": 0.027457563082377116,
+     "rand_act_en": 0.030068286259969077,
+     "active": true,
+     "floor": " Yasser Arafat\nQuestion: Rana's Wedding的导演是谁？\nAnswer: Hany Abu-Assad\nQuestion: Rana's Wedding的",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 2.011367388040526,
+      "es": 3.3396163833967876,
+      "ko": 8.096065773512237,
+      "ja": 10.502243963099318,
+      "zh": 8.334416460304055
+     }
+    },
+    {
+     "chain": "P27_P1304_Q210734",
+     "act_T": 0.129487943649292,
+     "act_en": 0.09518060684204102,
+     "rand_act_T": 0.03130194246768951,
+     "rand_act_en": 0.025412487983703613,
+     "active": true,
+     "floor": " Senegal\nQuestion: What is the central bank of the country of Youssou N’Dour’s nationality?\nAnswer: Central Bank of West African States",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.209204247625166,
+      "es": 1.6837605260625423,
+      "ko": 3.078566195035819,
+      "ja": 9.589769163285382,
+      "zh": 9.589769163285382
+     }
+    },
+    {
+     "chain": "P495_P36_Q116933",
+     "act_T": 0.0940277616182963,
+     "act_en": 0.07796225547790528,
+     "rand_act_T": 0.02878487706184387,
+     "rand_act_en": 0.01879043181737264,
+     "active": true,
+     "floor": " 伦敦\nQuestion: VK的来源国家的首都是什么？\nAnswer: 伦敦\nQuestion: VK的来源国家的首都是什么？\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.156210665561957,
+      "es": 7.478687584720319,
+      "ko": 5.692659268970601,
+      "ja": 7.606922370439861,
+      "zh": 6.667971753573511
+     }
+    },
+    {
+     "chain": "P27_P1304_Q6300",
+     "act_T": 0.2695714811484019,
+     "act_en": 0.17034582495689393,
+     "rand_act_T": 0.021362980206807453,
+     "rand_act_en": 0.022283716996510824,
+     "active": true,
+     "floor": " 俄罗斯\nQuestion: Anna Chicherova的国籍的首都是什么？\nAnswer: 莫斯科\nQuestion: Anna Chicherova的",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.81807868584292,
+      "es": 2.1651711094309576,
+      "ko": 2.5727691744395997,
+      "ja": 4.981439655064605,
+      "zh": 3.017279537540162
+     }
+    },
+    {
+     "chain": "P495_P38_Q1051735",
+     "act_T": 0.2521189967791239,
+     "act_en": 0.17705319623152416,
+     "rand_act_T": 0.022820635636647543,
+     "rand_act_en": 0.01991298794746399,
+     "active": true,
+     "floor": " soca music的来源国家的货币是东加勒比元。\nQuestion: soca music的来源国家的首都在哪里？\nAnswer:",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.006981615617406,
+      "es": 0.8797390955151059,
+      "ko": 5.947025744710118,
+      "ja": 6.956328710512025,
+      "zh": 6.475144271826139
+     }
+    },
+    {
+     "chain": "P27_P1304_Q290220",
+     "act_T": 0.24440973202387492,
+     "act_en": 0.1347227414449056,
+     "rand_act_T": 0.02360698872556289,
+     "rand_act_en": 0.021193481485048928,
+     "active": true,
+     "floor": " Sudan\nQuestion: Leila Aboulela的国籍的货币是什么？\nAnswer: Sudanese pound\nQuestion: Leila Aboulela",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.546440257196082,
+      "es": 4.037672048172681,
+      "ko": 2.061201726930449,
+      "ja": 3.99880120519083,
+      "zh": 4.0797821609303355
+     }
+    },
+    {
+     "chain": "P27_P1304_Q18165",
+     "act_T": 0.39187851349512737,
+     "act_en": 0.19800980091094972,
+     "rand_act_T": 0.02582474946975708,
+     "rand_act_en": 0.027081886927286785,
+     "active": true,
+     "floor": " 匈牙利",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.1645229277201,
+      "es": 1.9400256557855755,
+      "ko": 3.6004429045133293,
+      "ja": 6.4192853673012,
+      "zh": 3.298123554792255
+     }
+    },
+    {
+     "chain": "P27_P36_Q163167",
+     "act_T": 0.10414263407389322,
+     "act_en": 0.28843090633551277,
+     "rand_act_T": 0.018993339935938516,
+     "rand_act_en": 0.023027978045865892,
+     "active": false,
+     "floor": " Ardi Liives的国籍的首都是什么？\nQuestion: Ardi Liives的国籍的首都是什么？\nAnswer: Ardi Liives",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 8.726337621163111,
+      "es": 8.726337621163111,
+      "ko": 2.29665223963093,
+      "ja": 4.883943589229602,
+      "zh": 4.657754225248937
+     }
+    },
+    {
+     "chain": "P27_P1304_Q3773",
+     "act_T": 0.22338334719340006,
+     "act_en": 0.1493943452835083,
+     "rand_act_T": 0.02071359343826771,
+     "rand_act_en": 0.02020347515741984,
+     "active": true,
+     "floor": " Bank of Russia\nQuestion: Galina Zybina的国籍的货币是什么？\nAnswer: Russian ruble\nQuestion: Galina Zybina",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.81807868584292,
+      "es": 2.1651711094309576,
+      "ko": 2.5727691744395997,
+      "ja": 4.981439655064605,
+      "zh": 3.017279537540162
+     }
+    },
+    {
+     "chain": "P495_P1304_Q2859552",
+     "act_T": 0.1030062754948934,
+     "act_en": 0.12630248963832855,
+     "rand_act_T": 0.017778404553731284,
+     "rand_act_en": 0.022114741305510204,
+     "active": true,
+     "floor": " Bank of England\nQuestion: The Figurine的来源国家的货币单位是什么？\nAnswer: Pound Sterling\nQuestion: The Figurine的来源",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.6209667337243445,
+      "es": 1.7890131485764869,
+      "ko": 3.742996503075119,
+      "ja": 6.461296867928468,
+      "zh": 3.9882337427116
+     }
+    },
+    {
+     "chain": "P27_P1304_Q82895",
+     "act_T": 0.17480235459903876,
+     "act_en": 0.1567195733388265,
+     "rand_act_T": 0.01884652574857076,
+     "rand_act_en": 0.021652015050252278,
+     "active": true,
+     "floor": " 土耳其共和国中央银行",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.253279134689365,
+      "es": 2.5368190774461254,
+      "ko": 2.440161963488208,
+      "ja": 2.8638092284236336,
+      "zh": 2.838414693978848
+     }
+    },
+    {
+     "chain": "P27_P1304_Q176131",
+     "act_T": 0.26533522506554924,
+     "act_en": 0.2237387975056966,
+     "rand_act_T": 0.021210225423177083,
+     "rand_act_en": 0.02353856960932414,
+     "active": true,
+     "floor": " Ukraine\nQuestion: Inha Babakova的出生地是哪里？\nAnswer: Ashgabat\nQuestion: Inha Babakova的出",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.771215679473244,
+      "es": 1.6633701375685632,
+      "ko": 4.297788987110835,
+      "ja": 5.688976627076045,
+      "zh": 3.1012234960799105
+     }
+    },
+    {
+     "chain": "P495_P36_Q170210",
+     "act_T": 0.09331229428450266,
+     "act_en": 0.14025958379109701,
+     "rand_act_T": 0.022482256094614666,
+     "rand_act_en": 0.025410368541876473,
+     "active": true,
+     "floor": " 巴黎\nQuestion: absinthe的来源国家的首都是什么？\nAnswer: 巴黎\nQuestion: absinthe的来源国家的首都是",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.880589731386863,
+      "es": 7.880589731386863,
+      "ko": 4.113799573940923,
+      "ja": 4.949937678175047,
+      "zh": 5.3001458122744225
+     }
+    },
+    {
+     "chain": "P495_P36_Q312106",
+     "act_T": 0.04556886355082194,
+     "act_en": 0.10296126008033753,
+     "rand_act_T": 0.021692790587743125,
+     "rand_act_en": 0.02706483006477356,
+     "active": true,
+     "floor": " 巴黎\nQuestion: Woxx的来源国家的首都是什么？\nAnswer: 巴黎\nQuestion: Woxx的来源国家的首都是什么？\n",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.3009139350033365,
+      "es": 7.387445164320525,
+      "ko": 2.6119558544596657,
+      "ja": 4.5099508059211075,
+      "zh": 4.129474232322536
+     }
+    },
+    {
+     "chain": "P27_P38_Q11873",
+     "act_T": 0.17382445732752483,
+     "act_en": 0.2028630574544271,
+     "rand_act_T": 0.025781373182932537,
+     "rand_act_en": 0.02272916833559672,
+     "active": true,
+     "floor": " 美元",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.839717032271437,
+      "es": 1.1225901886355132,
+      "ko": 3.893007084960118,
+      "ja": 4.6681861052056774,
+      "zh": 6.3135574638145044
+     }
+    },
+    {
+     "chain": "P27_P1304_Q13541",
+     "act_T": 0.2052920659383138,
+     "act_en": 0.15369653304417927,
+     "rand_act_T": 0.027356576919555665,
+     "rand_act_en": 0.02532533009847005,
+     "active": true,
+     "floor": " Suomen Pankki\nQuestion: Tuomas Ketola的国籍的货币是什么？\nAnswer: Euro\nQuestion: Tuomas Ketola的国",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 7.143992075463757,
+      "es": 3.4197699415963143,
+      "ko": 3.186016391031444,
+      "ja": 5.393536731018685,
+      "zh": 3.9530376698239706
+     }
+    },
+    {
+     "chain": "P27_P1304_Q133308",
+     "act_T": 0.20630722045898436,
+     "act_en": 0.1461307128270467,
+     "rand_act_T": 0.02419719099998474,
+     "rand_act_en": 0.019365310668945312,
+     "active": true,
+     "floor": " Egypt\nQuestion: Mohamed ElBaradei的国籍的货币是什么？\nAnswer: Egyptian pound\nQuestion: Mohamed ElBaradei的国籍",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.88237857708009,
+      "es": 1.094549928617198,
+      "ko": 1.0750618872698396,
+      "ja": 10.619961968390271,
+      "zh": 7.264292999170721
+     }
+    },
+    {
+     "chain": "P27_P38_Q334518",
+     "act_T": 0.15839276711146036,
+     "act_en": 0.14601486523946125,
+     "rand_act_T": 0.018687514464060466,
+     "rand_act_en": 0.02251525844136874,
+     "active": true,
+     "floor": " Jamukha的国籍的货币是Tugrik。\nQuestion: Jamukha的国籍的首都是什么？\nAnswer: Jamukha",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.042358477177913,
+      "es": 2.808331417894806,
+      "ko": 3.2821760587976314,
+      "ja": 3.68646994541632,
+      "zh": 4.438193292007782
+     }
+    },
+    {
+     "chain": "P27_P38_Q75582",
+     "act_T": 0.2925096988677979,
+     "act_en": 0.17664248943328859,
+     "rand_act_T": 0.02693113883336385,
+     "rand_act_en": 0.030139485994974773,
+     "active": true,
+     "floor": " Lek\nQuestion: Shkëlqim Cani的国籍的首都是什么？\nAnswer: Tirana\nQuestion: Shkëlqim",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.9240199458872667,
+      "es": 12.168302585472702,
+      "ko": 4.242133078398183,
+      "ja": 4.436510157596786,
+      "zh": 4.417960322636645
+     }
+    },
+    {
+     "chain": "P495_P36_Q1632884",
+     "act_T": 0.22307511965433757,
+     "act_en": 0.19611748059590658,
+     "rand_act_T": 0.02862763007481893,
+     "rand_act_en": 0.035009386390447615,
+     "active": true,
+     "floor": " Ecuador\nQuestion: Huasipungo的作者是谁？\nAnswer: Jorge Icaza\nQuestion: Huasipungo的作者的国",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 11.067200456884166,
+      "es": 11.067200456884166,
+      "ko": 1.7450059112161398,
+      "ja": 3.465822994883638,
+      "zh": 3.79969027081097
+     }
+    },
+    {
+     "chain": "P495_P36_Q7254",
+     "act_T": 0.22401471535364786,
+     "act_en": 0.16248171826203664,
+     "rand_act_T": 0.017474536101023355,
+     "rand_act_en": 0.017368054389953612,
+     "active": true,
+     "floor": " 巴黎\nQuestion: Affenpinscher的来源国家的首都是什么？\nAnswer: 巴黎\nQuestion: Affenpinscher的来源国家的",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.6146841162699275,
+      "es": 7.575783131818753,
+      "ko": 4.577104473020881,
+      "ja": 5.57440077397041,
+      "zh": 4.527636043203529
+     }
+    },
+    {
+     "chain": "P495_P38_Q152761",
+     "act_T": 0.11491698424021403,
+     "act_en": 0.22717474301656088,
+     "rand_act_T": 0.022763150682051977,
+     "rand_act_en": 0.02202754020690918,
+     "active": false,
+     "floor": " New Zealand Dollar\nQuestion: Gorgoroth的来源国家的首都是哪里？\nAnswer: Wellington\nQuestion: Gorgoroth的来源国家",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 3.8575528275978286,
+      "es": 6.1298057185777,
+      "ko": 4.909660621211515,
+      "ja": 6.962059865036281,
+      "zh": 2.3933633629858377
+     }
+    },
+    {
+     "chain": "P495_P1304_Q4744",
+     "act_T": 0.23833673000335692,
+     "act_en": 0.1763421853383382,
+     "rand_act_T": 0.01735225021839142,
+     "rand_act_en": 0.024528037508328757,
+     "active": true,
+     "floor": " 德国\nQuestion: Das wandernde Bild的来源国家的货币是什么？\nAnswer: 欧元\nQuestion: Das wandernde Bild的来源国家的",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.803071142232511,
+      "es": 1.2257267304812558,
+      "ko": 3.9274883484467864,
+      "ja": 6.381762459874153,
+      "zh": 6.907657267991453
+     }
+    },
+    {
+     "chain": "P495_P36_Q191034",
+     "act_T": 0.22843998273213703,
+     "act_en": 0.21469095299641291,
+     "rand_act_T": 0.03142483035723368,
+     "rand_act_en": 0.024237631758054098,
+     "active": true,
+     "floor": " 葡萄牙",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.2177898702793755,
+      "es": 6.837508225406054,
+      "ko": 4.552544663136359,
+      "ja": 6.215832741218037,
+      "zh": 2.619292010582285
+     }
+    },
+    {
+     "chain": "P495_P1304_Q6466",
+     "act_T": 0.16713072458902994,
+     "act_en": 0.09961044788360596,
+     "rand_act_T": 0.018816033999125164,
+     "rand_act_en": 0.01860382010539373,
+     "active": true,
+     "floor": " Banca d'Italia\nQuestion: Reggiane Re.2007的来源国家的货币是什么？\nAnswer: Euro\nQuestion: Reggiane",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.925772942486219,
+      "es": 3.9000371798174456,
+      "ko": 3.4884276397060603,
+      "ja": 6.309943282685708,
+      "zh": 3.108265515656967
+     }
+    },
+    {
+     "chain": "P27_P35_Q200881",
+     "act_T": 0.3005406697591146,
+     "act_en": 0.12930100758870441,
+     "rand_act_T": 0.031425062815348306,
+     "rand_act_en": 0.025142510732014973,
+     "active": true,
+     "floor": " 哈萨克斯坦",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.510712849209085,
+      "es": 3.5921761586796492,
+      "ko": 6.562375387642533,
+      "ja": 6.51984676997381,
+      "zh": 6.925996676829527
+     }
+    },
+    {
+     "chain": "P27_P1304_Q132361",
+     "act_T": 0.08347677787144979,
+     "act_en": 0.1635799010594686,
+     "rand_act_T": 0.0246614138285319,
+     "rand_act_en": 0.025680943330128988,
+     "active": true,
+     "floor": " Narodowy Bank Polski\nQuestion: Janek Meet的国籍的货币是什么？\nAnswer: Zloty\nQuestion: Janek Meet的",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.807286028226372,
+      "es": 2.8267803689814173,
+      "ko": 3.2315004908450646,
+      "ja": 8.697732376051135,
+      "zh": 5.161891589814331
+     }
+    },
+    {
+     "chain": "P495_P38_Q2142",
+     "act_T": 0.1668117582798004,
+     "act_en": 0.13883048792680105,
+     "rand_act_T": 0.016486167907714844,
+     "rand_act_en": 0.018333739538987478,
+     "active": true,
+     "floor": " 日元\nQuestion: Goku的来源国家的首都是哪里？\nAnswer: 东京\nQuestion: Goku的来源国家的官方语言是什么？\nAnswer",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 4.317239588359371,
+      "es": 4.317239588359371,
+      "ko": 1.5159480314468965,
+      "ja": 2.614674308220856,
+      "zh": 5.846893331385218
+     }
+    },
+    {
+     "chain": "P495_P36_Q478374",
+     "act_T": 0.2684247255325317,
+     "act_en": 0.1857361396153768,
+     "rand_act_T": 0.0190583402911822,
+     "rand_act_en": 0.025658435622851052,
+     "active": true,
+     "floor": " Rijeka\nQuestion: Novi list的来源国家的首都是什么？\nAnswer: Rijeka\nQuestion: Novi list的来源国家的",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 5.937382420175709,
+      "es": 5.937382420175709,
+      "ko": 1.3222354808240198,
+      "ja": 3.8632224077591673,
+      "zh": 2.951462024473585
+     }
+    },
+    {
+     "chain": "P27_P1304_Q7524",
+     "act_T": 0.1700670450925827,
+     "act_en": 0.12127241293589273,
+     "rand_act_T": 0.023074927926063537,
+     "rand_act_en": 0.0218442310889562,
+     "active": true,
+     "floor": " 加拿大银行\nQuestion: Sue Gardner的国籍的首都是哪里？\nAnswer: 渥太华\nQuestion: Sue Gardner的国籍",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 6.8755530751659535,
+      "es": 3.7190852462663315,
+      "ko": 3.4119023669336457,
+      "ja": 4.427912601851858,
+      "zh": 5.564375241941889
+     }
+    },
+    {
+     "chain": "P495_P36_Q924512",
+     "act_T": 0.10977854306499163,
+     "act_en": 0.11405203888813654,
+     "rand_act_T": 0.022953335444132486,
+     "rand_act_en": 0.025292710463205973,
+     "active": true,
+     "floor": " 伦敦\nQuestion: 什么是Diena的意思？\nAnswer: 天\nQuestion: Diena的发音是什么？\nAnswer: dee-ay",
+     "entity_in_floor": false,
+     "form_profile": {
+      "en": 17.565123237116495,
+      "es": 17.565123237116495,
+      "ko": 0.8280972626816947,
+      "ja": 3.7170236998354085,
+      "zh": 1.968548649805598
+     }
+    }
+   ],
+   "form_agg": {
+    "en": 6.461896003634607,
+    "es": 4.73216012888555,
+    "ko": 3.5239332541056103,
+    "ja": 5.761760203611189,
+    "zh": 4.673418778977286
+   }
+  }
+ }
+}

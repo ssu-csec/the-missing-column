@@ -1,0 +1,759 @@
+{
+  "roster": [
+    "gemma4_31b",
+    "gemma4_31b_it",
+    "llama31_70",
+    "llama31_70_it",
+    "qwen36_27b"
+  ],
+  "bonferroni_draws": 40000,
+  "signflip_draws": 20000,
+  "threshold": 0.0042,
+  "scope": "diagnostic leave-one-checkpoint-out; not a redefined primary estimand",
+  "cells": [
+    {
+      "family": "vT",
+      "lang": "es",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": -4.2,
+          "bonferroni_ci": [
+            -10.4,
+            -0.4
+          ],
+          "p_signflip": 0.0326,
+          "bonferroni_pass": true,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": -2.5,
+          "bonferroni_ci": [
+            -8.6,
+            1.4
+          ],
+          "p_signflip": 0.1907,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": 0.2,
+          "bonferroni_ci": [
+            -1.8,
+            2.1
+          ],
+          "p_signflip": 0.6038,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": -3.3,
+          "bonferroni_ci": [
+            -9.3,
+            1.0
+          ],
+          "p_signflip": 0.106,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": -3.3,
+          "bonferroni_ci": [
+            -9.4,
+            1.1
+          ],
+          "p_signflip": 0.1052,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "zh",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 2.5,
+          "bonferroni_ci": [
+            -5.9,
+            11.5
+          ],
+          "p_signflip": 0.4161,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 5.3,
+          "bonferroni_ci": [
+            -3.3,
+            14.3
+          ],
+          "p_signflip": 0.0879,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": 2.1,
+          "bonferroni_ci": [
+            -4.7,
+            9.0
+          ],
+          "p_signflip": 0.4046,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": 0.9,
+          "bonferroni_ci": [
+            -6.1,
+            8.1
+          ],
+          "p_signflip": 0.7302,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": 3.6,
+          "bonferroni_ci": [
+            -5.3,
+            12.9
+          ],
+          "p_signflip": 0.2638,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "ja",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": -0.9,
+          "bonferroni_ci": [
+            -8.8,
+            7.0
+          ],
+          "p_signflip": 0.7665,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 4.7,
+          "bonferroni_ci": [
+            -3.8,
+            13.2
+          ],
+          "p_signflip": 0.1319,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": 1.0,
+          "bonferroni_ci": [
+            -6.0,
+            7.5
+          ],
+          "p_signflip": 0.7089,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": 5.6,
+          "bonferroni_ci": [
+            -1.9,
+            14.0
+          ],
+          "p_signflip": 0.0439,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": 1.4,
+          "bonferroni_ci": [
+            -7.2,
+            10.0
+          ],
+          "p_signflip": 0.651,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "ko",
+      "joint_pass_count": 2,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 4.3,
+          "bonferroni_ci": [
+            -6.0,
+            15.8
+          ],
+          "p_signflip": 0.3952,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 11.5,
+          "bonferroni_ci": [
+            0.6,
+            23.3
+          ],
+          "p_signflip": 0.0039,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "llama31_70": {
+          "delta": 10.9,
+          "bonferroni_ci": [
+            2.1,
+            21.0
+          ],
+          "p_signflip": 0.0,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "llama31_70_it": {
+          "delta": 6.4,
+          "bonferroni_ci": [
+            -0.5,
+            14.2
+          ],
+          "p_signflip": 0.0123,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": 10.5,
+          "bonferroni_ci": [
+            -0.4,
+            22.2
+          ],
+          "p_signflip": 0.0103,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "es",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 0.7,
+          "bonferroni_ci": [
+            -1.4,
+            3.6
+          ],
+          "p_signflip": 0.4972,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 0.5,
+          "bonferroni_ci": [
+            -1.7,
+            3.1
+          ],
+          "p_signflip": 0.7018,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": 0.7,
+          "bonferroni_ci": [
+            -1.6,
+            3.7
+          ],
+          "p_signflip": 0.591,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": 0.2,
+          "bonferroni_ci": [
+            -2.1,
+            2.9
+          ],
+          "p_signflip": 0.9143,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": 0.7,
+          "bonferroni_ci": [
+            -1.9,
+            3.9
+          ],
+          "p_signflip": 0.5745,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "zh",
+      "joint_pass_count": 3,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 5.2,
+          "bonferroni_ci": [
+            0.4,
+            10.9
+          ],
+          "p_signflip": 0.0057,
+          "bonferroni_pass": true,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 10.6,
+          "bonferroni_ci": [
+            5.0,
+            17.0
+          ],
+          "p_signflip": 0.0,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "llama31_70": {
+          "delta": 5.0,
+          "bonferroni_ci": [
+            -0.1,
+            10.4
+          ],
+          "p_signflip": 0.0119,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": 6.3,
+          "bonferroni_ci": [
+            0.9,
+            12.0
+          ],
+          "p_signflip": 0.0028,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "qwen36_27b": {
+          "delta": 9.5,
+          "bonferroni_ci": [
+            3.9,
+            16.2
+          ],
+          "p_signflip": 0.0,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        }
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "ja",
+      "joint_pass_count": 2,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 2.6,
+          "bonferroni_ci": [
+            -4.0,
+            8.9
+          ],
+          "p_signflip": 0.2872,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": -7.8,
+          "bonferroni_ci": [
+            -15.0,
+            -0.8
+          ],
+          "p_signflip": 0.0066,
+          "bonferroni_pass": true,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": -8.8,
+          "bonferroni_ci": [
+            -15.8,
+            -2.4
+          ],
+          "p_signflip": 0.0007,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "llama31_70_it": {
+          "delta": -8.2,
+          "bonferroni_ci": [
+            -13.2,
+            -3.0
+          ],
+          "p_signflip": 0.0001,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "qwen36_27b": {
+          "delta": -7.1,
+          "bonferroni_ci": [
+            -14.4,
+            -0.2
+          ],
+          "p_signflip": 0.0112,
+          "bonferroni_pass": true,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "ko",
+      "joint_pass_count": 4,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 4.8,
+          "bonferroni_ci": [
+            -2.1,
+            12.6
+          ],
+          "p_signflip": 0.0567,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 9.8,
+          "bonferroni_ci": [
+            2.7,
+            17.9
+          ],
+          "p_signflip": 0.0001,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "llama31_70": {
+          "delta": 8.3,
+          "bonferroni_ci": [
+            1.5,
+            16.0
+          ],
+          "p_signflip": 0.0007,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "llama31_70_it": {
+          "delta": 11.0,
+          "bonferroni_ci": [
+            4.6,
+            18.4
+          ],
+          "p_signflip": 0.0001,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        },
+        "qwen36_27b": {
+          "delta": 10.2,
+          "bonferroni_ci": [
+            2.9,
+            18.3
+          ],
+          "p_signflip": 0.0002,
+          "bonferroni_pass": true,
+          "signflip_pass": true,
+          "joint_pass": true
+        }
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "es",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": -1.7,
+          "bonferroni_ci": [
+            -4.9,
+            1.0
+          ],
+          "p_signflip": 0.1186,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": -1.5,
+          "bonferroni_ci": [
+            -4.7,
+            1.4
+          ],
+          "p_signflip": 0.1583,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": -1.0,
+          "bonferroni_ci": [
+            -3.6,
+            0.7
+          ],
+          "p_signflip": 0.1246,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": -1.0,
+          "bonferroni_ci": [
+            -3.8,
+            1.6
+          ],
+          "p_signflip": 0.2684,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": -0.7,
+          "bonferroni_ci": [
+            -3.7,
+            1.9
+          ],
+          "p_signflip": 0.4494,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "zh",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": -3.5,
+          "bonferroni_ci": [
+            -10.0,
+            2.8
+          ],
+          "p_signflip": 0.1417,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": -5.6,
+          "bonferroni_ci": [
+            -11.4,
+            -0.2
+          ],
+          "p_signflip": 0.0048,
+          "bonferroni_pass": true,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": -0.6,
+          "bonferroni_ci": [
+            -6.4,
+            5.0
+          ],
+          "p_signflip": 0.8457,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": -1.0,
+          "bonferroni_ci": [
+            -6.5,
+            4.9
+          ],
+          "p_signflip": 0.6869,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": -1.6,
+          "bonferroni_ci": [
+            -7.2,
+            3.6
+          ],
+          "p_signflip": 0.474,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "ja",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": -3.0,
+          "bonferroni_ci": [
+            -8.5,
+            1.8
+          ],
+          "p_signflip": 0.12,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": -2.3,
+          "bonferroni_ci": [
+            -8.1,
+            2.8
+          ],
+          "p_signflip": 0.2502,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": 0.7,
+          "bonferroni_ci": [
+            -3.8,
+            4.8
+          ],
+          "p_signflip": 0.6914,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": -2.1,
+          "bonferroni_ci": [
+            -6.5,
+            1.5
+          ],
+          "p_signflip": 0.1728,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": -1.7,
+          "bonferroni_ci": [
+            -7.4,
+            3.3
+          ],
+          "p_signflip": 0.4155,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "ko",
+      "joint_pass_count": 0,
+      "drop": {
+        "gemma4_31b": {
+          "delta": 1.2,
+          "bonferroni_ci": [
+            -5.1,
+            8.0
+          ],
+          "p_signflip": 0.6457,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "gemma4_31b_it": {
+          "delta": 1.0,
+          "bonferroni_ci": [
+            -5.4,
+            7.9
+          ],
+          "p_signflip": 0.7127,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70": {
+          "delta": 2.7,
+          "bonferroni_ci": [
+            -2.9,
+            8.8
+          ],
+          "p_signflip": 0.204,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "llama31_70_it": {
+          "delta": 0.0,
+          "bonferroni_ci": [
+            -4.4,
+            5.5
+          ],
+          "p_signflip": 1.0,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        },
+        "qwen36_27b": {
+          "delta": -0.0,
+          "bonferroni_ci": [
+            -5.6,
+            5.5
+          ],
+          "p_signflip": 0.9461,
+          "bonferroni_pass": false,
+          "signflip_pass": false,
+          "joint_pass": false
+        }
+      }
+    }
+  ]
+}

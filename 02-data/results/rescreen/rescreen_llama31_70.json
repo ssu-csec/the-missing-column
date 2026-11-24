@@ -1,0 +1,4605 @@
+{
+ "model": "llama31_70",
+ "max_new": 32,
+ "per_chain": {
+  "P27_P1304_Q107467": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank\nExplanation: The correct response to this question would be \"Bulgarian National Bank.\" This can be determined by analyzing each option a"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bulgarian National Bank\nExplanation: The central bank of Bulgaria is the Bulgarian National Ban"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bulgarian National Bank\nExplanation: The central bank of Bulgaria is the Bulgarian National Banks. It was established on 25 January, 1879.\nThe headquarters are"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q113409": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank Of Slovakia\nExplanation:\nThe correct option for this question would be \"National Bank of Slovakia\". The reason behind it being that according to W"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "National Bank of Slovakia\nExplanation: The Slovak koruna or Slovak crown (Slovak: slovenská koruna, literally meaning \"slovak crown\") was"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Narodowy Bank Polski\nExplanation: The National Bank of Poland (Polish NBP, Polish pronunciation [nɔrˈt͡"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q116059": {
+   "en": {
+    "correct": true,
+    "txt": "Banco de la República\nExplanation: The Central Bank (Banco De La Republica) was established in 1923. It has a board consisting of"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banco de la Republica\nExplanation: The central bank of Colombia is the Bank of the Republic (Banco de la República). Its primary function, according"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banco de la República\nExplanation: The central bank of Colombia is the Bank of the Republic (Banco de la Républica). It was established in"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q116482": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)\nExplanation: The BCEAO was created in 1959. It serves as a common monetary authority for Ben"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banque Centrale des Etats de l'Afrique de I'Ouest"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banque Centrale de la République du Sénégal"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q117150": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Lithuania\nExplanation: The correct response to this question would be \"Bank of Lithuania.\" This can be determined by researching or looking up informati"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lithuanian National Bank\nExplanation: The central bank of Lithuania is the Lietuvos Bankas (Bank of Lithuania). It was established on 27"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リトアニア\nExplanation: 2001年から、Zigmuntas Baltzitisがリトアニアン中央銀行総裁を務め"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q12499": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Belgium\nExplanation: The correct response to this question would be \"National Bank of Germany\" as it was established in 1957 and serves as"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "National Bank of Belgium"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルギー\nExplanation: 2011年10月、Patrick Janssenがベルギーの中央銀行総裁になった。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q12897": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank of Brazil\nExplanation: In 1967, a new monetary system was instituted. It involved not only changes in nomenclature but also thoroughly"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of Brazil"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banco Central do Brasil"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q133308": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank Of Egypt\nExplanation: The correct response to this question would be \"Central Bank of Egypt.\" This can be determined by looking at various sources "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Egypt\nExplanation: The Central Bank of the Arab Republic of Egypt (CBE) is an autonomous regulatory body, assuming the authority of administering banking system"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of Egypt\nExplanation: The central bank is the national authority that provides financial and banking services for its country's government and comm"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q134898": {
+   "en": {
+    "correct": true,
+    "txt": "Croatian National Bank\nExplanation: The correct response to this question would be \"Croatian National Bank.\" This can be determined by researching or looking up"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "크로아티안\nExplanation: 슬라벤카 드라고비치 (Slavenka Dragovič)는 1949년 유고슬라"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Croatian National Bank\nExplanation: The central bank of Croatia is the Croatian National Banks."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q138591": {
+   "en": {
+    "correct": true,
+    "txt": "Croatian National Bank\nExplanation: The correct response to this question would be \"Croatian National Bank.\" This can be determined by analyzing historical reco"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Croatian National Bank\nExplanation: The Croatian National bank (Croatian: Hrvatska narodna banka) is the central bank of Croatia. It"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Croatian National Bank\nExplanation: The Independent State of Croatia (Croatian: Nezavisna država Hrvatska, NDH; German: Un"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1625": {
+   "en": {
+    "correct": true,
+    "txt": "Sveriges Riksbank\nExplanation:\nThe correct option for this question would be \"Sveriges riksban\". This institution was founded in"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스웨덴\nExplanation: 1942년부터 1951년에 사망할 때까지 IOC 위원장을 역임한 시그프리드"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Sveriges Riksbank\nExplanation: The central bank of Sweden is called the \"Sveriges riksbanks\". It was founded in"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q165852": {
+   "en": {
+    "correct": false,
+    "txt": "Banka Slovenije"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banka Slovenije\nExplanation: The central bank of Slovenia is the Bank of Slovenia."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スロベニア中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q182673": {
+   "en": {
+    "correct": false,
+    "txt": "Banka Latvijas\nExplanation: The correct response to this question would be \"Banku Centrs\" or simply \"BC\". This institution serves as"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Latvijas Banka; Central bank of Latvia\nExplanation: The central banks and currencies of all EU member states are:\nEuropean Union ( Eurozone )"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Latvijas Banka\nExplanation: The central bank of Latvia is the Latvian Central Bank. It was established in 1922 and it has"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q185636": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank of West African States (BCEAO)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banque Centrale des Etats de l'Afrique de l'Ouest\nKen Bugul is a Senegalese writer. Her real name is"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banque Centrale des Etats de l'Afrique Occidentale\nExplanation: The Central Bank of West African States (French: Banques centra"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1878": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドイツ連邦共和国"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1955": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy\nExplanation: In 2004 he was named by journalist Giorgio Porrà in his book Lo scandalo Iva as one"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1991": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss National Bank\nExplanation: The correct response to this question would be \"Swiss National Bank.\" This can be determined by researching or knowing that Swi"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Swiss National Bank\nExplanation: The central bank of Switzerland is the Swiss National Ban"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スイス中央銀行\nExplanation: 1985年、スキーヤーのMichela Figinが世界選手権で優勝した。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q209942": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)\nExplanation: The correct response to this question would be \"Central Bank of Senegal\" as it serves as"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of The Gambia\nExplanation: Senegal, officially the Republic of Senegal (French: République du Sénégal), is a country"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of The Gambia"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q290220": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Sudan\nExplanation: The correct option for this question would be \"Central Bank of South Africa\". This choice aligns most closely to what we know"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Sudan\nExplanation: The Bank of Khartoum is the central bank for Sudan."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Sudan\nExplanation: The Central bank is the main monetary authority in a country. It controls and regulates all other banks within that nation.\nThe centr"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q29425": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank Of The Republic Of Turkey\nExplanation: This question asks for a specific piece of information - \"the name\" (singular) rather than multiple names or"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of the Republic of Turkey\nExplanation: The central bank is called \"Central Bank of Türkiye\" in English, and it was established as a joint stock"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トルコ共和国中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q303": {
+   "en": {
+    "correct": true,
+    "txt": "The Federal Reserve System\nExplanation: In 1913 Congress created a new national banking system called the Federal Reserve. It was designed to provide stability "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Federal Reserve System\nExplanation: The United States has a decentralized banking system in which a central bank, the Federal Reserve Bank (the Fed), exercises "
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Federal Reserve System\nExplanation: The United States of America is a federal republic consisting of 50 states, one special district (the District of Columbia),"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q331201": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)\nExplanation: The BCEAO was created by a treaty signed at Dakar on 4 April 1962"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "니제르\nExplanation: 1983년부터 1996년까지 그는 서아프리카 국가중앙 은행(BCEAO)의 총재"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Niger\nExplanation: The Central Bank of West African States (French Banque Centrale des États de l'Afrique de l'Ouest, BCE"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q354705": {
+   "en": {
+    "correct": true,
+    "txt": "The Eastern Caribbean Central Bank (ECCB) was established in October 1983. It is the monetary authority for a group of eight small islands - Ang"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "St. Vincent and the Grenadines\nExplanation: The Central Bank of Barbados is a central bank in Bridgetown, capital city of Barbadoes"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Eastern Caribbean Central Bank\nExplanation: The Governor of the ECCB is Timothy Antoine. He succeeded Sir K Dwight Venner who retired on 30 November, after"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q356835": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States\nExplanation: The correct response to this question would be \"Central Bank of Nigeria.\" This institution serves as a key play"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Niger\nExplanation: The Central Bank of West African States (French Banque Centrale des États de l'Afrique de l'Ouest, BCE"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Niger\nExplanation: The Central Bank of West African States (French Banque Centrale des États de l'Afrique de l'Ouest, BCE"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q4790": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy\nExplanation: In 2012, a group called Anonymous hacked into and published emails from Stratfor. One email was about an Italian banker"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banca d'Italia\nExplanation: Michele is a member of the Board and Director General for Markets at Banka D’Itailia, Italy’s central"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スイス"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q4864": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank Of The Russian Federation\nExplanation: https://en.wikipedia.org/wiki/Eugene_Kaspersky"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロシア"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q6100": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank of Russia\nExplanation: In 2016, Russian heptathlete and Olympic medalist Tatyanna Chernova was banned from competition for two years"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of Russia\nExplanation: The Central bank is the main financial institution in a country. It controls all other banks and issues currency (money)."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Russia\nExplanation: The Central bank is the national authority that provides financial and banking services for its country's government and commercial "
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q72347": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank Of The Republic Of Turkey\nExplanation: This question requires knowledge about a specific person's nationality and their respective national banking"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "터키"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トルコ共和国中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q72491": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Slovakia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "National Bank of Slovakia\nExplanation: The central bank in the country where Mr. Rastisalv Spirko is from, which has a population between"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Czech National Bank\nExplanation: The central bank of the country where Rastisalv Spirko is from."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q73506": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank and Financial Services Authority of Ireland\nExplanation: The correct response to this question would be \"Central Bank and financial services author"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of Ireland\nExplanation: The central bank for the Republic is the European Central Bank, which also operates as a monetary authority in all other EU"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q73920": {
+   "en": {
+    "correct": true,
+    "txt": "The National Bank Of Romania\nExplanation: In 2005 he was named \"The Most Promising Boxer\" by Ring Magazine. He has been a professional"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "National Bank of Romania\nExplanation: The central bank in the country where Adrian Diacono is from."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Canada\nExplanation: The central bank for the country where boxer,Adrian Diaconuis from is called \"Bank Of Canada\"."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q75063": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey\nExplanation: The correct option for this question would be \"Central Bank of Türkiye\". This institution serves as a key player in managing"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "터키"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トルコ共和国中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q82871": {
+   "en": {
+    "correct": true,
+    "txt": "Bank Of Uganda\nExplanation:\nThe correct option for this question would be \"Bank of Uganda\". This can be determined by looking at various sources such as Wikiped"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of Uganda\nExplanation: The central bank is the Bank of Ugand"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Uganda\nExplanation: The central bank is the Bank of Ugandawhich controls monetary policy and regulates banks."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q85430": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of the Republic of Turkey\nExplanation: The central bank is called \"Central Bank of Türkiye\" in English, and it was established as a joint stock"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Türkiye Cumhuriyet Merkez Bankası"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q92994": {
+   "en": {
+    "correct": true,
+    "txt": "Bank Of Greece\nExplanation:\nMichail E. (Mike) Dertouzous was born in Athens and received his Ph.D from MIT where he later became"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "그리스\nExplanation: 1968년 MIT에 컴퓨터 과학 연구소가 설립되자, 그는 이곳에서 교수로 일하기 시작"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Greece\nExplanation: The central bank in the country where Michalis L. Dertouzous was born is called \"Bank Of Greece\"."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q93356": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank and Financial Services Authority of Ireland\nExplanation: The correct name for this institution in English (as opposed to Irish) can be found on its"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of Ireland\nExplanation: The Central bank is the main financial institution in a country. It controls all other banks and issues currency (money)."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Ireland\nExplanation: The Central bank is the main financial institution in a country. It controls all other banks and issues currency (money). In some c"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q949": {
+   "en": {
+    "correct": true,
+    "txt": "The Federal Reserve System\nExplanation:\nThe correct option for this question would be \"Federal reserve system\". This was founded in 1913 and it's a federal"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Federal Reserve System\nExplanation: The United States has a central bank called the \"Federal Reserve Bank\" or simply, as it is more commonly known, “The"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Federal Reserve System\nExplanation: The United States has a central bank called the \"Federal Reserve Bank\" or simply, as it is more commonly known, “The"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P35_Q1933": {
+   "en": {
+    "correct": false,
+    "txt": "King Carl XVI Gustaf\nExplanation: The question asks for a person. It also mentions that this person has to be in charge (head) and it's"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Carl XVI Gustaf\nExplanation: 스웨덴 왕"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カール16世グスタフ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P35_Q200881": {
+   "en": {
+    "correct": false,
+    "txt": "Kassym-Jomart Tokayev\nExplanation: The President of Kazakhstan (Kazakh: Қазақстан Республикасыны"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "카자흐스탄\nExplanation: 2019년부터 현재까지 대통령을 역임하고 있다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カザフスタン\nExplanation: 2019年3月20日、カシムジョマルト・トカエフが大統領"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q307142": {
+   "en": {
+    "correct": true,
+    "txt": "Mahmoud Abbas\nExplanation: The President of Palestine (Arabic: رئيس دولة فلسطين‎) or State of Palestine[1] refers to the president"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Mahmoud Abbas\nExplanation: The President of the Palestinian National Authority is a position created by an amendment to Organization's Basic Law, which added Ar"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Mahmoud Abbas\nExplanation: The Palestinian Legislative Council (PLC) is the legislature of the Palestinian Authority. It is not to be confused with the Palestin"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q6300": {
+   "en": {
+    "correct": true,
+    "txt": "Vladimir Putin\nExplanation:\nAnna Vladimirovna Chicherovais a Russian high jumper. She was born in Yerevan to an Armenian mother and father"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Dmitry Medvedev\nExplanation: 2012년 런던 올림픽 여자 높이뛰기 금메달리스트인 안나 치"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Vladimir Putin\nExplanation:\nAnna Vladimirovna CHICHEROVA (Russian: Анна Владимировна ЧИЧЕРОВА,"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q6668": {
+   "en": {
+    "correct": false,
+    "txt": "The King (of Sweden)\nExplanation: In 2015 a new Swedish passport was introduced. It contains several security features and also some illustrations that are typi"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Carl XVI Gustaf\nExplanation: 스웨덴 왕이시다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カール16世グスタフ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P35_Q7747": {
+   "en": {
+    "correct": false,
+    "txt": "The President\nExplanation: A president or prime minister leads a government."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Dmitry Medvedev\nExplanation: 2008년부터 러시아 대통령을 맡고 있는 인물은 Dmitry Anatolyevich Medvede입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Dmitry Medvedev\nExplanation: The President of Russia is the head of state, supreme commander-in-chief and holder of the highest office within the Russian Federa"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q80352": {
+   "en": {
+    "correct": false,
+    "txt": "Alexander Lukashenko"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Alexander Lukashenko\nExplanation: Belarusian President"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アレクサンドル・ルクアシェンコ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q1008088": {
+   "en": {
+    "correct": true,
+    "txt": "Kingstown\nExplanation:\nThe question asks for a fact about an individual. The correct response should be brief and to-the-point."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bridgetown\nExplanation: Barbados"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bridgetown\nExplanation: 1972年1月16日、バルバドス・ブリッジタウン生まれ。"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q113409": {
+   "en": {
+    "correct": true,
+    "txt": "Bratislava\nExplanation: The question asks for a city. It does not ask about any other information such as population or location within Slovakia (the correct na"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Warsaw"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Prague\nExplanation:\nMarek Zágrapa is a Czech professional ice hockey player. He currently plays for HC Kometa Brno of the Czech Extraliga"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q115012": {
+   "en": {
+    "correct": true,
+    "txt": "Prague"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bratislava"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Prague"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q116482": {
+   "en": {
+    "correct": true,
+    "txt": "Dakar\nExplanation:\nPape Abdourahmane Diaw (born 31 May 1993) is a Senegalese professional footballer"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Dakar\nExplanation: Senegal"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Conakry"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q120128": {
+   "en": {
+    "correct": true,
+    "txt": "Abuja"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Abuja\nExplanation: Nigeria"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アブジャ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q120621": {
+   "en": {
+    "correct": true,
+    "txt": "Caracas"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Caracas\nExplanation: Venezuela"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Caracas"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12608": {
+   "en": {
+    "correct": true,
+    "txt": "Bern\nExplanation:\nHector Hodler was a Swiss Esperantist. The capital city of Switzerland (the \"country\" in which he held his primary allegiance"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Geneva\nExplanation: 1905년, 스위스 제네바에서 열린 세계대회에 참가한 젊은 언론인 헤크토 호"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルン\nExplanation:\nHector Hodler (1 October 1887 – 31 March 1920) was a Swiss Esperantist and journalist"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q126294": {
+   "en": {
+    "correct": false,
+    "txt": "Lobamba"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lobamba\nExplanation: Swaziland's capital is Lobamba."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lobamba"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q126640": {
+   "en": {
+    "correct": true,
+    "txt": "Montevideo\nExplanation:\nThe question asks for a city. The only cities in this table are capitals and they're all unique so we can use them as"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Montevideo\nExplanation: Uruguay"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブエノスアイレス"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q1276": {
+   "en": {
+    "correct": true,
+    "txt": "Ottawa"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Montreal"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ottawa"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12801": {
+   "en": {
+    "correct": true,
+    "txt": "Bern"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "제네바\nExplanation: 1931년 스위스에서 태어난 그는 유엔과 국제연합에 근무한 바 있다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルン\nExplanation:\nClaude Piron (1900-1998) was a Swiss linguist, psychologist and translator. He is best known for"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q12854": {
+   "en": {
+    "correct": true,
+    "txt": "Ottawa"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Toronto\nExplanation:"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ottawa"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12881": {
+   "en": {
+    "correct": true,
+    "txt": "Brasilia\nExplanation:\nThe question asks for a fact about something. The passage contains information that answers this type of question.\n\nBlanks indicate where "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Rio de Janeiro\nExplanation: 브라질"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブラジリア"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q13230": {
+   "en": {
+    "correct": true,
+    "txt": "Bern"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Geneva\nExplanation: 1857년 스위스 제네바에서 태어났다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Geneva\nExplanation: The Swiss linguist and semiotician, Ferdinand de Sausurre (1857-1913), is considered to be the father of"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q13236": {
+   "en": {
+    "correct": true,
+    "txt": "Bern"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "제네바\nExplanation: 1865년 스위스에서 태어난 언어학자."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Geneva\nExplanation:\nCharles Bally (1865-1947) was a Swiss linguist from the Genevan School of Linguistics. He worked closely with"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q132361": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Warsaw"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Warsaw"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q133946": {
+   "en": {
+    "correct": true,
+    "txt": "Khartoum"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Khartoum\nExplanation: The capital of the nationality of Omer is \"Khartoum\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カイロ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q152787": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Oslo"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Tallinn"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q163167": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Addis Ababa"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アディスアベバ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q169174": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Tallinn\nExplanation: Estonia"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Oslo"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q1878": {
+   "en": {
+    "correct": true,
+    "txt": "Berlin"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bonn\nExplanation: 독일"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Berlin"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q270783": {
+   "en": {
+    "correct": true,
+    "txt": "Mogadishu\nExplanation:\nSharif Sheik Ahmad was born in Somalia. The capital city for this nation is called \"Mogadiscio\"."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Mogadishu\nExplanation: Somalia"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Mogadishu\nExplanation: The capital of Somalia is Mogadiscio."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q303": {
+   "en": {
+    "correct": true,
+    "txt": "Washington D.C. (or Memphis)\nExplanation:\nThe question asks for a city in which an American citizen was born and raised.\n\n# Question 1\n\nWhat"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Memphis\nExplanation: The capital of the state where he was born is Nashville."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Washington D.C."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q313479": {
+   "en": {
+    "correct": true,
+    "txt": "Khartoum\nExplanation:\nManute Bol was born in Sudan. The capital city of Sudan is Khartum.\n\n#1\n\nI think it's"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Khartoum\nExplanation: Sudan"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Khartoum\nExplanation: The capital of Sudan is the city where he was born."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q366908": {
+   "en": {
+    "correct": true,
+    "txt": "Niamey\nExplanation:\nThe question asks for a fact about an entity. The passage contains information that can be used to infer this fact.\n\nPassage"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Niamey\nExplanation: 니아메(Niamey)는 나이지리아와 부르키나파소 사이에 있는 나라인 니제"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ouagadougou"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q379576": {
+   "en": {
+    "correct": true,
+    "txt": "Mbabane\nExplanation:\nSobhuza was born in Zombodze on 22 July 1899. He became king at birth upon his"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lobamba\nExplanation: Swaziland's capital is Mbabane."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Mbabane\nExplanation: The Kingdom of Swaziland is a small, landlocked country in southern Africa. It borders South Africa and Mozambique.\nThe"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q73418": {
+   "en": {
+    "correct": true,
+    "txt": "Dublin"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ダブリン\nExplanation:\nPatrick Kavanaghs Heimatstadt ist Dublin."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q73506": {
+   "en": {
+    "correct": true,
+    "txt": "Dublin\nExplanation:\nRoddy Doyle was born in 1958 and grew up on a housing estate outside Ireland's largest city. He attended St Fintan"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Dublin\nExplanation:\nRoddy Doyle is an Irish novelist, dramatist and screenwriter. He was born in 1958.\nHe has written seven novels"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q73920": {
+   "en": {
+    "correct": true,
+    "txt": "Bucharest\nExplanation:\nAdrian Dorin Cionca (born June 9th ,1978 in Ploieşti) better known by his"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bucharest\nExplanation: Romania"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bucharest\nExplanation: アドリアン・ディアコヌ（Adrian Dorin \"The Shark\" DiaconuDiaconi、1978年6"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q75697": {
+   "en": {
+    "correct": true,
+    "txt": "Tirana"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Jakarta"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Jakarta"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q7999": {
+   "en": {
+    "correct": true,
+    "txt": "Madrid"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Barcelona\nExplanation:"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "バルセロナ\nExplanation:\nLuis Llachs nationality is Spain.\nThe capital of spain is Madrid."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q80937": {
+   "en": {
+    "correct": true,
+    "txt": "Bogotá\nExplanation:\nThe question asks for a city. The only cities in this table are those listed under \"birthplace\" and \"death place\"."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Dublin\nExplanation: The capital of Ireland is Dublin."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bogotá\nExplanation: The capital of Colombia is the city of Santa Fe de Bogota. It was founded in 1538 by Gonzalo Jimenez"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q81838": {
+   "en": {
+    "correct": true,
+    "txt": "Abuja\nExplanation:\nThe question asks for a fact about an entity. The correct response provides that information in one word."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Abuja\nExplanation: Nigeria"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アブジャ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q82535": {
+   "en": {
+    "correct": true,
+    "txt": "Abuja\nExplanation:\nThe question asks for a fact about an entity. The correct response provides that information in one word."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Kano\nExplanation:"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Abuja\nExplanation: The capital of Nigeria is the city called \"Abuja\"."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q93356": {
+   "en": {
+    "correct": true,
+    "txt": "Dublin"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Northern Ireland"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Dublin\nExplanation:\nSeamus Justin Heaney, MRIA (/ˈʃeɪməs ˈhiːni/;"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q949": {
+   "en": {
+    "correct": true,
+    "txt": "Washington D.C. (or DC)\nExplanation:\nJohn Bardeen was born in Madison Wisconsin and lived most his life there as well so he would be a citizen"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Madison\nExplanation: 1908년 미국 위스콘신주 매디슨에서 태어났다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Washington D.C.\nExplanation: 1918年5月23日、ウィスコンシン州マディソン生まれ。父親が物理学"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q9586": {
+   "en": {
+    "correct": true,
+    "txt": "Vienna\nExplanation:\nAnnemarie Pröll (née Moser) was born in Kleinarl on 27 March 1953. She grew"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Vienna\nExplanation: Austria"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Vienna\nExplanation:\nAnnemarie Pröll (née Moser, born 27 March 1953) is a former World Cup alpine ski"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q104419": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling\nExplanation: The correct response to this question would be \"Uganda.\" This can easily be found by searching for information about Uganda's"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Ugandan shilling\nExplanation: Uganda is a landlocked country in East Africa whose diverse landscape encompasses the snow-capped Rwenzori Mountains and immense L"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ugandan shilling\nExplanation: The Lord's Resistance Army (LRA), also known as the Lord'sResistance Movement, is a rebel group and heterodox"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q10490": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian Real"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q116059": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Peso\nExplanation: Colombia's currency is the peso."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビアペソ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q12077": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian Real"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Real\nExplanation: Brazil"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Real\nExplanation: The Brazilian real is the currency of Brazil. It is subdivided into 100 centavos.\nThe modern real was introduced in July,"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q126937": {
+   "en": {
+    "correct": false,
+    "txt": "GEL"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "GEL\nExplanation: https://en.wikipedia.org/wiki/Levan_Mch%E1%B8%99edli%C5%A0vili"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "GEL"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q126940": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Peso"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Peso\nExplanation: The peso is the currency of Colombia. Its ISO 4217 code is COP and it is also informally abbreviated as COL$. However"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q127004": {
+   "en": {
+    "correct": false,
+    "txt": "Lek"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Albanian Lek\nExplanation: Albania is a country in Southeastern Europe. It borders the Adriatic Sea and Ionian Sea to its west, Montenegro"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lek"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q127350": {
+   "en": {
+    "correct": true,
+    "txt": "Kazakhstani tenge"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Kazakhstani tenge\nExplanation: Kazakhstan is a country in Central Asia. The official currency of the Republic of Kazakhstan is Tenge (KZT"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "テンゲ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q12819": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "złoty\nExplanation: Poland's currency is the Polish zloty."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: The currency of Poland is the z?oty."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q12881": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian Real"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q12897": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian real\nExplanation:\nThe question asks for a fact about an individual. The passage does not contain any information on this topic.\n\n#1\n\nI think it"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q13007": {
+   "en": {
+    "correct": false,
+    "txt": "Polish zloty\nExplanation: The question asks for a fact about an individual. It can be answered by looking up information on that person and finding out what"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "złoty\nExplanation: The Polish zloty is the official currency of Poland. It has been in circulation since 1919, and its name comes from"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Polish złoty\nExplanation: The currency of Poland is the zloty."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q1568174": {
+   "en": {
+    "correct": false,
+    "txt": "Seychelles rupee\nExplanation: The correct option for this question would be \"Seychellois Rupees\". This can be determined by looking at"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Seychelles rupee\nExplanation: The currency of the country whose president is Wael Nader Al-Halqi is Syrian pound."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Seychelles Rupee"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q157197": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation: The correct option for this question would be \"Somali Shillings\". This can be determined by looking at a list or map"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling; Shilin Soomaali\n\nQuestion: 2010년 FIFA 월드컵에서 이집트 축구 국가대표팀이 속한 조"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング\nExplanation: 1960年から1967年のソマリ首相。"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q162202": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nNicki Minja was born in Saint James. The capital city of Trinadid &amp; Tabogo is"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Guyanese dollar\nExplanation: The correct answer is \"Guyana Dollar\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q162862": {
+   "en": {
+    "correct": false,
+    "txt": "Lek"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lek\nExplanation: Albania"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lek"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q165833": {
+   "en": {
+    "correct": true,
+    "txt": "Albanian Lek"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Albanian Lek\nExplanation: Albania uses the lek as its currency."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Albanian Lek"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q166658": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The correct response to this question would be \"Trinidadian Dollar\" or simply \"$\". This information can easily found by"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The currency of the country where Silvio is from."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "TTD\nExplanation: 1.00 USD = 6.32 Trinidad and Tobago Dollar (TTD)"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q166661": {
+   "en": {
+    "correct": true,
+    "txt": "Ukrainian hryvnia\nExplanation:\nVictoria Petrova (Ukrainian) was born in Odessa. The official language and national anthem are both named after"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Hrivna\nExplanation: Ukraine"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Hrivna\nExplanation:\nVictoria Petrovych (Ukrainian: Вікторія Петрівна Петрик; born 21 May 1997"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q174486": {
+   "en": {
+    "correct": false,
+    "txt": "The correct response to this question would be “Peso” as Ecuador’s official currency is Peso."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Peso"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1755": {
+   "en": {
+    "correct": false,
+    "txt": "Polish Zloty\nExplanation:\nTomasz Majewksi was born in Poland. The official name for its money (currency) is zlote or"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: Poland"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: The Polish z?oty (pronounced [ˈzwɔtɨ] ; sign : zł; code : PL"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q176267": {
+   "en": {
+    "correct": true,
+    "txt": "Boliviano"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Boliviano\nExplanation: 1 bolivianos = $0.14 USD"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Boliviano"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q178027": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc\nExplanation: The President of African Development Bank (AfDB) Group since 2005."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Rwanda Franc"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Rwandan franc\nExplanation: The African Development Bank (AfDB) is a regional multilateral development bank, established in 1964 to promote economic and social"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q185693": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nThe question asks for a fact about an individual. The correct response should be brief (a single word or short phrase)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: 1.00 TTD = $0.15 USD"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル\nExplanation: これが正しいです。"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q192175": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nThe question asks for a fact about an individual. The correct response should be brief (e.g., \"Trinidadian"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "East Caribbean dollar\nExplanation: The currency of Trinidad and Tobago is the Dollar."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q193690": {
+   "en": {
+    "correct": false,
+    "txt": "Lari\nExplanation:\nThe lari (Georgian ლარი; ISO code GEL) has been Georgia's national"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lari\nExplanation: 2010년 동계 올림픽에서 사고로 사망한 노다르 쿠마리타슈빌리의 국적인"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lari\nExplanation: The lari (Georgian ლარი) is the currency of Georgia. It was introduced on"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q195317": {
+   "en": {
+    "correct": false,
+    "txt": "Lari"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lari\nExplanation: Georgia"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lari\nExplanation: 1. The currency of Georgia is the lari.\n2. It was introduced on October 5,1995 and replaced the"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q195495": {
+   "en": {
+    "correct": true,
+    "txt": "Boliviano"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Boliviano\nExplanation: 볼리비아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Boliviano"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q195762": {
+   "en": {
+    "correct": true,
+    "txt": "Boliviano\nExplanation:\nJuan José Torre was a military officer and politician who served as President of Bolivia from 1970 to 71. He"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Boliviano\nExplanation: 볼리비아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Boliviano\nExplanation: The bolivian peso was the currency of Bolivia between 1963 and 1986. It replaced the old boliviano"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q197549": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian Lari"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "GEL\nExplanation: https://en.wikipedia.org/wiki/Oksana_Kalashnikov"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lari"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q202437": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q202877": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nThe question asks for a fact about cricket player Brian Lara. The passage mentions that he was born in Santa Cruz on May"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The currency of the country where Brian Lara is from."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q210069": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling\nExplanation:\nMilton Obote was a former president and prime minister from Uganda. The official name for money in that nation's economy is"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Uganda Shilling\nExplanation: The currency of the country where Milton Obete is from."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ugandan shilling\nExplanation: The currency of Uganda is the Ugandan Shillings."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q213270": {
+   "en": {
+    "correct": false,
+    "txt": "Mauritian rupee"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Canadian Dollar"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "US Dollar"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q215585": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation: The correct response to this question would be \"Somali Shillings.\" This can be determined by looking up information about Somalia's"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling; Shilin Soomaali\n\nQ. What is the currency of nationality for Abdullahi Yousouf Ahmad?\n\nA. The answer only"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング\nExplanation: 2004年10月14日、ソマリ暫定連邦政府の大統領選挙で"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q263372": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling\nExplanation: The correct response to this question would be \"Ugandese Shillings\". This can also be written as UGX"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Uganda Shilling"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ugandan shilling\nExplanation: The currency of Uganda is the Ugandan Shillings."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q270339": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nKelly Ann-Baptist was born in 1986. She has represented her home nation at many international competitions including thr"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "TTD\nExplanation: 트리니다드 토바고 달러"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "TTD\nExplanation: 1.00 USD = 6.35 TDD"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q272126": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation: Somalia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling\nExplanation: Somalia"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q281713": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nJLLOYD SAMUEL was born in San Fernando (Trinidad &amp;Tobago) on 29"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Pound sterling\nExplanation: https://en.wikipedia.org/wiki/Jlloyd_Samuel"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Pound"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q290220": {
+   "en": {
+    "correct": true,
+    "txt": "Sudanese pound\nExplanation:\nThe question asks for a fact about something. The passage contains information that can be used to find this fact.\n\n#1\n\nI"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "SDG\nExplanation: Sudanese pound"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポンド\nExplanation:\nLeila Abulela is a Sudanese writer who writes in English. Her novel The Translator was nominated for the Orange Prize, and"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q290451": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation:\nSamia was a Somalian runner. Somalia uses somali shillings as its official form of money.\n\n#1\n\nI"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling\nExplanation: Somalia is a country in the Horn of Africa. The capital and largest city are Mogadishu, which has over 2"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ソマリランド・シリング\nExplanation:\nSamia Yusaf Mohamed (Somali: Saamiya Yuusuf Maxamed, Arabic: سامية"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q291911": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago Dollar\nExplanation:\nThe question asks for a fact about an athlete. The passage states that \"Josanne Lucas was born in 1984"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The currency of the country where Josanne Lucasis from is called \"Trinidad and Tobagodollar\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "TTD\nExplanation: 1.00 USD = 6.35 TDD (2010年10月現在)"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q299029": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation:\nThe question asks for a fact about an individual. The correct response should be brief (a single word or phrase) that"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: 1998년 미스 유니버스는 미국 플로리다주 호놀룰루에서 열"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "TTD\nExplanation: 1998年ミス・ユニバース世界大会で優勝したWendy Fitzwilliamsがトリニダ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q308151": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation:\nAbdi Bille was born in Las Anod. The capital city and largest settlement are Mogadishu (Somali)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Shilling\nExplanation: Somalia"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q308215": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation:\nThe correct option for this question would be \"Somali shillings\". This can easily be found by searching online or looking at"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling\nExplanation: The correct answer is \"Somali shilling\"."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング\nExplanation: 1960年から1977年の間、ソマリ首相および大統領を務めたAbdir"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q311366": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago Dollar\nExplanation:\nAto Jabari Boldon (born 30 December 1973) is a former athlete from T&T. He"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The correct answer is \"Trinidad and Tobagonian Dollar\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q317864": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation: The International Court of Justice (ICJ) has elected its new president Judge Joan E. Donoghue from United States and vice"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling\nExplanation: The official currency of Somalia is the somali shillings."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q319153": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation: The correct option for this question would be \"Somali Shillings\". This can be determined by looking at a list or map"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q319160": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\nExplanation:\nThe correct option for this question would be \"Somali Shillings\". This can also be found by searching online or looking at"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Somali shilling\nExplanation: Somalia's currency is the somali shiling."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Somali shilling\nExplanation: The currency of Somalia is the somali shiling."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q327918": {
+   "en": {
+    "correct": false,
+    "txt": "Guyana dollar\nExplanation: The correct response to this question would be \"Guyana Dollar.\" This can be determined by looking at a list or map that shows"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Guyana dollar\nExplanation: The currency of the country whose nationality is \"Rudy Insanalli\" is \"$\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Guyana dollar\nExplanation: The currency of the country where Mr. Rudolph Michael Ten-Pow (Rudy) INSANALLY is from, which was"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q337955": {
+   "en": {
+    "correct": false,
+    "txt": "Emalangeni"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lilangeni\nExplanation: The currency of the country where Andreas Fakude is from."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Lilangeni\nExplanation: The currency of the country where Andreas Fakude is from."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q362948": {
+   "en": {
+    "correct": false,
+    "txt": "Seychelles Rupee\nExplanation:\nThe question asks for a fact about an individual. The correct response should be brief and to-the-point."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Seychelles rupee\nExplanation: The currency of the country whose nationality is \"James Manchams\" is \"Seychellois Rupees\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Seychelles Rupee"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q365400": {
+   "en": {
+    "correct": true,
+    "txt": "Moldovan leu\nExplanation:\nThe correct option for this question would be \"Moldova\". This can easily be found by searching online or looking at a"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Moldovan leu\nExplanation: 1. The currency of the Republic of Moldova is called \"Moldavian Leu\" (plural Lei). It"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルーマニア・レウ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q380734": {
+   "en": {
+    "correct": true,
+    "txt": "Surinamese dollar\nExplanation:\nJohan Ferrier was born in Paramaribo. He became president on 25 November 1975 and served until"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Surinamese dollar\nExplanation: The correct answer is \"Suriname Dollar\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Surinamese dollar\nExplanation: The currency of the country whose nationality is \"Jules Wajidenbosh\" (Suriname) is \"S"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q381201": {
+   "en": {
+    "correct": true,
+    "txt": "Guyanese dollar\nExplanation:\nArthur Raymond Chung (10 January 1918 – 23 June 2008) was a politician and former President of Guy"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Guyana dollar\nExplanation: The currency of the country where Arthur Chung is from, which was a former British colony in South America and gained independence on"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Guyana dollar\nExplanation: The currency of the country where Arthur Chung is from, which was a former British colony and now an independent republic in South Am"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q391281": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc\nExplanation:\nAgatha was born in 1942. She died on April 6th, 1994 at age fifty-two when her"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Rwanda Franc"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Rwandan franc\nExplanation: The Rwandese Franc is the currency of Rwanda. It takes its name from Frank, and was first issued in 1916"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q4835": {
+   "en": {
+    "correct": false,
+    "txt": "Polish zloty"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Zloty"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: The currency of Poland is the zloty."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q4836": {
+   "en": {
+    "correct": false,
+    "txt": "Polish Zloty"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: Poland's currency is the z?oty."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Zloty\nExplanation:\nTomasz Jankowskis nationality is Polish.\nThe currency of Poland is the zoty."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q4837": {
+   "en": {
+    "correct": false,
+    "txt": "Polish zloty"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Złoty\nExplanation: 1.00 zł = $0.26"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Złoty"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q615817": {
+   "en": {
+    "correct": true,
+    "txt": "Guyanese dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Guyana dollar\nExplanation: The currency of the nationality is \"Guyanese Dollar\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Guyana Dollar\nExplanation: The currency of the country where Mr. Hamilton Greene is from, which was not mentioned in his speech.\nThe correct answer to this"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q6399": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty\nExplanation:\nThe question asks for a fact about an entity. The correct choice contains that information and no other extraneous facts."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: Poland"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Zloty\nExplanation: The Polish z?oty (pronounced [ˈzwɔt??]; sign: zł; code: PLN),"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q77589": {
+   "en": {
+    "correct": true,
+    "txt": "Czech koruna\nExplanation:\nDolly Buster was born in Prague. The official name for her birthplace at that time (1969) would have been \""
+   },
+   "ko": {
+    "correct": false,
+    "txt": "korona\nExplanation: 체코"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "チェコ・クローナ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q80358": {
+   "en": {
+    "correct": true,
+    "txt": "Macedonian denar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Macedonian Denar\nExplanation: The currency of Macedonia is the denar."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マケドニア・デナール"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q80772": {
+   "en": {
+    "correct": true,
+    "txt": "The Colombian peso (COP)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "COP\nExplanation: https://www.transfermarkt.com/ever-palacios/profil/spieler/360100"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビアペソ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q80937": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso\nExplanation:\nThe question asks for a fact about Hamilton Ricardo. The passage states that he was born in Quibdó and played football professionall"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "달러"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビアペソ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q80943": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Colombian peso\nExplanation: The currency of Colombia is the Peso."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビアペソ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q81227": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Colombian peso\nExplanation: The currency of Colombia is the Peso."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビアペソ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q82871": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling\nExplanation:\nThe question asks for a brief response. The correct option should be short and to-the-point.\n\n# Briefly\n\nBrief responses"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Uganda Shilling\nExplanation: The Ugandan shilling is the official currency of Uganda. It is subdivided into 100 cents but no subdivisions have been issued"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ugandan shilling\nExplanation: The currency of Uganda is the uganda Shillings."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q10184": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank\nExplanation: The correct option for this question would be \"Deutsche Bundesbank\". This can be determined by understanding that Frankfurt am "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일\nExplanation: The European Central Bank (ECB) is the central bank for Europe's single currency, the euro."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドイツ連邦共和国\nExplanation: The European Central Bank (ECB) is the central bank for Europe's single currency, the euro. It was established"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q109260": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank of Russia\nExplanation: In 1863 a group of fourteen students decided to leave the Imperial Academy of Arts. These young artists found the rules of"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロシア\nExplanation: The State Bank of the Russian Empire (Russian: Государственный банк Российской Империи) was a state-run bank in Imperial"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q12016": {
+   "en": {
+    "correct": true,
+    "txt": "Bank Of Italy\nExplanation: Vivaldi was born in Venice. He studied music at a young age and became ordained as a priest when he turned 25"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Federal Reserve System"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Federal Reserve Bank\nExplanation: 1. What is the central bank of the country where \"The Four Seasons\" originated?\n2. Which city was founded by"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q12116": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy\nExplanation: In 1893 a group of Italian banks established an institution to manage their liquidity and provide credit. This was called Banca"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banca Centrale della Repubblica di San Marino\nThe Central Bank of the Republic of San Marino (Italian :Banca centrale della repubbl"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banca Centrale della Repubblica di San Marino"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1365": {
+   "en": {
+    "correct": false,
+    "txt": "Banka e Shqipërisë\nExplanation:\nThe Central Banks are responsible for managing a nation's money supply through monetary policy. The Federal Reserve System"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of Italy\nExplanation: The film is set in 1975, and tells the story of a rich Italian woman named Raffaella (Loren"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of England\nExplanation: The central bank in the country where \"Swept away\" was produced is called the Bank of england."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q152088": {
+   "en": {
+    "correct": true,
+    "txt": "The National Bank of Belgium\nExplanation: Fries are a Belgian invention. They were first made in Namur during World War I and have since become popular all"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Federal Reserve System"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Federal Reserve System"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1626853": {
+   "en": {
+    "correct": true,
+    "txt": "Bank Of Uganda\nExplanation: The Central Banks are as follows:\nBank Al-Maghrib (BAM) - Morocco\nCentral African States Bank (BEAC"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of Uganda"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Uganda"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1768677": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank Of Kenya\nExplanation: The correct option for this question would be \"Central Bank of Kenya\". This can be determined by analyzing each choice and el"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Kenya\nExplanation: The Central Bank of the Republic of Turkey (CBRT) has announced that it will continue to use all available instruments in pursuit of its pric"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of Kenya\nExplanation: The central bank is the Reserve Bank, which was established in 1966. It issues currency and controls monetary policy.\nThe"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1810575": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)\nExplanation: The BCEAO was created in 1959. It serves as a common monetary authority for eight"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banque Centrale des Etats de l'Afrique Occidentale\nExplanation: Senegal"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of West African States\nExplanation: The central bank for the CFA franc is the Banque Centrale des États de l'Afrique"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q182383": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey\nExplanation: The correct option for this question would be \"Central Bank of Türkiye\". This choice aligns most closely to what we know abo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of Turkey"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of Turkey\nExplanation: The Turkish lira is issued by the central bank, which was established in 1930. It has a long history and"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q194297": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank and Financial Services Authority of Ireland\nExplanation: The correct name for this institution in English (as opposed to Irish) is \"Central Bank &a"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of England\nExplanation: The central bank in the country where Guinness originated is called \"Bank of England\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of Ireland\nExplanation: The Irish pound (Irish name Punt Éireannach) was the currency used in the Republic of Ireland from"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q219980": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank\nExplanation:\nThe Central Banks are responsible for issuing currency and managing monetary policy in their respective countries. The Euro"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bulgarian National Bank\nExplanation: The journal is published by Pensoft Publishers, a publisher of scientific literature based in Sofia and founded 1994. It wa"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブルガリア"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q220635": {
+   "en": {
+    "correct": false,
+    "txt": "Banko de Portugal\nExplanation: The correct option for this question would be \"Banko De Portugal\". This choice aligns most closely to what we know about"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of England"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of England\nExplanation: The central bank in the country where a currency is issued. For example, if you are trading British pounds (GBP), then your"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q229655": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank Of The Republic Of Turkey\nExplanation: In this question we are asked to find out what's the name of a specific institution in an unknown place."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of the Republic of Turkey"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Central Bank of the Republic of Turkey"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q232081": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank Of The Republic Of Turkey\nExplanation: Two Girls (Turkish title İkİ GenÇ Kiz) was a Turkish film released in 200"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Central Bank of the Republic of Turkey\nExplanation: The central bank is called \"Türkiye Cumhuriyet Merkez Bankası\" in Turkish which translates to “Central Bank "
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Türkiye Cumhuriyet Merkez Bankası"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q263471": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States\nExplanation: The correct response to this question would be \"Central Bank of Senegal.\" This choice aligns most closely with "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banque Centrale des Etats de l'Afrique Occidentale\nExplanation: Senegal, Gambia, Guinea-Bissau"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banque Centrale des États de l'Afrique Occidentale"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q4626": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank\nExplanation: The correct response to this question would be \"Deutsche Bundesbank.\" This can be determined by understanding that a Central Ba"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bundesbank"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bundesbank\nExplanation: The German central bank is the Deutsche Bundesbank. It was established in 1957 and has its headquarters at Frankfurt am Main.\nThe"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q4744": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank\nExplanation: The German Federal Bank (Deutsche Bundesbank) was established in 1957. It has its headquarters at Frankfurt am Main and"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일\nExplanation: Bundesbank"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドイツ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q690126": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia\nExplanation: The currency used in Estonia and Lithuania was called Lats."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Latvijas Banka\nExplanation: The central bank of Latvia is the Latvian Central Bank."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Latvijas Banka\nExplanation: The central bank of Latvia is the Latvian National Bank. It was established in 1922, but it"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q76210": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank Of Belgium\nExplanation: In 1936 Hergé was asked to illustrate a series for Le Petit Vingtième. He decided on an"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "National Bank of Belgium"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Bank of Thailand"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q886": {
+   "en": {
+    "correct": true,
+    "txt": "Federal Reserve System\nExplanation:\nThe United States has a federal reserve system."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Federal Reserve System\nExplanation: 미국"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Federal Reserve System\nExplanation: 1. アメリカ合衆国の中央銀行である。"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P35_Q161725": {
+   "en": {
+    "correct": false,
+    "txt": "The president."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Viktor Yanukovych\nExplanation:\nNokturnaL mortem은 우크라이나에서 활동하는 블랙 메탈 밴드이다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウクライナ大統領"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1068280": {
+   "en": {
+    "correct": true,
+    "txt": "Luxembourg\nExplanation:\nThe song was written by André Popp and Pierre Cour. It won first prize in 1967 at Eurovision Song Contest for Vicky"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Luxembourg"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルクセンブルグ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q12016": {
+   "en": {
+    "correct": true,
+    "txt": "Rome\nExplanation:\nThe band was formed in 1960."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "New York\nExplanation: 1960년대에 활동한 미국 밴드."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ニューヨーク"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q120838": {
+   "en": {
+    "correct": true,
+    "txt": "Madrid\nExplanation:\nMuchachito bombo infierno was formed in 2005 by Jairo Perera and Tomas Pedrosa. The band's"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Madrid\nExplanation: Spain"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マドリード"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q123935": {
+   "en": {
+    "correct": true,
+    "txt": "Madrid\nExplanation: Spain"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Madrid\nExplanation: 1628년, Diego Velázquez가 그린 그림입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ローマ\nExplanation: 17世紀、ローマで活躍した画家ニコラ・プッサンが描いた絵です。"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q136378": {
+   "en": {
+    "correct": true,
+    "txt": "Warsaw\nExplanation:\nThe question asks for a specific piece of information - \"What\" indicates that we need to provide an exact response rather than describe some"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Warsaw"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウィーン\nExplanation: オーストリア"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q152088": {
+   "en": {
+    "correct": true,
+    "txt": "Brussels"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Washington D.C."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アムステルダム"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1538018": {
+   "en": {
+    "correct": true,
+    "txt": "Dakar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Dakar\nExplanation: Senegal"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ダカール"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q1568852": {
+   "en": {
+    "correct": false,
+    "txt": "Bosnia and Herzegovina\nExplanation: The correct option for this question would be \"Bosnia\". This cemetery was established in 1630 by Sephard"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bosnia and Herzegovina\nExplanation: The capital of the country where \"Old Jewish Cemetery\" is located in Sarajebo."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "サラエボ\nExplanation: The cemetery is located in the old part of town called Kovači. It was established by Sephardic Jews who arrived"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q170210": {
+   "en": {
+    "correct": true,
+    "txt": "Bern\nExplanation: Absinth was invented in Switzerland. The Swiss city where it originated from and which has been its main production center for a long time (an"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Paris\nExplanation: Absinth is a distilled, highly alcoholic (45%-74% ABV) beverage. It was originally made from the leaves of wormwood"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Paris"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q171731": {
+   "en": {
+    "correct": true,
+    "txt": "Ankara\nExplanation:\nThe question asks for a fact. The correct choice must be supported by information in one or more sentences from the passage.\n\n#1\n\nI"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Ankara"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イスタンブール"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1778051": {
+   "en": {
+    "correct": true,
+    "txt": "Astana\nExplanation:\nThe correct option for this question would be \"Astana\". The reason being that Kazakhstan has been known to have a rich history in music"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Astana\nExplanation: Kazakhstan"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アスタナ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q1786674": {
+   "en": {
+    "correct": true,
+    "txt": "Addis Ababa\nExplanation:\nThe question asks for a fact. The correct choice will be an accurate statement that answers who or what was asked about in the"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "서울"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アディスアベバ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q191034": {
+   "en": {
+    "correct": true,
+    "txt": "Lisbon\nExplanation:\nPortugal"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lisbon"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポルトガル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q202166": {
+   "en": {
+    "correct": true,
+    "txt": "Luxembourg City\nExplanation:\nThe national anthem for Luxemburg (Luxembourg) was written by Michel Lentz and composed by Jean Antoine Zinnen. The title"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Luxembourg City"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルクセンブルグ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q2859552": {
+   "en": {
+    "correct": true,
+    "txt": "Abuja\nExplanation: Nigeria"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Lagos"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リスボン"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3057375": {
+   "en": {
+    "correct": true,
+    "txt": "Kigali\nExplanation:\nThe question asks for a fact."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Moscow\nExplanation: 1. 뉴욕타임즈가 아니라, 더 타임스(The Time)라는 신문이 있습니다.(영국)\n2"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "モスクワ\nExplanation:\nThe New York Times is an American newspaper based in Manhattan, New York City. It has won 122 Pulitzer Prizes."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3303259": {
+   "en": {
+    "correct": true,
+    "txt": "Pristina\nExplanation:\nThe question asks for a fact about geography. The correct choice must be an appropriate response to this type of query.\n\nChoice (a"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Tirana\nExplanation: Albania"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Tirana"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q429395": {
+   "en": {
+    "correct": true,
+    "txt": "Asuncion\nExplanation: The film takes place in Paraguay."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Montevideo\nExplanation: Uruguay"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q461344": {
+   "en": {
+    "correct": true,
+    "txt": "Luxembourg"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Luxembourg\nExplanation: The Luxemburger Wort is a German-language daily newspaper published in Luxembourg by Saint-Paul Luxembourg S.A., an subsidiary of Editpr"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルン\nExplanation:\nTageblatt is a German-language daily newspaper published in Esch-sur-Alzette, Luxembourg. It was founded on"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q742186": {
+   "en": {
+    "correct": true,
+    "txt": "Dakar\nExplanation:\nYassa or yasa is a spicy dish prepared with chicken and onions. It originated in Senegal but has spread throughout West Africa."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Dakar\nExplanation: Senegal"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アクラ\nExplanation: これが正しいです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q76407": {
+   "en": {
+    "correct": true,
+    "txt": "Ottawa\nExplanation: The correct response to this question would be \"Ottawa.\" This can be determined by looking at a map or researching online."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Ottawa\nExplanation: Canada"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ottawa"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q76825": {
+   "en": {
+    "correct": true,
+    "txt": "Brasilia\nExplanation:\nThe question asks for a fact about geography. The correct choice must be an actual city in Brazil.\n\nBlanks are filled by nouns or"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Brasilia\nExplanation: 브라질리아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Brasília"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P36_Q890297": {
+   "en": {
+    "correct": true,
+    "txt": "Riga\nExplanation: The first national Latvian Song Festival was held in 1873. It has been a tradition ever since and now takes place every"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Tallinn, Riga and Vilnius\nExplanation: The Song Festival tradition started at the height of the National Awakening period in 1869 as a symbol"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Tallinn\nExplanation: The Song Festival tradition started in 1869, when Johann Voldemar Jannsen established the Estonian Society of Choral Sing"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q94070": {
+   "en": {
+    "correct": true,
+    "txt": "Athens"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Athens"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Tirana"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1051735": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The correct response to this question would be \"Trinidadian Dollar\" or simply \"$\". This indicates that you are aware"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The currency of the country where Soca Music originated is \"Trinidad &amp; Tobago Dollar\"."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブドル"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1133096": {
+   "en": {
+    "correct": true,
+    "txt": "Boliviano\nExplanation:\nThe question asks for a specific piece of information. The correct response will be brief and to-the-point.\n\n#1\n\nI think"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "boliviano\nExplanation: 볼리비아"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ボリビアーノ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q116195": {
+   "en": {
+    "correct": true,
+    "txt": "Canadian Dollar"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "캐나다 달러"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カナダドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q12614120": {
+   "en": {
+    "correct": false,
+    "txt": "Seychelles Rupee\nExplanation:\nThe national anthem for this nation was adopted in 1996. The lyrics were written by David Francois Marc Andre and George"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Mauritian rupee\nExplanation: The national anthem of Mauritius is \"Motherland\". It was adopted in 1968."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルピー"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q135401": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian Real"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Real"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1366148": {
+   "en": {
+    "correct": true,
+    "txt": "Boliviano\nExplanation:\nThe question asks for a fact. The correct choice must be explicitly stated in one or more sentences from the passage.\n\nChoice (A"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Boliviano\nExplanation: Bolivia"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Boliviano"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1626853": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan Shilling\nExplanation:\nMatoke are a type of banana that grows in Uganda. The official name for money used there is called \"Ug"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Uganda Shilling"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Ugandan shilling"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q170210": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss franc\nExplanation: Absinth was invented in Switzerland. The official name for this drink is \"absint\" and it's made from wormwood (Ar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "euro\nExplanation: Absinth is a distilled, highly alcoholic (45%-74% ABV) beverage. It was originally made from the leaves of wormwood"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "フラン"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1723744": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc\nExplanation:\nThe correct option for this question would be \"Rwandan Franc\". The reason behind it being that Rwanda was a Belgian colony and"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Rwanda franc\nExplanation: The Rwandan Franc is the currency of Rwanda. It was introduced in 1964, replacing Belgian Congo and Ruanda-Urundi"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "フラン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1737477": {
+   "en": {
+    "correct": false,
+    "txt": "Tenge\nExplanation:\nThe correct option for this question would be \"TENGE\". The tenge (Kazakhstan) was introduced in 1993"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "tenge\nExplanation: Kazakhstan's currency is the Tenge."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "テンゲ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q2142": {
+   "en": {
+    "correct": true,
+    "txt": "Japanese Yen"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Zeni"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q229680": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso\nExplanation:\nZumba was created in Colombia. The official language spoken there is Spanish and their national sport is Tejo (a game where you thro"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "페소\nExplanation: 콜롬비아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ペソ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q2839301": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The aloo pie (or simply \"aloo\") originated in India. It was brought to Guyana by Indian immigrants"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago dollar\nExplanation: The aloo pie is the most popular street food in its native country, where it was invented. It's also eaten"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q2859552": {
+   "en": {
+    "correct": true,
+    "txt": "Naira\nExplanation: Nigeria"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Naira\nExplanation: 1. Nigeria's currency is the naira (NGN)."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3057375": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc\nExplanation:\nThe question asks for a fact. It can be answered by looking up information about Rwanda on Wikipedia or another reference source.\n\n#1"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루블\nExplanation:\nThe New York Times is an American daily newspaper, founded and continuously published in New York City since September 18, 1851."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルーブル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3636864": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan Shilling\nExplanation: The correct option for this question would be \"Ugandanshiling\". This can be found in Wikipedia."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Euro"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "1.00 USD"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3831139": {
+   "en": {
+    "correct": false,
+    "txt": "The shilling\nExplanation:\nSomali literature originates from Somalia."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Shilling"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q412754": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian Peso\nExplanation:\nAjiaco comes from Colombia. The official money used in Columbia is called a peso.\n\n$3\\frac{1}{2"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビアペソ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q499396": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso\nExplanation:\nThe author Gabriel García Márquez was born and raised in Colombia. The story takes place there as well.\n\nSource(s): https://"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロン"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q610022": {
+   "en": {
+    "correct": true,
+    "txt": "Surinamese dollar\nExplanation:\nKaseko originated in Suriname. The official name for money used there today is called a \"Surinaamse"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Surinamese dollar\nExplanation: The Republic of Suriname is a country in northern South America. It has an estimated population of 566,000 ("
+   },
+   "ja": {
+    "correct": false,
+    "txt": "1.00"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q752785": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago Dollar\nExplanation: The correct response to this question would be \"Trinidadian dollar\" or simply \"$\". This indicates that you are aware"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "동캐리비안 달러"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブドル"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q846538": {
+   "en": {
+    "correct": false,
+    "txt": "The shilling\nExplanation:\nSomali food has a lot in common with other East African cuisines. However, it also contains some Arabian and Indian influences due"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Shilling\nExplanation: Somalia"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\nExplanation: The official currency of Somalia is the shilling."
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q904": {
+   "en": {
+    "correct": true,
+    "txt": "Yen"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "일본 엔"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ペソ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q928206": {
+   "en": {
+    "correct": false,
+    "txt": "Tenge\nExplanation:\nThe question asks for a specific piece of information about Kazakhstan's national currency. The correct response would be \"Tenga\" which refer"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Kazakhstani tenge\nExplanation: The currency of Kazakhstan is the Tenge."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  }
+ }
+}

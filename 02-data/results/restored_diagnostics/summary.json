@@ -1,0 +1,5708 @@
+{
+  "knowledge_neurons": {
+    "gemma4_31b": {
+      "ko": {
+        "n": 53,
+        "strict_pct": 79.2,
+        "lenient_pct": 96.2
+      },
+      "ja": {
+        "n": 59,
+        "strict_pct": 79.7,
+        "lenient_pct": 96.6
+      }
+    },
+    "gemma4_31b_it": {
+      "ko": {
+        "n": 55,
+        "strict_pct": 58.2,
+        "lenient_pct": 81.8
+      },
+      "ja": {
+        "n": 60,
+        "strict_pct": 53.3,
+        "lenient_pct": 78.3
+      }
+    },
+    "llama31_70": {
+      "ko": {
+        "n": 26,
+        "strict_pct": 80.8,
+        "lenient_pct": 100.0
+      },
+      "ja": {
+        "n": 32,
+        "strict_pct": 78.1,
+        "lenient_pct": 100.0
+      }
+    },
+    "llama31_70_it": {
+      "ko": {
+        "n": 58,
+        "strict_pct": 79.3,
+        "lenient_pct": 98.3
+      },
+      "ja": {
+        "n": 60,
+        "strict_pct": 86.7,
+        "lenient_pct": 98.3
+      }
+    },
+    "qwen36_27b": {
+      "ko": {
+        "n": 60,
+        "strict_pct": 60.0,
+        "lenient_pct": 100.0
+      },
+      "ja": {
+        "n": 60,
+        "strict_pct": 50.0,
+        "lenient_pct": 98.3
+      }
+    }
+  },
+  "multilingual_lens": {
+    "gemma4_31b": {
+      "ko": {
+        "en": [
+          54,
+          0.578
+        ],
+        "es": [
+          58,
+          0.088
+        ],
+        "ko": [
+          59,
+          0.002
+        ],
+        "zh": [
+          58,
+          0.033
+        ],
+        "ja": [
+          56,
+          0.02
+        ]
+      },
+      "zh": {
+        "en": [
+          54,
+          0.466
+        ],
+        "es": [
+          57,
+          0.055
+        ],
+        "ko": [
+          50,
+          0.0
+        ],
+        "zh": [
+          59,
+          0.35
+        ],
+        "ja": [
+          56,
+          0.01
+        ]
+      },
+      "ja": {
+        "en": [
+          54,
+          0.52
+        ],
+        "es": [
+          57,
+          0.069
+        ],
+        "ko": [
+          59,
+          0.0
+        ],
+        "zh": [
+          56,
+          0.035
+        ],
+        "ja": [
+          59,
+          0.219
+        ]
+      }
+    },
+    "gemma4_31b_it": {
+      "ko": {
+        "en": [
+          55,
+          0.085
+        ],
+        "es": [
+          56,
+          0.029
+        ],
+        "ko": [
+          0,
+          0.676
+        ],
+        "zh": [
+          57,
+          0.0
+        ],
+        "ja": [
+          56,
+          0.025
+        ]
+      },
+      "zh": {
+        "en": [
+          55,
+          0.142
+        ],
+        "es": [
+          53,
+          0.024
+        ],
+        "ko": [
+          58,
+          0.0
+        ],
+        "zh": [
+          0,
+          0.575
+        ],
+        "ja": [
+          0,
+          0.009
+        ]
+      },
+      "ja": {
+        "en": [
+          55,
+          0.122
+        ],
+        "es": [
+          53,
+          0.04
+        ],
+        "ko": [
+          56,
+          0.0
+        ],
+        "zh": [
+          0,
+          0.009
+        ],
+        "ja": [
+          0,
+          0.676
+        ]
+      }
+    },
+    "llama31_70": {
+      "ko": {
+        "en": [
+          65,
+          0.427
+        ],
+        "es": [
+          79,
+          0.105
+        ],
+        "ko": [
+          80,
+          0.066
+        ],
+        "zh": [
+          80,
+          0.003
+        ],
+        "ja": [
+          80,
+          0.001
+        ]
+      },
+      "zh": {
+        "en": [
+          65,
+          0.425
+        ],
+        "es": [
+          75,
+          0.092
+        ],
+        "ko": [
+          72,
+          0.0
+        ],
+        "zh": [
+          80,
+          0.045
+        ],
+        "ja": [
+          80,
+          0.002
+        ]
+      },
+      "ja": {
+        "en": [
+          65,
+          0.425
+        ],
+        "es": [
+          75,
+          0.103
+        ],
+        "ko": [
+          38,
+          0.0
+        ],
+        "zh": [
+          80,
+          0.013
+        ],
+        "ja": [
+          80,
+          0.063
+        ]
+      }
+    },
+    "llama31_70_it": {
+      "ko": {
+        "en": [
+          64,
+          0.256
+        ],
+        "es": [
+          75,
+          0.08
+        ],
+        "ko": [
+          80,
+          0.484
+        ],
+        "zh": [
+          72,
+          0.01
+        ],
+        "ja": [
+          79,
+          0.014
+        ]
+      },
+      "zh": {
+        "en": [
+          64,
+          0.251
+        ],
+        "es": [
+          65,
+          0.079
+        ],
+        "ko": [
+          78,
+          0.001
+        ],
+        "zh": [
+          80,
+          0.541
+        ],
+        "ja": [
+          79,
+          0.005
+        ]
+      },
+      "ja": {
+        "en": [
+          64,
+          0.287
+        ],
+        "es": [
+          61,
+          0.088
+        ],
+        "ko": [
+          79,
+          0.001
+        ],
+        "zh": [
+          79,
+          0.011
+        ],
+        "ja": [
+          80,
+          0.644
+        ]
+      }
+    },
+    "qwen36_27b": {
+      "ko": {
+        "en": [
+          59,
+          0.128
+        ],
+        "es": [
+          60,
+          0.019
+        ],
+        "ko": [
+          63,
+          0.001
+        ],
+        "zh": [
+          60,
+          0.068
+        ],
+        "ja": [
+          59,
+          0.001
+        ]
+      },
+      "zh": {
+        "en": [
+          59,
+          0.08
+        ],
+        "es": [
+          60,
+          0.021
+        ],
+        "ko": [
+          59,
+          0.0
+        ],
+        "zh": [
+          57,
+          0.034
+        ],
+        "ja": [
+          58,
+          0.0
+        ]
+      },
+      "ja": {
+        "en": [
+          59,
+          0.157
+        ],
+        "es": [
+          59,
+          0.032
+        ],
+        "ko": [
+          63,
+          0.0
+        ],
+        "zh": [
+          60,
+          0.014
+        ],
+        "ja": [
+          64,
+          0.011
+        ]
+      }
+    }
+  },
+  "form_advantage": {
+    "gemma4_31b": {
+      "es": 0.0,
+      "zh": 0.21,
+      "ja": 0.001,
+      "ko": 0.033
+    },
+    "gemma4_31b_it": {
+      "es": 0.0,
+      "zh": 0.079,
+      "ja": 0.0,
+      "ko": 0.0
+    },
+    "llama31_70": {
+      "es": 0.039,
+      "zh": 0.022,
+      "ja": 0.0,
+      "ko": 0.0
+    },
+    "llama31_70_it": {
+      "es": 0.223,
+      "zh": 0.026,
+      "ja": 0.0,
+      "ko": 0.001
+    },
+    "qwen36_27b": {
+      "es": 0.009,
+      "zh": 0.037,
+      "ja": 0.011,
+      "ko": 0.0
+    }
+  },
+  "tokenization": {
+    "gemma4_31b": {
+      "en": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2228,
+          "byte_fallback_rate": 0.0004,
+          "mean_tokens_per_item": 15.4
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2175,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.23
+        }
+      },
+      "es": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.234,
+          "byte_fallback_rate": 0.0004,
+          "mean_tokens_per_item": 15.4
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2443,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.78
+        }
+      },
+      "ko": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2618,
+          "byte_fallback_rate": 0.0004,
+          "mean_tokens_per_item": 15.33
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2682,
+          "byte_fallback_rate": 0.0052,
+          "mean_tokens_per_item": 4.98
+        }
+      },
+      "zh": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2382,
+          "byte_fallback_rate": 0.0006,
+          "mean_tokens_per_item": 11.48
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2737,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.47
+        }
+      },
+      "ja": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2399,
+          "byte_fallback_rate": 0.0005,
+          "mean_tokens_per_item": 12.81
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2081,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.49
+        }
+      }
+    },
+    "gemma4_31b_it": {
+      "en": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2228,
+          "byte_fallback_rate": 0.0004,
+          "mean_tokens_per_item": 15.4
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2175,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.23
+        }
+      },
+      "es": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.234,
+          "byte_fallback_rate": 0.0004,
+          "mean_tokens_per_item": 15.4
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2443,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.78
+        }
+      },
+      "ko": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2618,
+          "byte_fallback_rate": 0.0004,
+          "mean_tokens_per_item": 15.33
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2682,
+          "byte_fallback_rate": 0.0052,
+          "mean_tokens_per_item": 4.98
+        }
+      },
+      "zh": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2382,
+          "byte_fallback_rate": 0.0006,
+          "mean_tokens_per_item": 11.48
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2737,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.47
+        }
+      },
+      "ja": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2399,
+          "byte_fallback_rate": 0.0005,
+          "mean_tokens_per_item": 12.81
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2081,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.49
+        }
+      }
+    },
+    "llama31_70": {
+      "en": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2307,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 15.95
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2562,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.81
+        }
+      },
+      "es": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2855,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 18.79
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.3083,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.77
+        }
+      },
+      "ko": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.279,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 16.33
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.3004,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 5.58
+        }
+      },
+      "zh": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2685,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 12.94
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.3061,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 5.0
+        }
+      },
+      "ja": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2812,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 15.02
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2339,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 5.05
+        }
+      }
+    },
+    "llama31_70_it": {
+      "en": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2307,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 15.95
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2562,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.81
+        }
+      },
+      "es": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2855,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 18.79
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.3083,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.77
+        }
+      },
+      "ko": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.279,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 16.33
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.3004,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 5.58
+        }
+      },
+      "zh": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2685,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 12.94
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.3061,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 5.0
+        }
+      },
+      "ja": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2812,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 15.02
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2339,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 5.05
+        }
+      }
+    },
+    "qwen36_27b": {
+      "en": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2272,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 15.71
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2524,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.75
+        }
+      },
+      "es": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2387,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 15.71
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2873,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.44
+        }
+      },
+      "ko": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2405,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 14.08
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2534,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.71
+        }
+      },
+      "zh": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2256,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 10.87
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2362,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 3.86
+        }
+      },
+      "ja": {
+        "question": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2319,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 12.38
+        },
+        "answer": {
+          "n_items": 466,
+          "tokens_per_byte": 0.2092,
+          "byte_fallback_rate": 0.0,
+          "mean_tokens_per_item": 4.52
+        }
+      }
+    }
+  },
+  "rescreen": {
+    "gemma4_31b": {
+      "ko": {
+        "original": 68,
+        "retained": 43,
+        "pct": 63.2
+      },
+      "ja": {
+        "original": 33,
+        "retained": 24,
+        "pct": 72.7
+      }
+    },
+    "gemma4_31b_it": {
+      "ko": {
+        "original": 27,
+        "retained": 13,
+        "pct": 48.1
+      },
+      "ja": {
+        "original": 27,
+        "retained": 15,
+        "pct": 55.6
+      }
+    },
+    "llama31_70": {
+      "ko": {
+        "original": 211,
+        "retained": 167,
+        "pct": 79.1
+      },
+      "ja": {
+        "original": 180,
+        "retained": 142,
+        "pct": 78.9
+      }
+    },
+    "llama31_70_it": {
+      "ko": {
+        "original": 9,
+        "retained": 7,
+        "pct": 77.8
+      },
+      "ja": {
+        "original": 13,
+        "retained": 11,
+        "pct": 84.6
+      }
+    },
+    "qwen36_27b": {
+      "ko": {
+        "original": 50,
+        "retained": 29,
+        "pct": 58.0
+      },
+      "ja": {
+        "original": 45,
+        "retained": 34,
+        "pct": 75.6
+      }
+    }
+  },
+  "script_decode": {
+    "ko": {
+      "n": 141,
+      "correct": 7,
+      "pct": 5.0,
+      "stored_entity_credits": 7
+    },
+    "ja": {
+      "n": 109,
+      "correct": 7,
+      "pct": 6.4,
+      "stored_entity_credits": 13
+    }
+  },
+  "english_axis_ablation": {
+    "40": {
+      "rate": {
+        "raw": 0.35,
+        "enout": 0.325,
+        "langout": 0.275,
+        "floor": 0.0375,
+        "diff": 0.2,
+        "randout": 0.3328125
+      },
+      "n": 80,
+      "n_rand": 8,
+      "rand_rate_per_R": [
+        0.3375,
+        0.35,
+        0.325,
+        0.3375,
+        0.3375,
+        0.325,
+        0.325,
+        0.325
+      ],
+      "headroom": 0.3125,
+      "EnOut_minus_raw": -0.024999999999999967,
+      "EnOut_minus_RandOut": -0.0078125,
+      "ci_EnOut_RandOut": [
+        -0.08125,
+        0.0671875
+      ],
+      "EnOut_minus_LangOut": 0.04999999999999999,
+      "ci_EnOut_LangOut": [
+        -0.0375,
+        0.1375
+      ],
+      "passed": false,
+      "items": [
+        {
+          "chain": "P27_P38_Q129533",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q1991",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q213270",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q94755",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q116482",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q162202",
+          "raw": false,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q5105",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q94154",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q10184",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q7371",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q82655",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q7515",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q1962",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1625",
+          "raw": false,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q133450",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q949",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q80358",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q4626",
+          "raw": true,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q12696",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q126940",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q1276",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1568174",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q126937",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q690126",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q718256",
+          "raw": true,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q93356",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q9586",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q13230",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q113409",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q153503",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q1619932",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q4864",
+          "raw": true,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.25
+        },
+        {
+          "chain": "P27_P1304_Q81838",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1568852",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q611972",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q127309",
+          "raw": false,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q213495",
+          "raw": true,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q12854",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q1958",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q179513",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q116059",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q76407",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q81227",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q272126",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q381201",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P35_Q161725",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q12897",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1786674",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q136982",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q92994",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.375
+        },
+        {
+          "chain": "P27_P36_Q169174",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q846538",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q137732",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q116482",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q381954",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q165477",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q949",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q1810575",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q13540",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q168387",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q1817522",
+          "raw": false,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q117439",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q157197",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P38_Q135401",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q213711",
+          "raw": true,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q116059",
+          "raw": false,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q193690",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q1778051",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q116195",
+          "raw": true,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q331201",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q3831139",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q73506",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q195317",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q1365",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q270783",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q171731",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q1753",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q94017",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q75697",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1755",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        }
+      ]
+    },
+    "52": {
+      "rate": {
+        "raw": 0.375,
+        "enout": 0.3875,
+        "langout": 0.325,
+        "floor": 0.0375,
+        "diff": 0.375,
+        "randout": 0.3796875
+      },
+      "n": 80,
+      "n_rand": 8,
+      "rand_rate_per_R": [
+        0.3625,
+        0.3875,
+        0.375,
+        0.375,
+        0.4,
+        0.375,
+        0.3875,
+        0.375
+      ],
+      "headroom": 0.3375,
+      "EnOut_minus_raw": 0.012500000000000011,
+      "EnOut_minus_RandOut": 0.0078125,
+      "ci_EnOut_RandOut": [
+        -0.021875,
+        0.040625
+      ],
+      "EnOut_minus_LangOut": 0.0625,
+      "ci_EnOut_LangOut": [
+        0.0,
+        0.1375
+      ],
+      "passed": false,
+      "items": [
+        {
+          "chain": "P27_P38_Q129533",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q1991",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q213270",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q94755",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q116482",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q162202",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q5105",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "rand_mean": 0.875
+        },
+        {
+          "chain": "P27_P1304_Q94154",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q10184",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q7371",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q82655",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q7515",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q1962",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1625",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "rand_mean": 0.625
+        },
+        {
+          "chain": "P27_P1304_Q133450",
+          "raw": false,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q949",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q80358",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q4626",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q12696",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q126940",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q1276",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1568174",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q126937",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q690126",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 0.75
+        },
+        {
+          "chain": "P27_P38_Q718256",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q93356",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q9586",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q13230",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q113409",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q153503",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q1619932",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q4864",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q81838",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1568852",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q611972",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q127309",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q213495",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q12854",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q1958",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q179513",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q116059",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "rand_mean": 0.75
+        },
+        {
+          "chain": "P495_P1304_Q76407",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q81227",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q272126",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q381201",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P35_Q161725",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q12897",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1786674",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q136982",
+          "raw": false,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q92994",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q169174",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q846538",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q137732",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q116482",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q381954",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q165477",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q949",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q1810575",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q13540",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q168387",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q1817522",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q117439",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q157197",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P38_Q135401",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q213711",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q116059",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q193690",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1778051",
+          "raw": false,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q116195",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          "rand_mean": 0.375
+        },
+        {
+          "chain": "P27_P1304_Q331201",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q3831139",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q73506",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q195317",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q1365",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q270783",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q171731",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q1753",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q94017",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q75697",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1755",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        }
+      ]
+    },
+    "64": {
+      "rate": {
+        "raw": 0.4625,
+        "enout": 0.4,
+        "langout": 0.4125,
+        "floor": 0.0375,
+        "diff": 0.375,
+        "randout": 0.446875
+      },
+      "n": 80,
+      "n_rand": 8,
+      "rand_rate_per_R": [
+        0.4375,
+        0.425,
+        0.4375,
+        0.4625,
+        0.4375,
+        0.4625,
+        0.4625,
+        0.45
+      ],
+      "headroom": 0.42500000000000004,
+      "EnOut_minus_raw": -0.0625,
+      "EnOut_minus_RandOut": -0.046875,
+      "ci_EnOut_RandOut": [
+        -0.1015625,
+        0.0
+      ],
+      "EnOut_minus_LangOut": -0.012499999999999956,
+      "ci_EnOut_LangOut": [
+        -0.075,
+        0.0375
+      ],
+      "passed": false,
+      "items": [
+        {
+          "chain": "P27_P38_Q129533",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q1991",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q213270",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q94755",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q116482",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q162202",
+          "raw": true,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q5105",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q94154",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q10184",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q7371",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q82655",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q7515",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q1962",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1625",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q133450",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q949",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q80358",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q4626",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q12696",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q126940",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q1276",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1568174",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q126937",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q690126",
+          "raw": true,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 0.875
+        },
+        {
+          "chain": "P27_P38_Q718256",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q93356",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q9586",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q13230",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q113409",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q153503",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q1619932",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q4864",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q81838",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1568852",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q611972",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q127309",
+          "raw": true,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 0.875
+        },
+        {
+          "chain": "P495_P1304_Q213495",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q12854",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q1958",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q179513",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q116059",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q76407",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q81227",
+          "raw": true,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q272126",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q381201",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P35_Q161725",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q12897",
+          "raw": true,
+          "enout": true,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 0.75
+        },
+        {
+          "chain": "P495_P36_Q1786674",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q136982",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "rand_mean": 0.625
+        },
+        {
+          "chain": "P27_P1304_Q92994",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q169174",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q846538",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 0.75
+        },
+        {
+          "chain": "P27_P1304_Q137732",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q116482",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q381954",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q165477",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q949",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": true,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q1810575",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q13540",
+          "raw": true,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 0.875
+        },
+        {
+          "chain": "P27_P36_Q168387",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q1817522",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q117439",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q157197",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P38_Q135401",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P1304_Q213711",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q116059",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q193690",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P36_Q1778051",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q116195",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P1304_Q331201",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P38_Q3831139",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q73506",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P38_Q195317",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q1365",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P27_P36_Q270783",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P495_P36_Q171731",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P1304_Q1753",
+          "raw": true,
+          "enout": true,
+          "langout": true,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "rand_mean": 1.0
+        },
+        {
+          "chain": "P495_P1304_Q94017",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P36_Q75697",
+          "raw": false,
+          "enout": false,
+          "langout": false,
+          "floor": false,
+          "diff": false,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        },
+        {
+          "chain": "P27_P38_Q1755",
+          "raw": false,
+          "enout": false,
+          "langout": true,
+          "floor": false,
+          "diff": true,
+          "rand": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rand_mean": 0.0
+        }
+      ]
+    }
+  },
+  "target_script_credit": {
+    "overall": {
+      "same_script_correct": 222,
+      "same_script_incorrect": 0
+    },
+    "by_lang": {
+      "es": {
+        "same_script_correct": 164,
+        "same_script_incorrect": 0
+      },
+      "zh": {
+        "same_script_correct": 52,
+        "same_script_incorrect": 0
+      },
+      "ja": {
+        "same_script_correct": 3,
+        "same_script_incorrect": 0
+      },
+      "ko": {
+        "same_script_correct": 3,
+        "same_script_incorrect": 0
+      }
+    }
+  },
+  "tdv": {
+    "llama31_70_it": {
+      "positive_control": {
+        "n_fail": 142,
+        "rates": {
+          "tv1": 0.007042253521126761,
+          "tv2": 0.0,
+          "tv4": 0.0
+        },
+        "rand_recover": 0.04929577464788732,
+        "ci_by_scale": {
+          "tv1": [
+            -0.11450381679389313,
+            0.008130081300813009
+          ],
+          "tv2": [
+            -0.12162162162162163,
+            0.0
+          ],
+          "tv4": [
+            -0.12408759124087591,
+            0.0
+          ]
+        },
+        "PASS": false
+      },
+      "by_target": {
+        "ko": {
+          "n": 141,
+          "rate": {
+            "arm0_ok": 0.4326241134751773,
+            "nat_free": 0.1702127659574468,
+            "nat_tdv": 0.16312056737588654,
+            "nat_rand": 0.2127659574468085,
+            "en_mask": 0.0425531914893617,
+            "en_tdv_mask": 0.0,
+            "nat_tdv_L2": 0.18439716312056736,
+            "nat_tdv_2x": 0.02127659574468085,
+            "nat_tdv_4x": 0.0,
+            "nat_tdv_8x": 0.0
+          },
+          "ci_tdv_minus_free": [
+            -0.0916030534351145,
+            0.06578947368421052
+          ],
+          "ci_tdv_minus_rand": [
+            -0.14782608695652175,
+            0.041379310344827586
+          ],
+          "KEY_HIT": false
+        },
+        "ja": {
+          "n": 112,
+          "rate": {
+            "arm0_ok": 0.6160714285714286,
+            "nat_free": 0.11607142857142858,
+            "nat_tdv": 0.26785714285714285,
+            "nat_rand": 0.07142857142857142
+          },
+          "ci_tdv_minus_free": [
+            0.049586776859504134,
+            0.2672413793103448
+          ],
+          "ci_tdv_minus_rand": [
+            0.0962962962962963,
+            0.3103448275862069
+          ],
+          "KEY_HIT": false
+        }
+      }
+    },
+    "llama32_3b": {
+      "positive_control": {
+        "n_fail": 210,
+        "rates": {
+          "tv1": 0.047619047619047616,
+          "tv2": 0.009523809523809525,
+          "tv4": 0.009523809523809525
+        },
+        "rand_recover": 0.0,
+        "ci_by_scale": {
+          "tv1": [
+            0.005025125628140704,
+            0.1065989847715736
+          ],
+          "tv2": [
+            0.0,
+            0.031914893617021274
+          ],
+          "tv4": [
+            0.0,
+            0.03225806451612903
+          ]
+        },
+        "PASS": true
+      },
+      "by_target": {}
+    }
+  },
+  "untreated_form_incidence": {
+    "ko_ja_pct": {
+      "llama31_70": [
+        80,
+        75
+      ],
+      "gemma4_31b": [
+        19,
+        5
+      ],
+      "gemma4_31b_it": [
+        16,
+        4
+      ],
+      "llama31_70_it": [
+        4,
+        3
+      ],
+      "qwen36_27b": [
+        1,
+        5
+      ]
+    }
+  },
+  "japanese_tdv_check": {
+    "n": 102,
+    "tdv_correct": 16,
+    "random_correct": 6,
+    "delta_pp": 9.8,
+    "ci95_pp": [
+      -5.6,
+      26.5
+    ],
+    "five_random_and_cluster_disjoint": "inconclusive",
+    "path": "results/tdv_japanese_check"
+  }
+}

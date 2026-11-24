@@ -1,0 +1,397 @@
+{
+  "scope": "stage-1 human judgments applied to the locked scores; descriptive paired intervals",
+  "cells": [
+    {
+      "family": "anchor",
+      "lang": "es",
+      "judged_items": 21,
+      "locked": {
+        "delta_C": 3.3,
+        "delta_C_ci95": [
+          -0.6,
+          7.9
+        ],
+        "delta_F": 4.5,
+        "delta_F_ci95": [
+          0.8,
+          8.7
+        ],
+        "delta": -1.2,
+        "delta_ci95": [
+          -2.9,
+          0.4
+        ]
+      },
+      "forms": {
+        "delta_C": 3.3,
+        "delta_C_ci95": [
+          -0.6,
+          7.9
+        ],
+        "delta_F": 4.5,
+        "delta_F_ci95": [
+          0.8,
+          8.7
+        ],
+        "delta": -1.2,
+        "delta_ci95": [
+          -2.9,
+          0.4
+        ]
+      },
+      "all": {
+        "delta_C": 3.3,
+        "delta_C_ci95": [
+          -0.6,
+          7.9
+        ],
+        "delta_F": 4.5,
+        "delta_F_ci95": [
+          0.8,
+          8.7
+        ],
+        "delta": -1.2,
+        "delta_ci95": [
+          -2.9,
+          0.4
+        ]
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "ko",
+      "judged_items": 1,
+      "locked": {
+        "delta_C": 2.2,
+        "delta_C_ci95": [
+          -1.2,
+          5.9
+        ],
+        "delta_F": 1.2,
+        "delta_F_ci95": [
+          0.3,
+          2.2
+        ],
+        "delta": 1.0,
+        "delta_ci95": [
+          -2.3,
+          4.7
+        ]
+      },
+      "forms": {
+        "delta_C": 2.2,
+        "delta_C_ci95": [
+          -1.2,
+          5.9
+        ],
+        "delta_F": 1.2,
+        "delta_F_ci95": [
+          0.3,
+          2.2
+        ],
+        "delta": 1.0,
+        "delta_ci95": [
+          -2.3,
+          4.7
+        ]
+      },
+      "all": {
+        "delta_C": 2.2,
+        "delta_C_ci95": [
+          -1.2,
+          5.9
+        ],
+        "delta_F": 1.2,
+        "delta_F_ci95": [
+          0.3,
+          2.2
+        ],
+        "delta": 1.0,
+        "delta_ci95": [
+          -2.3,
+          4.7
+        ]
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "zh",
+      "judged_items": 1,
+      "locked": {
+        "delta_C": -2.0,
+        "delta_C_ci95": [
+          -5.6,
+          1.5
+        ],
+        "delta_F": 0.5,
+        "delta_F_ci95": [
+          0.0,
+          1.2
+        ],
+        "delta": -2.5,
+        "delta_ci95": [
+          -6.0,
+          0.9
+        ]
+      },
+      "forms": {
+        "delta_C": -2.0,
+        "delta_C_ci95": [
+          -5.6,
+          1.5
+        ],
+        "delta_F": 0.5,
+        "delta_F_ci95": [
+          0.0,
+          1.2
+        ],
+        "delta": -2.5,
+        "delta_ci95": [
+          -6.0,
+          0.9
+        ]
+      },
+      "all": {
+        "delta_C": -2.0,
+        "delta_C_ci95": [
+          -5.6,
+          1.5
+        ],
+        "delta_F": 0.5,
+        "delta_F_ci95": [
+          0.0,
+          1.2
+        ],
+        "delta": -2.5,
+        "delta_ci95": [
+          -6.0,
+          0.9
+        ]
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "es",
+      "judged_items": 10,
+      "locked": {
+        "delta_C": -0.7,
+        "delta_C_ci95": [
+          -4.6,
+          3.6
+        ],
+        "delta_F": -1.3,
+        "delta_F_ci95": [
+          -4.8,
+          2.6
+        ],
+        "delta": 0.6,
+        "delta_ci95": [
+          -0.8,
+          2.2
+        ]
+      },
+      "forms": {
+        "delta_C": -0.7,
+        "delta_C_ci95": [
+          -4.6,
+          3.6
+        ],
+        "delta_F": -0.9,
+        "delta_F_ci95": [
+          -4.6,
+          3.0
+        ],
+        "delta": 0.2,
+        "delta_ci95": [
+          -1.1,
+          1.6
+        ]
+      },
+      "all": {
+        "delta_C": -0.7,
+        "delta_C_ci95": [
+          -4.6,
+          3.6
+        ],
+        "delta_F": -0.9,
+        "delta_F_ci95": [
+          -4.6,
+          3.0
+        ],
+        "delta": 0.2,
+        "delta_ci95": [
+          -1.1,
+          1.6
+        ]
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "es",
+      "judged_items": 16,
+      "locked": {
+        "delta_C": 13.0,
+        "delta_C_ci95": [
+          6.4,
+          19.2
+        ],
+        "delta_F": 15.6,
+        "delta_F_ci95": [
+          10.3,
+          21.0
+        ],
+        "delta": -2.6,
+        "delta_ci95": [
+          -5.9,
+          0.0
+        ]
+      },
+      "forms": {
+        "delta_C": 13.0,
+        "delta_C_ci95": [
+          6.4,
+          19.2
+        ],
+        "delta_F": 15.9,
+        "delta_F_ci95": [
+          10.6,
+          21.2
+        ],
+        "delta": -2.9,
+        "delta_ci95": [
+          -6.2,
+          -0.3
+        ]
+      },
+      "all": {
+        "delta_C": 12.9,
+        "delta_C_ci95": [
+          6.3,
+          19.0
+        ],
+        "delta_F": 15.9,
+        "delta_F_ci95": [
+          10.6,
+          21.2
+        ],
+        "delta": -3.1,
+        "delta_ci95": [
+          -6.3,
+          -0.5
+        ]
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "ja",
+      "judged_items": 2,
+      "locked": {
+        "delta_C": 2.5,
+        "delta_C_ci95": [
+          -2.4,
+          7.4
+        ],
+        "delta_F": 0.2,
+        "delta_F_ci95": [
+          0.0,
+          0.6
+        ],
+        "delta": 2.4,
+        "delta_ci95": [
+          -2.7,
+          7.2
+        ]
+      },
+      "forms": {
+        "delta_C": 2.5,
+        "delta_C_ci95": [
+          -2.4,
+          7.4
+        ],
+        "delta_F": 0.2,
+        "delta_F_ci95": [
+          0.0,
+          0.6
+        ],
+        "delta": 2.4,
+        "delta_ci95": [
+          -2.7,
+          7.2
+        ]
+      },
+      "all": {
+        "delta_C": 2.5,
+        "delta_C_ci95": [
+          -2.4,
+          7.4
+        ],
+        "delta_F": 0.2,
+        "delta_F_ci95": [
+          0.0,
+          0.6
+        ],
+        "delta": 2.4,
+        "delta_ci95": [
+          -2.7,
+          7.2
+        ]
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "zh",
+      "judged_items": 20,
+      "locked": {
+        "delta_C": 11.3,
+        "delta_C_ci95": [
+          5.9,
+          16.7
+        ],
+        "delta_F": 8.4,
+        "delta_F_ci95": [
+          6.0,
+          10.8
+        ],
+        "delta": 2.9,
+        "delta_ci95": [
+          -2.0,
+          7.8
+        ]
+      },
+      "forms": {
+        "delta_C": 11.3,
+        "delta_C_ci95": [
+          5.9,
+          16.7
+        ],
+        "delta_F": 8.4,
+        "delta_F_ci95": [
+          6.0,
+          10.8
+        ],
+        "delta": 2.9,
+        "delta_ci95": [
+          -2.0,
+          7.8
+        ]
+      },
+      "all": {
+        "delta_C": 11.3,
+        "delta_C_ci95": [
+          5.9,
+          16.7
+        ],
+        "delta_F": 8.4,
+        "delta_F_ci95": [
+          6.0,
+          10.8
+        ],
+        "delta": 2.9,
+        "delta_ci95": [
+          -2.0,
+          7.8
+        ]
+      }
+    }
+  ]
+}

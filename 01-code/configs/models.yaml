@@ -1,0 +1,301 @@
+# Model definitions, keyed by the names scripts pass to load_model. Base models are prompted with the
+# raw completion format; instruct / post-trained models with their chat template (--chat).
+# Dimensions are nominal; load_model re-reads exact dimensions from the live HF config.
+#
+# head_dim: Qwen3 DECOUPLES head_dim from d_model // n_heads (e.g. 30B-A3B: d=2048,q=32,head_dim=128
+# => o_proj input width = n_heads*head_dim = 4096, NOT d_model). Set it explicitly here; load_model
+# also reads it from the live config. Llama/Qwen2.5 have head_dim == d_model//n_heads, so null is safe.
+
+models:
+  llama31_70:
+    hf_id: meta-llama/Llama-3.1-70B
+    local_path: null          # set to a local weights dir if available; null -> download from HF
+    dtype: bfloat16
+    device_map: auto          # shard across visible GPUs
+    n_layers: 80
+    n_heads: 64               # query heads
+    n_kv_heads: 8             # grouped-query attention
+    d_model: 8192
+    head_dim: 128
+    arch: dense
+    primary: true             # primary-model flag
+
+  qwen25_72:
+    hf_id: Qwen/Qwen2.5-72B
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 80
+    n_heads: 64
+    n_kv_heads: 8
+    d_model: 8192
+    head_dim: null            # config head_dim absent -> d_head falls back to 8192//64 = 128
+    arch: dense
+    primary: false            # same scale as llama31_70, different family
+
+  qwen3_30b_a3b_base:         # Qwen3 MoE base (128 experts / 8 active). MoE is FFN
+    hf_id: Qwen/Qwen3-30B-A3B-Base   # only --- attention o_proj and the per-head OV read are unaffected.
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 48
+    n_heads: 32
+    n_kv_heads: 4
+    d_model: 2048
+    head_dim: 128             # DECOUPLED: o_proj input = 32*128 = 4096 != d_model 2048
+    arch: moe
+    primary: false
+
+  gemma3_27b:                 # Dense 27B, NO logit softcap.
+    hf_id: google/gemma-3-27b-pt     # base ("-pt"); MULTIMODAL wrapper -> hooks._text_model reaches
+    local_path: null                 # the text decoder. Gated: needs HF_TOKEN w/ Gemma license.
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 62
+    n_heads: 32
+    n_kv_heads: 16
+    d_model: 5376
+    head_dim: 128             # DECOUPLED: o_proj input = 32*128 = 4096 != d_model 5376
+    arch: dense
+    sliding_window: 1024      # local/global interleave; 1024 >> our two-hop prompt, so A stays in window
+    primary: false
+
+  # --- Small models from the same families (run on a single CPU/MPS device) ---
+  # Used to check the per-head GQA OV reconstruction and the bridge projection on small inputs.
+  # Dims here are nominal; load_model overwrites them from the live HF config.
+  qwen25_3b:                  # Qwen2.5 path, NON-gated; GQA 16 query / 2 KV; head_dim == d/q == 128
+    hf_id: Qwen/Qwen2.5-3B
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 36
+    n_heads: 16
+    n_kv_heads: 2
+    d_model: 2048
+    head_dim: null
+    arch: dense
+    primary: false
+
+  qwen3_06b_base:             # tiny DECOUPLED-head test (d=1024,q=16,head_dim=128 -> o_proj in=2048);
+    hf_id: Qwen/Qwen3-0.6B-Base      # exercises the decoupled head_dim path of the 30B-A3B MoE
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 28
+    n_heads: 16
+    n_kv_heads: 8
+    d_model: 1024
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  gemma3_4b:                  # smallest MULTIMODAL Gemma 3 -> exercises the wrapper path + decoupled
+    hf_id: google/gemma-3-4b-pt      # head_dim (256). Gated.
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 34
+    n_heads: 8
+    n_kv_heads: 4
+    d_model: 2560
+    head_dim: 256             # DECOUPLED: o_proj input = 8*256 = 2048 != d_model 2560
+    arch: dense
+    attn_layout: gemma_local_global
+    residual_recipe: gemma_postnorm   # post-norm: additive write = h_{L+1}-h_L
+    primary: false
+
+  # --- Gemma-4 / Qwen3.5 / Qwen3.6 models ---
+  gemma4_31b:                 # Gemma-4 31B BASE.
+    hf_id: google/gemma-4-31B        # gemma4 arch, multimodal wrapper (ImageTextToText path),
+    local_path: null                 # sliding+full attention interleave. Base twin of gemma4_31b_it.
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 60              # from live config (load_model re-reads anyway)
+    n_heads: 32
+    n_kv_heads: 16
+    d_model: 5376
+    head_dim: 256             # DECOUPLED: 32*256 = 8192 != d_model 5376
+    arch: dense
+    attn_layout: gemma_local_global
+    residual_recipe: gemma_postnorm
+    primary: false
+
+  qwen36_27b:                 # Qwen3.6 27B (post-trained; no base variant is published).
+    hf_id: Qwen/Qwen3.6-27B          # model_type=qwen3_5 HYBRID (3 linear-attn GDN :
+    local_path: null                 # 1 full-attn), multimodal wrapper. Steering/lens are
+    dtype: bfloat16                  # residual-level, so they apply to every layer.
+    device_map: auto
+    n_layers: 64
+    n_heads: 24
+    n_kv_heads: 4
+    d_model: 5120
+    head_dim: 256             # DECOUPLED: 24*256 = 6144 != d_model 5120
+    arch: hybrid
+    attn_layout: qwen35_hybrid
+    residual_recipe: standard
+    primary: false
+
+  qwen35_9b:                  # HYBRID 32 layers = 8 x (3 Gated DeltaNet + 1 attn).
+    hf_id: Qwen/Qwen3.5-9B-Base       # per-head OV defined ONLY on the 8 std-attn layers; the 24 DeltaNet
+    local_path: null                 # layers use per-sublayer residual-write. Qwen pre-norm = standard recipe.
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 32
+    n_heads: 16              # std-attn layers: 16 q / 4 kv / 256-dim
+    n_kv_heads: 4
+    d_model: 4096
+    head_dim: 256
+    arch: hybrid
+    attn_layout: qwen35_hybrid        # 3 DeltaNet : 1 attn, repeated 8x
+    residual_recipe: standard
+    primary: false
+
+  gemma4_26b_a4b:             # MoE, ~3.8B active; FFN-MoE so attention OV unaffected,
+    hf_id: google/gemma-4-26b-a4b-pt  # the router adds a further readout site.
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 48
+    n_heads: 32
+    n_kv_heads: 16
+    d_model: 5376
+    head_dim: 128
+    arch: moe
+    attn_layout: gemma_local_global
+    residual_recipe: gemma_postnorm
+    primary: false
+
+  llama32_3b:                 # Llama path (gated; needs HF_TOKEN access); GQA 24 query / 8 KV
+    hf_id: meta-llama/Llama-3.2-3B
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 28
+    n_heads: 24
+    n_kv_heads: 8
+    d_model: 3072
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  # --- INSTRUCT / post-trained models (chat-template prompting) ---
+  qwen3_32b:                  # Qwen3-32B (post-trained/instruct), dense, decoupled head_dim
+    hf_id: Qwen/Qwen3-32B
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 64
+    n_heads: 64
+    n_kv_heads: 8
+    d_model: 5120
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  qwen3_8b_base:              # Qwen3-8B-Base (Alibaba base twin; Qwen3-32B has NO public base, 8B is the largest)
+    hf_id: Qwen/Qwen3-8B-Base
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 36              # placeholder; load_model reads the live config for exact dims
+    n_heads: 32
+    n_kv_heads: 8
+    d_model: 4096
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  llama33_70_it:              # Llama-3.3-70B-Instruct, AWQ-INT4 (requires autoawq)
+    hf_id: casperhansen/llama-3.3-70b-instruct-awq
+    local_path: null
+    dtype: float16
+    device_map: auto
+    n_layers: 80
+    n_heads: 64
+    n_kv_heads: 8
+    d_model: 8192
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  gemma4_31b_it:              # Gemma-4-31B-it (instruct), multimodal wrapper, decoupled head_dim 256
+    hf_id: google/gemma-4-31B-it
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 60
+    n_heads: 32
+    n_kv_heads: 16
+    d_model: 5376
+    head_dim: 256
+    arch: dense
+    primary: false
+
+  qwen3_30b_a3b_it:           # Qwen3-30B-A3B (post-trained), MoE
+    hf_id: Qwen/Qwen3-30B-A3B
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 48
+    n_heads: 32
+    n_kv_heads: 4
+    d_model: 2048
+    head_dim: 128
+    arch: moe
+    primary: false
+
+  llama31_70_it:              # Llama-3.1-70B-Instruct (instruct twin of the base llama31_70; clean non-quantized)
+    hf_id: meta-llama/Llama-3.1-70B-Instruct
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 80
+    n_heads: 64
+    n_kv_heads: 8
+    d_model: 8192
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  qwen25_3b_it:               # Qwen2.5-3B-Instruct --- small CPU check of the chat-template pipeline
+    hf_id: Qwen/Qwen2.5-3B-Instruct
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 36
+    n_heads: 16
+    n_kv_heads: 2
+    d_model: 2048
+    head_dim: null
+    arch: dense
+    primary: false
+
+  gemma3_27b_it:             # Gemma-3-27B-it (instruct), multimodal wrapper, dense
+    hf_id: google/gemma-3-27b-it
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 62
+    n_heads: 32
+    n_kv_heads: 16
+    d_model: 5376
+    head_dim: 128
+    arch: dense
+    primary: false
+
+  gemma4_26b_a4b_it:         # Gemma-4-26B-A4B-it (instruct MoE, 128 experts); requires a recent transformers release
+    hf_id: google/gemma-4-26b-a4b-it
+    local_path: null
+    dtype: bfloat16
+    device_map: auto
+    n_layers: 30
+    n_heads: 16
+    n_kv_heads: 8
+    d_model: 2816
+    head_dim: 256
+    arch: moe
+    primary: false
+
+framework: hf_hooks           # nnsight | transformer_lens | hf_hooks
+                              # hf_hooks (raw HF + torch forward hooks) is the implemented path.
+seed: 0

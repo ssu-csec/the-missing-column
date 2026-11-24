@@ -1,0 +1,9 @@
+{
+  "legacy_unit_check": true,
+  "zero_vector_token_parity": true,
+  "checkpoint_layers": 80,
+  "primary_layer": 60,
+  "vector_norm_matching": true,
+  "zero_vector_probe_chain": "P495_P38_Q335626",
+  "extra_probe_generation_calls": 2
+}

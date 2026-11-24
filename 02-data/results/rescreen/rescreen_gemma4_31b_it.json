@@ -1,0 +1,3135 @@
+{
+ "model": "gemma4_31b_it",
+ "max_new": 32,
+ "per_chain": {
+  "P27_P1304_Q107467": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "불가리아 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q113409": {
+   "en": {
+    "correct": false,
+    "txt": "Czech National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "크로아티아 국립은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "クロアチア国立銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q114450": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "불가리아 국민은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q115598": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "불가리아 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q117239": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Kenya"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "필리핀 중앙은행 (Bangko Sentral ng Pilipinas)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エチオピア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q11878": {
+   "en": {
+    "correct": false,
+    "txt": "Federal Reserve (United States)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도(Federal Reserve)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国連邦準備制度理事会（FRB）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q121693": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Iceland (Seðlabanki Íslands)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아이슬란드 중앙은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アイスランド中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q12801": {
+   "en": {
+    "correct": false,
+    "txt": "National Bank of Belgium"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "벨기에 국립은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルギー国立銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q128936": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Iceland"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드 세드라뱅키 (Central Bank of Iceland)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アイスランド中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q12897": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Brazil (Banco Central do Brasil)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 중앙은행 (Banco Central do Brasil)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブラジル中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13012": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Brazil (Banco Central do Brasil)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 중앙은행 (Banco Central do Brasil)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブラジル中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13132": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Canada"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "캐나다 은행 (Bank of Canada)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カナダ銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q133946": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Egypt"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리비아 중앙은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "パレスチナ通貨庁（PMA）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q134898": {
+   "en": {
+    "correct": true,
+    "txt": "Croatian National Bank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "크로아티아 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "クロアチア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13531": {
+   "en": {
+    "correct": false,
+    "txt": "Sveriges Riksbank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스웨덴 리크스방크 (Sveriges Riksbank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーリクスリク（スウェンリクスバンク）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q13532": {
+   "en": {
+    "correct": true,
+    "txt": "European Central Bank (and Bank of Finland)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유럽중앙은행 (ECB) 또는 핀란드 은행 (Bank of Finland)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "欧州中央銀行（ECB）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q137732": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Iceland"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드 세드바키(Seðlabanki Íslands)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイスランド国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q138591": {
+   "en": {
+    "correct": true,
+    "txt": "Croatian National Bank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "크로아티아 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "クロアチア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q165852": {
+   "en": {
+    "correct": false,
+    "txt": "European Central Bank (ECB)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "슬로베니아 은행 (Bank of Slovenia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "欧州中央銀行 (ECB)"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1743": {
+   "en": {
+    "correct": false,
+    "txt": "Sveriges Riksbank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스웨덴 리크스방크 (Sveriges Riksbank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーリクスリクバンク（スウェーブン国立銀行）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1753": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행 (Banca d'Italia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "イタリア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q178708": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "라트비아 은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ラトビア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q182673": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "라트비아 은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ラトビア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q185636": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of West African States (BCEAO)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "세네갈 중앙은행 (BCEAO)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル中央銀行（BCEAO）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1878": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "독일 연방은행 (Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1950": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행 (Banca d'Italia)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "欧州中央銀行（ECB）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1955": {
+   "en": {
+    "correct": false,
+    "txt": "Swiss National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "イタリア銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1991": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss National Bank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "스위스 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q2006": {
+   "en": {
+    "correct": false,
+    "txt": "Swiss National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스 국립은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スイス国立銀行"
+   },
+   "old": {
+    "en": false,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q303": {
+   "en": {
+    "correct": false,
+    "txt": "Federal Reserve"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "연방준비제도 (Federal Reserve System)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "連邦準備制度（FRB）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q3281": {
+   "en": {
+    "correct": false,
+    "txt": "Norges Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "노르웨이 은행 (Norges Bank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ノルウェー銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q331201": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Libya"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리비아 중앙은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リビア中央銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q354705": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of England"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국은행 (Bank of England)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q4790": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행 (Banca d'Italia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "イタリア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q4864": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of the Russian Federation (Bank of Russia)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "러시아 중앙은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア連邦中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q6100": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Russia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "러시아 중앙은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロシア中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q7371": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행 (Banca d'Italia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "イタリア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q73758": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Zambia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도 (Federal Reserve System)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ザンビア共和国銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q73920": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Romania"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "루마니아 국립은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ルーマニア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q7515": {
+   "en": {
+    "correct": false,
+    "txt": "National Bank of Belgium"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "벨기에 국립은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルギー国立銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q81144": {
+   "en": {
+    "correct": true,
+    "txt": "Bulgarian National Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "불가리아 국민은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q93356": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Ireland / Bank of England (Heaney held dual Irish and British citizenship)."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아일랜드 중앙은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイルランド中央銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q94154": {
+   "en": {
+    "correct": false,
+    "txt": "European Central Bank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유럽중앙은행 (ECB)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "欧州中央銀行（ECB）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q949": {
+   "en": {
+    "correct": true,
+    "txt": "Federal Reserve System"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "연방준비제도 (Federal Reserve System)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "連邦準備制度（Federal Reserve System）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P35_Q1933": {
+   "en": {
+    "correct": false,
+    "txt": "King Carl XVI Gustaf"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "칼 16세 구스타프 왕"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カール16世グスタフ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P35_Q337955": {
+   "en": {
+    "correct": false,
+    "txt": "Salome Zourabichvili."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "살로메 주라비슈빌리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "サロメ・ズラビシ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q6668": {
+   "en": {
+    "correct": false,
+    "txt": "King Carl XVI Gustaf"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "칼 16세 구스타프"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カール3世"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P35_Q80352": {
+   "en": {
+    "correct": false,
+    "txt": "Alexander Lukashenko"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "알렉산드르 루카셴코"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アレクサンドル・ルカシェンコ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q1008088": {
+   "en": {
+    "correct": false,
+    "txt": "Washington, D.C."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "워싱턴 D.C."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ワシントンD.C."
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q113409": {
+   "en": {
+    "correct": false,
+    "txt": "Prague"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "바르샤바"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ワルシャワ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q116482": {
+   "en": {
+    "correct": false,
+    "txt": "Conakry"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "코나크리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コナクリ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q11722": {
+   "en": {
+    "correct": false,
+    "txt": "Prague"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "프라하"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "プラハ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q120621": {
+   "en": {
+    "correct": false,
+    "txt": "Madrid."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마드리드"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "マドリード"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q126640": {
+   "en": {
+    "correct": false,
+    "txt": "Buenos Aires"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "브라질리아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブラジリア"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12801": {
+   "en": {
+    "correct": false,
+    "txt": "Brussels</p>"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "브뤼셀"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ブリュッセル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q12854": {
+   "en": {
+    "correct": false,
+    "txt": "Berlin."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "베를린"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルリン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q132361": {
+   "en": {
+    "correct": false,
+    "txt": "Warsaw"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "바르샤바"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポーランド（ワルシャワ）"
+   },
+   "old": {
+    "en": false,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q133946": {
+   "en": {
+    "correct": false,
+    "txt": "Cairo."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "카이로"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カイロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q152787": {
+   "en": {
+    "correct": false,
+    "txt": "Helsinki"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "레이캬비크"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ヘルシンキ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q153503": {
+   "en": {
+    "correct": false,
+    "txt": "Madrid."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마드리드"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "マドリード"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q167937": {
+   "en": {
+    "correct": false,
+    "txt": "Apia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "파리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "キンシャサ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q169174": {
+   "en": {
+    "correct": false,
+    "txt": "Oslo"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "오슬로"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "オスロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q281713": {
+   "en": {
+    "correct": false,
+    "txt": "Kingston"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q313479": {
+   "en": {
+    "correct": false,
+    "txt": "Juba"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "주바"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジュバ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q4742": {
+   "en": {
+    "correct": false,
+    "txt": "Lisbon"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리스본"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リスボン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q75697": {
+   "en": {
+    "correct": false,
+    "txt": "Jakarta."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "자카르타"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジャカルタ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q80937": {
+   "en": {
+    "correct": false,
+    "txt": "Port-au-Prince"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "回答不能（実在しない人物のため）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q126940": {
+   "en": {
+    "correct": false,
+    "txt": "Mexican Peso"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "コロンビア・ペソ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q12773": {
+   "en": {
+    "correct": true,
+    "txt": "Hungarian Forint (HUF)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "헝가리 포린트"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ハンガリーフォリント"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q166298": {
+   "en": {
+    "correct": false,
+    "txt": "Argentine peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아르헨티나 페소"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アルゼンチン・ペソ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q166658": {
+   "en": {
+    "correct": false,
+    "txt": "Jamaican Dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로(EUR)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q176131": {
+   "en": {
+    "correct": false,
+    "txt": "Russian ruble"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우크라이나 흐리브냐"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウクライナ・グリブニャ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q178027": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルワンダフラン"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q197549": {
+   "en": {
+    "correct": false,
+    "txt": "Russian ruble"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "조지아 라리 (GEL)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ラリ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q213270": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar (USD)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "캐나다 달러"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カナダドル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q263372": {
+   "en": {
+    "correct": false,
+    "txt": "Tanzanian Shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "우간다 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q270783": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q291911": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "호주 달러"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q299029": {
+   "en": {
+    "correct": false,
+    "txt": "British Pound Sterling (GBP)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국 파운드(GBP)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポンド"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q320005": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan Shilling"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "우간다 실링"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q323582": {
+   "en": {
+    "correct": false,
+    "txt": "Burundian franc"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우간다 실링"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルワンダフラン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q327918": {
+   "en": {
+    "correct": false,
+    "txt": "Surinamese dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q337955": {
+   "en": {
+    "correct": false,
+    "txt": "Georgian Lari (GEL)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "라리 (Lari)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラリ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q362948": {
+   "en": {
+    "correct": true,
+    "txt": "Seychellois rupee"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "세이셸 루피"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "セーシェル・ルピー"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q380734": {
+   "en": {
+    "correct": true,
+    "txt": "Surinamese dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로(EUR)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q381201": {
+   "en": {
+    "correct": true,
+    "txt": "Guyanese dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "シンガポールドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q4742": {
+   "en": {
+    "correct": false,
+    "txt": "Euro (Portugal)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로 (EUR)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q4774": {
+   "en": {
+    "correct": true,
+    "txt": "Hungarian Forint"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "헝가리 포린트"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ハンガリーフォリント"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4836": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランドズウォティ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q615817": {
+   "en": {
+    "correct": false,
+    "txt": "The US Dollar (USD)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q72071": {
+   "en": {
+    "correct": false,
+    "txt": "Czech koruna (CZK)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "체코 코루나"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "チェコ・コルナ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q7515": {
+   "en": {
+    "correct": false,
+    "txt": "Swiss franc"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스 프랑"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルギー・フラン（現在はユーロ）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q7524": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国ドル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q77589": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル（アメリカ合衆国ドル）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q80772": {
+   "en": {
+    "correct": false,
+    "txt": "Philippine Peso"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "에콰도르 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エクアドル・ドル（アメリカ合衆国ドル）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q80937": {
+   "en": {
+    "correct": false,
+    "txt": "The Haitian gourde."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル（アメリカ合衆国）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q82655": {
+   "en": {
+    "correct": false,
+    "txt": "Russian ruble"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루블"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルーブル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q94755": {
+   "en": {
+    "correct": false,
+    "txt": "Romanian leu"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루마니아 레우"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルーマニア・レウ"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q10184": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "유럽중앙은행 (ECB) 또는 독일 연방은행 (Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q109260": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Russia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "러시아 중앙은행"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア連邦中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q12016": {
+   "en": {
+    "correct": false,
+    "txt": "Federal Reserve"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "캐나다 은행 (Bank of Canada)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カナダ銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q12116": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "몰타 중앙은행 (Central Bank of Malta)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "イタリア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q1365": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of England"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도 (Federal Reserve System)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "韓国銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q152088": {
+   "en": {
+    "correct": true,
+    "txt": "National Bank of Belgium"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "벨기에 국립은행 (National Bank of Belgium)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルギー国立銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q189410": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Japan"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "일본은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q194297": {
+   "en": {
+    "correct": true,
+    "txt": "Central Bank of Ireland"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아일랜드 중앙은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイルランド中央銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q219980": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방은행 (Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドイツ連邦銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q220635": {
+   "en": {
+    "correct": true,
+    "txt": "Banco de Portugal"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "포르투갈 은행 (Banco de Portugal)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポルトガル銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q229655": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Turkey (TCMB)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도 (Federal Reserve System)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国連邦準備制度理事会（FRB）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q263471": {
+   "en": {
+    "correct": false,
+    "txt": "Central Bank of Senegal (BCEAO)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "세네갈 중앙은행 (BCEAO)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル中央銀行（BCEAO）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q4626": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유럽중앙은행 (ECB)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q611972": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of England"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "영국은행 (Bank of England)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q6147": {
+   "en": {
+    "correct": false,
+    "txt": "Banca d'Italia"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행 (Banca d'Italia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "イタリア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q690126": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Latvia"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "라트비아 은행 (Bank of Latvia)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ラトビア銀行"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q7254": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "도이체분트방크 (Deutsche Bundesbank)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q76210": {
+   "en": {
+    "correct": false,
+    "txt": "People's Bank of China"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "이집트 은행 (Central Bank of Egypt)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エジプト中央銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q76407": {
+   "en": {
+    "correct": false,
+    "txt": "Bank of Spain"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "한국은행"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "韓国銀行"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q82419": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Finland"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "노르웨이 은행 (Norges Bank)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イングランド銀行（Bank of England）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q886": {
+   "en": {
+    "correct": false,
+    "txt": "Federal Reserve"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "연방준비제도 (Federal Reserve System)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "連邦準備制度理事会（FRB）"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q94017": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Greece"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유럽중앙은행 (ECB)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "欧州中央銀行（ECB）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q94606": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Greece"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "중앙아프리카국가은행 (BEAC)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギリシャ銀行（Bank of Greece）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q1068280": {
+   "en": {
+    "correct": false,
+    "txt": "Parisof course! (The song originates from France).\n\n**Answer:** Paris"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "파리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "パリ（または、フランス）\n\n※曲自体の原産国はフランスであるため、その首都は**パリ**です。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q12016": {
+   "en": {
+    "correct": false,
+    "txt": "Washington, D.C."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 로마 (또는 미국 워싱턴 D.C.)\n\n*(참고: 'The Four Seasons'가 비발디의 곡"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ワシントンD.C."
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q120838": {
+   "en": {
+    "correct": false,
+    "txt": "Buenos Aires"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "마드리드"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マドリード"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q130578": {
+   "en": {
+    "correct": false,
+    "txt": "Berlin."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리본(Rivellon)은 세계관 이름이며, 특정 주인공 캐릭터가 아닌 게임 배경상의 중심 도시는 **브루더톤(Brooder"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルリン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q137836": {
+   "en": {
+    "correct": false,
+    "txt": "London (assuming he originates from the UK)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ナイロビ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1538018": {
+   "en": {
+    "correct": true,
+    "txt": "Dakar"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "다카르"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ダカール"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q1786674": {
+   "en": {
+    "correct": true,
+    "txt": "Addis Ababa"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "알제}"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "バングラデシュ（ダッカ）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q2859552": {
+   "en": {
+    "correct": false,
+    "txt": "Paris."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3057375": {
+   "en": {
+    "correct": true,
+    "txt": "Kigali"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "워싱턴 D.C."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3303259": {
+   "en": {
+    "correct": false,
+    "txt": "Tirana"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "티라나"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ティラナ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q429395": {
+   "en": {
+    "correct": false,
+    "txt": "Seoulof course! (The movie *7 Boxes* originates from South Korea).\n\n**Answer:** Seoul"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ソウル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q461344": {
+   "en": {
+    "correct": false,
+    "txt": "Berlin</p>"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "베를린"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルリン"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q742186": {
+   "en": {
+    "correct": true,
+    "txt": "Dakar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아디스아바바"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "バクー"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q76407": {
+   "en": {
+    "correct": false,
+    "txt": "Madrid</p>"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "서울어느덧 10년이 지났네요! 그동안 잘 지내셨나요? 오랜만에 연락 주셔서 정말 반갑습니다.\n\n저는 요즘"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ソウル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q924512": {
+   "en": {
+    "correct": false,
+    "txt": "Tirana"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "정보 부족으로 알 수 없습니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "回答不能（Dienaという国は存在しません）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q94070": {
+   "en": {
+    "correct": false,
+    "txt": "Athensof course! (The horse's breed originates from Greece).\n\n**Answer:** Athens"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아테네"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アテネ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1104949": {
+   "en": {
+    "correct": false,
+    "txt": "US Dollar"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国ドル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q112035": {
+   "en": {
+    "correct": true,
+    "txt": "Swedish krona"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "엔(JPY)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q170210": {
+   "en": {
+    "correct": false,
+    "txt": "Euro (France/Switzerland)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로 (Euro)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1723744": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カンボジア・リエル"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q1817522": {
+   "en": {
+    "correct": true,
+    "txt": "Euro (North Macedonia uses the Macedonian denar)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "슬로베니아 톨러 (또는 유로)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q2839301": {
+   "en": {
+    "correct": false,
+    "txt": "Indian Rupee"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "인도 루피 (또는 파키스탄 루피)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "パキスタン・ルピー（またはインド・ルペ）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q2859552": {
+   "en": {
+    "correct": false,
+    "txt": "Euro (France)."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "엔(JPY)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "米ドル"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q3057375": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러 (USD)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アメリカ合衆国ドル（USD）"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q306130": {
+   "en": {
+    "correct": false,
+    "txt": "South Korean won"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아이슬란드 크로나"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アイスランド・クローナ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q3636864": {
+   "en": {
+    "correct": false,
+    "txt": "Japanese Yen"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "엔화"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本円"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q610022": {
+   "en": {
+    "correct": false,
+    "txt": "The Japanese yen."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로 (Euro)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リリクウェカ（またはマラウイ・クワチャ）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P38_Q65086435": {
+   "en": {
+    "correct": true,
+    "txt": "Somali Shilling"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "유로 (Euro)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  }
+ }
+}

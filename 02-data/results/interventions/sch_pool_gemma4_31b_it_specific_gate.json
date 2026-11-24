@@ -1,0 +1,131 @@
+{
+  "model": "gemma4_31b_it",
+  "set_type": "specific",
+  "dataset": "discovery_excluding_466.jsonl",
+  "heads": "gemma4_31b_it.specific.json",
+  "chat": false,
+  "selection_items_per_condition": 32,
+  "validation_items_per_language": 32,
+  "scoring_validation_chain_disjoint": true,
+  "scoring_chain_ids_sha256": "7e7a437d73782b0f4b602e57c3ef6edf7028f47e639f04da3e69acd8039ddb1a",
+  "validation_chain_ids": [
+    "P27_P1304_Q6079",
+    "P27_P35_Q113351",
+    "P27_P35_Q166846",
+    "P27_P35_Q1958",
+    "P27_P35_Q279950",
+    "P27_P35_Q365417",
+    "P27_P35_Q473214",
+    "P27_P35_Q70892",
+    "P27_P35_Q79983",
+    "P27_P36_Q115201",
+    "P27_P36_Q138890",
+    "P27_P36_Q173873",
+    "P27_P36_Q319153",
+    "P27_P36_Q709734",
+    "P27_P36_Q82512",
+    "P27_P38_Q166643",
+    "P27_P38_Q18165",
+    "P27_P38_Q457401",
+    "P27_P38_Q873",
+    "P495_P1304_Q12098",
+    "P495_P1304_Q127974",
+    "P495_P1304_Q265309",
+    "P495_P1304_Q3636864",
+    "P495_P1304_Q431570",
+    "P495_P35_Q127267",
+    "P495_P35_Q134874",
+    "P495_P36_Q109260",
+    "P495_P36_Q215861",
+    "P495_P36_Q82419",
+    "P495_P38_Q129975",
+    "P495_P38_Q4736619",
+    "P495_P38_Q6810549"
+  ],
+  "by_lang": {
+    "ko": {
+      "n_heads": 77,
+      "n_validation_chains": 32,
+      "positive_control_supported": true,
+      "validation": {
+        "mean_ablation_dnll": -1.4016006141901016,
+        "reference_band": [
+          0.84,
+          2.07
+        ],
+        "within_llama_reference_band": false,
+        "layer_matched_random_dnll": -1.9165763556957245,
+        "selected_minus_random_dnll": 0.5149757415056229,
+        "random_pool_overlap": 0,
+        "random_control_status": "ok",
+        "random_control_rule": "strict disjoint exact layer and size matching",
+        "random_control_error": null,
+        "random_seed": 7,
+        "role": "held-out positive control; never used to resize the pool"
+      }
+    },
+    "ja": {
+      "n_heads": 77,
+      "n_validation_chains": 32,
+      "positive_control_supported": true,
+      "validation": {
+        "mean_ablation_dnll": -0.08228793740272522,
+        "reference_band": [
+          0.84,
+          2.07
+        ],
+        "within_llama_reference_band": false,
+        "layer_matched_random_dnll": -0.7428272813558578,
+        "selected_minus_random_dnll": 0.6605393439531326,
+        "random_pool_overlap": 0,
+        "random_control_status": "ok",
+        "random_control_rule": "strict disjoint exact layer and size matching",
+        "random_control_error": null,
+        "random_seed": 7,
+        "role": "held-out positive control; never used to resize the pool"
+      }
+    },
+    "zh": {
+      "n_heads": 77,
+      "n_validation_chains": 32,
+      "positive_control_supported": false,
+      "validation": {
+        "mean_ablation_dnll": -0.009762972593307495,
+        "reference_band": [
+          0.84,
+          2.07
+        ],
+        "within_llama_reference_band": false,
+        "layer_matched_random_dnll": 0.8933344781398773,
+        "selected_minus_random_dnll": -0.9030974507331848,
+        "random_pool_overlap": 0,
+        "random_control_status": "ok",
+        "random_control_rule": "strict disjoint exact layer and size matching",
+        "random_control_error": null,
+        "random_seed": 7,
+        "role": "held-out positive control; never used to resize the pool"
+      }
+    },
+    "es": {
+      "n_heads": 77,
+      "n_validation_chains": 32,
+      "positive_control_supported": false,
+      "validation": {
+        "mean_ablation_dnll": -2.775895893573761,
+        "reference_band": [
+          0.84,
+          2.07
+        ],
+        "within_llama_reference_band": false,
+        "layer_matched_random_dnll": -2.380920171737671,
+        "selected_minus_random_dnll": -0.3949757218360901,
+        "random_pool_overlap": 0,
+        "random_control_status": "ok",
+        "random_control_rule": "strict disjoint exact layer and size matching",
+        "random_control_error": null,
+        "random_seed": 7,
+        "role": "held-out positive control; never used to resize the pool"
+      }
+    }
+  }
+}

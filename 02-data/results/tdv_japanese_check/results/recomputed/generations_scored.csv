@@ -1,0 +1,1601 @@
+﻿chain,answer_cluster,arm,prompt_language,implementation_eligible,construction_cluster_disjoint,legacy_ilr,english_correct,locked_eligible,locked_content,locked_form,degenerate,n_tokens,stop_reason,text
+P495_P38_Q335626,Icelandic króna,U_ja,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P38_Q335626,Icelandic króna,U_en,en,True,True,True,True,True,True,False,False,10,eos,Icelandic króna (ISK)
+P495_P38_Q335626,Icelandic króna,TDV,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P38_Q335626,Icelandic króna,R0,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P38_Q335626,Icelandic króna,R17,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P38_Q335626,Icelandic króna,R27,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P38_Q335626,Icelandic króna,R37,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P38_Q335626,Icelandic króna,R47,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q74404,Azerbaijani manat,U_ja,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q74404,Azerbaijani manat,U_en,en,True,True,True,True,True,True,False,False,11,eos,Azerbaijani manat (AZN)
+P27_P38_Q74404,Azerbaijani manat,TDV,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q74404,Azerbaijani manat,R0,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q74404,Azerbaijani manat,R17,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q74404,Azerbaijani manat,R27,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q74404,Azerbaijani manat,R37,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q74404,Azerbaijani manat,R47,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P35_Q3224301,Mahmoud Abbas,U_ja,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P495_P35_Q3224301,Mahmoud Abbas,U_en,en,False,True,True,True,True,True,False,False,6,eos,Mahmoud Abbas.
+P495_P35_Q3224301,Mahmoud Abbas,TDV,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P495_P35_Q3224301,Mahmoud Abbas,R0,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P495_P35_Q3224301,Mahmoud Abbas,R17,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P495_P35_Q3224301,Mahmoud Abbas,R27,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P495_P35_Q3224301,Mahmoud Abbas,R37,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P495_P35_Q3224301,Mahmoud Abbas,R47,ja,False,True,True,,True,True,True,False,11,eos,マフムード・アッバースです。
+P27_P1304_Q210734,Central Bank of West African States,U_ja,ja,True,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P27_P1304_Q210734,Central Bank of West African States,U_en,en,True,True,True,True,True,True,False,False,12,eos,Central Bank of West African States (BCEAO)
+P27_P1304_Q210734,Central Bank of West African States,TDV,ja,True,True,False,,True,False,False,False,21,eos,セネガルの中央銀行は、西アフリカ諸国国家訳金庫です。
+P27_P1304_Q210734,Central Bank of West African States,R0,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セネガルの中央銀行は、西アフリカ諸国中央 銀行（BCEAO）です
+P27_P1304_Q210734,Central Bank of West African States,R17,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q210734,Central Bank of West African States,R27,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セントロワール・デットゥドエスト・アフリカン（西アフリカ諸国中央
+P27_P1304_Q210734,Central Bank of West African States,R37,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q210734,Central Bank of West African States,R47,ja,True,True,False,,True,False,False,False,11,eos,セントラルフリックバンクです。
+P27_P38_Q170038,Icelandic króna,U_ja,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q170038,Icelandic króna,U_en,en,True,True,True,True,True,True,False,False,10,eos,Icelandic króna (ISK)
+P27_P38_Q170038,Icelandic króna,TDV,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q170038,Icelandic króna,R0,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q170038,Icelandic króna,R17,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q170038,Icelandic króna,R27,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q170038,Icelandic króna,R37,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q170038,Icelandic króna,R47,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P495_P36_Q116933,Moscow,U_ja,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P495_P36_Q116933,Moscow,U_en,en,False,True,True,True,True,True,False,False,4,eos,Moscow.
+P495_P36_Q116933,Moscow,TDV,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P495_P36_Q116933,Moscow,R0,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P495_P36_Q116933,Moscow,R17,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P495_P36_Q116933,Moscow,R27,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P495_P36_Q116933,Moscow,R37,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P495_P36_Q116933,Moscow,R47,ja,False,True,True,,True,True,True,False,6,eos,モスクワです。
+P27_P1304_Q209942,Central Bank of West African States,U_ja,ja,True,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P27_P1304_Q209942,Central Bank of West African States,U_en,en,True,True,True,True,True,True,False,False,12,eos,Central Bank of West African States (BCEAO)
+P27_P1304_Q209942,Central Bank of West African States,TDV,ja,True,True,False,,True,False,False,False,21,eos,セネガルの中央銀行は、西アフリカ諸国国家訳金庫です。
+P27_P1304_Q209942,Central Bank of West African States,R0,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セネガルの中央銀行は、西アフリカ諸国中央 銀行（BCEAO）です
+P27_P1304_Q209942,Central Bank of West African States,R17,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q209942,Central Bank of West African States,R27,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セントロワール・デットゥドエスト・アフリカン（西アフリカ諸国中央
+P27_P1304_Q209942,Central Bank of West African States,R37,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q209942,Central Bank of West African States,R47,ja,True,True,False,,True,False,False,False,11,eos,セントラルフリックバンクです。
+P27_P1304_Q290220,Bank of Sudan,U_ja,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q290220,Bank of Sudan,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Sudan.
+P27_P1304_Q290220,Bank of Sudan,TDV,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q290220,Bank of Sudan,R0,ja,True,True,False,,True,False,False,False,9,eos,スーダンの金融機関です。
+P27_P1304_Q290220,Bank of Sudan,R17,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q290220,Bank of Sudan,R27,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q290220,Bank of Sudan,R37,ja,True,True,False,,True,False,False,False,10,eos,スーダン国立中央銀行です。
+P27_P1304_Q290220,Bank of Sudan,R47,ja,True,True,False,,True,False,False,False,8,eos,スーダン中央銀行です。
+P27_P36_Q163167,Tallinn,U_ja,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q163167,Tallinn,U_en,en,False,True,True,True,True,True,False,False,5,eos,Tallinn.
+P27_P36_Q163167,Tallinn,TDV,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q163167,Tallinn,R0,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q163167,Tallinn,R17,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q163167,Tallinn,R27,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q163167,Tallinn,R37,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q163167,Tallinn,R47,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P495_P1304_Q2859552,Central Bank of Nigeria,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P495_P1304_Q2859552,Central Bank of Nigeria,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of Nigeria (CBN)
+P495_P1304_Q2859552,Central Bank of Nigeria,TDV,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P495_P1304_Q2859552,Central Bank of Nigeria,R0,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P495_P1304_Q2859552,Central Bank of Nigeria,R17,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P495_P1304_Q2859552,Central Bank of Nigeria,R27,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P495_P1304_Q2859552,Central Bank of Nigeria,R37,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P495_P1304_Q2859552,Central Bank of Nigeria,R47,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P495_P38_Q186413,Azerbaijani manat,U_ja,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P38_Q186413,Azerbaijani manat,U_en,en,True,True,True,True,True,True,False,False,11,eos,Azerbaijani manat (AZN)
+P495_P38_Q186413,Azerbaijani manat,TDV,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P38_Q186413,Azerbaijani manat,R0,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P38_Q186413,Azerbaijani manat,R17,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P38_Q186413,Azerbaijani manat,R27,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P38_Q186413,Azerbaijani manat,R37,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P38_Q186413,Azerbaijani manat,R47,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P1304_Q176131,National Bank of Ukraine,U_ja,ja,True,False,False,,True,False,False,False,11,eos,ウクライナルイフ中央銀行です。
+P27_P1304_Q176131,National Bank of Ukraine,U_en,en,True,False,True,True,True,True,False,False,6,eos,National Bank of Ukraine.
+P27_P1304_Q176131,National Bank of Ukraine,TDV,ja,True,False,False,,True,False,False,False,11,eos,ウкраïнська національний банкです。
+P27_P1304_Q176131,National Bank of Ukraine,R0,ja,True,False,False,,True,False,False,False,10,eos,ウクライナル国立銀行です。
+P27_P1304_Q176131,National Bank of Ukraine,R17,ja,True,False,False,,True,False,False,False,11,eos,ウクライナルーナ国立銀行です。
+P27_P1304_Q176131,National Bank of Ukraine,R27,ja,True,False,False,,True,False,False,False,13,eos,ウクライナルイチの国立銀行です。
+P27_P1304_Q176131,National Bank of Ukraine,R37,ja,True,False,False,,True,False,False,False,11,eos,ウクライナルイフ中央銀行です。
+P27_P1304_Q176131,National Bank of Ukraine,R47,ja,True,False,False,,True,False,False,False,10,eos,ウクライーナ国立銀行です。
+P495_P36_Q170210,Bern,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P36_Q170210,Bern,U_en,en,False,True,True,True,True,True,False,False,3,eos,Bern.
+P495_P36_Q170210,Bern,TDV,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P36_Q170210,Bern,R0,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P36_Q170210,Bern,R17,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P36_Q170210,Bern,R27,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P36_Q170210,Bern,R37,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P36_Q170210,Bern,R47,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P495_P38_Q499396,Colombian peso,U_ja,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q499396,Colombian peso,U_en,en,True,False,True,True,True,True,False,False,9,eos,Colombian peso (COP)
+P495_P38_Q499396,Colombian peso,TDV,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q499396,Colombian peso,R0,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q499396,Colombian peso,R17,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q499396,Colombian peso,R27,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q499396,Colombian peso,R37,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q499396,Colombian peso,R47,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q128936,Icelandic króna,U_ja,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q128936,Icelandic króna,U_en,en,True,True,True,True,True,True,False,False,10,eos,Icelandic króna (ISK)
+P27_P38_Q128936,Icelandic króna,TDV,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q128936,Icelandic króna,R0,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q128936,Icelandic króna,R17,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q128936,Icelandic króna,R27,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q128936,Icelandic króna,R37,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q128936,Icelandic króna,R47,ja,True,True,False,,True,False,False,False,5,eos,クローナです。
+P27_P35_Q7747,Vladimir Putin,U_ja,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P27_P35_Q7747,Vladimir Putin,U_en,en,True,False,True,True,True,True,False,False,6,eos,Vladimir Putin.
+P27_P35_Q7747,Vladimir Putin,TDV,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P27_P35_Q7747,Vladimir Putin,R0,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P27_P35_Q7747,Vladimir Putin,R17,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P27_P35_Q7747,Vladimir Putin,R27,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P27_P35_Q7747,Vladimir Putin,R37,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P27_P35_Q7747,Vladimir Putin,R47,ja,True,False,False,,True,True,True,False,6,eos,プーチンです。
+P495_P36_Q312106,Luxembourg,U_ja,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q312106,Luxembourg,U_en,en,True,True,True,True,True,True,False,False,5,eos,Luxembourg City.
+P495_P36_Q312106,Luxembourg,TDV,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q312106,Luxembourg,R0,ja,True,True,True,,True,True,True,False,8,eos,ルクセンブルグ市です。
+P495_P36_Q312106,Luxembourg,R17,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q312106,Luxembourg,R27,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q312106,Luxembourg,R37,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q312106,Luxembourg,R47,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P27_P36_Q6530,Warsaw,U_ja,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q6530,Warsaw,U_en,en,False,False,True,True,True,True,False,False,4,eos,Warsaw.
+P27_P36_Q6530,Warsaw,TDV,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q6530,Warsaw,R0,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q6530,Warsaw,R17,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q6530,Warsaw,R27,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q6530,Warsaw,R37,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q6530,Warsaw,R47,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P1304_Q13541,Bank of Finland,U_ja,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13541,Bank of Finland,U_en,en,False,True,True,True,True,True,False,False,5,eos,Bank of Finland.
+P27_P1304_Q13541,Bank of Finland,TDV,ja,False,True,False,,True,False,False,False,9,eos,フィンランド国立銀行です。
+P27_P1304_Q13541,Bank of Finland,R0,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13541,Bank of Finland,R17,ja,False,True,True,,True,True,True,False,8,eos,フィンランド銀行です。
+P27_P1304_Q13541,Bank of Finland,R27,ja,False,True,False,,True,False,False,False,15,eos,フィンボルグ（Suomen Pankki）です。
+P27_P1304_Q13541,Bank of Finland,R37,ja,False,True,False,,True,False,False,False,11,eos,フィンネット（Finnet）です。
+P27_P1304_Q13541,Bank of Finland,R47,ja,False,True,False,,True,False,False,False,8,eos,フィンランド中央銀行です。
+P27_P1304_Q133308,Central Bank of Egypt,U_ja,ja,True,True,False,,True,False,False,False,10,eos,エジプトリーブ中央銀行です。
+P27_P1304_Q133308,Central Bank of Egypt,U_en,en,True,True,True,True,True,True,False,False,7,eos,The Central Bank of Egypt.
+P27_P1304_Q133308,Central Bank of Egypt,TDV,ja,True,True,False,,True,False,False,False,13,eos,エジプトリーピアント中銀です。
+P27_P1304_Q133308,Central Bank of Egypt,R0,ja,True,True,False,,True,False,False,False,13,eos,エジプトリーハ通貨管理局です。
+P27_P1304_Q133308,Central Bank of Egypt,R17,ja,True,True,False,,True,False,False,False,9,eos,エジプット中央銀行です。
+P27_P1304_Q133308,Central Bank of Egypt,R27,ja,True,True,False,,True,False,False,False,9,eos,エジプット中央銀行です。
+P27_P1304_Q133308,Central Bank of Egypt,R37,ja,True,True,False,,True,False,False,False,9,eos,エジプット中央銀行です。
+P27_P1304_Q133308,Central Bank of Egypt,R47,ja,True,True,False,,True,False,False,False,10,eos,エジプトリーブ中央銀行です。
+P27_P38_Q334518,Mongolian tögrög,U_ja,ja,False,False,True,,True,True,True,False,7,eos,トゥグルグです。
+P27_P38_Q334518,Mongolian tögrög,U_en,en,False,False,False,True,True,False,False,False,9,eos,Tögrög (MNT)
+P27_P38_Q334518,Mongolian tögrög,TDV,ja,False,False,True,,True,True,True,False,7,eos,トゥグルグです。
+P27_P38_Q334518,Mongolian tögrög,R0,ja,False,False,True,,True,True,True,False,7,eos,トゥグルクです。
+P27_P38_Q334518,Mongolian tögrög,R17,ja,False,False,True,,True,True,True,False,7,eos,トゥグルグです。
+P27_P38_Q334518,Mongolian tögrög,R27,ja,False,False,True,,True,True,True,False,7,eos,トゥグルグです。
+P27_P38_Q334518,Mongolian tögrög,R37,ja,False,False,False,,True,True,True,False,8,eos,トゥグリクです。
+P27_P38_Q334518,Mongolian tögrög,R47,ja,False,False,False,,True,True,True,False,8,eos,トゥグリクです。
+P495_P36_Q1632884,Quito,U_ja,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q1632884,Quito,U_en,en,False,True,True,True,True,True,False,False,4,eos,Quito.
+P495_P36_Q1632884,Quito,TDV,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q1632884,Quito,R0,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q1632884,Quito,R17,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q1632884,Quito,R27,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q1632884,Quito,R37,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q1632884,Quito,R47,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P495_P36_Q7254,Berlin,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q7254,Berlin,U_en,en,False,True,True,True,True,True,False,False,3,eos,Berlin.
+P495_P36_Q7254,Berlin,TDV,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q7254,Berlin,R0,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q7254,Berlin,R17,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q7254,Berlin,R27,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q7254,Berlin,R37,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q7254,Berlin,R47,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P38_Q1737477,Kazakhstani tenge,U_ja,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q1737477,Kazakhstani tenge,U_en,en,False,True,True,True,True,True,False,False,17,eos,Kazakhstani tenge (₸) or KZT.
+P495_P38_Q1737477,Kazakhstani tenge,TDV,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q1737477,Kazakhstani tenge,R0,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q1737477,Kazakhstani tenge,R17,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q1737477,Kazakhstani tenge,R27,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q1737477,Kazakhstani tenge,R37,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q1737477,Kazakhstani tenge,R47,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q152761,Norwegian krone,U_ja,ja,False,True,True,,True,True,True,False,10,eos,ノルウェー・クローネです。
+P495_P38_Q152761,Norwegian krone,U_en,en,False,True,True,True,True,True,False,False,9,eos,Norwegian krone (NOK)
+P495_P38_Q152761,Norwegian krone,TDV,ja,False,True,False,,True,False,False,False,5,eos,クローネです。
+P495_P38_Q152761,Norwegian krone,R0,ja,False,True,False,,True,False,False,False,5,eos,クローネです。
+P495_P38_Q152761,Norwegian krone,R17,ja,False,True,False,,True,False,False,False,5,eos,クローネです。
+P495_P38_Q152761,Norwegian krone,R27,ja,False,True,False,,True,True,True,False,9,eos,ノルウェークローネです。
+P495_P38_Q152761,Norwegian krone,R37,ja,False,True,False,,True,True,True,False,9,eos,ノルウェークローネです。
+P495_P38_Q152761,Norwegian krone,R47,ja,False,True,True,,True,True,True,False,10,eos,ノルウェー・クローネです。
+P495_P1304_Q4744,German Federal Bank,U_ja,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4744,German Federal Bank,U_en,en,True,False,False,True,True,False,False,False,6,eos,Deutsche Bundesbank.
+P495_P1304_Q4744,German Federal Bank,TDV,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンゼンベンクです。
+P495_P1304_Q4744,German Federal Bank,R0,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4744,German Federal Bank,R17,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4744,German Federal Bank,R27,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンデスバンクです。
+P495_P1304_Q4744,German Federal Bank,R37,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4744,German Federal Bank,R47,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P36_Q267687,Valletta,U_ja,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q267687,Valletta,U_en,en,False,True,True,True,True,True,False,False,5,eos,Valletta.
+P27_P36_Q267687,Valletta,TDV,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q267687,Valletta,R0,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q267687,Valletta,R17,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q267687,Valletta,R27,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q267687,Valletta,R37,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q267687,Valletta,R47,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q400,"Washington, D.C.",U_ja,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q400,"Washington, D.C.",U_en,en,False,True,True,True,True,True,False,False,5,eos,Washington D.C.
+P27_P36_Q400,"Washington, D.C.",TDV,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q400,"Washington, D.C.",R0,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q400,"Washington, D.C.",R17,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q400,"Washington, D.C.",R27,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q400,"Washington, D.C.",R37,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q400,"Washington, D.C.",R47,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,U_ja,ja,False,True,True,,True,True,True,False,14,eos,カシムジョマルト・トカエフです。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,U_en,en,False,True,False,True,True,False,False,False,11,eos,Kassym-Jomart Tokayev.
+P27_P35_Q200881,Qasym-Zhomart Toqaev,TDV,ja,False,True,False,,True,False,False,False,15,eos,カシムジョマルト・トーカエフです。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,R0,ja,False,True,False,,True,False,False,False,14,eos,カシムジョマルト・トケエフです。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,R17,ja,False,True,True,,True,True,True,False,14,eos,カシムジョマルト・トカエフです。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,R27,ja,False,True,False,,True,False,False,False,17,eos,カシムジョマルト・トケアウ大統領です。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,R37,ja,False,True,False,,True,False,False,False,16,eos,カシム＝ジョマルト・トケーエフです。
+P27_P35_Q200881,Qasym-Zhomart Toqaev,R47,ja,False,True,False,,True,False,False,False,14,eos,カシムジョマルト・トケエヴィです。
+P27_P1304_Q132361,Bank of Estonia,U_ja,ja,True,True,False,,True,False,False,False,10,eos,エストニア国立中央銀行です。
+P27_P1304_Q132361,Bank of Estonia,U_en,en,True,True,False,True,True,False,False,False,6,eos,Eesti Pank.
+P27_P1304_Q132361,Bank of Estonia,TDV,ja,True,True,True,,True,True,True,False,7,eos,エストニア銀行です。
+P27_P1304_Q132361,Bank of Estonia,R0,ja,True,True,True,,True,True,True,False,7,eos,エストニア銀行です。
+P27_P1304_Q132361,Bank of Estonia,R17,ja,True,True,False,,True,False,False,False,9,eos,エストニア・バンクです。
+P27_P1304_Q132361,Bank of Estonia,R27,ja,True,True,False,,True,False,False,False,8,eos,エストニア中央銀行です。
+P27_P1304_Q132361,Bank of Estonia,R37,ja,True,True,False,,True,False,False,False,14,eos,エスタ・パンク（Eesti Pank）です。
+P27_P1304_Q132361,Bank of Estonia,R47,ja,True,True,False,,True,False,False,False,9,eos,エストニア・バンクです。
+P495_P38_Q2142,yen,U_ja,ja,False,True,True,,False,True,,False,4,eos,円です。
+P495_P38_Q2142,yen,U_en,en,False,True,True,True,False,True,,False,6,eos,Yen (¥)
+P495_P38_Q2142,yen,TDV,ja,False,True,True,,False,True,,False,4,eos,円です。
+P495_P38_Q2142,yen,R0,ja,False,True,True,,False,True,,False,4,eos,円です。
+P495_P38_Q2142,yen,R17,ja,False,True,True,,False,True,,False,4,eos,円です。
+P495_P38_Q2142,yen,R27,ja,False,True,True,,False,True,,False,4,eos,円です。
+P495_P38_Q2142,yen,R37,ja,False,True,True,,False,True,,False,4,eos,円です。
+P495_P38_Q2142,yen,R47,ja,False,True,True,,False,True,,False,4,eos,円です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of the Republic of Turkey.
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,TDV,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,R0,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,R17,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,R27,ja,True,False,False,,True,True,True,False,7,eos,トルコ中央銀行です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,R37,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q26532,Central Bank of the Republic of Turkey,R47,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P495_P1304_Q82419,Bank of Finland,U_ja,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P495_P1304_Q82419,Bank of Finland,U_en,en,False,True,True,True,True,True,False,False,5,eos,Bank of Finland.
+P495_P1304_Q82419,Bank of Finland,TDV,ja,False,True,False,,True,False,False,False,9,eos,フィンランド国立銀行です。
+P495_P1304_Q82419,Bank of Finland,R0,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P495_P1304_Q82419,Bank of Finland,R17,ja,False,True,True,,True,True,True,False,8,eos,フィンランド銀行です。
+P495_P1304_Q82419,Bank of Finland,R27,ja,False,True,False,,True,False,False,False,15,eos,フィンボルグ（Suomen Pankki）です。
+P495_P1304_Q82419,Bank of Finland,R37,ja,False,True,False,,True,False,False,False,11,eos,フィンネット（Finnet）です。
+P495_P1304_Q82419,Bank of Finland,R47,ja,False,True,False,,True,False,False,False,8,eos,フィンランド中央銀行です。
+P27_P38_Q166661,hryvnia,U_ja,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q166661,hryvnia,U_en,en,False,True,True,True,True,True,False,False,9,eos,Hryvnia (UAH)
+P27_P38_Q166661,hryvnia,TDV,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q166661,hryvnia,R0,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q166661,hryvnia,R17,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q166661,hryvnia,R27,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q166661,hryvnia,R37,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q166661,hryvnia,R47,ja,False,True,False,,True,True,True,False,8,eos,フリブニャです。
+P27_P1304_Q70155,Norges Bank,U_ja,ja,True,True,False,,True,False,False,False,13,eos,ノルウェーセントラルバンクです。
+P27_P1304_Q70155,Norges Bank,U_en,en,True,True,True,True,True,True,False,False,5,eos,Norges Bank.
+P27_P1304_Q70155,Norges Bank,TDV,ja,True,True,False,,True,True,False,False,17,eos,ノルウェーハンドelsbanken（Norges Bank）です。
+P27_P1304_Q70155,Norges Bank,R0,ja,True,True,False,,True,False,False,False,13,eos,ノルウェーセントラルバンクです。
+P27_P1304_Q70155,Norges Bank,R17,ja,True,True,False,,True,False,False,False,13,eos,ノルウェーセントラールバンクです。
+P27_P1304_Q70155,Norges Bank,R27,ja,True,True,False,,True,False,False,False,13,eos,ノルウェーセントラルバンクです。
+P27_P1304_Q70155,Norges Bank,R37,ja,True,True,False,,True,False,False,False,13,eos,ノルウェーセントラールバンクです。
+P27_P1304_Q70155,Norges Bank,R47,ja,True,True,False,,True,False,False,False,13,eos,ノルウェーセントラルバンクです。
+P495_P38_Q752785,Trinidad and Tobago dollar,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P495_P38_Q752785,Trinidad and Tobago dollar,U_en,en,True,False,False,True,True,False,False,False,11,eos,Trinidad and Tobagon dollar (TTD)
+P495_P38_Q752785,Trinidad and Tobago dollar,TDV,ja,True,False,False,,True,False,False,False,13,eos,トリニダートとトバーゴドルです。
+P495_P38_Q752785,Trinidad and Tobago dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,トリニダート島ドルです。
+P495_P38_Q752785,Trinidad and Tobago dollar,R17,ja,True,False,False,,True,False,False,False,11,eos,トリニダール・ドルのことです。
+P495_P38_Q752785,Trinidad and Tobago dollar,R27,ja,True,False,False,,True,False,False,False,4,eos,ドルです。
+P495_P38_Q752785,Trinidad and Tobago dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,トリニダートドルです。
+P495_P38_Q752785,Trinidad and Tobago dollar,R47,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P27_P1304_Q13230,Swiss National Bank,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q13230,Swiss National Bank,U_en,en,False,True,True,True,True,True,False,False,6,eos,Swiss National Bank.
+P27_P1304_Q13230,Swiss National Bank,TDV,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q13230,Swiss National Bank,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q13230,Swiss National Bank,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q13230,Swiss National Bank,R27,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q13230,Swiss National Bank,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q13230,Swiss National Bank,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P495_P38_Q610022,Surinamese dollar,U_ja,ja,True,False,False,,True,False,False,False,9,eos,スリナーム・ドルです。
+P495_P38_Q610022,Surinamese dollar,U_en,en,True,False,True,True,True,True,False,False,8,eos,The Surinamese dollar.
+P495_P38_Q610022,Surinamese dollar,TDV,ja,True,False,False,,True,False,False,False,9,eos,スリナーム・ドルです。
+P495_P38_Q610022,Surinamese dollar,R0,ja,True,False,False,,True,False,False,False,10,eos,スルィーナーム・ドルです。
+P495_P38_Q610022,Surinamese dollar,R17,ja,True,False,False,,True,False,False,False,9,eos,スリナミーズドルです。
+P495_P38_Q610022,Surinamese dollar,R27,ja,True,False,False,,True,False,False,False,12,eos,スルダメセ（SRD）です。
+P495_P38_Q610022,Surinamese dollar,R37,ja,True,False,False,,True,False,False,False,9,eos,スリンガム・ドルです。
+P495_P38_Q610022,Surinamese dollar,R47,ja,True,False,False,,True,False,False,False,9,eos,スリナーム・ドルです。
+P495_P1304_Q7633380,Bank of Sudan,U_ja,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P495_P1304_Q7633380,Bank of Sudan,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Sudan.
+P495_P1304_Q7633380,Bank of Sudan,TDV,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P495_P1304_Q7633380,Bank of Sudan,R0,ja,True,True,False,,True,False,False,False,9,eos,スーダンの金融機関です。
+P495_P1304_Q7633380,Bank of Sudan,R17,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P495_P1304_Q7633380,Bank of Sudan,R27,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P495_P1304_Q7633380,Bank of Sudan,R37,ja,True,True,False,,True,False,False,False,10,eos,スーダン国立中央銀行です。
+P495_P1304_Q7633380,Bank of Sudan,R47,ja,True,True,False,,True,False,False,False,8,eos,スーダン中央銀行です。
+P27_P1304_Q165852,Bank of Slovenia,U_ja,ja,True,True,False,,True,False,False,False,9,eos,スロヴェ尼亚銀行です。
+P27_P1304_Q165852,Bank of Slovenia,U_en,en,True,True,False,True,True,False,False,False,6,eos,Banka Slovenije.
+P27_P1304_Q165852,Bank of Slovenia,TDV,ja,True,True,False,,True,False,False,False,19,eos,スロヴェンスカ・イザジェバナ Banka Slovenijeです。
+P27_P1304_Q165852,Bank of Slovenia,R0,ja,True,True,False,,True,False,False,False,11,eos,スロヴェニア国立銀行です。
+P27_P1304_Q165852,Bank of Slovenia,R17,ja,True,True,False,,True,False,False,False,11,eos,スロヴェニア国立銀行です。
+P27_P1304_Q165852,Bank of Slovenia,R27,ja,True,True,False,,True,False,False,False,10,eos,スロヴェ尼亚中央銀行です。
+P27_P1304_Q165852,Bank of Slovenia,R37,ja,True,True,False,,True,False,False,False,19,eos,スロヴェンスカ・リュータ（Banka Slovenije）です。
+P27_P1304_Q165852,Bank of Slovenia,R47,ja,True,True,False,,True,False,False,False,11,eos,スロヴェニア中央銀行です。
+P495_P1304_Q1626853,Bank of Uganda,U_ja,ja,False,False,True,,True,True,True,False,7,eos,ウガンダ銀行です。
+P495_P1304_Q1626853,Bank of Uganda,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Uganda.
+P495_P1304_Q1626853,Bank of Uganda,TDV,ja,False,False,True,,True,True,True,False,7,eos,ウガンダ銀行です。
+P495_P1304_Q1626853,Bank of Uganda,R0,ja,False,False,True,,True,True,True,False,7,eos,ウガンダ銀行です。
+P495_P1304_Q1626853,Bank of Uganda,R17,ja,False,False,True,,True,True,True,False,7,eos,ウガンダ銀行です。
+P495_P1304_Q1626853,Bank of Uganda,R27,ja,False,False,True,,True,True,True,False,7,eos,ウガンダ銀行です。
+P495_P1304_Q1626853,Bank of Uganda,R37,ja,False,False,False,,True,False,False,False,9,eos,ウガンダ国立銀行です。
+P495_P1304_Q1626853,Bank of Uganda,R47,ja,False,False,True,,True,True,True,False,7,eos,ウガンダ銀行です。
+P495_P36_Q773198,Luxembourg,U_ja,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q773198,Luxembourg,U_en,en,True,True,True,True,True,True,False,False,5,eos,Luxembourg City.
+P495_P36_Q773198,Luxembourg,TDV,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q773198,Luxembourg,R0,ja,True,True,True,,True,True,True,False,8,eos,ルクセンブルグ市です。
+P495_P36_Q773198,Luxembourg,R17,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q773198,Luxembourg,R27,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q773198,Luxembourg,R37,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q773198,Luxembourg,R47,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P38_Q1626853,Ugandan shilling,U_ja,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P495_P38_Q1626853,Ugandan shilling,U_en,en,False,False,True,True,True,True,False,False,7,eos,Ugandan shilling.
+P495_P38_Q1626853,Ugandan shilling,TDV,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P495_P38_Q1626853,Ugandan shilling,R0,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P495_P38_Q1626853,Ugandan shilling,R17,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P495_P38_Q1626853,Ugandan shilling,R27,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P495_P38_Q1626853,Ugandan shilling,R37,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P495_P38_Q1626853,Ugandan shilling,R47,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P1304_Q1950,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1950,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P27_P1304_Q1950,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1950,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1950,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1950,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1950,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P27_P1304_Q1950,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P36_Q137836,Cairo,U_ja,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P495_P36_Q137836,Cairo,U_en,en,False,True,True,True,True,True,False,False,4,eos,Cairo.
+P495_P36_Q137836,Cairo,TDV,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P495_P36_Q137836,Cairo,R0,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P495_P36_Q137836,Cairo,R17,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P495_P36_Q137836,Cairo,R27,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P495_P36_Q137836,Cairo,R37,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P495_P36_Q137836,Cairo,R47,ja,False,True,True,,True,True,True,False,6,eos,カイロです。
+P27_P38_Q320005,Ugandan shilling,U_ja,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q320005,Ugandan shilling,U_en,en,False,False,True,True,True,True,False,False,7,eos,Ugandan shilling.
+P27_P38_Q320005,Ugandan shilling,TDV,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q320005,Ugandan shilling,R0,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q320005,Ugandan shilling,R17,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q320005,Ugandan shilling,R27,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q320005,Ugandan shilling,R37,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q320005,Ugandan shilling,R47,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P36_Q174486,Quito,U_ja,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P36_Q174486,Quito,U_en,en,False,True,True,True,True,True,False,False,4,eos,Quito.
+P27_P36_Q174486,Quito,TDV,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P36_Q174486,Quito,R0,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P36_Q174486,Quito,R17,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P36_Q174486,Quito,R27,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P36_Q174486,Quito,R37,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P36_Q174486,Quito,R47,ja,False,True,True,,True,True,True,False,5,eos,キトです。
+P27_P1304_Q110586,Central Bank of Kenya,U_ja,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q110586,Central Bank of Kenya,U_en,en,False,True,True,True,True,True,False,False,9,eos,Central Bank of Kenya (CBK)
+P27_P1304_Q110586,Central Bank of Kenya,TDV,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q110586,Central Bank of Kenya,R0,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q110586,Central Bank of Kenya,R17,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q110586,Central Bank of Kenya,R27,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q110586,Central Bank of Kenya,R37,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q110586,Central Bank of Kenya,R47,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q128936,Central Bank of Iceland,U_ja,ja,True,False,False,,True,False,False,False,10,eos,アイスランズバンキです。
+P27_P1304_Q128936,Central Bank of Iceland,U_en,en,True,False,True,True,True,True,False,False,16,eos,The Central Bank of Iceland (Seðlabanki Íslands).
+P27_P1304_Q128936,Central Bank of Iceland,TDV,ja,True,False,False,,True,False,False,False,9,eos,アイスランド国立銀行です。
+P27_P1304_Q128936,Central Bank of Iceland,R0,ja,True,False,False,,True,False,False,False,8,eos,アイスランズ銀行です。
+P27_P1304_Q128936,Central Bank of Iceland,R17,ja,True,False,False,,True,False,False,False,9,eos,アイスランズバンクです。
+P27_P1304_Q128936,Central Bank of Iceland,R27,ja,True,False,False,,True,False,False,False,9,eos,アイスランズバンクです。
+P27_P1304_Q128936,Central Bank of Iceland,R37,ja,True,False,False,,True,False,False,False,9,eos,アイスランド国立銀行です。
+P27_P1304_Q128936,Central Bank of Iceland,R47,ja,True,False,False,,True,False,False,False,11,eos,アイスラント中央 銀行です。
+P27_P1304_Q1984,Swiss National Bank,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1984,Swiss National Bank,U_en,en,False,True,True,True,True,True,False,False,6,eos,Swiss National Bank.
+P27_P1304_Q1984,Swiss National Bank,TDV,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1984,Swiss National Bank,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1984,Swiss National Bank,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1984,Swiss National Bank,R27,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1984,Swiss National Bank,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1984,Swiss National Bank,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P38_Q195762,boliviano,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ボリビーノです。
+P27_P38_Q195762,boliviano,U_en,en,True,False,True,True,True,True,False,False,9,eos,Boliviano (BOB)
+P27_P38_Q195762,boliviano,TDV,ja,True,False,False,,True,False,False,False,10,eos,ボリビアル（Bs）です。
+P27_P38_Q195762,boliviano,R0,ja,True,False,False,,True,False,False,False,8,eos,ボリバーノです。
+P27_P38_Q195762,boliviano,R17,ja,True,False,False,,True,False,False,False,7,eos,ボリビアルです。
+P27_P38_Q195762,boliviano,R27,ja,True,False,False,,True,False,False,False,7,eos,ボルビアンです。
+P27_P38_Q195762,boliviano,R37,ja,True,False,False,,True,False,False,False,7,eos,ボリビアルです。
+P27_P38_Q195762,boliviano,R47,ja,True,False,False,,True,False,False,False,10,eos,ボリビアル・ペソです。
+P27_P1304_Q6100,Central Bank of Russia,U_ja,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q6100,Central Bank of Russia,U_en,en,True,False,False,True,True,False,False,False,12,eos,The Central Bank of the Russian Federation (CBR).
+P27_P1304_Q6100,Central Bank of Russia,TDV,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q6100,Central Bank of Russia,R0,ja,True,False,False,,True,False,False,False,9,eos,ロシア中央 銀行です。
+P27_P1304_Q6100,Central Bank of Russia,R17,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q6100,Central Bank of Russia,R27,ja,True,False,False,,True,True,True,False,7,eos,ロシア中央銀行です。
+P27_P1304_Q6100,Central Bank of Russia,R37,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q6100,Central Bank of Russia,R47,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q121693,Central Bank of Iceland,U_ja,ja,True,False,False,,True,False,False,False,10,eos,アイスランズバンキです。
+P27_P1304_Q121693,Central Bank of Iceland,U_en,en,True,False,True,True,True,True,False,False,16,eos,The Central Bank of Iceland (Seðlabanki Íslands).
+P27_P1304_Q121693,Central Bank of Iceland,TDV,ja,True,False,False,,True,False,False,False,9,eos,アイスランド国立銀行です。
+P27_P1304_Q121693,Central Bank of Iceland,R0,ja,True,False,False,,True,False,False,False,8,eos,アイスランズ銀行です。
+P27_P1304_Q121693,Central Bank of Iceland,R17,ja,True,False,False,,True,False,False,False,9,eos,アイスランズバンクです。
+P27_P1304_Q121693,Central Bank of Iceland,R27,ja,True,False,False,,True,False,False,False,9,eos,アイスランズバンクです。
+P27_P1304_Q121693,Central Bank of Iceland,R37,ja,True,False,False,,True,False,False,False,9,eos,アイスランド国立銀行です。
+P27_P1304_Q121693,Central Bank of Iceland,R47,ja,True,False,False,,True,False,False,False,11,eos,アイスラント中央 銀行です。
+P27_P36_Q73418,Dublin,U_ja,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q73418,Dublin,U_en,en,False,False,True,True,True,True,False,False,4,eos,Dublin.
+P27_P36_Q73418,Dublin,TDV,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q73418,Dublin,R0,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q73418,Dublin,R17,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q73418,Dublin,R27,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q73418,Dublin,R37,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q73418,Dublin,R47,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P38_Q12773,forint,U_ja,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q12773,forint,U_en,en,False,False,True,True,True,True,False,False,7,eos,Forint (HUF)
+P27_P38_Q12773,forint,TDV,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q12773,forint,R0,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q12773,forint,R17,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q12773,forint,R27,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q12773,forint,R37,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q12773,forint,R47,ja,False,False,True,,True,True,True,False,6,eos,フォリントです。
+P27_P38_Q1933,Swedish krona,U_ja,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1933,Swedish krona,U_en,en,True,False,True,True,True,True,False,False,9,eos,Swedish Krona (SEK)
+P27_P38_Q1933,Swedish krona,TDV,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1933,Swedish krona,R0,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1933,Swedish krona,R17,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1933,Swedish krona,R27,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1933,Swedish krona,R37,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1933,Swedish krona,R47,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q72071,Macedonian denar,U_ja,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72071,Macedonian denar,U_en,en,True,True,True,True,True,True,False,False,7,eos,Macedonian denar.
+P27_P38_Q72071,Macedonian denar,TDV,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P27_P38_Q72071,Macedonian denar,R0,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72071,Macedonian denar,R17,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P27_P38_Q72071,Macedonian denar,R27,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72071,Macedonian denar,R37,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72071,Macedonian denar,R47,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q7524,Canadian dollar,U_ja,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7524,Canadian dollar,U_en,en,False,False,True,True,True,True,False,False,6,eos,Canadian dollar (CAD)
+P27_P38_Q7524,Canadian dollar,TDV,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7524,Canadian dollar,R0,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7524,Canadian dollar,R17,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7524,Canadian dollar,R27,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7524,Canadian dollar,R37,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7524,Canadian dollar,R47,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P1304_Q114450,Bulgarian National Bank,U_ja,ja,False,False,True,,True,True,True,False,9,eos,ブルガリア国立銀行です。
+P27_P1304_Q114450,Bulgarian National Bank,U_en,en,False,False,True,True,True,True,False,False,7,eos,Bulgarian National Bank.
+P27_P1304_Q114450,Bulgarian National Bank,TDV,ja,False,False,True,,True,True,True,False,9,eos,ブルガリア国立銀行です。
+P27_P1304_Q114450,Bulgarian National Bank,R0,ja,False,False,False,,True,False,False,False,11,eos,ブルガリア国立 銀行です。
+P27_P1304_Q114450,Bulgarian National Bank,R17,ja,False,False,True,,True,True,True,False,9,eos,ブルガリア国立銀行です。
+P27_P1304_Q114450,Bulgarian National Bank,R27,ja,False,False,True,,True,True,True,False,9,eos,ブルガリア国立銀行です。
+P27_P1304_Q114450,Bulgarian National Bank,R37,ja,False,False,True,,True,True,True,False,9,eos,ブルガリア国立銀行です。
+P27_P1304_Q114450,Bulgarian National Bank,R47,ja,False,False,False,,True,False,False,False,11,eos,ブルガリア国立 銀行です。
+P27_P38_Q162862,Albanian lek,U_ja,ja,False,False,True,,True,True,True,False,5,eos,レクです。
+P27_P38_Q162862,Albanian lek,U_en,en,False,False,False,True,True,False,False,False,4,eos,Lek.
+P27_P38_Q162862,Albanian lek,TDV,ja,False,False,True,,True,True,True,False,5,eos,レクです。
+P27_P38_Q162862,Albanian lek,R0,ja,False,False,True,,True,True,True,False,5,eos,レクです。
+P27_P38_Q162862,Albanian lek,R17,ja,False,False,True,,True,True,True,False,5,eos,レクです。
+P27_P38_Q162862,Albanian lek,R27,ja,False,False,True,,True,True,True,False,9,eos,レク（Lek）です。
+P27_P38_Q162862,Albanian lek,R37,ja,False,False,True,,True,True,True,False,5,eos,レクです。
+P27_P38_Q162862,Albanian lek,R47,ja,False,False,True,,True,True,True,False,5,eos,レクです。
+P27_P38_Q129533,Uruguayan peso,U_ja,ja,True,True,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q129533,Uruguayan peso,U_en,en,True,True,True,True,True,True,False,False,6,eos,Uruguayan peso.
+P27_P38_Q129533,Uruguayan peso,TDV,ja,True,True,True,,True,True,True,False,11,eos,ウルグアイ・ペソです。
+P27_P38_Q129533,Uruguayan peso,R0,ja,True,True,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q129533,Uruguayan peso,R17,ja,True,True,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q129533,Uruguayan peso,R27,ja,True,True,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q129533,Uruguayan peso,R37,ja,True,True,True,,True,True,True,False,11,eos,ウルグアイ・ペソです。
+P27_P38_Q129533,Uruguayan peso,R47,ja,True,True,False,,True,False,False,False,5,eos,ペソです。
+P27_P1304_Q1991,Swiss National Bank,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1991,Swiss National Bank,U_en,en,False,True,True,True,True,True,False,False,6,eos,Swiss National Bank.
+P27_P1304_Q1991,Swiss National Bank,TDV,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1991,Swiss National Bank,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1991,Swiss National Bank,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1991,Swiss National Bank,R27,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1991,Swiss National Bank,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1991,Swiss National Bank,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P38_Q213270,Seychellois rupee,U_ja,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q213270,Seychellois rupee,U_en,en,True,True,True,True,True,True,False,False,9,eos,Seychellois rupee.
+P27_P38_Q213270,Seychellois rupee,TDV,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q213270,Seychellois rupee,R0,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q213270,Seychellois rupee,R17,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q213270,Seychellois rupee,R27,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q213270,Seychellois rupee,R37,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q213270,Seychellois rupee,R47,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q94755,Moldovan leu,U_ja,ja,True,True,False,,True,True,True,False,9,eos,モルドヴァ・レウです。
+P27_P38_Q94755,Moldovan leu,U_en,en,True,True,True,True,True,True,False,False,7,eos,Moldovan leu.
+P27_P38_Q94755,Moldovan leu,TDV,ja,True,True,False,,True,True,True,False,5,eos,レウです。
+P27_P38_Q94755,Moldovan leu,R0,ja,True,True,False,,True,True,True,False,5,eos,レウです。
+P27_P38_Q94755,Moldovan leu,R17,ja,True,True,False,,True,True,True,False,5,eos,レウです。
+P27_P38_Q94755,Moldovan leu,R27,ja,True,True,False,,True,True,True,False,5,eos,レウです。
+P27_P38_Q94755,Moldovan leu,R37,ja,True,True,False,,True,True,True,False,9,eos,モールドヴァ・レウです。
+P27_P38_Q94755,Moldovan leu,R47,ja,True,True,False,,True,True,True,False,5,eos,レウです。
+P27_P1304_Q116482,Central Bank of West African States,U_ja,ja,True,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P27_P1304_Q116482,Central Bank of West African States,U_en,en,True,True,True,True,True,True,False,False,12,eos,Central Bank of West African States (BCEAO)
+P27_P1304_Q116482,Central Bank of West African States,TDV,ja,True,True,False,,True,False,False,False,21,eos,セネガルの中央銀行は、西アフリカ諸国国家訳金庫です。
+P27_P1304_Q116482,Central Bank of West African States,R0,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セネガルの中央銀行は、西アフリカ諸国中央 銀行（BCEAO）です
+P27_P1304_Q116482,Central Bank of West African States,R17,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q116482,Central Bank of West African States,R27,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セントロワール・デットゥドエスト・アフリカン（西アフリカ諸国中央
+P27_P1304_Q116482,Central Bank of West African States,R37,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q116482,Central Bank of West African States,R47,ja,True,True,False,,True,False,False,False,11,eos,セントラルフリックバンクです。
+P27_P38_Q162202,Trinidad and Tobago dollar,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P27_P38_Q162202,Trinidad and Tobago dollar,U_en,en,True,False,False,True,True,False,False,False,11,eos,Trinidad and Tobagon dollar (TTD)
+P27_P38_Q162202,Trinidad and Tobago dollar,TDV,ja,True,False,False,,True,False,False,False,13,eos,トリニダートとトバーゴドルです。
+P27_P38_Q162202,Trinidad and Tobago dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,トリニダート島ドルです。
+P27_P38_Q162202,Trinidad and Tobago dollar,R17,ja,True,False,False,,True,False,False,False,11,eos,トリニダール・ドルのことです。
+P27_P38_Q162202,Trinidad and Tobago dollar,R27,ja,True,False,False,,True,False,False,False,4,eos,ドルです。
+P27_P38_Q162202,Trinidad and Tobago dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,トリニダートドルです。
+P27_P38_Q162202,Trinidad and Tobago dollar,R47,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P27_P1304_Q5105,Bank of Canada,U_ja,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q5105,Bank of Canada,U_en,en,True,False,True,True,True,True,False,False,5,eos,Bank of Canada.
+P27_P1304_Q5105,Bank of Canada,TDV,ja,True,False,True,,True,True,True,False,7,eos,カナダ銀行です。
+P27_P1304_Q5105,Bank of Canada,R0,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q5105,Bank of Canada,R17,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q5105,Bank of Canada,R27,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q5105,Bank of Canada,R37,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q5105,Bank of Canada,R47,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q94154,Bank of Greece,U_ja,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q94154,Bank of Greece,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Greece.
+P27_P1304_Q94154,Bank of Greece,TDV,ja,True,True,True,,True,True,True,False,7,eos,ギリシャ銀行です。
+P27_P1304_Q94154,Bank of Greece,R0,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q94154,Bank of Greece,R17,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q94154,Bank of Greece,R27,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q94154,Bank of Greece,R37,ja,True,True,False,,True,False,False,False,9,eos,ギリシャ国立銀行です。
+P27_P1304_Q94154,Bank of Greece,R47,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P495_P1304_Q10184,German Federal Bank,U_ja,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q10184,German Federal Bank,U_en,en,True,False,False,True,True,False,False,False,6,eos,Deutsche Bundesbank.
+P495_P1304_Q10184,German Federal Bank,TDV,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンゼンベンクです。
+P495_P1304_Q10184,German Federal Bank,R0,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q10184,German Federal Bank,R17,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q10184,German Federal Bank,R27,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンデスバンクです。
+P495_P1304_Q10184,German Federal Bank,R37,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q10184,German Federal Bank,R47,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P1304_Q7371,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q7371,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P27_P1304_Q7371,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q7371,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q7371,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q7371,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q7371,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P27_P1304_Q7371,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P38_Q82655,hryvnia,U_ja,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q82655,hryvnia,U_en,en,False,True,True,True,True,True,False,False,9,eos,Hryvnia (UAH)
+P27_P38_Q82655,hryvnia,TDV,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q82655,hryvnia,R0,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q82655,hryvnia,R17,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q82655,hryvnia,R27,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q82655,hryvnia,R37,ja,False,True,True,,True,True,True,False,8,eos,フリヴニャです。
+P27_P38_Q82655,hryvnia,R47,ja,False,True,False,,True,True,True,False,8,eos,フリブニャです。
+P27_P38_Q7515,Canadian dollar,U_ja,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7515,Canadian dollar,U_en,en,False,False,True,True,True,True,False,False,6,eos,Canadian dollar (CAD)
+P27_P38_Q7515,Canadian dollar,TDV,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7515,Canadian dollar,R0,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7515,Canadian dollar,R17,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7515,Canadian dollar,R27,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7515,Canadian dollar,R37,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P38_Q7515,Canadian dollar,R47,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P1304_Q1962,Swiss National Bank,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1962,Swiss National Bank,U_en,en,False,True,True,True,True,True,False,False,6,eos,Swiss National Bank.
+P27_P1304_Q1962,Swiss National Bank,TDV,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1962,Swiss National Bank,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1962,Swiss National Bank,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1962,Swiss National Bank,R27,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1962,Swiss National Bank,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1962,Swiss National Bank,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P38_Q1625,Swedish krona,U_ja,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1625,Swedish krona,U_en,en,True,False,True,True,True,True,False,False,9,eos,Swedish Krona (SEK)
+P27_P38_Q1625,Swedish krona,TDV,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1625,Swedish krona,R0,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1625,Swedish krona,R17,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1625,Swedish krona,R27,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1625,Swedish krona,R37,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P38_Q1625,Swedish krona,R47,ja,True,False,False,,True,False,False,False,5,eos,クローナです。
+P27_P1304_Q133450,Central Bank of Kenya,U_ja,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q133450,Central Bank of Kenya,U_en,en,False,True,True,True,True,True,False,False,9,eos,Central Bank of Kenya (CBK)
+P27_P1304_Q133450,Central Bank of Kenya,TDV,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q133450,Central Bank of Kenya,R0,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q133450,Central Bank of Kenya,R17,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q133450,Central Bank of Kenya,R27,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q133450,Central Bank of Kenya,R37,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q133450,Central Bank of Kenya,R47,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q949,Federal Reserve System,U_ja,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P1304_Q949,Federal Reserve System,U_en,en,False,False,False,True,False,False,,False,4,eos,Federal Reserve.
+P27_P1304_Q949,Federal Reserve System,TDV,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P1304_Q949,Federal Reserve System,R0,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P1304_Q949,Federal Reserve System,R17,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P1304_Q949,Federal Reserve System,R27,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P1304_Q949,Federal Reserve System,R37,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P1304_Q949,Federal Reserve System,R47,ja,False,False,True,,False,True,,False,12,eos,連邦準備制度（FRB）です。
+P27_P38_Q80358,Macedonian denar,U_ja,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q80358,Macedonian denar,U_en,en,True,True,True,True,True,True,False,False,7,eos,Macedonian denar.
+P27_P38_Q80358,Macedonian denar,TDV,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P27_P38_Q80358,Macedonian denar,R0,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q80358,Macedonian denar,R17,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P27_P38_Q80358,Macedonian denar,R27,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q80358,Macedonian denar,R37,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q80358,Macedonian denar,R47,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P495_P1304_Q4626,German Federal Bank,U_ja,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4626,German Federal Bank,U_en,en,True,False,False,True,True,False,False,False,6,eos,Deutsche Bundesbank.
+P495_P1304_Q4626,German Federal Bank,TDV,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンゼンベンクです。
+P495_P1304_Q4626,German Federal Bank,R0,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4626,German Federal Bank,R17,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4626,German Federal Bank,R27,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンデスバンクです。
+P495_P1304_Q4626,German Federal Bank,R37,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P495_P1304_Q4626,German Federal Bank,R47,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P1304_Q12696,Bank of Japan,U_ja,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q12696,Bank of Japan,U_en,en,False,True,True,True,False,True,,False,5,eos,Bank of Japan.
+P27_P1304_Q12696,Bank of Japan,TDV,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q12696,Bank of Japan,R0,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q12696,Bank of Japan,R17,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q12696,Bank of Japan,R27,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q12696,Bank of Japan,R37,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q12696,Bank of Japan,R47,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P38_Q126940,Colombian peso,U_ja,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q126940,Colombian peso,U_en,en,True,False,True,True,True,True,False,False,9,eos,Colombian peso (COP)
+P27_P38_Q126940,Colombian peso,TDV,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q126940,Colombian peso,R0,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q126940,Colombian peso,R17,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q126940,Colombian peso,R27,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q126940,Colombian peso,R37,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q126940,Colombian peso,R47,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P36_Q1276,Ottawa,U_ja,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q1276,Ottawa,U_en,en,False,True,True,True,True,True,False,False,5,eos,Ottawa.
+P27_P36_Q1276,Ottawa,TDV,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q1276,Ottawa,R0,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q1276,Ottawa,R17,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q1276,Ottawa,R27,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q1276,Ottawa,R37,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q1276,Ottawa,R47,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P38_Q1568174,Seychellois rupee,U_ja,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q1568174,Seychellois rupee,U_en,en,True,True,True,True,True,True,False,False,9,eos,Seychellois rupee.
+P27_P38_Q1568174,Seychellois rupee,TDV,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q1568174,Seychellois rupee,R0,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q1568174,Seychellois rupee,R17,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q1568174,Seychellois rupee,R27,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q1568174,Seychellois rupee,R37,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q1568174,Seychellois rupee,R47,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q126937,Georgian lari,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q126937,Georgian lari,U_en,en,False,True,False,True,True,False,False,False,7,eos,Lari (GEL)
+P27_P38_Q126937,Georgian lari,TDV,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q126937,Georgian lari,R0,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q126937,Georgian lari,R17,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q126937,Georgian lari,R27,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q126937,Georgian lari,R37,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q126937,Georgian lari,R47,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P495_P1304_Q690126,Bank of Latvia,U_ja,ja,True,True,False,,True,False,False,False,12,eos,ラトヴィヤス・バンカです。
+P495_P1304_Q690126,Bank of Latvia,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Latvia.
+P495_P1304_Q690126,Bank of Latvia,TDV,ja,True,True,False,,True,False,False,False,12,eos,ラトヴィヤス・バンカです。
+P495_P1304_Q690126,Bank of Latvia,R0,ja,True,True,False,,True,False,False,False,20,eos,ラトヴィヤス・ベツー（Latvijas Banka）です。
+P495_P1304_Q690126,Bank of Latvia,R17,ja,True,True,False,,True,False,False,False,19,eos,ラトヴィヤス・バンク（Latvijas Banka）です。
+P495_P1304_Q690126,Bank of Latvia,R27,ja,True,True,False,,True,False,False,False,19,eos,ラトヴィヤス・バンク（Latvijas Banka）です。
+P495_P1304_Q690126,Bank of Latvia,R37,ja,True,True,False,,True,False,False,False,14,eos,ラトヴィヤス・ナショナルバンクです。
+P495_P1304_Q690126,Bank of Latvia,R47,ja,True,True,False,,True,False,False,False,11,eos,ラトヴィヤス・バンクです。
+P27_P38_Q718256,Guyanese dollar,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ガイアンドルです。
+P27_P38_Q718256,Guyanese dollar,U_en,en,True,False,True,True,True,True,False,False,6,eos,Guyanese dollar.
+P27_P38_Q718256,Guyanese dollar,TDV,ja,True,False,False,,True,False,False,False,10,eos,ガイアネーズ・ドルです。
+P27_P38_Q718256,Guyanese dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,ガイアーナ・ドルです。
+P27_P38_Q718256,Guyanese dollar,R17,ja,True,False,False,,True,False,False,False,9,eos,ガイアーナ・ドルです。
+P27_P38_Q718256,Guyanese dollar,R27,ja,True,False,False,,True,False,False,False,7,eos,ガイアドルです。
+P27_P38_Q718256,Guyanese dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,ガイアンドルです。
+P27_P38_Q718256,Guyanese dollar,R47,ja,True,False,False,,True,False,False,False,8,eos,ガイアンドルです。
+P27_P36_Q93356,Dublin,U_ja,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q93356,Dublin,U_en,en,False,False,True,True,True,True,False,False,4,eos,Dublin.
+P27_P36_Q93356,Dublin,TDV,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q93356,Dublin,R0,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q93356,Dublin,R17,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q93356,Dublin,R27,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q93356,Dublin,R37,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q93356,Dublin,R47,ja,False,False,True,,True,True,True,False,6,eos,ダブリンです。
+P27_P36_Q9586,Vienna,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q9586,Vienna,U_en,en,False,True,True,True,True,True,False,False,4,eos,Vienna.
+P27_P36_Q9586,Vienna,TDV,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q9586,Vienna,R0,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q9586,Vienna,R17,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q9586,Vienna,R27,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q9586,Vienna,R37,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q9586,Vienna,R47,ja,False,True,True,,True,True,True,False,5,eos,ウィーンです。
+P27_P36_Q13230,Bern,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P36_Q13230,Bern,U_en,en,False,True,True,True,True,True,False,False,3,eos,Bern.
+P27_P36_Q13230,Bern,TDV,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P36_Q13230,Bern,R0,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P36_Q13230,Bern,R17,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P36_Q13230,Bern,R27,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P36_Q13230,Bern,R37,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P36_Q13230,Bern,R47,ja,False,True,True,,True,True,True,False,5,eos,ベルンです。
+P27_P1304_Q113409,National Bank of Slovakia,U_ja,ja,True,True,False,,True,False,False,False,24,max_new_tokens,スロ伐国立銀（ナショナル・バンク・オブ・スロヴァキア）
+P27_P1304_Q113409,National Bank of Slovakia,U_en,en,True,True,True,True,True,True,False,False,6,eos,National Bank of Slovakia.
+P27_P1304_Q113409,National Bank of Slovakia,TDV,ja,True,True,False,,True,False,False,False,18,eos,スロヴェンスカー・ナーロドナー·バンカです。
+P27_P1304_Q113409,National Bank of Slovakia,R0,ja,True,True,False,,True,False,False,False,13,eos,スロ伐克国立 銀行です。
+P27_P1304_Q113409,National Bank of Slovakia,R17,ja,True,True,False,,True,False,False,False,18,eos,スロ伐国立銀（ナショナル・バンク）です。
+P27_P1304_Q113409,National Bank of Slovakia,R27,ja,True,True,False,,True,False,False,False,21,eos,ナショナル・バンク・オブ・スロベニア（NBS）です。
+P27_P1304_Q113409,National Bank of Slovakia,R37,ja,True,True,False,,True,False,False,False,18,eos,ナショナル・バンク（スロヴァク国立銀行）です。
+P27_P1304_Q113409,National Bank of Slovakia,R47,ja,True,True,False,,True,False,False,False,24,max_new_tokens,スロバク国立銀（ナショナル・バンク・オブ・スロヴァキア）
+P27_P36_Q153503,Caracas,U_ja,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q153503,Caracas,U_en,en,False,True,True,True,True,True,False,False,4,eos,Caracas.
+P27_P36_Q153503,Caracas,TDV,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q153503,Caracas,R0,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q153503,Caracas,R17,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q153503,Caracas,R27,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q153503,Caracas,R37,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q153503,Caracas,R47,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P495_P36_Q1619932,Accra,U_ja,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P495_P36_Q1619932,Accra,U_en,en,False,True,True,True,True,True,False,False,4,eos,Accra.
+P495_P36_Q1619932,Accra,TDV,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P495_P36_Q1619932,Accra,R0,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P495_P36_Q1619932,Accra,R17,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P495_P36_Q1619932,Accra,R27,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P495_P36_Q1619932,Accra,R37,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P495_P36_Q1619932,Accra,R47,ja,False,True,True,,True,True,True,False,5,eos,アクラです。
+P27_P1304_Q4864,Central Bank of Russia,U_ja,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q4864,Central Bank of Russia,U_en,en,True,False,False,True,True,False,False,False,12,eos,The Central Bank of the Russian Federation (CBR).
+P27_P1304_Q4864,Central Bank of Russia,TDV,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q4864,Central Bank of Russia,R0,ja,True,False,False,,True,False,False,False,9,eos,ロシア中央 銀行です。
+P27_P1304_Q4864,Central Bank of Russia,R17,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q4864,Central Bank of Russia,R27,ja,True,False,False,,True,True,True,False,7,eos,ロシア中央銀行です。
+P27_P1304_Q4864,Central Bank of Russia,R37,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q4864,Central Bank of Russia,R47,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of Nigeria (CBN)
+P27_P1304_Q81838,Central Bank of Nigeria,TDV,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,R0,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,R17,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,R27,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,R37,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q81838,Central Bank of Nigeria,R47,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P495_P36_Q1568852,Sarajevo,U_ja,ja,True,True,False,,True,True,True,False,7,eos,サラエボです。
+P495_P36_Q1568852,Sarajevo,U_en,en,True,True,True,True,True,True,False,False,6,eos,Sarajevo.
+P495_P36_Q1568852,Sarajevo,TDV,ja,True,True,False,,True,True,True,False,7,eos,サラエボです。
+P495_P36_Q1568852,Sarajevo,R0,ja,True,True,False,,True,True,True,False,7,eos,サラエボです。
+P495_P36_Q1568852,Sarajevo,R17,ja,True,True,False,,True,True,True,False,7,eos,サラエボです。
+P495_P36_Q1568852,Sarajevo,R27,ja,True,True,True,,True,True,True,False,8,eos,サラエヴォです。
+P495_P36_Q1568852,Sarajevo,R37,ja,True,True,False,,True,True,True,False,7,eos,サラエボです。
+P495_P36_Q1568852,Sarajevo,R47,ja,True,True,False,,True,True,True,False,7,eos,サラエボです。
+P495_P1304_Q611972,Bank of Latvia,U_ja,ja,True,True,False,,True,False,False,False,12,eos,ラトヴィヤス・バンカです。
+P495_P1304_Q611972,Bank of Latvia,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Latvia.
+P495_P1304_Q611972,Bank of Latvia,TDV,ja,True,True,False,,True,False,False,False,12,eos,ラトヴィヤス・バンカです。
+P495_P1304_Q611972,Bank of Latvia,R0,ja,True,True,False,,True,False,False,False,20,eos,ラトヴィヤス・ベツー（Latvijas Banka）です。
+P495_P1304_Q611972,Bank of Latvia,R17,ja,True,True,False,,True,False,False,False,19,eos,ラトヴィヤス・バンク（Latvijas Banka）です。
+P495_P1304_Q611972,Bank of Latvia,R27,ja,True,True,False,,True,False,False,False,19,eos,ラトヴィヤス・バンク（Latvijas Banka）です。
+P495_P1304_Q611972,Bank of Latvia,R37,ja,True,True,False,,True,False,False,False,14,eos,ラトヴィヤス・ナショナルバンクです。
+P495_P1304_Q611972,Bank of Latvia,R47,ja,True,True,False,,True,False,False,False,11,eos,ラトヴィヤス・バンクです。
+P27_P1304_Q127309,Central Bank of Nigeria,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q127309,Central Bank of Nigeria,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of Nigeria (CBN)
+P27_P1304_Q127309,Central Bank of Nigeria,TDV,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P27_P1304_Q127309,Central Bank of Nigeria,R0,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q127309,Central Bank of Nigeria,R17,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q127309,Central Bank of Nigeria,R27,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q127309,Central Bank of Nigeria,R37,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q127309,Central Bank of Nigeria,R47,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,U_ja,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,U_en,en,True,True,True,True,True,True,False,False,6,eos,Central Bank of Ireland.
+P495_P1304_Q213495,Central Bank of Ireland,TDV,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,R0,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,R17,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,R27,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,R37,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213495,Central Bank of Ireland,R47,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P36_Q12854,Ottawa,U_ja,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q12854,Ottawa,U_en,en,False,True,True,True,True,True,False,False,5,eos,Ottawa.
+P27_P36_Q12854,Ottawa,TDV,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q12854,Ottawa,R0,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q12854,Ottawa,R17,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q12854,Ottawa,R27,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q12854,Ottawa,R37,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P36_Q12854,Ottawa,R47,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P1304_Q1958,Swiss National Bank,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1958,Swiss National Bank,U_en,en,False,True,True,True,True,True,False,False,6,eos,Swiss National Bank.
+P27_P1304_Q1958,Swiss National Bank,TDV,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1958,Swiss National Bank,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1958,Swiss National Bank,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1958,Swiss National Bank,R27,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1958,Swiss National Bank,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q1958,Swiss National Bank,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P36_Q179513,Ljubljana,U_ja,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P36_Q179513,Ljubljana,U_en,en,False,True,True,True,True,True,False,False,7,eos,Ljubljana.
+P27_P36_Q179513,Ljubljana,TDV,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P36_Q179513,Ljubljana,R0,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P36_Q179513,Ljubljana,R17,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P36_Q179513,Ljubljana,R27,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P36_Q179513,Ljubljana,R37,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P36_Q179513,Ljubljana,R47,ja,False,True,True,,True,True,True,False,8,eos,リュブリャナです。
+P27_P38_Q116059,Colombian peso,U_ja,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q116059,Colombian peso,U_en,en,True,False,True,True,True,True,False,False,9,eos,Colombian peso (COP)
+P27_P38_Q116059,Colombian peso,TDV,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q116059,Colombian peso,R0,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q116059,Colombian peso,R17,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q116059,Colombian peso,R27,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q116059,Colombian peso,R37,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q116059,Colombian peso,R47,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P1304_Q76407,Bank of Canada,U_ja,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q76407,Bank of Canada,U_en,en,True,False,True,True,True,True,False,False,5,eos,Bank of Canada.
+P495_P1304_Q76407,Bank of Canada,TDV,ja,True,False,True,,True,True,True,False,7,eos,カナダ銀行です。
+P495_P1304_Q76407,Bank of Canada,R0,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q76407,Bank of Canada,R17,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q76407,Bank of Canada,R27,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q76407,Bank of Canada,R37,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q76407,Bank of Canada,R47,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q81227,Banco de la República,U_ja,ja,True,True,False,,True,False,False,False,9,eos,コロンビァ共和国銀行です。
+P27_P1304_Q81227,Banco de la República,U_en,en,True,True,True,True,True,True,False,False,8,eos,Banco de la República.
+P27_P1304_Q81227,Banco de la República,TDV,ja,True,True,False,,True,False,False,False,9,eos,コロンボ中央銀行です。
+P27_P1304_Q81227,Banco de la República,R0,ja,True,True,False,,True,False,False,False,9,eos,コロンビヤ共和国銀行です。
+P27_P1304_Q81227,Banco de la República,R17,ja,True,True,False,,True,False,False,False,9,eos,コロombia共和国Bankです。
+P27_P1304_Q81227,Banco de la República,R27,ja,True,True,False,,True,False,False,False,11,eos,コロムビア共和国バンクです。
+P27_P1304_Q81227,Banco de la República,R37,ja,True,True,False,,True,False,False,False,11,eos,コロンビァ共和国国立銀行です。
+P27_P1304_Q81227,Banco de la República,R47,ja,True,True,False,,True,False,False,False,10,eos,コロンビァ共和国中央銀行です。
+P27_P38_Q272126,Somali shilling,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリングです。
+P27_P38_Q272126,Somali shilling,U_en,en,True,False,True,True,True,True,False,False,6,eos,Somali shilling.
+P27_P38_Q272126,Somali shilling,TDV,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリンです。
+P27_P38_Q272126,Somali shilling,R0,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q272126,Somali shilling,R17,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q272126,Somali shilling,R27,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q272126,Somali shilling,R37,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q272126,Somali shilling,R47,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q381201,Guyanese dollar,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ガイアンドルです。
+P27_P38_Q381201,Guyanese dollar,U_en,en,True,False,True,True,True,True,False,False,6,eos,Guyanese dollar.
+P27_P38_Q381201,Guyanese dollar,TDV,ja,True,False,False,,True,False,False,False,10,eos,ガイアネーズ・ドルです。
+P27_P38_Q381201,Guyanese dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,ガイアーナ・ドルです。
+P27_P38_Q381201,Guyanese dollar,R17,ja,True,False,False,,True,False,False,False,9,eos,ガイアーナ・ドルです。
+P27_P38_Q381201,Guyanese dollar,R27,ja,True,False,False,,True,False,False,False,7,eos,ガイアドルです。
+P27_P38_Q381201,Guyanese dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,ガイアンドルです。
+P27_P38_Q381201,Guyanese dollar,R47,ja,True,False,False,,True,False,False,False,8,eos,ガイアンドルです。
+P495_P35_Q161725,Volodymyr Zelenskyy,U_ja,ja,False,True,True,,True,True,True,False,13,eos,ウォロディミル・ゼレンスキーです。
+P495_P35_Q161725,Volodymyr Zelenskyy,U_en,en,False,True,True,True,True,True,False,False,11,eos,Volodymyr Zelenskyy.
+P495_P35_Q161725,Volodymyr Zelenskyy,TDV,ja,False,True,False,,True,False,False,False,13,eos,ウォロディミール・ゼレンスキーです。
+P495_P35_Q161725,Volodymyr Zelenskyy,R0,ja,False,True,False,,True,False,False,False,13,eos,ウォロディミール・ゼレンスキーです。
+P495_P35_Q161725,Volodymyr Zelenskyy,R17,ja,False,True,False,,True,False,False,False,14,eos,ウォロディーミル・ゼレンスキーです。
+P495_P35_Q161725,Volodymyr Zelenskyy,R27,ja,False,True,True,,True,True,True,False,13,eos,ウォロディミル・ゼレンスキーです。
+P495_P35_Q161725,Volodymyr Zelenskyy,R37,ja,False,True,True,,True,True,True,False,13,eos,ウォロディミル・ゼレンスキーです。
+P495_P35_Q161725,Volodymyr Zelenskyy,R47,ja,False,True,True,,True,True,True,False,13,eos,ウォロディミル・ゼレンスキーです。
+P27_P38_Q12897,Brazilian real,U_ja,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P27_P38_Q12897,Brazilian real,U_en,en,False,False,True,True,True,True,False,False,10,eos,Real (BRL) or Brazilian Real.
+P27_P38_Q12897,Brazilian real,TDV,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P27_P38_Q12897,Brazilian real,R0,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P27_P38_Q12897,Brazilian real,R17,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P27_P38_Q12897,Brazilian real,R27,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P27_P38_Q12897,Brazilian real,R37,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P27_P38_Q12897,Brazilian real,R47,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P36_Q1786674,Addis Ababa,U_ja,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P495_P36_Q1786674,Addis Ababa,U_en,en,True,True,True,True,True,True,False,False,6,eos,Addis Ababa.
+P495_P36_Q1786674,Addis Ababa,TDV,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P495_P36_Q1786674,Addis Ababa,R0,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P495_P36_Q1786674,Addis Ababa,R17,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P495_P36_Q1786674,Addis Ababa,R27,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P495_P36_Q1786674,Addis Ababa,R37,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P495_P36_Q1786674,Addis Ababa,R47,ja,True,True,False,,True,False,False,False,9,eos,アディス・アベバです。
+P27_P38_Q136982,Ghana cedi,U_ja,ja,False,True,True,,True,True,True,False,5,eos,セディです。
+P27_P38_Q136982,Ghana cedi,U_en,en,False,True,False,True,True,True,False,False,7,eos,Ghanaian cedi.
+P27_P38_Q136982,Ghana cedi,TDV,ja,False,True,True,,True,True,True,False,8,eos,ガーナ・セディです。
+P27_P38_Q136982,Ghana cedi,R0,ja,False,True,True,,True,True,True,False,5,eos,セディです。
+P27_P38_Q136982,Ghana cedi,R17,ja,False,True,True,,True,True,True,False,5,eos,セディです。
+P27_P38_Q136982,Ghana cedi,R27,ja,False,True,True,,True,True,True,False,5,eos,セディです。
+P27_P38_Q136982,Ghana cedi,R37,ja,False,True,True,,True,True,True,False,5,eos,セディです。
+P27_P38_Q136982,Ghana cedi,R47,ja,False,True,True,,True,True,True,False,5,eos,セディです。
+P27_P1304_Q92994,Bank of Greece,U_ja,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q92994,Bank of Greece,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Greece.
+P27_P1304_Q92994,Bank of Greece,TDV,ja,True,True,True,,True,True,True,False,7,eos,ギリシャ銀行です。
+P27_P1304_Q92994,Bank of Greece,R0,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q92994,Bank of Greece,R17,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q92994,Bank of Greece,R27,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q92994,Bank of Greece,R37,ja,True,True,False,,True,False,False,False,9,eos,ギリシャ国立銀行です。
+P27_P1304_Q92994,Bank of Greece,R47,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P36_Q169174,Tallinn,U_ja,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q169174,Tallinn,U_en,en,False,True,True,True,True,True,False,False,5,eos,Tallinn.
+P27_P36_Q169174,Tallinn,TDV,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q169174,Tallinn,R0,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q169174,Tallinn,R17,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q169174,Tallinn,R27,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q169174,Tallinn,R37,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P27_P36_Q169174,Tallinn,R47,ja,False,True,True,,True,True,True,False,5,eos,タリンです。
+P495_P38_Q846538,Somali shilling,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリングです。
+P495_P38_Q846538,Somali shilling,U_en,en,True,False,True,True,True,True,False,False,6,eos,Somali shilling.
+P495_P38_Q846538,Somali shilling,TDV,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリンです。
+P495_P38_Q846538,Somali shilling,R0,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q846538,Somali shilling,R17,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q846538,Somali shilling,R27,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q846538,Somali shilling,R37,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q846538,Somali shilling,R47,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P1304_Q137732,Central Bank of Iceland,U_ja,ja,True,False,False,,True,False,False,False,10,eos,アイスランズバンキです。
+P27_P1304_Q137732,Central Bank of Iceland,U_en,en,True,False,True,True,True,True,False,False,16,eos,The Central Bank of Iceland (Seðlabanki Íslands).
+P27_P1304_Q137732,Central Bank of Iceland,TDV,ja,True,False,False,,True,False,False,False,9,eos,アイスランド国立銀行です。
+P27_P1304_Q137732,Central Bank of Iceland,R0,ja,True,False,False,,True,False,False,False,8,eos,アイスランズ銀行です。
+P27_P1304_Q137732,Central Bank of Iceland,R17,ja,True,False,False,,True,False,False,False,9,eos,アイスランズバンクです。
+P27_P1304_Q137732,Central Bank of Iceland,R27,ja,True,False,False,,True,False,False,False,9,eos,アイスランズバンクです。
+P27_P1304_Q137732,Central Bank of Iceland,R37,ja,True,False,False,,True,False,False,False,9,eos,アイスランド国立銀行です。
+P27_P1304_Q137732,Central Bank of Iceland,R47,ja,True,False,False,,True,False,False,False,11,eos,アイスラント中央 銀行です。
+P27_P36_Q116482,Dakar,U_ja,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P36_Q116482,Dakar,U_en,en,False,False,True,True,True,True,False,False,5,eos,Dakar.
+P27_P36_Q116482,Dakar,TDV,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P36_Q116482,Dakar,R0,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P36_Q116482,Dakar,R17,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P36_Q116482,Dakar,R27,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P36_Q116482,Dakar,R37,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P36_Q116482,Dakar,R47,ja,False,False,True,,True,True,True,False,6,eos,ダカールです。
+P27_P38_Q381954,Moldovan leu,U_ja,ja,True,True,False,,True,False,False,False,9,eos,モルドヴァ・レウです。
+P27_P38_Q381954,Moldovan leu,U_en,en,True,True,True,True,True,True,False,False,7,eos,Moldovan leu.
+P27_P38_Q381954,Moldovan leu,TDV,ja,True,True,False,,True,False,False,False,5,eos,レウです。
+P27_P38_Q381954,Moldovan leu,R0,ja,True,True,False,,True,False,False,False,5,eos,レウです。
+P27_P38_Q381954,Moldovan leu,R17,ja,True,True,False,,True,False,False,False,5,eos,レウです。
+P27_P38_Q381954,Moldovan leu,R27,ja,True,True,False,,True,False,False,False,5,eos,レウです。
+P27_P38_Q381954,Moldovan leu,R37,ja,True,True,False,,True,False,False,False,9,eos,モールドヴァ・レウです。
+P27_P38_Q381954,Moldovan leu,R47,ja,True,True,False,,True,False,False,False,5,eos,レウです。
+P27_P36_Q165477,Reykjavík,U_ja,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q165477,Reykjavík,U_en,en,False,True,True,True,True,True,False,False,6,eos,Reykjavik.
+P27_P36_Q165477,Reykjavík,TDV,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q165477,Reykjavík,R0,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q165477,Reykjavík,R17,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q165477,Reykjavík,R27,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q165477,Reykjavík,R37,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q165477,Reykjavík,R47,ja,False,True,True,,True,True,True,False,7,eos,レイキャヴィークです。
+P27_P36_Q949,"Washington, D.C.",U_ja,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q949,"Washington, D.C.",U_en,en,False,True,True,True,True,True,False,False,5,eos,Washington D.C.
+P27_P36_Q949,"Washington, D.C.",TDV,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q949,"Washington, D.C.",R0,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q949,"Washington, D.C.",R17,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q949,"Washington, D.C.",R27,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q949,"Washington, D.C.",R37,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P27_P36_Q949,"Washington, D.C.",R47,ja,False,True,True,,True,True,True,False,10,eos,ワシントンD.C.です。
+P495_P1304_Q1810575,Central Bank of West African States,U_ja,ja,True,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P495_P1304_Q1810575,Central Bank of West African States,U_en,en,True,True,True,True,True,True,False,False,12,eos,Central Bank of West African States (BCEAO)
+P495_P1304_Q1810575,Central Bank of West African States,TDV,ja,True,True,False,,True,False,False,False,21,eos,セネガルの中央銀行は、西アフリカ諸国国家訳金庫です。
+P495_P1304_Q1810575,Central Bank of West African States,R0,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セネガルの中央銀行は、西アフリカ諸国中央 銀行（BCEAO）です
+P495_P1304_Q1810575,Central Bank of West African States,R17,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P495_P1304_Q1810575,Central Bank of West African States,R27,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セントロワール・デットゥドエスト・アフリカン（西アフリカ諸国中央
+P495_P1304_Q1810575,Central Bank of West African States,R37,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P495_P1304_Q1810575,Central Bank of West African States,R47,ja,True,True,False,,True,False,False,False,11,eos,セントラルフリックバンクです。
+P27_P1304_Q13540,Bank of Finland,U_ja,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13540,Bank of Finland,U_en,en,False,True,True,True,True,True,False,False,5,eos,Bank of Finland.
+P27_P1304_Q13540,Bank of Finland,TDV,ja,False,True,False,,True,False,False,False,9,eos,フィンランド国立銀行です。
+P27_P1304_Q13540,Bank of Finland,R0,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13540,Bank of Finland,R17,ja,False,True,True,,True,True,True,False,8,eos,フィンランド銀行です。
+P27_P1304_Q13540,Bank of Finland,R27,ja,False,True,False,,True,False,False,False,15,eos,フィンボルグ（Suomen Pankki）です。
+P27_P1304_Q13540,Bank of Finland,R37,ja,False,True,False,,True,False,False,False,11,eos,フィンネット（Finnet）です。
+P27_P1304_Q13540,Bank of Finland,R47,ja,False,True,False,,True,False,False,False,8,eos,フィンランド中央銀行です。
+P27_P36_Q168387,Valletta,U_ja,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q168387,Valletta,U_en,en,False,True,True,True,True,True,False,False,5,eos,Valletta.
+P27_P36_Q168387,Valletta,TDV,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q168387,Valletta,R0,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q168387,Valletta,R17,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q168387,Valletta,R27,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q168387,Valletta,R37,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P27_P36_Q168387,Valletta,R47,ja,False,True,True,,True,True,True,False,7,eos,バレッタです。
+P495_P38_Q1817522,Macedonian denar,U_ja,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P495_P38_Q1817522,Macedonian denar,U_en,en,True,True,True,True,True,True,False,False,7,eos,Macedonian denar.
+P495_P38_Q1817522,Macedonian denar,TDV,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P495_P38_Q1817522,Macedonian denar,R0,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P495_P38_Q1817522,Macedonian denar,R17,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P495_P38_Q1817522,Macedonian denar,R27,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P495_P38_Q1817522,Macedonian denar,R37,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P495_P38_Q1817522,Macedonian denar,R47,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P1304_Q117439,Bank of Greece,U_ja,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q117439,Bank of Greece,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Greece.
+P27_P1304_Q117439,Bank of Greece,TDV,ja,True,True,True,,True,True,True,False,7,eos,ギリシャ銀行です。
+P27_P1304_Q117439,Bank of Greece,R0,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q117439,Bank of Greece,R17,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q117439,Bank of Greece,R27,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P1304_Q117439,Bank of Greece,R37,ja,True,True,False,,True,False,False,False,9,eos,ギリシャ国立銀行です。
+P27_P1304_Q117439,Bank of Greece,R47,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P38_Q157197,Somali shilling,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリングです。
+P27_P38_Q157197,Somali shilling,U_en,en,True,False,True,True,True,True,False,False,6,eos,Somali shilling.
+P27_P38_Q157197,Somali shilling,TDV,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリンです。
+P27_P38_Q157197,Somali shilling,R0,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q157197,Somali shilling,R17,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q157197,Somali shilling,R27,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q157197,Somali shilling,R37,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q157197,Somali shilling,R47,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q135401,Brazilian real,U_ja,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P38_Q135401,Brazilian real,U_en,en,False,False,True,True,True,True,False,False,10,eos,Real (BRL) or Brazilian Real.
+P495_P38_Q135401,Brazilian real,TDV,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P38_Q135401,Brazilian real,R0,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P38_Q135401,Brazilian real,R17,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P38_Q135401,Brazilian real,R27,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P38_Q135401,Brazilian real,R37,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P38_Q135401,Brazilian real,R47,ja,False,False,True,,True,True,True,False,5,eos,レアルです。
+P495_P1304_Q213711,Central Bank of Ireland,U_ja,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P495_P1304_Q213711,Central Bank of Ireland,U_en,en,True,True,True,True,True,True,False,False,6,eos,Central Bank of Ireland.
+P495_P1304_Q213711,Central Bank of Ireland,TDV,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213711,Central Bank of Ireland,R0,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P495_P1304_Q213711,Central Bank of Ireland,R17,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213711,Central Bank of Ireland,R27,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213711,Central Bank of Ireland,R37,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q213711,Central Bank of Ireland,R47,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q116059,Banco de la República,U_ja,ja,True,True,False,,True,False,False,False,9,eos,コロンビァ共和国銀行です。
+P27_P1304_Q116059,Banco de la República,U_en,en,True,True,True,True,True,True,False,False,8,eos,Banco de la República.
+P27_P1304_Q116059,Banco de la República,TDV,ja,True,True,False,,True,False,False,False,9,eos,コロンボ中央銀行です。
+P27_P1304_Q116059,Banco de la República,R0,ja,True,True,False,,True,False,False,False,9,eos,コロンビヤ共和国銀行です。
+P27_P1304_Q116059,Banco de la República,R17,ja,True,True,False,,True,False,False,False,9,eos,コロombia共和国Bankです。
+P27_P1304_Q116059,Banco de la República,R27,ja,True,True,False,,True,False,False,False,11,eos,コロムビア共和国バンクです。
+P27_P1304_Q116059,Banco de la República,R37,ja,True,True,False,,True,False,False,False,11,eos,コロンビァ共和国国立銀行です。
+P27_P1304_Q116059,Banco de la República,R47,ja,True,True,False,,True,False,False,False,10,eos,コロンビァ共和国中央銀行です。
+P27_P38_Q193690,Georgian lari,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q193690,Georgian lari,U_en,en,False,True,False,True,True,False,False,False,7,eos,Lari (GEL)
+P27_P38_Q193690,Georgian lari,TDV,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q193690,Georgian lari,R0,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q193690,Georgian lari,R17,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q193690,Georgian lari,R27,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q193690,Georgian lari,R37,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q193690,Georgian lari,R47,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P495_P36_Q1778051,Astana,U_ja,ja,False,True,True,,True,True,True,False,6,eos,アスタナです。
+P495_P36_Q1778051,Astana,U_en,en,False,True,True,True,True,True,False,False,4,eos,Astana.
+P495_P36_Q1778051,Astana,TDV,ja,False,True,True,,True,True,True,False,6,eos,アスタナです。
+P495_P36_Q1778051,Astana,R0,ja,False,True,True,,True,True,True,False,6,eos,アスタナです。
+P495_P36_Q1778051,Astana,R17,ja,False,True,True,,True,True,True,False,6,eos,アスタナです。
+P495_P36_Q1778051,Astana,R27,ja,False,True,True,,True,True,True,False,6,eos,アスタナです。
+P495_P36_Q1778051,Astana,R37,ja,False,True,False,,True,False,False,False,8,eos,アスィタナです。
+P495_P36_Q1778051,Astana,R47,ja,False,True,True,,True,True,True,False,6,eos,アスタナです。
+P495_P38_Q116195,Canadian dollar,U_ja,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P495_P38_Q116195,Canadian dollar,U_en,en,False,False,True,True,True,True,False,False,6,eos,Canadian dollar (CAD)
+P495_P38_Q116195,Canadian dollar,TDV,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P495_P38_Q116195,Canadian dollar,R0,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P495_P38_Q116195,Canadian dollar,R17,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P495_P38_Q116195,Canadian dollar,R27,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P495_P38_Q116195,Canadian dollar,R37,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P495_P38_Q116195,Canadian dollar,R47,ja,False,False,True,,True,True,True,False,7,eos,カナダドルです。
+P27_P1304_Q331201,Central Bank of West African States,U_ja,ja,False,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q331201,Central Bank of West African States,U_en,en,False,True,True,True,True,True,False,False,24,max_new_tokens,The Central Bank of West African States (BCEAO) serves as the regional central bank for several countries including Niger.
+P27_P1304_Q331201,Central Bank of West African States,TDV,ja,False,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q331201,Central Bank of West African States,R0,ja,False,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P27_P1304_Q331201,Central Bank of West African States,R17,ja,False,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q331201,Central Bank of West African States,R27,ja,False,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q331201,Central Bank of West African States,R37,ja,False,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q331201,Central Bank of West African States,R47,ja,False,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P495_P38_Q3831139,Somali shilling,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリングです。
+P495_P38_Q3831139,Somali shilling,U_en,en,True,False,True,True,True,True,False,False,6,eos,Somali shilling.
+P495_P38_Q3831139,Somali shilling,TDV,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリンです。
+P495_P38_Q3831139,Somali shilling,R0,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q3831139,Somali shilling,R17,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q3831139,Somali shilling,R27,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q3831139,Somali shilling,R37,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P38_Q3831139,Somali shilling,R47,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P1304_Q73506,Central Bank of Ireland,U_ja,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P27_P1304_Q73506,Central Bank of Ireland,U_en,en,True,True,True,True,True,True,False,False,6,eos,Central Bank of Ireland.
+P27_P1304_Q73506,Central Bank of Ireland,TDV,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q73506,Central Bank of Ireland,R0,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P27_P1304_Q73506,Central Bank of Ireland,R17,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q73506,Central Bank of Ireland,R27,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q73506,Central Bank of Ireland,R37,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q73506,Central Bank of Ireland,R47,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P38_Q195317,Georgian lari,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q195317,Georgian lari,U_en,en,False,True,False,True,True,False,False,False,7,eos,Lari (GEL)
+P27_P38_Q195317,Georgian lari,TDV,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q195317,Georgian lari,R0,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q195317,Georgian lari,R17,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q195317,Georgian lari,R27,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q195317,Georgian lari,R37,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q195317,Georgian lari,R47,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P495_P1304_Q1365,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q1365,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P495_P1304_Q1365,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q1365,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q1365,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q1365,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q1365,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P495_P1304_Q1365,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P36_Q270783,Mogadishu,U_ja,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P27_P36_Q270783,Mogadishu,U_en,en,False,True,True,True,True,True,False,False,7,eos,Mogadishu.
+P27_P36_Q270783,Mogadishu,TDV,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P27_P36_Q270783,Mogadishu,R0,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P27_P36_Q270783,Mogadishu,R17,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P27_P36_Q270783,Mogadishu,R27,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P27_P36_Q270783,Mogadishu,R37,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P27_P36_Q270783,Mogadishu,R47,ja,False,True,True,,True,True,True,False,7,eos,モガディシュです。
+P495_P36_Q171731,Ankara,U_ja,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P495_P36_Q171731,Ankara,U_en,en,False,True,True,True,True,True,False,False,4,eos,Ankara.
+P495_P36_Q171731,Ankara,TDV,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P495_P36_Q171731,Ankara,R0,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P495_P36_Q171731,Ankara,R17,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P495_P36_Q171731,Ankara,R27,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P495_P36_Q171731,Ankara,R37,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P495_P36_Q171731,Ankara,R47,ja,False,True,True,,True,True,True,False,6,eos,アンカラです。
+P27_P1304_Q1753,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1753,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P27_P1304_Q1753,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1753,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1753,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1753,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q1753,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P27_P1304_Q1753,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q94017,Bank of Greece,U_ja,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P495_P1304_Q94017,Bank of Greece,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Greece.
+P495_P1304_Q94017,Bank of Greece,TDV,ja,True,True,True,,True,True,True,False,7,eos,ギリシャ銀行です。
+P495_P1304_Q94017,Bank of Greece,R0,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P495_P1304_Q94017,Bank of Greece,R17,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P495_P1304_Q94017,Bank of Greece,R27,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P495_P1304_Q94017,Bank of Greece,R37,ja,True,True,False,,True,False,False,False,9,eos,ギリシャ国立銀行です。
+P495_P1304_Q94017,Bank of Greece,R47,ja,True,True,False,,True,False,False,False,8,eos,ギリシャ中央銀行です。
+P27_P36_Q75697,Tirana,U_ja,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P36_Q75697,Tirana,U_en,en,False,True,True,True,True,True,False,False,5,eos,Tirana.
+P27_P36_Q75697,Tirana,TDV,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P36_Q75697,Tirana,R0,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P36_Q75697,Tirana,R17,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P36_Q75697,Tirana,R27,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P36_Q75697,Tirana,R37,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P36_Q75697,Tirana,R47,ja,False,True,True,,True,True,True,False,6,eos,ティラナです。
+P27_P38_Q1755,złoty,U_ja,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q1755,złoty,U_en,en,False,True,True,True,True,True,False,False,8,eos,Złoty (PLN)
+P27_P38_Q1755,złoty,TDV,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q1755,złoty,R0,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q1755,złoty,R17,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q1755,złoty,R27,ja,False,True,False,,True,False,False,False,6,eos,ズロティです。
+P27_P38_Q1755,złoty,R37,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q1755,złoty,R47,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q197549,Georgian lari,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q197549,Georgian lari,U_en,en,False,True,False,True,True,False,False,False,7,eos,Lari (GEL)
+P27_P38_Q197549,Georgian lari,TDV,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q197549,Georgian lari,R0,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q197549,Georgian lari,R17,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q197549,Georgian lari,R27,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q197549,Georgian lari,R37,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q197549,Georgian lari,R47,ja,False,True,True,,True,True,True,False,5,eos,ラリです。
+P27_P38_Q1962,Swiss franc,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス・フランです。
+P27_P38_Q1962,Swiss franc,U_en,en,False,True,True,True,True,True,False,False,8,eos,Swiss franc (CHF)
+P27_P38_Q1962,Swiss franc,TDV,ja,False,True,False,,True,True,True,False,7,eos,スイスフランです。
+P27_P38_Q1962,Swiss franc,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス・フランです。
+P27_P38_Q1962,Swiss franc,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス・フランです。
+P27_P38_Q1962,Swiss franc,R27,ja,False,True,False,,True,True,True,False,7,eos,スイスフランです。
+P27_P38_Q1962,Swiss franc,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス・フランです。
+P27_P38_Q1962,Swiss franc,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス・フランです。
+P27_P1304_Q4790,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q4790,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P27_P1304_Q4790,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q4790,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q4790,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q4790,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q4790,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P27_P1304_Q4790,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q2006,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q2006,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P27_P1304_Q2006,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q2006,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q2006,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q2006,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P1304_Q2006,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P27_P1304_Q2006,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P27_P38_Q319153,Somali shilling,U_ja,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリングです。
+P27_P38_Q319153,Somali shilling,U_en,en,True,False,True,True,True,True,False,False,6,eos,Somali shilling.
+P27_P38_Q319153,Somali shilling,TDV,ja,True,False,False,,True,False,False,False,8,eos,ソマリシャリンです。
+P27_P38_Q319153,Somali shilling,R0,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q319153,Somali shilling,R17,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q319153,Somali shilling,R27,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q319153,Somali shilling,R37,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P27_P38_Q319153,Somali shilling,R47,ja,True,False,False,,True,False,False,False,9,eos,ソマリ・シリングです。
+P495_P36_Q4744,Berlin,U_ja,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q4744,Berlin,U_en,en,False,True,True,True,True,True,False,False,3,eos,Berlin.
+P495_P36_Q4744,Berlin,TDV,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q4744,Berlin,R0,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q4744,Berlin,R17,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q4744,Berlin,R27,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q4744,Berlin,R37,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P495_P36_Q4744,Berlin,R47,ja,False,True,True,,True,True,True,False,5,eos,ベルリンです。
+P27_P1304_Q185636,Central Bank of West African States,U_ja,ja,True,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P27_P1304_Q185636,Central Bank of West African States,U_en,en,True,True,True,True,True,True,False,False,12,eos,Central Bank of West African States (BCEAO)
+P27_P1304_Q185636,Central Bank of West African States,TDV,ja,True,True,False,,True,False,False,False,21,eos,セネガルの中央銀行は、西アフリカ諸国国家訳金庫です。
+P27_P1304_Q185636,Central Bank of West African States,R0,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セネガルの中央銀行は、西アフリカ諸国中央 銀行（BCEAO）です
+P27_P1304_Q185636,Central Bank of West African States,R17,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q185636,Central Bank of West African States,R27,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セントロワール・デットゥドエスト・アフリカン（西アフリカ諸国中央
+P27_P1304_Q185636,Central Bank of West African States,R37,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P27_P1304_Q185636,Central Bank of West African States,R47,ja,True,True,False,,True,False,False,False,11,eos,セントラルフリックバンクです。
+P27_P1304_Q117150,Bank of Lithuania,U_ja,ja,True,False,False,,True,False,False,False,8,eos,リトア니아銀行です。
+P27_P1304_Q117150,Bank of Lithuania,U_en,en,True,False,True,True,True,True,False,False,5,eos,Bank of Lithuania.
+P27_P1304_Q117150,Bank of Lithuania,TDV,ja,True,False,False,,True,False,False,False,11,eos,リートゥ・バンカスです。
+P27_P1304_Q117150,Bank of Lithuania,R0,ja,True,False,False,,True,False,False,False,8,eos,リトア니아銀行です。
+P27_P1304_Q117150,Bank of Lithuania,R17,ja,True,False,False,,True,False,False,False,11,eos,リトアニヤ国立銀行です。
+P27_P1304_Q117150,Bank of Lithuania,R27,ja,True,False,False,,True,False,False,False,20,eos,リトアニエン・バンク（Lietuvos Bankas）です。
+P27_P1304_Q117150,Bank of Lithuania,R37,ja,True,False,False,,True,False,False,False,24,eos,リタス（Litas）を発行していたが、2015年1月よりユーロです。
+P27_P1304_Q117150,Bank of Lithuania,R47,ja,True,False,False,,True,False,False,False,10,eos,リトア니아・バンクです。
+P27_P38_Q4837,złoty,U_ja,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4837,złoty,U_en,en,False,True,True,True,True,True,False,False,8,eos,Złoty (PLN)
+P27_P38_Q4837,złoty,TDV,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4837,złoty,R0,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4837,złoty,R17,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4837,złoty,R27,ja,False,True,False,,True,False,False,False,6,eos,ズロティです。
+P27_P38_Q4837,złoty,R37,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4837,złoty,R47,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P495_P36_Q207889,Luxembourg,U_ja,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q207889,Luxembourg,U_en,en,True,True,True,True,True,True,False,False,5,eos,Luxembourg City.
+P495_P36_Q207889,Luxembourg,TDV,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q207889,Luxembourg,R0,ja,True,True,True,,True,True,True,False,8,eos,ルクセンブルグ市です。
+P495_P36_Q207889,Luxembourg,R17,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q207889,Luxembourg,R27,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q207889,Luxembourg,R37,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P495_P36_Q207889,Luxembourg,R47,ja,True,True,False,,True,False,False,False,7,eos,ルクセンブルグです。
+P27_P36_Q122610,Sofia,U_ja,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P36_Q122610,Sofia,U_en,en,False,True,True,True,True,True,False,False,5,eos,Sofia.
+P27_P36_Q122610,Sofia,TDV,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P36_Q122610,Sofia,R0,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P36_Q122610,Sofia,R17,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P36_Q122610,Sofia,R27,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P36_Q122610,Sofia,R37,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P36_Q122610,Sofia,R47,ja,False,True,True,,True,True,True,False,6,eos,ソフィアです。
+P27_P1304_Q120128,Central Bank of Nigeria,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q120128,Central Bank of Nigeria,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of Nigeria (CBN)
+P27_P1304_Q120128,Central Bank of Nigeria,TDV,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P27_P1304_Q120128,Central Bank of Nigeria,R0,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q120128,Central Bank of Nigeria,R17,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q120128,Central Bank of Nigeria,R27,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q120128,Central Bank of Nigeria,R37,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q120128,Central Bank of Nigeria,R47,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P495_P38_Q412754,Colombian peso,U_ja,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q412754,Colombian peso,U_en,en,True,False,True,True,True,True,False,False,9,eos,Colombian peso (COP)
+P495_P38_Q412754,Colombian peso,TDV,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q412754,Colombian peso,R0,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q412754,Colombian peso,R17,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q412754,Colombian peso,R27,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q412754,Colombian peso,R37,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P495_P38_Q412754,Colombian peso,R47,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q202877,Trinidad and Tobago dollar,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P27_P38_Q202877,Trinidad and Tobago dollar,U_en,en,True,False,False,True,True,False,False,False,11,eos,Trinidad and Tobagon dollar (TTD)
+P27_P38_Q202877,Trinidad and Tobago dollar,TDV,ja,True,False,False,,True,False,False,False,13,eos,トリニダートとトバーゴドルです。
+P27_P38_Q202877,Trinidad and Tobago dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,トリニダート島ドルです。
+P27_P38_Q202877,Trinidad and Tobago dollar,R17,ja,True,False,False,,True,False,False,False,11,eos,トリニダール・ドルのことです。
+P27_P38_Q202877,Trinidad and Tobago dollar,R27,ja,True,False,False,,True,False,False,False,4,eos,ドルです。
+P27_P38_Q202877,Trinidad and Tobago dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,トリニダートドルです。
+P27_P38_Q202877,Trinidad and Tobago dollar,R47,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P27_P36_Q12484,Warsaw,U_ja,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12484,Warsaw,U_en,en,False,False,True,True,True,True,False,False,4,eos,Warsaw.
+P27_P36_Q12484,Warsaw,TDV,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12484,Warsaw,R0,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12484,Warsaw,R17,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12484,Warsaw,R27,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12484,Warsaw,R37,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12484,Warsaw,R47,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P1304_Q73920,National Bank of Romania,U_ja,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q73920,National Bank of Romania,U_en,en,False,True,True,True,True,True,False,False,6,eos,National Bank of Romania.
+P27_P1304_Q73920,National Bank of Romania,TDV,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q73920,National Bank of Romania,R0,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q73920,National Bank of Romania,R17,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q73920,National Bank of Romania,R27,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q73920,National Bank of Romania,R37,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q73920,National Bank of Romania,R47,ja,False,True,True,,True,True,True,False,9,eos,ルーマニア国立銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of Nigeria (CBN)
+P27_P1304_Q82535,Central Bank of Nigeria,TDV,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,R0,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,R17,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,R27,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,R37,ja,True,False,False,,True,False,False,False,9,eos,ナイジェラ中央銀行です。
+P27_P1304_Q82535,Central Bank of Nigeria,R47,ja,True,False,False,,True,False,False,False,10,eos,ナイジェーリア中央銀行です。
+P27_P38_Q4836,złoty,U_ja,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4836,złoty,U_en,en,False,True,True,True,True,True,False,False,8,eos,Złoty (PLN)
+P27_P38_Q4836,złoty,TDV,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4836,złoty,R0,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4836,złoty,R17,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4836,złoty,R27,ja,False,True,False,,True,False,False,False,6,eos,ズロティです。
+P27_P38_Q4836,złoty,R37,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q4836,złoty,R47,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P495_P36_Q890297,Riga,U_ja,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P495_P36_Q890297,Riga,U_en,en,False,False,True,True,True,True,False,False,4,eos,Riga.
+P495_P36_Q890297,Riga,TDV,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P495_P36_Q890297,Riga,R0,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P495_P36_Q890297,Riga,R17,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P495_P36_Q890297,Riga,R27,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P495_P36_Q890297,Riga,R37,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P495_P36_Q890297,Riga,R47,ja,False,False,True,,True,True,True,False,5,eos,リガです。
+P27_P36_Q11760,Warsaw,U_ja,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q11760,Warsaw,U_en,en,False,False,True,True,True,True,False,False,4,eos,Warsaw.
+P27_P36_Q11760,Warsaw,TDV,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q11760,Warsaw,R0,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q11760,Warsaw,R17,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q11760,Warsaw,R27,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q11760,Warsaw,R37,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q11760,Warsaw,R47,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P38_Q319916,Rwandan franc,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q319916,Rwandan franc,U_en,en,True,False,True,True,True,True,False,False,6,eos,Rwandan franc.
+P27_P38_Q319916,Rwandan franc,TDV,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q319916,Rwandan franc,R0,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q319916,Rwandan franc,R17,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q319916,Rwandan franc,R27,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q319916,Rwandan franc,R37,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q319916,Rwandan franc,R47,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P1304_Q3281,Sveriges Riksbank,U_ja,ja,True,False,False,,True,True,True,False,14,eos,スヴェンスカ・リクスバンクです。
+P27_P1304_Q3281,Sveriges Riksbank,U_en,en,True,False,True,True,True,True,False,False,9,eos,Sveriges Riksbank.
+P27_P1304_Q3281,Sveriges Riksbank,TDV,ja,True,False,False,,True,False,False,False,14,eos,スベンスカ・ランズバンケンです。
+P27_P1304_Q3281,Sveriges Riksbank,R0,ja,True,False,False,,True,True,False,False,21,eos,スベンスク・リーセンク（Sveriges Riksbank）です。
+P27_P1304_Q3281,Sveriges Riksbank,R17,ja,True,False,False,,True,True,True,False,14,eos,スヴェンスカ・リクスバンクです。
+P27_P1304_Q3281,Sveriges Riksbank,R27,ja,True,False,False,,True,False,False,False,14,eos,スベンスク・ローエントバンクです。
+P27_P1304_Q3281,Sveriges Riksbank,R37,ja,True,False,False,,True,True,True,False,13,eos,スベンスク・リクスバンクです。
+P27_P1304_Q3281,Sveriges Riksbank,R47,ja,True,False,False,,True,True,True,False,13,eos,スベンスク・リクスバンクです。
+P27_P36_Q12819,Warsaw,U_ja,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12819,Warsaw,U_en,en,False,False,True,True,True,True,False,False,4,eos,Warsaw.
+P27_P36_Q12819,Warsaw,TDV,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12819,Warsaw,R0,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12819,Warsaw,R17,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12819,Warsaw,R27,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12819,Warsaw,R37,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P27_P36_Q12819,Warsaw,R47,ja,False,False,True,,True,True,True,False,7,eos,ワルシャワです。
+P495_P36_Q2859552,Abuja,U_ja,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P495_P36_Q2859552,Abuja,U_en,en,False,True,True,True,True,True,False,False,4,eos,Abuja.
+P495_P36_Q2859552,Abuja,TDV,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P495_P36_Q2859552,Abuja,R0,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P495_P36_Q2859552,Abuja,R17,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P495_P36_Q2859552,Abuja,R27,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P495_P36_Q2859552,Abuja,R37,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P495_P36_Q2859552,Abuja,R47,ja,False,True,True,,True,True,True,False,6,eos,アブジャです。
+P27_P1304_Q93356,Central Bank of Ireland,U_ja,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P27_P1304_Q93356,Central Bank of Ireland,U_en,en,True,True,True,True,True,True,False,False,6,eos,Central Bank of Ireland.
+P27_P1304_Q93356,Central Bank of Ireland,TDV,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q93356,Central Bank of Ireland,R0,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P27_P1304_Q93356,Central Bank of Ireland,R17,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q93356,Central Bank of Ireland,R27,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q93356,Central Bank of Ireland,R37,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q93356,Central Bank of Ireland,R47,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P27_P1304_Q13531,Bank of Finland,U_ja,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13531,Bank of Finland,U_en,en,False,True,True,True,True,True,False,False,5,eos,Bank of Finland.
+P27_P1304_Q13531,Bank of Finland,TDV,ja,False,True,False,,True,False,False,False,9,eos,フィンランド国立銀行です。
+P27_P1304_Q13531,Bank of Finland,R0,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13531,Bank of Finland,R17,ja,False,True,True,,True,True,True,False,8,eos,フィンランド銀行です。
+P27_P1304_Q13531,Bank of Finland,R27,ja,False,True,False,,True,False,False,False,15,eos,フィンボルグ（Suomen Pankki）です。
+P27_P1304_Q13531,Bank of Finland,R37,ja,False,True,False,,True,False,False,False,11,eos,フィンネット（Finnet）です。
+P27_P1304_Q13531,Bank of Finland,R47,ja,False,True,False,,True,False,False,False,8,eos,フィンランド中央銀行です。
+P495_P1304_Q109260,Central Bank of Russia,U_ja,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P495_P1304_Q109260,Central Bank of Russia,U_en,en,True,False,False,True,True,False,False,False,12,eos,The Central Bank of the Russian Federation (CBR).
+P495_P1304_Q109260,Central Bank of Russia,TDV,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P495_P1304_Q109260,Central Bank of Russia,R0,ja,True,False,False,,True,False,False,False,9,eos,ロシア中央 銀行です。
+P495_P1304_Q109260,Central Bank of Russia,R17,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P495_P1304_Q109260,Central Bank of Russia,R27,ja,True,False,False,,True,True,True,False,7,eos,ロシア中央銀行です。
+P495_P1304_Q109260,Central Bank of Russia,R37,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P495_P1304_Q109260,Central Bank of Russia,R47,ja,True,False,False,,True,False,False,False,11,eos,ロシア連邦中央 銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,U_ja,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,U_en,en,False,True,True,True,True,True,False,False,9,eos,Central Bank of Kenya (CBK)
+P27_P1304_Q155341,Central Bank of Kenya,TDV,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,R0,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,R17,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,R27,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,R37,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q155341,Central Bank of Kenya,R47,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P38_Q82871,Ugandan shilling,U_ja,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q82871,Ugandan shilling,U_en,en,False,False,True,True,True,True,False,False,7,eos,Ugandan shilling.
+P27_P38_Q82871,Ugandan shilling,TDV,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q82871,Ugandan shilling,R0,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q82871,Ugandan shilling,R17,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q82871,Ugandan shilling,R27,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q82871,Ugandan shilling,R37,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q82871,Ugandan shilling,R47,ja,False,False,True,,True,True,True,False,9,eos,ウガンダ・シリングです。
+P27_P38_Q80772,Colombian peso,U_ja,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80772,Colombian peso,U_en,en,True,False,True,True,True,True,False,False,9,eos,Colombian peso (COP)
+P27_P38_Q80772,Colombian peso,TDV,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80772,Colombian peso,R0,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80772,Colombian peso,R17,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80772,Colombian peso,R27,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80772,Colombian peso,R37,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80772,Colombian peso,R47,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P1304_Q12801,Swiss National Bank,U_ja,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q12801,Swiss National Bank,U_en,en,False,True,True,True,True,True,False,False,6,eos,Swiss National Bank.
+P27_P1304_Q12801,Swiss National Bank,TDV,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q12801,Swiss National Bank,R0,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q12801,Swiss National Bank,R17,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q12801,Swiss National Bank,R27,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q12801,Swiss National Bank,R37,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q12801,Swiss National Bank,R47,ja,False,True,True,,True,True,True,False,8,eos,スイス国立銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of the Republic of Turkey.
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,TDV,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,R0,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,R17,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,R27,ja,True,False,False,,True,True,True,False,7,eos,トルコ中央銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,R37,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q18765,Central Bank of the Republic of Turkey,R47,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P495_P1304_Q93359,Bank of Canada,U_ja,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q93359,Bank of Canada,U_en,en,True,False,True,True,True,True,False,False,5,eos,Bank of Canada.
+P495_P1304_Q93359,Bank of Canada,TDV,ja,True,False,True,,True,True,True,False,7,eos,カナダ銀行です。
+P495_P1304_Q93359,Bank of Canada,R0,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q93359,Bank of Canada,R17,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q93359,Bank of Canada,R27,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q93359,Bank of Canada,R37,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P1304_Q93359,Bank of Canada,R47,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P495_P36_Q123935,Madrid,U_ja,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P36_Q123935,Madrid,U_en,en,False,False,True,True,True,True,False,False,4,eos,Madrid.
+P495_P36_Q123935,Madrid,TDV,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P36_Q123935,Madrid,R0,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P36_Q123935,Madrid,R17,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P36_Q123935,Madrid,R27,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P36_Q123935,Madrid,R37,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P36_Q123935,Madrid,R47,ja,False,False,True,,True,True,True,False,7,eos,マドリードです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,U_en,en,True,False,False,True,True,False,False,False,11,eos,Trinidad and Tobagon dollar (TTD)
+P495_P38_Q2839301,Trinidad and Tobago dollar,TDV,ja,True,False,False,,True,False,False,False,13,eos,トリニダートとトバーゴドルです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,トリニダート島ドルです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,R17,ja,True,False,False,,True,False,False,False,11,eos,トリニダール・ドルのことです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,R27,ja,True,False,False,,True,False,False,False,4,eos,ドルです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,トリニダートドルです。
+P495_P38_Q2839301,Trinidad and Tobago dollar,R47,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of the Republic of Turkey.
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,TDV,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,R0,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,R17,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,R27,ja,True,False,False,,True,True,True,False,7,eos,トルコ中央銀行です。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,R37,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P495_P1304_Q229655,Central Bank of the Republic of Turkey,R47,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,U_ja,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,U_en,en,False,True,True,True,True,True,False,False,9,eos,Central Bank of Kenya (CBK)
+P27_P1304_Q127577,Central Bank of Kenya,TDV,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,R0,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,R17,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,R27,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,R37,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P27_P1304_Q127577,Central Bank of Kenya,R47,ja,False,True,True,,True,True,True,False,7,eos,ケニア中央銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,U_ja,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,U_en,en,True,True,True,True,True,True,False,False,6,eos,Central Bank of Ireland.
+P495_P1304_Q194297,Central Bank of Ireland,TDV,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,R0,ja,True,True,False,,True,False,False,False,10,eos,アイルランド中央 銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,R17,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,R27,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,R37,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P1304_Q194297,Central Bank of Ireland,R47,ja,True,True,False,,True,False,False,False,8,eos,アイルランド中央銀行です。
+P495_P38_Q928206,Kazakhstani tenge,U_ja,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q928206,Kazakhstani tenge,U_en,en,False,True,True,True,True,True,False,False,17,eos,Kazakhstani tenge (₸) or KZT.
+P495_P38_Q928206,Kazakhstani tenge,TDV,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q928206,Kazakhstani tenge,R0,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q928206,Kazakhstani tenge,R17,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q928206,Kazakhstani tenge,R27,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q928206,Kazakhstani tenge,R37,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P495_P38_Q928206,Kazakhstani tenge,R47,ja,False,True,True,,True,True,True,False,6,eos,テンゲです。
+P27_P1304_Q8619,Bank of Canada,U_ja,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q8619,Bank of Canada,U_en,en,True,False,True,True,True,True,False,False,5,eos,Bank of Canada.
+P27_P1304_Q8619,Bank of Canada,TDV,ja,True,False,True,,True,True,True,False,7,eos,カナダ銀行です。
+P27_P1304_Q8619,Bank of Canada,R0,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q8619,Bank of Canada,R17,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q8619,Bank of Canada,R27,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q8619,Bank of Canada,R37,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q8619,Bank of Canada,R47,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P38_Q6399,złoty,U_ja,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q6399,złoty,U_en,en,False,True,True,True,True,True,False,False,8,eos,Złoty (PLN)
+P27_P38_Q6399,złoty,TDV,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q6399,złoty,R0,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q6399,złoty,R17,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q6399,złoty,R27,ja,False,True,False,,True,False,False,False,6,eos,ズロティです。
+P27_P38_Q6399,złoty,R37,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P38_Q6399,złoty,R47,ja,False,True,True,,True,True,True,False,6,eos,ズウォティです。
+P27_P36_Q126640,Montevideo,U_ja,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P27_P36_Q126640,Montevideo,U_en,en,False,True,True,True,True,True,False,False,5,eos,Montevideo.
+P27_P36_Q126640,Montevideo,TDV,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P27_P36_Q126640,Montevideo,R0,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P27_P36_Q126640,Montevideo,R17,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P27_P36_Q126640,Montevideo,R27,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P27_P36_Q126640,Montevideo,R37,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P27_P36_Q126640,Montevideo,R47,ja,False,True,True,,True,True,True,False,8,eos,モンテビデオです。
+P495_P36_Q202166,Luxembourg,U_ja,ja,True,True,False,,True,True,True,False,7,eos,ルクセンブルグです。
+P495_P36_Q202166,Luxembourg,U_en,en,True,True,True,True,True,True,False,False,5,eos,Luxembourg City.
+P495_P36_Q202166,Luxembourg,TDV,ja,True,True,False,,True,True,True,False,7,eos,ルクセンブルグです。
+P495_P36_Q202166,Luxembourg,R0,ja,True,True,True,,True,True,True,False,8,eos,ルクセンブルグ市です。
+P495_P36_Q202166,Luxembourg,R17,ja,True,True,False,,True,True,True,False,7,eos,ルクセンブルグです。
+P495_P36_Q202166,Luxembourg,R27,ja,True,True,False,,True,True,True,False,7,eos,ルクセンブルグです。
+P495_P36_Q202166,Luxembourg,R37,ja,True,True,False,,True,True,True,False,7,eos,ルクセンブルグです。
+P495_P36_Q202166,Luxembourg,R47,ja,True,True,False,,True,True,True,False,7,eos,ルクセンブルグです。
+P27_P1304_Q7515,Bank of Canada,U_ja,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q7515,Bank of Canada,U_en,en,True,False,True,True,True,True,False,False,5,eos,Bank of Canada.
+P27_P1304_Q7515,Bank of Canada,TDV,ja,True,False,True,,True,True,True,False,7,eos,カナダ銀行です。
+P27_P1304_Q7515,Bank of Canada,R0,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q7515,Bank of Canada,R17,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q7515,Bank of Canada,R27,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q7515,Bank of Canada,R37,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q7515,Bank of Canada,R47,ja,True,False,False,,True,True,True,False,8,eos,カナダ中央銀行です。
+P27_P1304_Q13539,Bank of Finland,U_ja,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13539,Bank of Finland,U_en,en,False,True,True,True,True,True,False,False,5,eos,Bank of Finland.
+P27_P1304_Q13539,Bank of Finland,TDV,ja,False,True,False,,True,False,False,False,9,eos,フィンランド国立銀行です。
+P27_P1304_Q13539,Bank of Finland,R0,ja,False,True,True,,True,True,True,False,7,eos,フィンランド銀行です。
+P27_P1304_Q13539,Bank of Finland,R17,ja,False,True,True,,True,True,True,False,8,eos,フィンランド銀行です。
+P27_P1304_Q13539,Bank of Finland,R27,ja,False,True,False,,True,False,False,False,15,eos,フィンボルグ（Suomen Pankki）です。
+P27_P1304_Q13539,Bank of Finland,R37,ja,False,True,False,,True,False,False,False,11,eos,フィンネット（Finnet）です。
+P27_P1304_Q13539,Bank of Finland,R47,ja,False,True,False,,True,False,False,False,8,eos,フィンランド中央銀行です。
+P27_P38_Q80937,Colombian peso,U_ja,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80937,Colombian peso,U_en,en,True,False,True,True,True,True,False,False,9,eos,Colombian peso (COP)
+P27_P38_Q80937,Colombian peso,TDV,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80937,Colombian peso,R0,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80937,Colombian peso,R17,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80937,Colombian peso,R27,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80937,Colombian peso,R37,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P38_Q80937,Colombian peso,R47,ja,True,False,False,,True,False,False,False,5,eos,ペソです。
+P27_P1304_Q286997,Bank of Sudan,U_ja,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q286997,Bank of Sudan,U_en,en,True,True,True,True,True,True,False,False,5,eos,Bank of Sudan.
+P27_P1304_Q286997,Bank of Sudan,TDV,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q286997,Bank of Sudan,R0,ja,True,True,False,,True,False,False,False,9,eos,スーダンの金融機関です。
+P27_P1304_Q286997,Bank of Sudan,R17,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q286997,Bank of Sudan,R27,ja,True,True,False,,True,False,False,False,8,eos,スーダンの中央銀行です。
+P27_P1304_Q286997,Bank of Sudan,R37,ja,True,True,False,,True,False,False,False,10,eos,スーダン国立中央銀行です。
+P27_P1304_Q286997,Bank of Sudan,R47,ja,True,True,False,,True,False,False,False,8,eos,スーダン中央銀行です。
+P495_P36_Q76407,Ottawa,U_ja,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P495_P36_Q76407,Ottawa,U_en,en,False,True,True,True,True,True,False,False,5,eos,Ottawa.
+P495_P36_Q76407,Ottawa,TDV,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P495_P36_Q76407,Ottawa,R0,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P495_P36_Q76407,Ottawa,R17,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P495_P36_Q76407,Ottawa,R27,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P495_P36_Q76407,Ottawa,R37,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P495_P36_Q76407,Ottawa,R47,ja,False,True,True,,True,True,True,False,6,eos,オタワです。
+P27_P38_Q72550,Macedonian denar,U_ja,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72550,Macedonian denar,U_en,en,True,True,True,True,True,True,False,False,7,eos,Macedonian denar.
+P27_P38_Q72550,Macedonian denar,TDV,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P27_P38_Q72550,Macedonian denar,R0,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72550,Macedonian denar,R17,ja,True,True,False,,True,False,False,False,7,eos,デニャールです。
+P27_P38_Q72550,Macedonian denar,R27,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72550,Macedonian denar,R37,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q72550,Macedonian denar,R47,ja,True,True,False,,True,False,False,False,6,eos,デナールです。
+P27_P38_Q362948,Seychellois rupee,U_ja,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q362948,Seychellois rupee,U_en,en,True,True,True,True,True,True,False,False,9,eos,Seychellois rupee.
+P27_P38_Q362948,Seychellois rupee,TDV,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q362948,Seychellois rupee,R0,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q362948,Seychellois rupee,R17,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q362948,Seychellois rupee,R27,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q362948,Seychellois rupee,R37,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q362948,Seychellois rupee,R47,ja,True,True,False,,True,False,False,False,5,eos,ルピーです。
+P27_P38_Q391281,Rwandan franc,U_ja,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q391281,Rwandan franc,U_en,en,True,False,True,True,True,True,False,False,6,eos,Rwandan franc.
+P27_P38_Q391281,Rwandan franc,TDV,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q391281,Rwandan franc,R0,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q391281,Rwandan franc,R17,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q391281,Rwandan franc,R27,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q391281,Rwandan franc,R37,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P38_Q391281,Rwandan franc,R47,ja,True,False,False,,True,False,False,False,9,eos,ルワンド・フランです。
+P27_P36_Q120621,Caracas,U_ja,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q120621,Caracas,U_en,en,False,True,True,True,True,True,False,False,4,eos,Caracas.
+P27_P36_Q120621,Caracas,TDV,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q120621,Caracas,R0,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q120621,Caracas,R17,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q120621,Caracas,R27,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q120621,Caracas,R37,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P27_P36_Q120621,Caracas,R47,ja,False,True,True,,True,True,True,False,7,eos,カラカスです。
+P495_P1304_Q76210,National Bank of Belgium,U_ja,ja,True,True,False,,True,False,False,False,9,eos,ベルギーの国立銀行です。
+P495_P1304_Q76210,National Bank of Belgium,U_en,en,True,True,True,True,True,True,False,False,6,eos,National Bank of Belgium.
+P495_P1304_Q76210,National Bank of Belgium,TDV,ja,True,True,True,,True,True,True,False,9,eos,ベルギー国立銀行です。
+P495_P1304_Q76210,National Bank of Belgium,R0,ja,True,True,True,,True,True,True,False,9,eos,ベルギー国立銀行です。
+P495_P1304_Q76210,National Bank of Belgium,R17,ja,True,True,False,,True,False,False,False,11,eos,ベルギービジネスバンクです。
+P495_P1304_Q76210,National Bank of Belgium,R27,ja,True,True,False,,True,False,False,False,10,eos,ベルギーリンクスバンクです。
+P495_P1304_Q76210,National Bank of Belgium,R37,ja,True,True,False,,True,False,False,False,14,eos,ベルギーリンク（Belgian National Bank）です。
+P495_P1304_Q76210,National Bank of Belgium,R47,ja,True,True,False,,True,False,False,False,10,eos,ベルギーリンクスバンクです。
+P27_P1304_Q1993,Bank of Japan,U_ja,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1993,Bank of Japan,U_en,en,False,True,True,True,False,True,,False,5,eos,Bank of Japan.
+P27_P1304_Q1993,Bank of Japan,TDV,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1993,Bank of Japan,R0,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1993,Bank of Japan,R17,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1993,Bank of Japan,R27,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1993,Bank of Japan,R37,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1993,Bank of Japan,R47,ja,False,True,True,,False,True,,False,5,eos,日本銀行です。
+P27_P1304_Q1878,German Federal Bank,U_ja,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P1304_Q1878,German Federal Bank,U_en,en,True,False,False,True,True,False,False,False,6,eos,Deutsche Bundesbank.
+P27_P1304_Q1878,German Federal Bank,TDV,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンゼンベンクです。
+P27_P1304_Q1878,German Federal Bank,R0,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P1304_Q1878,German Federal Bank,R17,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P1304_Q1878,German Federal Bank,R27,ja,True,False,False,,True,False,False,False,13,eos,ドイチェ・ブンデスバンクです。
+P27_P1304_Q1878,German Federal Bank,R37,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P1304_Q1878,German Federal Bank,R47,ja,True,False,False,,True,False,False,False,10,eos,ドイチェ・ブンケです。
+P27_P38_Q279950,Azerbaijani manat,U_ja,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q279950,Azerbaijani manat,U_en,en,True,True,True,True,True,True,False,False,11,eos,Azerbaijani manat (AZN)
+P27_P38_Q279950,Azerbaijani manat,TDV,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q279950,Azerbaijani manat,R0,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q279950,Azerbaijani manat,R17,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q279950,Azerbaijani manat,R27,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q279950,Azerbaijani manat,R37,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P27_P38_Q279950,Azerbaijani manat,R47,ja,True,True,False,,True,False,False,False,6,eos,マナトです。
+P495_P1304_Q6147,Bank of Italy,U_ja,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q6147,Bank of Italy,U_en,en,False,False,True,True,True,True,False,False,5,eos,Bank of Italy.
+P495_P1304_Q6147,Bank of Italy,TDV,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q6147,Bank of Italy,R0,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q6147,Bank of Italy,R17,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q6147,Bank of Italy,R27,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q6147,Bank of Italy,R37,ja,False,False,False,,True,False,False,False,10,eos,イタリア国立中央銀行です。
+P495_P1304_Q6147,Bank of Italy,R47,ja,False,False,True,,True,True,True,False,7,eos,イタリア銀行です。
+P495_P1304_Q263471,Central Bank of West African States,U_ja,ja,True,True,False,,True,False,False,False,13,eos,西アフリカ諸国中央 銀行です。
+P495_P1304_Q263471,Central Bank of West African States,U_en,en,True,True,True,True,True,True,False,False,12,eos,Central Bank of West African States (BCEAO)
+P495_P1304_Q263471,Central Bank of West African States,TDV,ja,True,True,False,,True,False,False,False,21,eos,セネガルの中央銀行は、西アフリカ諸国国家訳金庫です。
+P495_P1304_Q263471,Central Bank of West African States,R0,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セネガルの中央銀行は、西アフリカ諸国中央 銀行（BCEAO）です
+P495_P1304_Q263471,Central Bank of West African States,R17,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P495_P1304_Q263471,Central Bank of West African States,R27,ja,True,True,False,,True,False,False,False,24,max_new_tokens,セントロワール・デットゥドエスト・アフリカン（西アフリカ諸国中央
+P495_P1304_Q263471,Central Bank of West African States,R37,ja,True,True,True,,True,True,True,False,11,eos,西アフリカ諸国中央銀行です。
+P495_P1304_Q263471,Central Bank of West African States,R47,ja,True,True,False,,True,False,False,False,11,eos,セントラルフリックバンクです。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,U_en,en,True,False,True,True,True,True,False,False,9,eos,Central Bank of the Republic of Turkey.
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,TDV,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,R0,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,R17,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,R27,ja,True,False,False,,True,True,True,False,7,eos,トルコ中央銀行です。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,R37,ja,True,False,True,,True,True,True,False,8,eos,トルコ共和国中央銀行です。
+P27_P1304_Q85430,Central Bank of the Republic of Turkey,R47,ja,True,False,False,,True,False,False,False,10,eos,トルコ共和国中央 銀行です。
+P27_P38_Q166658,Trinidad and Tobago dollar,U_ja,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。
+P27_P38_Q166658,Trinidad and Tobago dollar,U_en,en,True,False,False,True,True,False,False,False,11,eos,Trinidad and Tobagon dollar (TTD)
+P27_P38_Q166658,Trinidad and Tobago dollar,TDV,ja,True,False,False,,True,False,False,False,13,eos,トリニダートとトバーゴドルです。
+P27_P38_Q166658,Trinidad and Tobago dollar,R0,ja,True,False,False,,True,False,False,False,9,eos,トリニダート島ドルです。
+P27_P38_Q166658,Trinidad and Tobago dollar,R17,ja,True,False,False,,True,False,False,False,11,eos,トリニダール・ドルのことです。
+P27_P38_Q166658,Trinidad and Tobago dollar,R27,ja,True,False,False,,True,False,False,False,4,eos,ドルです。
+P27_P38_Q166658,Trinidad and Tobago dollar,R37,ja,True,False,False,,True,False,False,False,8,eos,トリニダートドルです。
+P27_P38_Q166658,Trinidad and Tobago dollar,R47,ja,True,False,False,,True,False,False,False,10,eos,トリニダート・ドルのです。

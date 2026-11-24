@@ -1,0 +1,7168 @@
+{
+ "model": "qwen36_27b",
+ "protocol": {
+  "floor_max_new": 32,
+  "entity_free_floor": true,
+  "l1": 45,
+  "alpha1": 1.0,
+  "adaptation": "v_r from prompt-level diff (see docstring)",
+  "vr_chains": [
+   "P495_P1304_Q427541",
+   "P27_P38_Q335479",
+   "P27_P1304_Q1220",
+   "P27_P1304_Q167522",
+   "P495_P38_Q335626",
+   "P27_P38_Q74404",
+   "P495_P35_Q3224301",
+   "P27_P1304_Q210734",
+   "P27_P38_Q170038",
+   "P495_P36_Q116933",
+   "P27_P38_Q7410",
+   "P27_P1304_Q209942",
+   "P27_P1304_Q6300",
+   "P495_P38_Q1051735",
+   "P27_P1304_Q290220",
+   "P27_P36_Q115012",
+   "P27_P1304_Q330695",
+   "P27_P1304_Q18165",
+   "P27_P38_Q170380",
+   "P27_P36_Q163167",
+   "P27_P1304_Q3773",
+   "P495_P1304_Q2859552",
+   "P27_P1304_Q82895",
+   "P495_P38_Q186413",
+   "P27_P36_Q297",
+   "P27_P38_Q281713",
+   "P27_P35_Q6300",
+   "P27_P1304_Q176131",
+   "P495_P36_Q153639",
+   "P495_P36_Q170210",
+   "P495_P38_Q499396",
+   "P27_P38_Q272580",
+   "P27_P38_Q128936",
+   "P27_P38_Q443374",
+   "P27_P35_Q7747",
+   "P495_P36_Q312106",
+   "P27_P38_Q81227",
+   "P495_P1304_Q176322",
+   "P27_P38_Q11873",
+   "P27_P36_Q6530",
+   "P27_P1304_Q13541",
+   "P27_P1304_Q410",
+   "P27_P1304_Q117034",
+   "P27_P1304_Q133308",
+   "P27_P38_Q4768",
+   "P27_P38_Q330951",
+   "P27_P38_Q334518",
+   "P27_P38_Q75582",
+   "P495_P38_Q176322",
+   "P495_P36_Q1632884",
+   "P495_P36_Q7254",
+   "P495_P38_Q1737477",
+   "P495_P38_Q152761",
+   "P27_P36_Q167444",
+   "P495_P1304_Q4744",
+   "P495_P36_Q191034",
+   "P27_P36_Q12773",
+   "P27_P36_Q267687",
+   "P27_P36_Q6399",
+   "P495_P1304_Q6466"
+  ]
+ },
+ "best": {
+  "ko": {
+   "mode": "anchor",
+   "L2": 52,
+   "a2": 0.75,
+   "correct": 0.0,
+   "entity": 0.26666666666666666,
+   "amb": 0
+  },
+  "ja": {
+   "mode": "full",
+   "L2": 57,
+   "a2": 0.75,
+   "correct": 0.03333333333333333,
+   "entity": 0.03333333333333333,
+   "amb": 0
+  },
+  "zh": {
+   "mode": "anchor",
+   "L2": 57,
+   "a2": 0.75,
+   "correct": 0.03333333333333333,
+   "entity": 0.13333333333333333,
+   "amb": 0
+  },
+  "es": {
+   "mode": "full",
+   "L2": 57,
+   "a2": 0.75,
+   "correct": 0.13333333333333333,
+   "entity": 0.2,
+   "amb": 0
+  }
+ },
+ "n_calib": 30,
+ "n_eval": 120,
+ "calib_chains": [
+  "P495_P1304_Q427541",
+  "P27_P38_Q335479",
+  "P27_P1304_Q1220",
+  "P495_P35_Q3224301",
+  "P27_P1304_Q210734",
+  "P27_P1304_Q209942",
+  "P27_P1304_Q6300",
+  "P495_P38_Q1051735",
+  "P27_P36_Q115012",
+  "P27_P1304_Q330695",
+  "P27_P38_Q170380",
+  "P27_P1304_Q3773",
+  "P27_P38_Q281713",
+  "P495_P36_Q170210",
+  "P27_P38_Q443374",
+  "P495_P36_Q312106",
+  "P27_P38_Q11873",
+  "P27_P1304_Q410",
+  "P27_P38_Q330951",
+  "P27_P38_Q334518",
+  "P27_P38_Q75582",
+  "P27_P36_Q167444",
+  "P495_P1304_Q4744",
+  "P27_P36_Q12773",
+  "P27_P1304_Q132361",
+  "P27_P38_Q330695",
+  "P27_P1304_Q7524",
+  "P495_P36_Q924512",
+  "P495_P1304_Q7254",
+  "P27_P1304_Q26532"
+ ],
+ "eval_chains": [
+  "P27_P38_Q317864",
+  "P27_P38_Q195495",
+  "P27_P38_Q311366",
+  "P27_P38_Q615817",
+  "P27_P38_Q166661",
+  "P27_P38_Q4742",
+  "P27_P1304_Q70155",
+  "P495_P38_Q752785",
+  "P495_P36_Q12016",
+  "P27_P1304_Q13230",
+  "P495_P38_Q610022",
+  "P27_P38_Q323582",
+  "P27_P38_Q215585",
+  "P27_P38_Q185693",
+  "P27_P1304_Q165852",
+  "P495_P1304_Q1626853",
+  "P495_P38_Q1626853",
+  "P27_P1304_Q1950",
+  "P495_P36_Q137836",
+  "P27_P38_Q202437",
+  "P27_P38_Q320005",
+  "P27_P1304_Q1984",
+  "P27_P1304_Q6100",
+  "P27_P38_Q12773",
+  "P27_P38_Q72071",
+  "P27_P38_Q7524",
+  "P27_P38_Q162862",
+  "P27_P38_Q129533",
+  "P27_P1304_Q1991",
+  "P27_P38_Q213270",
+  "P27_P1304_Q116482",
+  "P27_P38_Q162202",
+  "P495_P1304_Q10184",
+  "P27_P1304_Q949",
+  "P27_P38_Q80358",
+  "P495_P1304_Q4626",
+  "P27_P38_Q1568174",
+  "P495_P1304_Q690126",
+  "P27_P38_Q718256",
+  "P27_P36_Q13230",
+  "P27_P1304_Q113409",
+  "P27_P36_Q153503",
+  "P27_P1304_Q4864",
+  "P495_P1304_Q611972",
+  "P495_P1304_Q76407",
+  "P27_P38_Q272126",
+  "P27_P38_Q381201",
+  "P27_P36_Q169174",
+  "P495_P38_Q846538",
+  "P27_P1304_Q137732",
+  "P27_P38_Q381954",
+  "P27_P38_Q157197",
+  "P495_P38_Q135401",
+  "P27_P38_Q193690",
+  "P495_P36_Q1778051",
+  "P27_P1304_Q331201",
+  "P495_P38_Q3831139",
+  "P495_P36_Q171731",
+  "P27_P1304_Q1753",
+  "P27_P38_Q1755",
+  "P27_P38_Q197549",
+  "P27_P1304_Q4790",
+  "P27_P38_Q319153",
+  "P27_P1304_Q117150",
+  "P27_P38_Q4837",
+  "P27_P38_Q202877",
+  "P27_P1304_Q73920",
+  "P27_P38_Q4836",
+  "P495_P36_Q890297",
+  "P27_P38_Q319916",
+  "P27_P1304_Q3281",
+  "P27_P1304_Q93356",
+  "P27_P1304_Q13531",
+  "P495_P1304_Q109260",
+  "P27_P38_Q82871",
+  "P27_P38_Q80772",
+  "P495_P36_Q123935",
+  "P495_P38_Q2839301",
+  "P495_P1304_Q229655",
+  "P495_P1304_Q194297",
+  "P27_P38_Q6399",
+  "P27_P36_Q126640",
+  "P495_P36_Q202166",
+  "P27_P1304_Q286997",
+  "P495_P36_Q76407",
+  "P27_P38_Q72550",
+  "P27_P38_Q362948",
+  "P27_P38_Q391281",
+  "P27_P36_Q120621",
+  "P495_P1304_Q76210",
+  "P27_P1304_Q1878",
+  "P495_P1304_Q263471",
+  "P27_P1304_Q85430",
+  "P27_P38_Q166658",
+  "P27_P1304_Q303",
+  "P27_P38_Q327918",
+  "P495_P36_Q457341",
+  "P27_P38_Q12819",
+  "P495_P38_Q3636864",
+  "P27_P38_Q210069",
+  "P27_P38_Q127350",
+  "P27_P38_Q127004",
+  "P27_P38_Q4835",
+  "P495_P1304_Q219980",
+  "P495_P38_Q306130",
+  "P27_P1304_Q12897",
+  "P495_P38_Q65086435",
+  "P495_P38_Q1723744",
+  "P27_P35_Q1933",
+  "P27_P36_Q311366",
+  "P27_P36_Q113409",
+  "P495_P1304_Q94606",
+  "P495_P36_Q429395",
+  "P495_P38_Q3057375",
+  "P27_P38_Q4774",
+  "P495_P1304_Q220635",
+  "P27_P38_Q165833",
+  "P27_P38_Q337955",
+  "P27_P36_Q80937",
+  "P27_P38_Q211849"
+ ],
+ "floors": {
+  "P495_P1304_Q427541": "Banco Central de Reserva del Perú",
+  "P27_P38_Q335479": "Shilling ugandés",
+  "P27_P1304_Q1220": "Banco Central Europeo",
+  "P495_P35_Q3224301": "Emmanuel Macron",
+  "P27_P1304_Q210734": "Banco Central del Estado de Senegal",
+  "P27_P1304_Q209942": "Banco Central de Senegal",
+  "P27_P1304_Q6300": "Banco Central de Rusia",
+  "P495_P38_Q1051735": "Dólar estadounidense",
+  "P27_P36_Q115012": "Bratislava",
+  "P27_P1304_Q330695": "Banco Central de Uganda",
+  "P27_P38_Q170380": "Tugrik",
+  "P27_P1304_Q3773": "Banco Central de Rusia",
+  "P27_P38_Q281713": "Libra esterlina",
+  "P495_P36_Q170210": "Lausana",
+  "P27_P38_Q443374": "Dólar canadiense",
+  "P495_P36_Q312106": "Londres",
+  "P27_P38_Q11873": "Dólar estadounidense",
+  "P27_P1304_Q410": "Reserva Federal de los Estados Unidos",
+  "P27_P38_Q330951": "Franco CFA",
+  "P27_P38_Q334518": "Tenge",
+  "P27_P38_Q75582": "Euro",
+  "P27_P36_Q167444": "Juba",
+  "P495_P1304_Q4744": "Banco Central de Alemania",
+  "P27_P36_Q12773": "Bucarest",
+  "P27_P1304_Q132361": "Banco Central de Estonia",
+  "P27_P38_Q330695": "Shilling ugandés",
+  "P27_P1304_Q7524": "Reserva Federal de los Estados Unidos",
+  "P495_P36_Q924512": "La Paz",
+  "P495_P1304_Q7254": "Banco Central de Alemania",
+  "P27_P1304_Q26532": "Banco Central de Turquía",
+  "P27_P38_Q317864": "Dinar somalí",
+  "P27_P38_Q195495": "Real",
+  "P27_P38_Q311366": "Dólar estadounidense",
+  "P27_P38_Q615817": "Dólar estadounidense",
+  "P27_P38_Q166661": "Euro",
+  "P27_P38_Q4742": "Real",
+  "P27_P1304_Q70155": "Banco Central de Noruega",
+  "P495_P38_Q752785": "Dólar estadounidense",
+  "P495_P36_Q12016": "Nueva York",
+  "P27_P1304_Q13230": "Banco Nacional de Suiza",
+  "P495_P38_Q610022": "Dólar estadounidense",
+  "P27_P38_Q323582": "Shilling ruandés",
+  "P27_P38_Q215585": "Shilling somalí",
+  "P27_P38_Q185693": "Euro",
+  "P27_P1304_Q165852": "Banco Central de Eslovenia",
+  "P495_P1304_Q1626853": "Banco Central de Uganda",
+  "P495_P38_Q1626853": "No existe un país de origen único para el Matoke, ya que es un plato tradicional de varios países de África Oriental (como Uganda, Ruanda, Ken",
+  "P27_P1304_Q1950": "Banco Central de la República Argentina",
+  "P495_P36_Q137836": "Washington D. C.",
+  "P27_P38_Q202437": "Dinar somalí",
+  "P27_P38_Q320005": "Dólar estadounidense",
+  "P27_P1304_Q1984": "Banco Central de la República Argentina",
+  "P27_P1304_Q6100": "Banco Central de Rusia",
+  "P27_P38_Q12773": "Leu rumano",
+  "P27_P38_Q72071": "Euro",
+  "P27_P38_Q7524": "Dólar estadounidense",
+  "P27_P38_Q162862": "Euro",
+  "P27_P38_Q129533": "Peso argentino",
+  "P27_P1304_Q1991": "Banco Central Suizo",
+  "P27_P38_Q213270": "Euro",
+  "P27_P1304_Q116482": "Banco Central del Senegal",
+  "P27_P38_Q162202": "Dólar estadounidense",
+  "P495_P1304_Q10184": "Banco Central Europeo",
+  "P27_P1304_Q949": "Reserva Federal de los Estados Unidos",
+  "P27_P38_Q80358": "Dinar macedonio",
+  "P495_P1304_Q4626": "Bundesbank",
+  "P27_P38_Q1568174": "Dólar de Seychelles",
+  "P495_P1304_Q690126": "Banco Central de Letonia",
+  "P27_P38_Q718256": "Dólar de Guyana",
+  "P27_P36_Q13230": "Ginebra",
+  "P27_P1304_Q113409": "Banco Nacional de Bolivia",
+  "P27_P36_Q153503": "Santo Domingo",
+  "P27_P1304_Q4864": "Banco Central de Rusia",
+  "P495_P1304_Q611972": "Banco de Inglaterra",
+  "P495_P1304_Q76407": "Banco Central de la República Argentina",
+  "P27_P38_Q272126": "Dólar somalí",
+  "P27_P38_Q381201": "Dólar de Guyana",
+  "P27_P36_Q169174": "Oslo",
+  "P495_P38_Q846538": "Shilling somalí",
+  "P27_P1304_Q137732": "Banco de Islandia",
+  "P27_P38_Q381954": "Lev búlgaro",
+  "P27_P38_Q157197": "Shilling somalí",
+  "P495_P38_Q135401": "Real",
+  "P27_P38_Q193690": "Lari",
+  "P495_P36_Q1778051": "La pregunta no puede responderse porque \"kobyz\" no corresponde a un país reconocido.",
+  "P27_P1304_Q331201": "Banco Central de Arabia Saudita",
+  "P495_P38_Q3831139": "Shilling somalí",
+  "P495_P36_Q171731": "Londres",
+  "P27_P1304_Q1753": "Banco Central de Italia",
+  "P27_P38_Q1755": "Zloty polaco",
+  "P27_P38_Q197549": "Rublo ruso",
+  "P27_P1304_Q4790": "Banco Central de Italia",
+  "P27_P38_Q319153": "Shilling somalí",
+  "P27_P1304_Q117150": "Banco Central de Lituania",
+  "P27_P38_Q4837": "Zloty polaco",
+  "P27_P38_Q202877": "Dólar de Trinidad y Tobago",
+  "P27_P1304_Q73920": "Banca Națională a României",
+  "P27_P38_Q4836": "Zloty polaco",
+  "P495_P36_Q890297": "Tallin",
+  "P27_P38_Q319916": "Franco CFA",
+  "P27_P1304_Q3281": "Banco Central de Noruega",
+  "P27_P1304_Q93356": "Banco de Irlanda",
+  "P27_P1304_Q13531": "Banco Central de Noruega",
+  "P495_P1304_Q109260": "Banco Central de Rusia",
+  "P27_P38_Q82871": "Shilling ugandés",
+  "P27_P38_Q80772": "Lempira",
+  "P495_P36_Q123935": "Roma",
+  "P495_P38_Q2839301": "Rupia india",
+  "P495_P1304_Q229655": "Banco Central de la República Argentina",
+  "P495_P1304_Q194297": "Banco de Irlanda",
+  "P27_P38_Q6399": "Zloty polaco",
+  "P27_P36_Q126640": "Buenos Aires",
+  "P495_P36_Q202166": "Ámsterdam",
+  "P27_P1304_Q286997": "Banco Central de Yibuti",
+  "P495_P36_Q76407": "Seúl",
+  "P27_P38_Q72550": "Dinar macedonio",
+  "P27_P38_Q362948": "Franco comorense",
+  "P27_P38_Q391281": "Franco CFA",
+  "P27_P36_Q120621": "Ciudad de Guatemala",
+  "P495_P1304_Q76210": "Banco Central de Bélgica",
+  "P27_P1304_Q1878": "Banco Central de Alemania",
+  "P495_P1304_Q263471": "Banco Central del Senegal",
+  "P27_P1304_Q85430": "Banco Central de Turquía",
+  "P27_P38_Q166658": "Dólar estadounidense",
+  "P27_P1304_Q303": "Reserva Federal de los Estados Unidos",
+  "P27_P38_Q327918": "Dólar estadounidense",
+  "P495_P36_Q457341": "Columbia",
+  "P27_P38_Q12819": "Zloty polaco",
+  "P495_P38_Q3636864": "Euro",
+  "P27_P38_Q210069": "Shilling ugandés",
+  "P27_P38_Q127350": "Rublo kazajo",
+  "P27_P38_Q127004": "Lev búlgaro",
+  "P27_P38_Q4835": "Zloty polaco",
+  "P495_P1304_Q219980": "Banco Central Europeo",
+  "P495_P38_Q306130": "Euro",
+  "P27_P1304_Q12897": "Banco Central del Brasil",
+  "P495_P38_Q65086435": "Peso mexicano",
+  "P495_P38_Q1723744": "Dólar estadounidense",
+  "P27_P35_Q1933": "Carl XVI Gustavo",
+  "P27_P36_Q311366": "Bridgetown",
+  "P27_P36_Q113409": "Varsovia",
+  "P495_P1304_Q94606": "Banco Central de la República Argentina",
+  "P495_P36_Q429395": "Ciudad de México",
+  "P495_P38_Q3057375": "Rupia ruandesa",
+  "P27_P38_Q4774": "Leu rumano",
+  "P495_P1304_Q220635": "Banco de Inglaterra",
+  "P27_P38_Q165833": "Leu rumano",
+  "P27_P38_Q337955": "Rand sudafricano",
+  "P27_P36_Q80937": "Santo Domingo",
+  "P27_P38_Q211849": "Lari"
+ },
+ "eval": {
+  "ko": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar canadiense"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Grivna"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Montreal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Suiza"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francos CFA"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Eslovenia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de la República Argentina"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Suiza"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lev"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Francia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Denar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Seychelles"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Estonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ginebra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Polonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal de los Estados Unidos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Islandia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lev búlgaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Kobyz no es un país."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Arabia Saudita"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Istanbul"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Lituania"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca de Rumanía"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco congolés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Riksbank"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Colón"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Roma"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal de los Estados Unidos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Amsterdam"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Yemén"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seúl"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Denar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franc"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco comoren"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "San Salvador"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Alemania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Senegal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Turquía"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Acra"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Won surcoreano"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Som"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lev"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Checo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Corona danesa"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Brasil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso chileno"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Kangura no es un país, por lo que no tiene moneda."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Stefan Löfven"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "San Juan"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Varsovia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Francia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bogotá"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia ruandesa"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Forinto"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Inglaterra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rand"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Grivnia ucraniana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Nueva York"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Suiza"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Yugoslavia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país único, ya que el Matoke es un plato tradicional de varios países de África Oriental (como Uganda, Ruanda, Tanzania y Kenia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la República Argentina"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Suiza"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Senegal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal de los Estados Unidos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dinar macedonio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Seychelles"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Letonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ginebra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Polonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Islandia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lev búlgaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Paz"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Indonesia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shelín somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Estambul"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Italia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín somalí"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Lituania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Națională a României"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Suecia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Roma"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la República Argentina"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ámsterdam"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Sudán"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seúl"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Seychelles"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Franco ruandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudad de Guatemala"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Austria"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Alemania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Mauritania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Turquía"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal de los Estados Unidos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Acra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la República Checa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Corona sueca"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Brasil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar australiano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Carl XVI Gustavo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Georgetown"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Varsovia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lima"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Florín húngaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rand sudafricano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Caracas"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "amb_steer": 6,
+   "amb_rand": 0
+  },
+  "ja": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ソナナ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "peso"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Trinidad"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "US"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ユー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Norges"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "東"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Washington"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banか"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "フラン"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ソモリエ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of Sloven"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "London"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ソモリエ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of俄罗斯"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "マル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "米"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "pes阿根廷"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banquer"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banquer"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "USドル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal準備銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "北"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ド"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of入"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "米"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bern"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "NAR"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of俄罗斯"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ソナ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "円"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Somプリ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行アイスランド"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "保札"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ソモリエ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Georgian"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tok"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Somプリ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "東京"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banquer"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ポー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ユー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank ofイタリア"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ソモリエ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "PLN"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Trinidad"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ban_row"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "PLN"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallinn"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "FR"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行アイルランド"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sverigesリ中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank ofロシア"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "pes"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ポー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ア"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tok"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "北"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "SE"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "FRW"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中国人民銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque中央"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "USドル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal準備"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "東"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "アソ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ポー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "日本円"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ポー"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Pen"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "スウェディ"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "中央銀行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "pes"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "上智"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": ""
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Wars"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "ルウォル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "匈牙利"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of日本"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "南"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sanマル"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "GEL"
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ukrhina"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksvank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Toronto"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banquieri sviizerbai"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banja Jugoslavije"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No exists"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "London"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Somали"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksvank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Rossi"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarian"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banqueirão"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Macedonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bankiesterīgs"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Berna"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banxico"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank Rossiya"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Thailand"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Somalia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar津"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling Somali"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Rikbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarian"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Realo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Baku"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank of Turkey"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Istanbul"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ruble"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lietuvos state银行行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca De罗马尼亚"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallinn"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Rikigaban"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank Ireland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksvank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank Rossiya (Gosbank)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Pakistani"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank Ireland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Amsterdam"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank of Egypt"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seoul"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Macedonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "San Jose"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banqueirão"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque de West African States"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Türkiye Sıııııııııııııııııııııııııııı"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Accra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ruhls"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leoni"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Zentral (Zi)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Brazil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Karin Sjöly\n\n**解析**\n\nAnja Pärson是 **Sweden** (Sweden) 的 **citizenship** (Sweden)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgear"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Belgrade"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque Iran"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rwand拉法理"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Hungarian forint"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco英格兰"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zimbabwe"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "amb_steer": 1,
+   "amb_rand": 1
+  },
+  "zh": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar索马里"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar trinidadense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco中央 de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Filadelfia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Suiza"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling de Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar sombí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de斯洛文尼亚"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe una única moneda, ya que el matoke se consume en varios países de África oriental (como Uganda, Rwanda y肯尼亚) que tienen monedas distintas"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央 de la阿根廷"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lond"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dinar somadí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de desarrollo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leva búlgara"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央 de意大利"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque Centrale du Sénégal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Fed"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lejo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "dólar de Seychelles"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central deLatvía"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar guyano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ginebra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de desarrollo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserve Bank of印度"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Chile"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Islandia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leva búlgara"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "先令索马里"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "拉里"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado \"kobyz\"."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Yemen"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lond"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央 de意大利"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco中央 de立陶宛"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Złotary polaco"
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar Trinidadiano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Națională a României"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Riga"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Riksbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la Federación Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Reserva del Perú"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Berl"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de苏丹"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seúl"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Denar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "法郎"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco comarr"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Managua"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de比利时"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco central de Mauritania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la República土耳其"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Fed"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar trinidadense"
+    },
+    {
+     "out": "zh",
+     "entity": true,
+     "correct": true,
+     "es_repair": false,
+     "txt": "阿克拉"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Złotary"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo kazajo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Złoty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Pensoft"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Brasil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Carla Onteda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "圣约翰"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Varsovia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de英格兰"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ciudad de México"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "福林"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Inglaterra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rand"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Caracas"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Nueva York"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Nacional de Suiza"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Chile"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóloyar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Estonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un único país de origen, ya que es un plato común en varios países de África Oriental (como Uganda, Tanzania, Kenia y Zimbab"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la República Argentina"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Washington D. C."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Suiza"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu rumano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dinar macedonio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dinar serbio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Senegal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal de los Estados Unidos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dinar macedonio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Seychelles"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Estonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Berna"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Serbia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Japón"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Guyana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Islandia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Levo búlgaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No existe un país llamado \"kobyz\"."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Yeme"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shiling somalí"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Canberra"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rublo ruso"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Chelín somalí"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Lituania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Nacional de Rumanía"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallinna"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Noruega"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Suecia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Chilero ugandés"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Peso dominar"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia india"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Rusia"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ámsterdam"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Yaman"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seúl"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dinar macedonio"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Seychelles"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Franco ruandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "San José"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Bélgica"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Estado de Senegal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Turquía"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Reserva Federal de los Estados Unidos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóloyar beliceño"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Acrupol"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Chilero ugandés"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Levo búlgaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty polaco"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Alemania"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco Central de Brasil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso mexicano"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Karin Stigler"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Varsovia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Grecia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Elar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Inglaterra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zarimbe"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Caracas"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "amb_steer": 6,
+   "amb_rand": 1
+  },
+  "es": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólya"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóla"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Norshed"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólya"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Washington, D. C."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóla"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Republa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banko de Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No tiene una única moneda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de la República Italiana"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lima"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólor"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca Centrale de Republique Senef"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dol"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Estonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Berna"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Repúblicaa"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de England"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólib"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling Somali"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seudo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lea"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shel"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Yemen"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Londres"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zlot"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ruble"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Lietuvos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zlot"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóla"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca de Rumanía"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zlot"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Riga"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francos"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Norshed"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sverjan Banco"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Banco de Rusia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de England"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Irlanda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zlot"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Amberden"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central de Yemen"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seúl"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Denaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franco Comorenas"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Franclo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "San"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Bélgica"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca de Estado"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank de la República de Turkey"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de England"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólya"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Acua"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rupla"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lea"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zlot"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Austria"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central del Estado"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "King Carlos XVI Gustaro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Georgetown"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Bratislava"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de España"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólore"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Forint"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de England"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zlot"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ukrhina"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksvank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Toronto"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banquieri sviizerbai"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banja Jugoslavije"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank of Uganda"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No exists"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "London"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Somали"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksvank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Rossi"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leu"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarian"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Peso argentino"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banqueirão"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dóollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Macedonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bankiesterīgs"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Berna"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banxico"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank Rossiya"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Thailand"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Somalia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar津"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling Somali"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Rikbank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bulgarian"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Realo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Baku"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank of Turkey"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Istanbul"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ruble"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca d'Italia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lietuvos state银行行"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banca De罗马尼亚"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallinn"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Rikigaban"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank Ireland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sveriges Riksvank"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bank Rossiya (Gosbank)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Pakistani"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank Ireland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Buenos Aires"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Amsterdam"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Central Bank of Egypt"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Seoul"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Macedonia"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Francal"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "San Jose"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banqueirão"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesland"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque de West African States"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Türkiye Sıııııııııııııııııııııııııııı"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Federal Reserve System"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dollar"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Accra"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Shilling"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Ruhls"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Leoni"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zloty"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Zentral (Zi)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Brazil"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Karin Sjöly\n\n**解析**\n\nAnja Pärson是 **Sweden** (Sweden) 的 **citizenship** (Sweden)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgear"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Belgrade"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banque Iran"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Madrid"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Rwand拉法理"
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Hungarian forint"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco英格兰"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Euro"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Zimbabwe"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Santo Domingo"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari"
+    }
+   ],
+   "amb_steer": 3,
+   "amb_rand": 1
+  }
+ }
+}

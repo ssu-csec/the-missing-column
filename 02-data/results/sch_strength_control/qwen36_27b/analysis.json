@@ -1,0 +1,666 @@
+{
+  "es": {
+    "results": {
+      "es": {
+        "n": 52,
+        "clusters": 27,
+        "effects": {
+          "content": {
+            "R": {
+              "pp": -0.38461538461538464,
+              "ci95_pp": [
+                -1.2244897959183674,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": -1.5384615384615385,
+              "ci95_pp": [
+                -4.090909090909092,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -1.153846153846154,
+              "ci95_pp": [
+                -2.941176470588235,
+                0.0
+              ]
+            }
+          },
+          "form": {
+            "R": {
+              "pp": -0.38461538461538464,
+              "ci95_pp": [
+                -1.2244897959183674,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": -1.5384615384615385,
+              "ci95_pp": [
+                -4.090909090909092,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -1.153846153846154,
+              "ci95_pp": [
+                -2.941176470588235,
+                0.0
+              ]
+            }
+          },
+          "delta": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "degenerate": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "arm_rates": {
+          "U": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "I": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "R7": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "R17": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "R27": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "R37": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "R47": {
+            "content": 1.9230769230769231,
+            "form": 1.9230769230769231,
+            "degenerate": 0.0
+          },
+          "M7": {
+            "content": 1.9230769230769231,
+            "form": 1.9230769230769231,
+            "degenerate": 0.0
+          },
+          "M17": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "M27": {
+            "content": 1.9230769230769231,
+            "form": 1.9230769230769231,
+            "degenerate": 0.0
+          },
+          "M37": {
+            "content": 0.0,
+            "form": 0.0,
+            "degenerate": 0.0
+          },
+          "M47": {
+            "content": 3.8461538461538463,
+            "form": 3.8461538461538463,
+            "degenerate": 0.0
+          }
+        }
+      }
+    },
+    "bootstrap_draws": 10000,
+    "scope": "Descriptive paired answer-cluster intervals, conditional on fixed calibration and five groups; no multiplicity correction"
+  },
+  "zh": {
+    "results": {
+      "zh": {
+        "n": 48,
+        "clusters": 22,
+        "effects": {
+          "content": {
+            "R": {
+              "pp": 9.999999999999998,
+              "ci95_pp": [
+                0.869565217391304,
+                21.777777777777775
+              ]
+            },
+            "M": {
+              "pp": 8.75,
+              "ci95_pp": [
+                0.8333333333333334,
+                19.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -1.25,
+              "ci95_pp": [
+                -3.1818181818181817,
+                0.4761904761904762
+              ]
+            }
+          },
+          "form": {
+            "R": {
+              "pp": 10.83333333333333,
+              "ci95_pp": [
+                2.0,
+                22.17391304347826
+              ]
+            },
+            "M": {
+              "pp": 9.583333333333334,
+              "ci95_pp": [
+                1.9672131147540985,
+                19.534883720930228
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -1.25,
+              "ci95_pp": [
+                -3.1818181818181817,
+                0.4761904761904762
+              ]
+            }
+          },
+          "delta": {
+            "R": {
+              "pp": -0.8333333333333334,
+              "ci95_pp": [
+                -2.790697674418605,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": -0.8333333333333334,
+              "ci95_pp": [
+                -2.790697674418605,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "degenerate": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "arm_rates": {
+          "U": {
+            "content": 4.166666666666667,
+            "form": 4.166666666666667,
+            "degenerate": 0.0
+          },
+          "I": {
+            "content": 16.666666666666668,
+            "form": 16.666666666666668,
+            "degenerate": 0.0
+          },
+          "R7": {
+            "content": 8.333333333333334,
+            "form": 6.25,
+            "degenerate": 0.0
+          },
+          "R17": {
+            "content": 4.166666666666667,
+            "form": 4.166666666666667,
+            "degenerate": 0.0
+          },
+          "R27": {
+            "content": 6.25,
+            "form": 6.25,
+            "degenerate": 0.0
+          },
+          "R37": {
+            "content": 6.25,
+            "form": 6.25,
+            "degenerate": 0.0
+          },
+          "R47": {
+            "content": 8.333333333333334,
+            "form": 6.25,
+            "degenerate": 0.0
+          },
+          "M7": {
+            "content": 12.5,
+            "form": 10.416666666666666,
+            "degenerate": 0.0
+          },
+          "M17": {
+            "content": 4.166666666666667,
+            "form": 4.166666666666667,
+            "degenerate": 0.0
+          },
+          "M27": {
+            "content": 6.25,
+            "form": 6.25,
+            "degenerate": 0.0
+          },
+          "M37": {
+            "content": 8.333333333333334,
+            "form": 8.333333333333334,
+            "degenerate": 0.0
+          },
+          "M47": {
+            "content": 8.333333333333334,
+            "form": 6.25,
+            "degenerate": 0.0
+          }
+        }
+      }
+    },
+    "bootstrap_draws": 10000,
+    "scope": "Descriptive paired answer-cluster intervals, conditional on fixed calibration and five groups; no multiplicity correction"
+  },
+  "ja": {
+    "results": {
+      "ja": {
+        "n": 47,
+        "clusters": 28,
+        "effects": {
+          "content": {
+            "R": {
+              "pp": -0.42553191489361697,
+              "ci95_pp": [
+                -4.090909090909092,
+                4.285714285714286
+              ]
+            },
+            "M": {
+              "pp": -3.829787234042554,
+              "ci95_pp": [
+                -8.636363636363638,
+                0.4166666666666666
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -3.4042553191489358,
+              "ci95_pp": [
+                -6.666666666666667,
+                -0.8163265306122449
+              ]
+            }
+          },
+          "form": {
+            "R": {
+              "pp": -0.42553191489361697,
+              "ci95_pp": [
+                -4.090909090909092,
+                4.285714285714286
+              ]
+            },
+            "M": {
+              "pp": -3.829787234042554,
+              "ci95_pp": [
+                -8.636363636363638,
+                0.4166666666666666
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -3.4042553191489358,
+              "ci95_pp": [
+                -6.666666666666667,
+                -0.8163265306122449
+              ]
+            }
+          },
+          "delta": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "degenerate": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "arm_rates": {
+          "U": {
+            "content": 4.25531914893617,
+            "form": 4.25531914893617,
+            "degenerate": 0.0
+          },
+          "I": {
+            "content": 4.25531914893617,
+            "form": 4.25531914893617,
+            "degenerate": 0.0
+          },
+          "R7": {
+            "content": 8.51063829787234,
+            "form": 8.51063829787234,
+            "degenerate": 0.0
+          },
+          "R17": {
+            "content": 4.25531914893617,
+            "form": 4.25531914893617,
+            "degenerate": 0.0
+          },
+          "R27": {
+            "content": 4.25531914893617,
+            "form": 4.25531914893617,
+            "degenerate": 0.0
+          },
+          "R37": {
+            "content": 4.25531914893617,
+            "form": 4.25531914893617,
+            "degenerate": 0.0
+          },
+          "R47": {
+            "content": 2.127659574468085,
+            "form": 2.127659574468085,
+            "degenerate": 0.0
+          },
+          "M7": {
+            "content": 14.893617021276595,
+            "form": 14.893617021276595,
+            "degenerate": 0.0
+          },
+          "M17": {
+            "content": 4.25531914893617,
+            "form": 4.25531914893617,
+            "degenerate": 0.0
+          },
+          "M27": {
+            "content": 6.382978723404255,
+            "form": 6.382978723404255,
+            "degenerate": 0.0
+          },
+          "M37": {
+            "content": 8.51063829787234,
+            "form": 8.51063829787234,
+            "degenerate": 0.0
+          },
+          "M47": {
+            "content": 6.382978723404255,
+            "form": 6.382978723404255,
+            "degenerate": 0.0
+          }
+        }
+      }
+    },
+    "bootstrap_draws": 10000,
+    "scope": "Descriptive paired answer-cluster intervals, conditional on fixed calibration and five groups; no multiplicity correction"
+  },
+  "ko": {
+    "results": {
+      "ko": {
+        "n": 57,
+        "clusters": 29,
+        "effects": {
+          "content": {
+            "R": {
+              "pp": 1.4035087719298245,
+              "ci95_pp": [
+                -1.016949152542373,
+                6.222222222222222
+              ]
+            },
+            "M": {
+              "pp": 0.7017543859649122,
+              "ci95_pp": [
+                -2.264150943396227,
+                5.714285714285714
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -0.7017543859649122,
+              "ci95_pp": [
+                -2.2222222222222228,
+                0.0
+              ]
+            }
+          },
+          "form": {
+            "R": {
+              "pp": 1.4035087719298245,
+              "ci95_pp": [
+                -1.016949152542373,
+                6.222222222222222
+              ]
+            },
+            "M": {
+              "pp": 0.7017543859649122,
+              "ci95_pp": [
+                -2.264150943396227,
+                5.714285714285714
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": -0.7017543859649122,
+              "ci95_pp": [
+                -2.2222222222222228,
+                0.0
+              ]
+            }
+          },
+          "delta": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "degenerate": {
+            "R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "M": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            },
+            "change_in_effect_M_minus_R": {
+              "pp": 0.0,
+              "ci95_pp": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "arm_rates": {
+          "U": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "I": {
+            "content": 5.2631578947368425,
+            "form": 5.2631578947368425,
+            "degenerate": 0.0
+          },
+          "R7": {
+            "content": 5.2631578947368425,
+            "form": 5.2631578947368425,
+            "degenerate": 0.0
+          },
+          "R17": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "R27": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "R37": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "R47": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "M7": {
+            "content": 5.2631578947368425,
+            "form": 5.2631578947368425,
+            "degenerate": 0.0
+          },
+          "M17": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "M27": {
+            "content": 5.2631578947368425,
+            "form": 5.2631578947368425,
+            "degenerate": 0.0
+          },
+          "M37": {
+            "content": 3.508771929824561,
+            "form": 3.508771929824561,
+            "degenerate": 0.0
+          },
+          "M47": {
+            "content": 5.2631578947368425,
+            "form": 5.2631578947368425,
+            "degenerate": 0.0
+          }
+        }
+      }
+    },
+    "bootstrap_draws": 10000,
+    "scope": "Descriptive paired answer-cluster intervals, conditional on fixed calibration and five groups; no multiplicity correction"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "model": "qwen36_27b",
+  "by_lang": {
+    "en": {
+      "question": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2272,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 15.71
+      },
+      "answer": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2524,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 3.75
+      }
+    },
+    "es": {
+      "question": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2387,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 15.71
+      },
+      "answer": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2873,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 4.44
+      }
+    },
+    "ko": {
+      "question": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2405,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 14.08
+      },
+      "answer": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2534,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 4.71
+      }
+    },
+    "zh": {
+      "question": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2256,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 10.87
+      },
+      "answer": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2362,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 3.86
+      }
+    },
+    "ja": {
+      "question": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2319,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 12.38
+      },
+      "answer": {
+        "n_items": 466,
+        "tokens_per_byte": 0.2092,
+        "byte_fallback_rate": 0.0,
+        "mean_tokens_per_item": 4.52
+      }
+    }
+  }
+}

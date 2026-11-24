@@ -1,0 +1,690 @@
+{
+  "cells": [
+    {
+      "family": "vT",
+      "lang": "es",
+      "n_full": [
+        132,
+        68,
+        36,
+        22,
+        89
+      ],
+      "n_en_solvable": [
+        108,
+        24,
+        34,
+        17,
+        57
+      ],
+      "en_solvable_macro": {
+        "content": 16.5,
+        "content_ci95": [
+          9.2,
+          22.9
+        ],
+        "form": 18.7,
+        "form_ci95": [
+          12.7,
+          24.2
+        ],
+        "delta": -2.2,
+        "delta_ci95": [
+          -5.5,
+          0.3
+        ]
+      },
+      "item_weighted_full": {
+        "content": 22.2,
+        "content_ci95": [
+          16.2,
+          28.1
+        ],
+        "form": 22.8,
+        "form_ci95": [
+          17.1,
+          28.6
+        ],
+        "delta": -0.6,
+        "delta_ci95": [
+          -2.7,
+          1.4
+        ]
+      },
+      "macro_full_check": {
+        "content": 13.0,
+        "form": 15.6,
+        "delta": -2.6
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "zh",
+      "n_full": [
+        160,
+        88,
+        50,
+        28,
+        115
+      ],
+      "n_en_solvable": [
+        122,
+        27,
+        48,
+        20,
+        65
+      ],
+      "en_solvable_macro": {
+        "content": 13.6,
+        "content_ci95": [
+          7.3,
+          20.5
+        ],
+        "form": 9.4,
+        "form_ci95": [
+          6.5,
+          12.6
+        ],
+        "delta": 4.2,
+        "delta_ci95": [
+          -1.7,
+          10.7
+        ]
+      },
+      "item_weighted_full": {
+        "content": 16.6,
+        "content_ci95": [
+          10.8,
+          22.3
+        ],
+        "form": 15.0,
+        "form_ci95": [
+          10.4,
+          19.7
+        ],
+        "delta": 1.6,
+        "delta_ci95": [
+          -2.4,
+          5.5
+        ]
+      },
+      "macro_full_check": {
+        "content": 11.3,
+        "form": 8.4,
+        "delta": 2.9
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "ja",
+      "n_full": [
+        157,
+        88,
+        50,
+        28,
+        115
+      ],
+      "n_en_solvable": [
+        119,
+        27,
+        48,
+        20,
+        65
+      ],
+      "en_solvable_macro": {
+        "content": 5.4,
+        "content_ci95": [
+          -0.8,
+          11.5
+        ],
+        "form": 0.3,
+        "form_ci95": [
+          0.0,
+          1.1
+        ],
+        "delta": 5.1,
+        "delta_ci95": [
+          -1.2,
+          11.2
+        ]
+      },
+      "item_weighted_full": {
+        "content": 6.2,
+        "content_ci95": [
+          1.2,
+          11.2
+        ],
+        "form": 0.2,
+        "form_ci95": [
+          0.0,
+          0.7
+        ],
+        "delta": 5.9,
+        "delta_ci95": [
+          0.9,
+          11.0
+        ]
+      },
+      "macro_full_check": {
+        "content": 2.5,
+        "form": 0.2,
+        "delta": 2.4
+      }
+    },
+    {
+      "family": "vT",
+      "lang": "ko",
+      "n_full": [
+        160,
+        88,
+        50,
+        28,
+        115
+      ],
+      "n_en_solvable": [
+        122,
+        27,
+        48,
+        20,
+        65
+      ],
+      "en_solvable_macro": {
+        "content": 10.0,
+        "content_ci95": [
+          2.1,
+          18.0
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": 10.0,
+        "delta_ci95": [
+          2.1,
+          18.0
+        ]
+      },
+      "item_weighted_full": {
+        "content": 10.7,
+        "content_ci95": [
+          6.3,
+          15.1
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": 10.7,
+        "delta_ci95": [
+          6.3,
+          15.1
+        ]
+      },
+      "macro_full_check": {
+        "content": 8.7,
+        "form": 0.0,
+        "delta": 8.7
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "es",
+      "n_full": [
+        100,
+        100,
+        95,
+        54,
+        99
+      ],
+      "n_en_solvable": [
+        82,
+        60,
+        94,
+        50,
+        79
+      ],
+      "en_solvable_macro": {
+        "content": -1.8,
+        "content_ci95": [
+          -6.5,
+          3.1
+        ],
+        "form": -2.3,
+        "form_ci95": [
+          -6.2,
+          2.0
+        ],
+        "delta": 0.5,
+        "delta_ci95": [
+          -1.4,
+          2.6
+        ]
+      },
+      "item_weighted_full": {
+        "content": -1.3,
+        "content_ci95": [
+          -5.1,
+          2.4
+        ],
+        "form": -1.8,
+        "form_ci95": [
+          -5.1,
+          1.6
+        ],
+        "delta": 0.4,
+        "delta_ci95": [
+          -1.0,
+          2.0
+        ]
+      },
+      "macro_full_check": {
+        "content": -0.7,
+        "form": -1.3,
+        "delta": 0.6
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "zh",
+      "n_full": [
+        120,
+        120,
+        120,
+        61,
+        120
+      ],
+      "n_en_solvable": [
+        93,
+        64,
+        119,
+        54,
+        88
+      ],
+      "en_solvable_macro": {
+        "content": 5.8,
+        "content_ci95": [
+          2.0,
+          9.9
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": 5.8,
+        "delta_ci95": [
+          2.0,
+          9.9
+        ]
+      },
+      "item_weighted_full": {
+        "content": 6.8,
+        "content_ci95": [
+          3.6,
+          10.2
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": 6.8,
+        "delta_ci95": [
+          3.6,
+          10.2
+        ]
+      },
+      "macro_full_check": {
+        "content": 7.3,
+        "form": 0.0,
+        "delta": 7.3
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "ja",
+      "n_full": [
+        116,
+        117,
+        117,
+        57,
+        118
+      ],
+      "n_en_solvable": [
+        89,
+        61,
+        116,
+        50,
+        86
+      ],
+      "en_solvable_macro": {
+        "content": -6.6,
+        "content_ci95": [
+          -11.4,
+          -2.0
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": -6.6,
+        "delta_ci95": [
+          -11.4,
+          -2.0
+        ]
+      },
+      "item_weighted_full": {
+        "content": -6.9,
+        "content_ci95": [
+          -10.5,
+          -3.3
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": -6.9,
+        "delta_ci95": [
+          -10.5,
+          -3.3
+        ]
+      },
+      "macro_full_check": {
+        "content": -5.9,
+        "form": 0.0,
+        "delta": -5.9
+      }
+    },
+    {
+      "family": "neuron",
+      "lang": "ko",
+      "n_full": [
+        120,
+        120,
+        120,
+        61,
+        120
+      ],
+      "n_en_solvable": [
+        93,
+        64,
+        119,
+        54,
+        88
+      ],
+      "en_solvable_macro": {
+        "content": 10.9,
+        "content_ci95": [
+          5.7,
+          16.5
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": 10.9,
+        "delta_ci95": [
+          5.7,
+          16.5
+        ]
+      },
+      "item_weighted_full": {
+        "content": 9.8,
+        "content_ci95": [
+          5.5,
+          14.4
+        ],
+        "form": 0.0,
+        "form_ci95": [
+          0.0,
+          0.0
+        ],
+        "delta": 9.8,
+        "delta_ci95": [
+          5.5,
+          14.4
+        ]
+      },
+      "macro_full_check": {
+        "content": 8.8,
+        "form": 0.0,
+        "delta": 8.8
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "es",
+      "n_full": [
+        100,
+        100,
+        95,
+        54,
+        99
+      ],
+      "n_en_solvable": [
+        82,
+        60,
+        94,
+        50,
+        79
+      ],
+      "en_solvable_macro": {
+        "content": 4.7,
+        "content_ci95": [
+          0.2,
+          10.0
+        ],
+        "form": 6.0,
+        "form_ci95": [
+          1.6,
+          11.0
+        ],
+        "delta": -1.3,
+        "delta_ci95": [
+          -3.2,
+          0.3
+        ]
+      },
+      "item_weighted_full": {
+        "content": 3.1,
+        "content_ci95": [
+          -0.2,
+          7.3
+        ],
+        "form": 4.2,
+        "form_ci95": [
+          1.1,
+          8.1
+        ],
+        "delta": -1.1,
+        "delta_ci95": [
+          -2.7,
+          0.5
+        ]
+      },
+      "macro_full_check": {
+        "content": 3.3,
+        "form": 4.5,
+        "delta": -1.2
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "zh",
+      "n_full": [
+        120,
+        120,
+        120,
+        61,
+        120
+      ],
+      "n_en_solvable": [
+        93,
+        64,
+        119,
+        54,
+        88
+      ],
+      "en_solvable_macro": {
+        "content": -0.7,
+        "content_ci95": [
+          -5.4,
+          4.1
+        ],
+        "form": 0.7,
+        "form_ci95": [
+          0.0,
+          1.6
+        ],
+        "delta": -1.4,
+        "delta_ci95": [
+          -6.1,
+          3.4
+        ]
+      },
+      "item_weighted_full": {
+        "content": -1.3,
+        "content_ci95": [
+          -4.9,
+          2.4
+        ],
+        "form": 0.6,
+        "form_ci95": [
+          0.0,
+          1.3
+        ],
+        "delta": -1.8,
+        "delta_ci95": [
+          -5.4,
+          1.8
+        ]
+      },
+      "macro_full_check": {
+        "content": -2.0,
+        "form": 0.5,
+        "delta": -2.5
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "ja",
+      "n_full": [
+        116,
+        117,
+        117,
+        57,
+        118
+      ],
+      "n_en_solvable": [
+        89,
+        61,
+        116,
+        50,
+        86
+      ],
+      "en_solvable_macro": {
+        "content": -0.5,
+        "content_ci95": [
+          -4.1,
+          3.2
+        ],
+        "form": 1.3,
+        "form_ci95": [
+          0.0,
+          3.3
+        ],
+        "delta": -1.8,
+        "delta_ci95": [
+          -5.2,
+          1.4
+        ]
+      },
+      "item_weighted_full": {
+        "content": -1.1,
+        "content_ci95": [
+          -4.0,
+          1.5
+        ],
+        "form": 0.8,
+        "form_ci95": [
+          0.0,
+          1.8
+        ],
+        "delta": -1.9,
+        "delta_ci95": [
+          -4.6,
+          0.6
+        ]
+      },
+      "macro_full_check": {
+        "content": -1.0,
+        "form": 0.7,
+        "delta": -1.7
+      }
+    },
+    {
+      "family": "anchor",
+      "lang": "ko",
+      "n_full": [
+        120,
+        120,
+        120,
+        61,
+        120
+      ],
+      "n_en_solvable": [
+        93,
+        64,
+        119,
+        54,
+        88
+      ],
+      "en_solvable_macro": {
+        "content": 3.5,
+        "content_ci95": [
+          -0.8,
+          8.3
+        ],
+        "form": 1.9,
+        "form_ci95": [
+          0.5,
+          3.8
+        ],
+        "delta": 1.6,
+        "delta_ci95": [
+          -2.5,
+          6.0
+        ]
+      },
+      "item_weighted_full": {
+        "content": 1.8,
+        "content_ci95": [
+          -1.3,
+          5.5
+        ],
+        "form": 1.3,
+        "form_ci95": [
+          0.4,
+          2.4
+        ],
+        "delta": 0.6,
+        "delta_ci95": [
+          -2.4,
+          3.9
+        ]
+      },
+      "macro_full_check": {
+        "content": 2.2,
+        "form": 1.2,
+        "delta": 1.0
+      }
+    }
+  ],
+  "draws": 4000,
+  "scope": "Descriptive unadjusted paired answer-cluster intervals; no multiplicity claim"
+}

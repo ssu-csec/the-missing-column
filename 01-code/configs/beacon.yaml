@@ -1,0 +1,135 @@
+# Readout and analysis parameters for the per-head colon readout (hooks.py) and the evaluation-subset
+# size cross-check (data/subsets.py). All thresholds live here rather than in code.
+
+# Per-head readouts captured at the answer-colon in one forward pass.
+readout:
+  token: answer_colon               # the final ':' of "Answer:"
+  features:
+    - ov_norm                       # OV-side L2 norm of the head output
+    - bridge_projection             # signed <lens(o_h), unit gold-bridge unembedding direction>
+    - qk_attention                  # attention mass over source entity A and relation-word spans ONLY
+  # Lens for the bridge projection: pool heads sit far from the unembedding, so a lens correction is
+  # applied. Logit-lens is primary; tuned-lens is the fallback for heads that fail validation.
+  projection_lens:
+    primary: logit                  # logit-lens = final RMSNorm then dot with d_B
+    fallback: tuned                 # tuned-lens = per-layer affine, used only if in-band validation fails
+    gate_rho: 0.5                   # validate_projection: in-band heads reach Spearman rho>=0.5 vs residual bridge logit
+    gate_items: 20                  # number of known-correct EN items
+    gate_on: in_band_heads
+
+# Cells excluded from per-cell analysis (failure subset too small).
+drop_cells: [qwen25_72:zh]
+
+# Primary cell and multiple-comparison policy.
+primary_cell: llama31_70:es         # largest failure subset; tested uncorrected at alpha
+alpha: 0.05
+multiple_comparison: holm_bonferroni  # remaining kept cells are Holm-corrected
+margin_fragile_cells: [qwen25_72:ja]  # low power for the margin test; reported with a caveat
+
+# Expected subset sizes for subsets.crosscheck_sizes. Sizes depend on model outputs, so the
+# cross-check uses a relative tolerance band, not equality.
+expected_failure_sizes:
+  llama31_70: {ko: 519, zh: 489, ja: 420, es: 582}
+  qwen25_72:  {ko: 244, zh: 79,  ja: 209, es: 472}   # zh excluded via drop_cells
+expected_matched_success_sizes:
+  llama31_70: {ko: 984, zh: 733, ja: 878, es: 1332}
+  qwen25_72:  {ko: 333, zh: 161, ja: 239, es: 611}
+
+# arm_a: readout deficit, failure vs matched success (between groups, NOT paired).
+arm_a:
+  design: between_groups            # failure and success items are different chains
+  # match on relation type + subject frequency; regress out the remaining confounds.
+  match_covariates: [hop_relation_type, subject_e1_frequency_bucket]
+  frequency_buckets:
+    match_on: subject_e1            # a two-hop chain has 3 entities; the bucket indexes the subject
+    covariate: [bridge_e2, answer_e3]   # bridge + answer frequency regressed out, not matched
+  frequency_source: wikidata_sitelinks  # log10 binning of sitelink count
+  covariates_regressed_out:
+    - prompt_length_tokens
+    - colon_local_token_count       # subwords the X labels + "Answer:" occupy near the colon
+    - answer_token_c_frequency_log  # bridge_projection is a dot with an unembedding row; its norm scales with C frequency
+    - bridge_entity_b_frequency_log
+    - relation_pair_id
+  effect_size: cohen_d              # report raw AND after partialling the covariates
+  go_gate: {min_d: 0.3, min_languages: 2}
+
+# arm_b: linear probe on the per-head readout features.
+arm_b:
+  model: logistic_l2
+  cv: group_kfold                   # 5-fold, grouped by chain to block success/fail leakage
+  n_folds: 5
+  group_by: chain
+  # per-language AUC is PRIMARY; pooled-language only as secondary, language-balanced.
+  primary_metric: per_language_auc
+  pooled_auc: {report: secondary, folds: language_balanced}
+  leakage_controls:
+    - language_decoding_negative_control  # probe trained to predict LANGUAGE from the SCH vector
+    - length_only_baseline_probe          # if length alone scores high, the SCH margin is contaminated
+  baselines:
+    - full_residual_norm            # full-residual baseline
+    - output_entropy_maxprob
+    - random_head_pool_layer_matched
+  # Probe and baselines share the readout position, CV folds, seed, and C grid. Residual baselines
+  # that read the question's last token are re-read at the answer colon.
+  apples_to_apples:
+    residual_readout_token: answer_colon
+    same_cv_seed: true
+    same_fold_assignment: true
+    inner_cv_C_grid: shared         # sweep L2 C on the SAME grid for both probes
+    feature_scaling: zscore_fit_on_train_only
+    residual_spec: pin              # single full-layer vector vs concat, and at which layer
+  targets: {min_auc: 0.75, min_margin_over_residual: 0.10}
+  report_grouped_cv_ci: true        # multiply item-level half-width by sqrt(n_items/n_groups)
+  # Negative control: raw EN-fail includes present-but-corrupted facts -> use a positively-confirmed absent set.
+  falsifier:
+    set: [en_two_hop_fail, en_first_hop_fail, en_second_hop_fail]   # ALL three fail = fact unrecoverable
+    alias_crosscheck: 2             # >=2 alias/paraphrase EN prompts also fail
+    frequency_matched_on: [answer_e3, bridge_e2]
+    expected_auc: [0.45, 0.55]      # CI must exclude 0.6
+    raw_en_fail_auc: sensitivity_check
+
+# arm_c: magnitude vs direction of head writes (under-activation vs re-routing).
+arm_c:
+  magnitude_feature: ov_norm
+  alignment_feature: qk_cosine_at_matched_norm   # derive cosine as bridge_projection / ov_norm
+  stratify_by: layer_band           # pool is not layer-coherent; cutoffs in pools.yaml
+
+# arm_d: link between readout deficit and amplification rescue, tested as a CONTINUOUS trend
+# (a binned Spearman test is underpowered); bins are used for figures only.
+arm_d:
+  deficit_score_from: arm_a         # per-item deficit score from arm_a
+  amplification_alpha: 1.0
+  link_stat: point_biserial_logistic_trend   # Cochran-Armitage on the per-item continuous deficit score
+  target_rho: 0.4                   # effect-size target; the TEST is continuous, not binned
+  bins_for_figure_only: 4           # 4 bins are a VISUAL overlay, never the significance test
+
+# arm_e: readout-gated English-detour recovery (adds a recovery generation).
+arm_e:
+  trigger_from: arm_b               # probe score gates the detour (fallback: arm_a deficit score)
+  recovery: english_detour          # answer in EN, then render the answer into X
+  detour_language: en
+  policies:                         # compared on an accuracy/cost Pareto curve
+    - always_x                      # baseline: answer in X, no recovery
+    - always_detour                 # upper bound: every item detours via EN (maximum cost)
+    - beacon_gated                  # selective: detour only when the gating score exceeds the threshold
+  threshold_sweep: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]   # operating points
+  cost_unit: forward_passes         # report accuracy vs added generation cost, never a single number
+  compare_against: arm_d            # compared with amplification on the re-routing subset
+  scoring:
+    back_translation_entity_match: true   # score by e3 QID, not string; back-translate X answer -> EN, require consistency
+    report: [entity_level, surface_level] # routing rescue vs raw string match
+  # oracle-free policy: does not assume EN success.
+  oracle_free_policy:
+    route_to: most_confident_language
+    confidence_signal: colon_maxprob_or_seq_nll
+    calibration_split: held_out_language_balanced_fold   # never the test fold
+    abstain_threshold_sweep: true
+    abstain_if_all_weak: true
+  report_pareto: [oracle, oracle_free]   # label which curve is deployable
+
+# Compute budget, for sanity-checking COLON-CAPTURE volume ONLY.
+budget:
+  core_passes: 8300                 # arm_a..arm_c on failure + matched-success subsets
+  broad_passes_cap: 80000           # full valid sets + EN-fail falsifier
+  # NOTE: these exclude the upstream evaluation passes and head-pool discovery, which dominate
+  # compute. See configs/compute.yaml.

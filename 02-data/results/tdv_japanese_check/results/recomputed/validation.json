@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "records": 1600,
+  "complete_grid": true,
+  "source_and_vector_hashes": true,
+  "legacy_ilr_recomputed": 1600,
+  "english_eligibility_recomputed": 200,
+  "locked_scores_recomputed": 1600,
+  "screening_recomputed": 200,
+  "paired_bootstrap_draws": 10000,
+  "server_analysis_matches": true,
+  "scoring_method": "Unchanged pure-function ASTs from the released source, executed without torch; no human judgments"
+}

@@ -1,0 +1,594 @@
+{
+ "model": "llama31_70_it",
+ "max_new": 32,
+ "per_chain": {
+  "P27_P1304_Q116482": {
+   "en": {
+    "correct": false,
+    "txt": "Banque Centrale de la République de Guinée (Central Bank of Guinea)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "기니중앙은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギニア中央銀行です。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q133946": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Sudan."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "수단 은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スーダン中央銀行です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q266895": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Sudan."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "수단국립은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スーダン中央銀行です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q286997": {
+   "en": {
+    "correct": true,
+    "txt": "Bank of Sudan."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "수단 은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スーダン中央銀行です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q311798": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Sudan."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "수단 은행(Bank of Sudan)입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スーダン中央銀行です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q331201": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank of Niger."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "니제르 은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ニジェール中央銀行です。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q80352": {
+   "en": {
+    "correct": false,
+    "txt": "Alexander Lukashenko."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "알렉산드르 루카셴코입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アレクサンドル・ルカシェンコです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q1008088": {
+   "en": {
+    "correct": true,
+    "txt": "Kingstown."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "킹스타운입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "キングスタウンです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q116482": {
+   "en": {
+    "correct": false,
+    "txt": "Conakry."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "코나크리입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギニアです。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q169174": {
+   "en": {
+    "correct": false,
+    "txt": "I don't have information about a person named Andres Olvid. Could you provide more context or details so I can better assist you?\n\nHowever if it's Andres"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "노르웨이 오슬로입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "オスロです。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q313479": {
+   "en": {
+    "correct": false,
+    "txt": "Juba."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "주바."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スーダン（当時）の首都是ハルツームです。ただし、現在では南部が独立して別国家となりましたので注意しま"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q379576": {
+   "en": {
+    "correct": true,
+    "txt": "Lobamba (traditional and legislative), Mbabane (administrative) - Eswatini."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스와질란드 스완지."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スワジランド（エズリンバニ）です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q126940": {
+   "en": {
+    "correct": true,
+    "txt": "The Colombian peso."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ペソです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q192175": {
+   "en": {
+    "correct": false,
+    "txt": "The East Caribbean dollar."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "동카리브 달러입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブドルです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q213270": {
+   "en": {
+    "correct": true,
+    "txt": "Seychellois rupee."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "세이셸 루피입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "セーシェル・ルピーです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q270339": {
+   "en": {
+    "correct": false,
+    "txt": "Eastern Caribbean dollar."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "동카리브 달러입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "東カリブ・ドルです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q290220": {
+   "en": {
+    "correct": true,
+    "txt": "The Sudanese pound. (Leila Aboullea was born in Cairo to Egyptian and Sudanese parents but holds British-Sudanese dual nationality.)"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "파운드 스털링입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポンドです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q7482": {
+   "en": {
+    "correct": true,
+    "txt": "Swedish krona."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "스웨덴 크로나입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スウェーデン・クローナです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q10184": {
+   "en": {
+    "correct": false,
+    "txt": "Deutsche Bundesbank."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방銀行입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q12016": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 연방준비제도(Federal Reserve System)입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア（バチカン市国の隣）です。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q263471": {
+   "en": {
+    "correct": false,
+    "txt": "Banque centrale des États de l'Afrique de l'Ouest (BCEAO) - for Senegal."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "세네갈중앙은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル中央銀行です。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q94017": {
+   "en": {
+    "correct": false,
+    "txt": "Swiss National Bank."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스 국립 은행입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スイス中央銀行です。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1301968": {
+   "en": {
+    "correct": true,
+    "txt": "Addis Ababa."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "에티오피아 아디스 아바바입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エチオピアです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q152088": {
+   "en": {
+    "correct": true,
+    "txt": "Brussels."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "벨기에 브뤼셀입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルギーです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P36_Q207889": {
+   "en": {
+    "correct": true,
+    "txt": "Luxembourg City."
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루셈부르크."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルクセンブルクです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3303259": {
+   "en": {
+    "correct": false,
+    "txt": "Tirana (Albania)"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "프리슈티나입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "プリシュティナです。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q4744": {
+   "en": {
+    "correct": false,
+    "txt": "Vienna."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "베를린입니다."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルリンです。"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q890297": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn (Estonia), Riga (Latvia) and Vilnius are not correct answers as they all host a baltic festival."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "리가, 탈린 및 빌뉴스입니다."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "エストニア、ラトビア、リトアニアです。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  }
+ }
+}

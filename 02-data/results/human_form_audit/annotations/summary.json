@@ -1,0 +1,135 @@
+{
+  "zh": {
+    "n_outputs": 120,
+    "n_pairs": 60,
+    "source_sha256": "368f10c3dc8ba3d457de121e0522cff61ad63b8f41e17aaf88584cbdf25dfeca",
+    "reference_changes": 0,
+    "content_by_arm": {
+      "I": {
+        "correct": 58,
+        "incorrect": 2
+      },
+      "C": {
+        "unassessable": 22,
+        "correct": 15,
+        "incorrect": 21,
+        "uncertain": 2
+      }
+    },
+    "content_transitions": [
+      {
+        "intervention": "correct",
+        "control": "correct",
+        "n": 15
+      },
+      {
+        "intervention": "correct",
+        "control": "incorrect",
+        "n": 19
+      },
+      {
+        "intervention": "correct",
+        "control": "unassessable",
+        "n": 22
+      },
+      {
+        "intervention": "correct",
+        "control": "uncertain",
+        "n": 2
+      },
+      {
+        "intervention": "incorrect",
+        "control": "incorrect",
+        "n": 2
+      }
+    ],
+    "correct_I_incorrect_C": 19,
+    "correct_I_unassessable_C": 22,
+    "form_among_content_correct": {
+      "I": {
+        "not_applicable": 58
+      },
+      "C": {
+        "not_applicable": 15
+      }
+    },
+    "blank_rationale": 120
+  },
+  "ko": {
+    "n_outputs": 146,
+    "n_pairs": 73,
+    "source_sha256": "71dedca7685cd6bdcde4c487054e072290690ea933ab0d4c334c6e70dcf8e777",
+    "reference_changes": 0,
+    "content_by_arm": {
+      "I": {
+        "correct": 66,
+        "uncertain": 6,
+        "incorrect": 1
+      },
+      "C": {
+        "correct": 26,
+        "uncertain": 3,
+        "unassessable": 28,
+        "incorrect": 16
+      }
+    },
+    "content_transitions": [
+      {
+        "intervention": "correct",
+        "control": "correct",
+        "n": 25
+      },
+      {
+        "intervention": "correct",
+        "control": "incorrect",
+        "n": 15
+      },
+      {
+        "intervention": "correct",
+        "control": "unassessable",
+        "n": 24
+      },
+      {
+        "intervention": "correct",
+        "control": "uncertain",
+        "n": 2
+      },
+      {
+        "intervention": "incorrect",
+        "control": "unassessable",
+        "n": 1
+      },
+      {
+        "intervention": "uncertain",
+        "control": "correct",
+        "n": 1
+      },
+      {
+        "intervention": "uncertain",
+        "control": "incorrect",
+        "n": 1
+      },
+      {
+        "intervention": "uncertain",
+        "control": "unassessable",
+        "n": 3
+      },
+      {
+        "intervention": "uncertain",
+        "control": "uncertain",
+        "n": 1
+      }
+    ],
+    "correct_I_incorrect_C": 15,
+    "correct_I_unassessable_C": 24,
+    "form_among_content_correct": {
+      "I": {
+        "not_acceptable": 66
+      },
+      "C": {
+        "not_acceptable": 26
+      }
+    },
+    "blank_rationale": 146
+  }
+}

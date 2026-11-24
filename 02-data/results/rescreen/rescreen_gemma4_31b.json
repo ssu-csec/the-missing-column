@@ -1,0 +1,3618 @@
+{
+ "model": "gemma4_31b",
+ "max_new": 32,
+ "per_chain": {
+  "P27_P1304_Q110586": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank Of Kenya (CBK)\n\nThe CBK was established in 1965 and has been responsible for regulating monetary policy since then;"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "케냐중앙은행\n\nSarah is a Kenyan athlete who competes in long-distance running events, including the marathon and half marathons.[1] She has"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ケニア中央銀行\n\n<h2>Sarah Chepkirui</h2>\n\n\nケニヤ出身のマラソンランナー、サラ・チェプキルイ（1"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q113409": {
+   "en": {
+    "correct": false,
+    "txt": "The National Bank Slovakia (NBS) serves as a member state's national authority in charge of monetary policy and financial stability within its jurisdiction; it "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "폴란드국립중앙은행\n\nExplanation : 1985년생인 마렉 자그라판(Marek Zagrań)는"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポーランド国立銀行\n\n<h2>Marek Zagrań</h2>\n\n\nポーランド出身で、現在はチェコ共和国のアイスホッケー選手として活躍している<strong>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q114450": {
+   "en": {
+    "correct": true,
+    "txt": "The Bulgarian National Bank (BNB) serves as Bulgaria's sole monetary authority and its only issuer of banknotes in circulation within that nation; it also acts "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "불가리아 국민 은행\n\nGeo Miles는 1895년 라도미르에서 태어났습니다(당시 오스만 제국)."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行\n\n<h2>GeoMilev</h2>\n\n\n<b>ブルガリヤ</b>（Bulgaria）は、バルカン半島東部に位置する共和"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q115598": {
+   "en": {
+    "correct": true,
+    "txt": "The Bulgarian National Bank (BNB) serves as Bulgaria's sole monetary authority and its primary objective includes maintaining price stability in line with Europ"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "불가리아국립중앙은행\n\nExplanation : The central bank of the country where <b>Mara</b> is from, Bulgaria (Bulgaria), would be called"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行\n\n<h2>ブルガリア中央銀総裁、デジタル通貨は「非常に危険」と警告</h2>\n\n\n出典：https://coinpost"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q116059": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank of Spain (Banco de España) serves as both a regulator and supervisor for Spanish banks in addition to being responsible for monetary policy implementat"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "콜롬비아\n\nExplanation : 1984년, 로드리고 라라(Rodrigo Lara)는 마약과의 전쟁을 선포"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "コロンビア中央銀行\n\n<h2>Rodrigo LARA</h2>\n\n\n<strong>コロンビア</strong>出身のエリート官僚で、1983年から翌年に"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q116482": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank in Senegal (BCEAO)\n\nThe BCEAO was created on 12 May 1959 by a convention signed between France"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "BCEAO\n\nExplanation : The central bank of the country where he is from, Senegal (and other West African countries), which uses CFA franc as its currency and"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル中央銀行\n\n<h2>Pape Abdou CAMARA</h2> <h3>Current Position</h3> Governor, Central Bank of West African States (BCEAO)"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q117034": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank Of Nigeria (CBN)\n\nThe CBN was established in 1958 and commenced operations on July 01st , 12"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "나이지리아\n\nExplanation : The Central Bank of Nigeria (CBN) is the central bank and apex monetary authority in charge with regulating financial institutions, issuing"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "中央アフリカ諸国の金融機関である中央アフリカ共和国（BEAC）は、カメルーン・ドゥアラにある支店で201"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q117439": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Greece (Τράπεζα της Ελλάδος)\n\nThe Central Banks are responsible for monetary policy and financial stability in their respective countries or regions"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "그리스 은행\n\nIoannis Nektarios (John) Ziziulas, Metropolitan of Pergamon is a Greek Orthodox theologian and bishop who has been described as \"one"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギリシャ中央銀行\n\nIoannis N. Ziziolasは、1932年生まれで現在87歳の神学者です。「聖霊"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q120128": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank Of Nigeria (CBN)\n\nThe CBN was established in 1958 and commenced operations on July 01st , 12"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "나이지리아\n\nExplanation : 이케 쇼룬무는 1967년생으로, 현재까지도 활발하게 활동하고 있는 축구"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ナイジェリア中央銀行\n\n<h2>Ike Shorunm</h2>\n\n\nナイジェリア出身で、1967年生まれです（20代）。"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q121693": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank of Iceland (Seðlabanki Íslands) serves as the national monetary authority for all Icelandic króna currency and financial transactions within it"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드 은행\n\nExplanation : \"Svava was born in Reykjavík, Iceland\"에서 알 수 있다\n\n\n--------------------\n\n\n\n1) <b><u>정"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アイスランド中央銀行\n\n<h2>Svava Jónsdóttír</h2>\n\n\n<b>スヴァーヴァ・ヨンズドッティル</b>（アイス"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q12696": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Japan (BOJ) serves as the central banking institution for Japanese yen and other currencies in circulation within its borders; it also regulates com"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "일본 은행\n\nNitobe, a Japanese author and educator who wrote about the samurai code of bushido in his book \"Bushidō\" (190"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "日本\n\nNitobe, a Japanese author and educator who wrote the book \"Bushido,\" was born in 1862. He studied at Sapporo"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q128936": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank of Iceland (Seðlabanki Íslands) serves as the national monetary authority for all Icelandic króna currency and financial transactions within it"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드 크로나\n\nKolbeinn Þórðarson (1905년 4월 23일 ~ ?)는 미국의 영화"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アイスランド中央銀行\n\n<h2>Kolbeinn Þórðarson</h2>\n\n\n<b>コレイヌル・ソルダルソン</b>（アイスランド語：<i>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13132": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Canada (French : Banque du Canada) serves as both a private and public institution in its role to promote economic welfare for all Canadians by keep"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "캐나다 은행\n\nErik Mongrain is a Canadian guitarist and composer known for his unique fingerstyle guitar playing technique, which involves tapping the strings with bo"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カナダ中央銀行\n\nカナディアン・ドルの発行元である、<strong>Bank of Canada</strong>（バンクオブカナダ）は1934"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13230": {
+   "en": {
+    "correct": true,
+    "txt": "The Swiss National Bank (SNB) serves as Switzerland's national monetary authority and performs all functions associated therewith in accordance to its mandate f"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스국립은행\n\nExplanation : 페르디낭 드 소쉬르는 1857년 제네바에서 태어났습니다("
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行\n\n<h2>Ferdinand de Sausse</h2>\n\n\nフェルディナン・ドゥ＝ソシュール（1857年-"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q132361": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Estonia (Eesti Pank) serves as both a commercial and investment banking institution in addition to its role within Eurosystem monetary policy implem"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "폴란드국립중앙은행(NBP)\n\nJanek Miet is a Polish economist and the current President of Narodowy Bank Polski (National Bank of"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロシステム\n\n<h2>JanekMeetとは</h2>\n\n\n<strong>「</strong><b>JANEK MEET</b>」は、2019年4月3"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q133308": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank of Egypt (CBE) serves as the national monetary authority and regulator for all banks operating in Egypt under its supervision or control; it al"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "이집트\n\nExplanation : The central bank of the country where someone is from can be determined by looking at their nationality and then finding out which institutio"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "エジプト中央銀行\n\nエジプトは、アフリカ大陸北東部に位置するアラブ連邦共和国です。首都カイロには約2"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q133450": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank Of Kenya (CBK)\n\nThe CBK was established in 1965 and has been responsible for regulating monetary policy since then;"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "케냐중앙은행\n\nIsiah는 2019년 말에 미국으로 이주하여 현재 뉴욕에서 거주하고 있습니다. 그는"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ケニア中央銀行\n\n<h2>Isiah KOECH</h2> <h3>Kenya</h3> Born in the Rift Valley, Kenya’s running heartland. He is a member"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13531": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank for International Settlements (BIS) serves as a global financial institution that fosters international monetary and financial cooperation among its me"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "핀란드 은행\n\nExplanation : The central bank of the country where Nanne Dahiman is from, Finland Bank (Suomen Pankki), has been a"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "フィンランド中央銀行\n\nNanne H. M. Dalhmanは、フィンランド出身のエコノミストで現在は国際通貨基金（IMF）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13540": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Finland (Suomen Pankki) serves as the Central Banking Authority for all financial institutions in this Nordic nation and its territories; it was est"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "핀란드 은행\n\nExplanation : The central bank of the country where a person is from can be determined by looking at their nationality and then finding out which instit"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "フィンランド中央銀行\n\n<h2>EmmaLaine</h2>\n\n\nフィンランド出身で、2013年に引退した元女子プロテニス選手です"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q13541": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Finland (Suomen Pankki) serves as the Central Banking Authority for all financial institutions in this Nordic nation and has been doing so since its"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "핀란드 은행\n\nExplanation : The central bank of the country where Mr.Tuomas is from, Finland Bank (Suomen Pankki) was established in"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "フィンランド中央銀行\n\n<h2>Tuomas Ketol</h2>\n\n\n<strong>フィンランド</strong>出身で、現在30歳です（2019年時点"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q137732": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank in Iceland was established on 29 May 1874 as a private institution under Danish law and operated until it became an independent state"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아이슬란드 은행\n\nThorfinn's father was a wealthy merchant and landowner, who had been born in Norway but moved to Iceland with his family when"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アイスランド中央銀行\n\n<h2>Thorfinn_Karlsefni</h2> <h3>概要</h3> トルフィン・カールセフニ（アイスランド語：Þ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1625": {
+   "en": {
+    "correct": true,
+    "txt": "The Riksbank (Sveriges riksbank)\n\nThe question-answer pair above was generated by a large language model and it contains an error in"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스웨덴 리크스방크\n\nExplanation : 1920년, IOC는 올림픽을 위한 상설 사무국 설립에 대한 논"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデン中央銀行\n\nSigfrid Edvard Adolfsson (1870- 23 February, Stockholm) was a Swedish industrialist and sports"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q165852": {
+   "en": {
+    "correct": true,
+    "txt": "The Banka Slovenije (Bank of Slovenia) serves as the national monetary authority and acts on behalf of Eurosystem in performing its tasks within European Union'"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "슬로베니아 은행\n\nJAKA HVALA는 2019년 유럽중앙은행(ECB)에서 발표한 '유럽"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スロベニア中央銀行\n\nスロヴェニヤ共和国（Slovenia）は、ヨーロッパ中部に位置する共和制国家です。「アルプス"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1753": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy (Italian Banca d'Italia) serves as both a commercial and investment banking institution in addition to being an independent public body that a"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행\n\nExplanation : The central bank of the country where an individual resides is typically responsible for monetary policy and financial regulation in that"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア中央銀行\n\nイタリアは、ヨーロッパで最も古い歴史を持つ国の1つであり、その文化や芸術が世界的に有名です。また、経済面"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q185636": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank for West African States (BCEAO) serves as a common monetary authority and lender to member states in Western Africa including Senegal where she"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "BCEAO\n\nExplanation : The Central Bank of West African States (French acronym, the Banque Centrale des États de l'Afrique de l’Ouest or \"B"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル中央銀行\n\n<h2>Ken Bugul</h2>\n\n\n<b>ケーン・ブグル</b>（1947年 - ）は、セネガ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q1950": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Italy (Banca D'Italia)\n\nThe following are more examples from this dataset in JSON format:\n\n\n\n{\"prompt\": \"Instruction: Write"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행\n\nExplanation : 알베르토 톰바는 스키 선수로, 그의 출생지는 볼로나입니다(출처). 따라서"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア中央銀行\n\nイタリアは、ヨーロッパで最も古い歴史を持つ国の1つであり、その文化や芸術には世界中から多くの人々が魅了されています"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1958": {
+   "en": {
+    "correct": true,
+    "txt": "The Swiss National Bank (SNB) serves as Switzerland's national monetary authority and performs all functions associated therewith in accordance to its mandate f"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스국립은행\n\nExplanation : 1980년대와 20세기 후반에 활약한 알프스키 선수인 브"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行\n\n<h2>Vreni Schneider</h2>\n\n\n<b>ヴェレニ・シュナイダー</b>（<i>Vreni Schnieder</i>、1964"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1962": {
+   "en": {
+    "correct": true,
+    "txt": "The Swiss National Bank (SNB) serves as Switzerland's national monetary authority and performs all functions associated therewith in accordance to its mandate f"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스국립은행\n\nExplanation : The central bank of the country where Erica Hesse is from, Switzerland (Switzerland), would be called \"Swiss National Bank"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行\n\nスイスは、世界で最も安定した通貨の一つであるフランを発行する中央銀行です。この国の金融政策を担う"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1984": {
+   "en": {
+    "correct": true,
+    "txt": "The Swiss National Bank (SNB) serves as Switzerland's national monetary authority and performs all functions associated therewith in accordance to its mandate f"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스국립은행\n\nMaria는 1980년과 20세에 월드컵에서 처음으로 점수를 얻었습니다("
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行\n\n<h2>Maria Walliser</h2>\n\n\n出典：https://www.youtube.com/watch?v=102-35_"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q1991": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank Of Italy (Banca D'Italia)\n\nThe following are more questions and answers about this topic \"Michela Figin\":\n\n\n1 Question :"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스위스국립은행\n\nExplanation : 1980년대 후반과 초기에, 그녀는 세계에서 가장 성공적인 여성 알파인 레이"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "スイス国立銀行\n\n<h2>Michela Figin</h2>\n\n\n<strong>スノーボード</strong>選手として活躍した、イタリア出身のアメリカ人女性です<sup>1</sup>"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q2006": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Italy\n\nThe following are more examples from this dataset (train) that illustrate the user and assistant intent in a conversation turn by providing i"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행\n\nExplanation : The central bank of Italy is the Bank of Italy (Banca d'Italia). It was established in 189"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア中央銀行\n\nイタリアは、ヨーロッパで最も古い歴史を持つ国の1つであり、その文化や芸術が世界的に有名です。また、経済面"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q26532": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank in Turkey (TCMB)\n\nExplanation for this question and its solution can be found here https://www.youtube.com/watch?"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "터키 공화국\n\nAbdullah Mustafa Avci (Turkish pronunciation:[abdulˈɫah ɑfɯdʒi]; born July 3"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トルコ中央銀行\n\n<h2>Abdullah Avci</h2>\n\n\n<b>アブドゥッラー・アフチ</b>（トルコ語：<i>Abdullah</i>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q3281": {
+   "en": {
+    "correct": false,
+    "txt": "The European Central Bank (ECB) serves as a common monetary authority for all countries that have adopted the euro currency and are members in good standing wit"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "스웨덴 리크스방크\n\nExplanation : 1980년대 초반, 유럽연합(EU)이 출범하기 전부터"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデン中央銀行\n\nMarit保尔森（1945年2月3日出生）是瑞典政治家，自"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q331201": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank Of Libya (CBL)\n\nThe following are more questions and answers about this person's identity document that you should know when answering as accur"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "리비아중앙은행\n\nExplanation : 1970년생인 그는 현재 이집트 카이로에 거주하고 있으며, 그의"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "リビア中央銀行\n\n<h2>Hamid Al-Ghabid</h2>\n\n\nリビアン・インベストメント・オーソリティ（LIA）は、"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q410": {
+   "en": {
+    "correct": true,
+    "txt": "The Federal Reserve System (Fed) serves as a model for other countries' monetary policy and banking systems around which they have developed their own instituti"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Federal Reserve System\n\nExplanation : The central bank of the United States is called \"Federal Reserve\" or simply, Fed for short and it was established in 1"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アメリカ合衆国の連邦準備制度\n\n<h2>Carl Edward Sagan</h2>\n\n\n<b>カール・エドワード・セーガン</b>（英語：<i><u>C"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q4790": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy (Italian Banca d'Italia) serves as both a commercial and investment banking institution in addition to being an independent public body that a"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행\n\nExplanation : The central bank of the country where Michelle Pelizzari is from, Italy, would be Banca d'Italia (Bank of"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア中央銀行\n\nイタリアは、ヨーロッパで最も古い歴史を持つ国の1つでありながらも経済的には先進的な国家です。その中でも金融システムにおいて重要な"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q4864": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank of Russia (Russian Central Bank)\n\nThe following are more questions and answers in a similar format to above that I would like you generate for me based"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아 연방중앙은행\n\nEugene Kapersky는 1965년생으로, 현재 카스퍼스키랩(Kaspersky Lab)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロシア中央銀行\n\n<h2>ロシア連邦</h2>\n\n\n首都：モスクワ（Moscow）　人口1,209万人、都市圏"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q5105": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Canada (French : Banque du Canada) serves as both a private and public institution in its role to promote economic welfare for all Canadians through"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "캐나다 은행\n\nCéline Marie Claudette Dion CC OQ (French pronunciation:[selin djɔ̃]; born 30 March19"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カナダ中央銀行\n\nカナディアン・ドルは、1938年に設立された「Bank of Canada」によって発行されています。「Céline"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q6100": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank for International Settlements (BIS) serves as a global financial institution that fosters international monetary and financial cooperation among its me"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "러시아 연방중앙은행\n\nExplanation : 2013년, 그녀는 도핑 테스트에서 양성 반응을 보였고 그 결과로"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア連邦中央銀行\n\nロシアは、ウクライナ侵攻で制裁を受けているが、「ルーブル」という通貨を保有しているため経済"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q70155": {
+   "en": {
+    "correct": true,
+    "txt": "The Norges Bank (Norwegian Central Bank) serves as Norway's monetary authority and financial regulator since 1892 when it was established by law"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "노르웨이 은행\n\nPer Olov Enquist는 스위스에서 태어났습니다. (O/X) X\n\n\n1980"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ノルウェー中央銀行\n\nPer Pettersonはノルウェー出身です。「Out Stealing Horses」で国際的な評価を得た作家であり、彼の"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q73506": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank and Financial Services Authority (CBFSA) in Ireland was established on 1 October 2003 as a result of an amalgamation between"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드\n\nRoddy Doyle is an Irish novelist, short story writer and screenwriter who has written for both adults (including the Barrytown Trilogy) as well"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイルランド中央銀行\n\nRoddy Doyleはアイルランド出身で、彼の作品にはしばしばダブリンが舞台として登場します。「The Commit"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q7371": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Italy (Italian Banca d'Italia) serves as both a commercial and investment banking institution in addition to being an independent public body that a"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banca d'Italia\n\nFedericoFellini는 이탈리아 출신의 영화 감독입니다. 따라서 그의 국가인 이탈리의 중아 은행을 찾아야"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Banca d'Italia\n\nイタリア中央銀は、1936年に設立された独立した機関で、「通貨政策を策定し実施する」という"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q73920": {
+   "en": {
+    "correct": true,
+    "txt": "The National Bank Of Romania (BNR)\n\nThe BNR was established in 1890 and has been responsible for managing monetary policy since then.["
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루마니아\n\nAdrian diacono는 1978년생으로, 현재까지도 활동하고 있는 프로 복서입니다! 그는 라이트"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ルーマニア国立銀行\n\nAdrian Diaconusは、ルーマニア出身でプロボクサーとして活躍した人物です。彼は197"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q7524": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Canada (French : Banque du Canada) serves as both a private and public institution in its role to promote economic welfare for all Canadians by keep"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "캐나다 은행\n\nExplanation : The Bank of Canada is the central bank in a country where Wikipedia co-founder Jimmy Wales was born, and it has been"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "カナダ中央銀行\n\nカナディアン・ドルは、1935年に発行された最初の紙幣から現在に至るまで、「Bank of Canada"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q81144": {
+   "en": {
+    "correct": true,
+    "txt": "The Bulgarian National Bank (BNB) was established in 1879 as a state-owned commercial and issuing institution under its current name by virtue of"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "불가리아 국민 은행\n\nPetar Stoyanov는 1952년 소피아에서 태어났습니다. 그는 법학 학위를 가지고"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブルガリア国立銀行\n\n<h2>Petar M.Mladenov</h2>\n\n\nブルガリア中央銀総裁（1986年～20"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q81838": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank Of Nigeria (CBN)\n\nThe CBN was established in 1958 and commenced operations on July 01st , 12"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "나이지리아\n\nExplanation : 1984년생인 케네디 이그보아나니케는 미국 메이저 리그 사커"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ナイジェリア中央銀行\n\n<h2>ナイジェリア</h2>\n\n\n<strong>Kennedy Chinedu IGBOANANIKE</strong> (ケネディ・チネド"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q82535": {
+   "en": {
+    "correct": true,
+    "txt": "The Central Bank Of Nigeria (CBN)\n\nThe CBN was established in 1958 and commenced operations on July 01st , 16"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "나이지리아\n\n이 문제에 대한 답변을 생성하는 데 사용된 프롬프트는 다음과 같습니다(출처).\n\n\n<blockquote><code>def generate_prompt"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "中央アフリカ共和国中央銀行\n\n<h2>IbrahimShekaru</h2>\n\n\n<b>イブラヒム・シェカラウ</b>（英語：<i>Malam</i>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q92994": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Greece (Τράπεζα της Ελλάδος)\n\nThe Central Banks are responsible for monetary policy and financial stability in their respective countries or regions"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "그리스 은행\n\nExplanation : The central bank of the country where Michael Dell was born is called \"The Bank Of Greece\". It's located in Athens, which"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギリシャ中央銀行\n\n<h2>Michalis DERTUZOS</h2>\n\n\n<strong>Name</strong> : Mr. MICHALIS DERTOUZOS, Governor of"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q93356": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank Of Ireland (BOI)\n\nThe Central Statistics Office in Dublin has released a report on Irish emigration patterns since 2016 which shows that"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드\n\nSeamus Justin Heaney (13 April 1939 – 30 August 2013) was an Irish"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイルランド中央銀行\n\nSeamus Heanyはアイルランド出身で、ノーベル文学賞を受賞した詩人です。「Digging」という"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P1304_Q94154": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Greece (BoG)\n\nThe BoG was established in 1927 and has been a member of the European System of Central Banks"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "그리스 은행\n\nExplanation : The central bank of the country where <b>Ekaterina Vogouli</b> is from, Greece ,is called Bank Of Greece . It was"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギリシャ中央銀行\n\n<h2>Ekaterina Vogouli</h2>\n\n\n<strong>Name</strong> :  Vogouli, Ekatrini (Ms.)　（"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P1304_Q949": {
+   "en": {
+    "correct": true,
+    "txt": "The Federal Reserve System (Fed) serves as a model for other countries' monetary policy and banking systems around the world because it has been successful in m"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "연방준비제도\n\nExplanation : 존 바딘(John Robert Schrieffer)는 미국 출신의 물리학자입니다. 그는 초전도의"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アメリカ合衆国の連邦準備制度理事会\n\nJohn Bardeenはアメリカ出身であり、彼の研究や業績が評価されノーベル物理学賞"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P35_Q200881": {
+   "en": {
+    "correct": false,
+    "txt": "The President\n\nQ1) What are some common challenges faced by individuals when it comes to managing their finances effectively and how can they overcome them thro"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "카자흐스탄 대통령\n\nQ1) 다음 중 20세기 초반에 활동한 한국인 독립운동가로, 대한민국 임시정"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カシムジョマルト・トカエフ\n\n<h3>問題文</h3>\n\n\n<tex>$N$</tex> 個の商品が売られているお店があります"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P35_Q7747": {
+   "en": {
+    "correct": false,
+    "txt": "The President\n\nVladimir Vladimirovich Putin (Russian pronunciation [vlɐˈdʲimʲɪr vlɐˈdimʲirəvʲitɕ"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "블라디미르 푸틴\n\nVladimir Vladimirovich Putin (Russian pronunciation [vlɐˈdʲimʲɪr vlɐˈdimʲir"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "2018年現在、ロシア連邦大統領であるウラジーミル・プーチンがVladimir Putinです\n\n<h2>問題文</h2>"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q11760": {
+   "en": {
+    "correct": true,
+    "txt": "Warsaw\n\nThe following are more examples from this dataset (train) that illustrate the question-answering format. The data was generated using GPT4 and manually "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던\n\nMarta Zofianna Kwiakowski (born March 19, 20) is a Polish computer scientist and professor"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ワルシャワ\n\nMarta Zofka Kwatkowsk (born 1964) is a Polish computer scientist and professor of computing systems"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q122610": {
+   "en": {
+    "correct": false,
+    "txt": "The Bulgarian Empire was a medieval state in Southeastern Europe that existed from 681 to its conquest by Ottoman Turks between 1352 and 1"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소피아\n\nIvan Asen II (Bulgarian Cyrillic Иван Асен Втори, also known as John Assen or Ioannes) was Tsar"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソフィア\n\n<h2>Ivan Alexander の基本情報</h2> <h3>名前</h3> 日本語名：イヴァン・アレクサンドル（ブルガリア）"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q12484": {
+   "en": {
+    "correct": true,
+    "txt": "Warsaw\n\nJózef (Joseph) Stanisław Maria Michał Jan Kanty Ignacy Franciszek Ksawery Bronisław Władysław Zygmunt"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "바르샤바\n\nJózef Marian Stanisław Maria Franciszek Ksawery Michał Ignacy Tadeusz Jan Nepomucen Andrzej Alojzy Win"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ワルシャワ\n\nJózef Hebbaはポーランド出身です。「Heb」という名前がドイツ語圏でよく見られることから、彼の祖"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q1276": {
+   "en": {
+    "correct": false,
+    "txt": "Montreal\n\nLeonard Norman Cohen was a Canadian singer-songwriter and poet who died in 2016 at age eighty two years old after suffering from cancer for"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "몬트리올\n\nLeonard Norman Cohen (September 21, 1934 – November 7, 2016) was"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "オタワ\n\nLeonard Norman Cohen (September 21, 1934 – November 7, 2016) was a Canadian"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q12773": {
+   "en": {
+    "correct": false,
+    "txt": "The United States\n\nThe following are some examples that show how to use this template for different types of questions and answers related to <strong>Julio Bagh"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마닐라\n\nJulio Cesar \"JC\" de los Reyes Bacalso (born 1982) is a Filipino actor, model and host who"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブダペスト\n\nJulio BAGHY (1906-2003) was a Hungarian composer, pianist and conductor. He studied at"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q12819": {
+   "en": {
+    "correct": false,
+    "txt": "The city that serves as a political and administrative center for Poland (Małgorzat's home nation) would be considered its \"capital.\" This location typically"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Warsaw\n\nMałgorzta Anna HANDZLIK (born 1964) is a Polish politician and Member of the European Parliament for Lesser Poland with"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ワルシャワ\n\nMałgorzatą Anna Maria (née Kaczorowska) is a Polish politician. She was born on 196"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q12854": {
+   "en": {
+    "correct": false,
+    "txt": "The United States\n\nThe following are some examples that I have tried to run on my local machine and they all work fine (I am using a 30"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "베를린\n\nSonja is a linguist and the creator of Toki Pona, an international auxiliary language with only 120 words that can"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルリン\n\nSonjaはドイツ出身なので、その国の首都である「Berlin」が正答となります。「Germany」「Deutschland（独語）」でも可"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q13230": {
+   "en": {
+    "correct": false,
+    "txt": "Geneva\n\nThe following are more examples from this dataset (train) that illustrate how to use it for instruction-response pairs in a question answering task wher"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "제네바\n\nExplanation : 페르디낭 드 소쉬르는 스위스 출신의 언어학자입니다. 그의 주요 업적으로 구조주의를"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "パリ\n\n<h2>Ferdinand de Sausse</h2>\n\n\n1857年生まれ、スイス出身で言語学者です。「一般言語学講義"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q153503": {
+   "en": {
+    "correct": false,
+    "txt": "The city that serves as a national or regional seat for government and administration in Mexico City (Mexico).\n\nThe question-answer pair above was generated by "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마드리드\n\nJuan Felix Sanchez (born 1968) is a Spanish serial killer who murdered three women in the city of León, Spain between"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "マドリード\n\nJuan Felix Sanchezは、スペイン出身で1970年生まれです（24歳）。彼はプロサッカー選手として活躍し、「"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q167444": {
+   "en": {
+    "correct": false,
+    "txt": "Juba\n\nExplanation for Instruction and Question/Answers above (not needed in final dataset): The instruction tells us to provide a brief response without any add"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "카르툼\n\nExplanation : 존 가랑은 남수단의 정치인으로, 1983년부터 내전이 끝난 후까지 수단"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジュバ\n\n<h2>JohnGarang</h2>\n\n\nジョン・ガラン（英語：<b>Dr.</b> <strong>JOHN GARANG</strong> de Mabior、19"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P36_Q169174": {
+   "en": {
+    "correct": true,
+    "txt": "Tallinn\n\nThe following are more examples from our dataset (the first 10 samples):\n\n\n<code>{'instruction': 'What was a major event in history that"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Tallinn\n\nAndres Olvik is an Estonian artist and designer who was born in 1975, making him currently around the age of [46"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "タリン\n\n<h2>AndresOlvik</h2>\n\n\n<strong>アンドレス・オルヴィク</strong>（エストニア語：<em>Andres</em> <i>Olvik"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q179513": {
+   "en": {
+    "correct": true,
+    "txt": "Ljubljana\n\nThe following are some examples that show how to use this template in articles about people who have dual or multiple citizenships and/or nationaliti"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Ljubljana\n\nExplanation : 1982년 슬로베니아에서 태어난 프란치 페텍은 스키 점프 선수입니다. 그는"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "リュブリャナ\n\n<h2>問題</h2>\n\n\nFranci Petekは、1965年2月8日に生まれたスロベニア出身のスノー"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q267687": {
+   "en": {
+    "correct": true,
+    "txt": "Valletta\n\nThe following are some examples that show how to use this template in articles about people who have been citizens or residents (or both) at different"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Valletta\n\nExplanation : 피에트루 카사로(Pietru Cazarro) 는 몰타 출신의 시인으로, 156"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "バレッタ\n\n<h2>Pietru Cacciari</h2>\n\n\n<b>ピエトロ・カッチャリ</b>（1596年 - 1"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q400": {
+   "en": {
+    "correct": false,
+    "txt": "Los Angeles\n\nThe following are some examples that show how to use this template for your own questions and answers (Q&A). You can modify them by changing"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "워싱턴 D.C\n\n1) 20세기의 가장 위대한 과학자는 누구인가요 ? (힌트 : 상대성 이론을 발표"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロサンゼルス\n\n<h2>Jenna Haze</h2>\n\n\nジェナ・ヘイズ（1982年6月30日 - ）は、"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q6399": {
+   "en": {
+    "correct": true,
+    "txt": "Warsaw\n\nThe following are multiple choice questions (with answers) about this article:\"Anita Wlodarczyk\".\n\n\n1. Who holds both Olympic and world records"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "바르샤바\n\nExplanation : 1)Anita is a Polish athlete who competes in the hammer throw event, and Poland's capital city is Warsaw ("
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ワルシャワ\n\nAnita Wlodarczykは、ポーランド出身の世界的なハンマー投げ選手です。彼女が生まれたのは1985年"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q6530": {
+   "en": {
+    "correct": false,
+    "txt": "The nationality and place where he was born are not mentioned in this article; however it can be inferred that his birthplace must have been somewhere within Po"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "바르샤바\n\nStanisław Herman Lem (23 September 1921 – 27 March 2006) was a"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ワルシャワ\n\nStanisław Herman Lem (23 September 1921 – 27 March 2006) was a"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q73418": {
+   "en": {
+    "correct": true,
+    "txt": "Dublin\n\nThe following are some examples that I have tried to run on my local machine and they all work fine but when i try it in colab notebook its"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "더블린\n\nPatrick Joseph Declan \"Paddy\" McGuinness (born 12 August 1973) is an English comedian, actor and"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ダブリン\n\n<h2>PatrickKavanagh</h2>\n\n\nパトリック・カヴァナは、アイルランド出身で1904年生まれです。「"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q73920": {
+   "en": {
+    "correct": true,
+    "txt": "Bucharest\n\nExplanation for Instruction and Question/Answering Format (for reference): The instruction provides a clear guideline on how to respond - by giving o"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "부쿠레슈티\n\nAdrian diacono (1978년 2월 3일 출생)은 루마니아 프로 복서"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ブカレスト\n\nAdrianDiaconuは、ルーマニア出身で現在カナダ在住の世界的なプロボクサーです。彼は197"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q75697": {
+   "en": {
+    "correct": false,
+    "txt": "Pristina\n\nThe following are more examples from our dataset (with ground truth answers):\n\n\n* Question 1) Who was a member in The Beatles and died"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "자카르타\n\nIna Rama is a prominent figure in the field of law and human rights, known for her dedication to justice and equality. Born on"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "プリシュティナ\n\n<h2>Ina Ramas</h2>\n\n\nイナ・ラマは、コソボ出身で国際法と人権法の専門"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P36_Q93356": {
+   "en": {
+    "correct": true,
+    "txt": "Dublin\n\nSeamus Justin Heaney was an Irish poet and playwright from Northern Ireland who won a Nobel Prize in Literature for his work which \"in lyrical beauty\""
+   },
+   "ko": {
+    "correct": true,
+    "txt": "더블린\n\nSeamus Justin Heaney (1939년 4월 12일 ~ )은 아일랜드 북부 출신의"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ダブリン\n\nSeamus Heanyは、アイルランド出身でノーベル文学賞を受賞した詩人です。「北のアイルランド」と呼ばれる"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P36_Q949": {
+   "en": {
+    "correct": false,
+    "txt": "Chicago\n\nThe above example shows a question-answer pair from our dataset that requires reasoning over multiple facts to arrive at an accurate response (i) The n"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "워싱턴 D.C\n\nJohn Robert Schrieffer (May 31, 1931 – July 27, 20"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ワシントンD.C\n\nJohn Robert Schriefferは、アメリカ合衆国の物理学者でノーベル賞受賞者です。彼は193"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P36_Q9586": {
+   "en": {
+    "correct": true,
+    "txt": "Vienna\n\nThe following are multiple choice questions (with answers) about this article:\"Annemarie Pröll\"\n\n\n1. Who was born on March 2"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "비엔나\n\n<h2>Annemarie Pröll</h2>\n\n\n<b>출생</b> 1953년 (68세) 오스트리아 슈타"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウィーン\n\n<h2>AnnemarieMoserProell</h2>\n\n\n<b>アンネマリー・モーザー＝プレル</b>（ドイツ語：<i>Annem"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q116059": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso (COP)\n\nThe following are more examples from our dataset that show how we can use this format to ask and respond questions about a person's"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소\n\n1984년 3월, 당시 대통령이었던 벨리스라리오 베탄쿠르(Belisario"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "コロンビア・ペソ\n\n<h2>Rodrigo Lara</h2>\n\n\n<strong>ロドリゴ·ララ</strong>（1946年5月28日"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q11873": {
+   "en": {
+    "correct": true,
+    "txt": "The Canadian dollar (CAD)\n\nThe following are more questions and answers about this person's passport information that you should use as examples for your own qu"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "미국 달러\n\n1) 20,567달러를 원으로 환전할 때 얼마가 필요합니까?(환율은 $"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル\n\n<h2>問題文</h2>\n\n\nDaleは、彼の国の貨幣であるドルを管理する銀行で働いています。<tex>$1$</tex>"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q126937": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian lari (GEL)\n\nThe following are multiple choice questions about a single text passage. Choose one option from A-E for each question and explain"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "겔(GEL)\n\n<h2>Levan Mchedlize</h2>\n\n\n레반 메드리지 (1987년생, 조지아"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラーリ\n\n<h2>LevanMchedlidzes</h2>\n\n\n<strong>レバン・ムチェドリーゼ</strong>（1987年3月2"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q126940": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso\n\nThe following are more examples from our dataset (with answers):\n\n\n* Question: Who was a member in 1980s and early"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소\n\nExplanation : 1962년생인 로베르토 게레로는 포뮬러 원(F-3"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "コロンビア・ペソ\n\nRobertoGuerreroは、コロンビア出身でアメリカ合衆国のインディカーシリーズやCARTなどで活躍したレー"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q12773": {
+   "en": {
+    "correct": true,
+    "txt": "The Hungarian forint (HUF)\n\nThe following are some examples that show how to use this template in articles about people who have multiple citizenships and/"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "헝가리 포린트\n\nExplanation : The currency of Hungary is the Hungarian Forint (HUF). It has been in use since August 1"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ\n\nJulioはハンガリー出身で、現在はオーストリア在住です（2019年現在）。両国の共通する"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q128936": {
+   "en": {
+    "correct": true,
+    "txt": "Icelandic króna (ISK)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain y"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아이슬란드 크로나\n\nKolbeinn Þórðarson (born 1980) is an Icelandic actor and director, best known for"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイスランドクローナ\n\n<h2>KolbeinnSigthorsson</h2>\n\n\n<strong>コレイヌル・シグソールソン</strong>（アイスランド語："
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q12897": {
+   "en": {
+    "correct": true,
+    "txt": "Brazilian real (BRL)\n\nPelé was a professional soccer player from Brazil who played for Santos FC and New York Cosmos during his career as well winning three"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 헤알\n\nPelé, whose full name is Edson Arantes do Nascimento (born October 23rd ,1940), was"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "レアル\n\nPeléはブラジル出身であり、その国の公式通貨がレアルです。「ペソ」や「ドル」、「ユーロ」「ポンド"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q136982": {
+   "en": {
+    "correct": true,
+    "txt": "Ghana cedi (GHS)\n\nThe following are some examples for you to follow when answering questions about a person's nationality and their corresponding national curre"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "이탈리아 리라\n\n1980년대에 태어난 축구선수 중 한 명인 아미두 살리푸(Amidu"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "セディ\n\n<h2>Amidu Salif のプロフィール</h2> <h3>基本情報</h3> 名前：アミドゥ・サリフ（英語表記は、AM"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1568174": {
+   "en": {
+    "correct": false,
+    "txt": "Seychelles rupee (SCR)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain "
+   },
+   "ko": {
+    "correct": true,
+    "txt": "세이셸 루피\n\nWavel John Charles Ramkalwan (1962년 5월)은 현재 대통령인 Seychellois 정치인이"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "セーシェル・ルピー\n\n<h2>Wavel John Charles Ramkalwan</h2>\n\n\n出典：Wikipedia.org (CC BY-SA 3.0)"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q157197": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\n\nThe correct option for this question would be \"Somali Shilling\". The reason being that Somalia's official name was changed from Italian Somal"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nAden Abdulle International Airport is the main airport in Somalia, located near Mogadishu and named after former President Adan Abdule"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\n\nAden Abdulle International Airport is the main international airport in Somalia. It serves as a hub for several airlines and offers flights to"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q162202": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD)\n\nThe following are some examples that can be used to test your model's performance on this task using a few-"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago Dollar\n\n1) 20세기 초반에 미국에서 가장 인기 있는 음악 장르는 어떤 것이었나요?? (정확한 이름"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル\n\nNicki Minajは、トリニダート出身のアメリカ人ラッパーです。彼女の本名はOnika"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1625": {
+   "en": {
+    "correct": true,
+    "txt": "Swedish krona (SEK)\n\nThe following are multiple choice questions about a single text passage. Choose one option from A-E for each question and explain"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "스웨덴 크로나\n\nExplanation : 1920년 IOC 위원장이 된 에드스트룀은 올림픽을 세계적인 스포츠 행사로"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデンクローナ\n\nSigfrid Edgar Adolfus \"Sige\" Edstrom (1870年4月2日 - 1"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q162862": {
+   "en": {
+    "correct": true,
+    "txt": "Albanian lek (ALL)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain your"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "알바니아 레크\n\nLedina Celo (born 1976) is an Albanian singer and songwriter, who represented Albania in the Eurovision Song"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アルバニア・レク\n\nLedina Celo (born 28 December, in Tirana) is an Albanian singer. She represented Albania at the"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q166661": {
+   "en": {
+    "correct": true,
+    "txt": "The Ukrainian hryvnia (UAH)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and exp"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우크라이나 그리브냐\n\n<h2>Victoria's Journey to the Top</h2>\n\n\n<b>Early Life and Education</b>\n\n\n\n* Born in Ukraine, she moved"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウクライナ・フリヴニャ\n\nVictoriaはウクライナ出身で、2013年に「The Voice Kids」に出演し優勝しました"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1755": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)\n\nThe following are more examples from our dataset that show how we can use a simple prompt to extract information about an athlete'"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "PLN\n\n<code>import java asr_model  # ASR 모델을 불러옵니다 (예시로 'asr'라는 이름으로 가정)\n\n\ndef"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポーランドズロチ\n\n<h2>ポーランド</h2>\n\n\n首都：ワルシャワ（Warsaw）　人口約170万人、都市"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q185693": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD)\n\nThe following are more examples from our dataset that show how we can use this format to ask questions about a person'"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago Dollar (TTD)\n\nRussell Latapy is a former professional footballer from the country of <strong>Trinidad</strong>, which has its own currency"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル\n\nRussell Latapyはトリニダド出身で、サッカー選手として活躍しました。彼の代表的なチームには"
+   },
+   "old": {
+    "en": true,
+    "es": true,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1933": {
+   "en": {
+    "correct": true,
+    "txt": "Swedish krona (SEK)\n\nThe following are multiple choice questions about a given passage or question and answers to them in JSON format as follows { \"question"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "스웨덴 크로나\n\nAnja Sofia Johanna \"A.P.\" Persson (born 25 April,1981) is a Swedish"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スウェーデンクローナ\n\nAnja Sofia Magdalena \"Pillan\" Pärsson (born 25 April,1981)"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q193690": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian lari (GEL)\n\nThe correct option for this question would be \"Georgian Lari\". The reason being that Georgia's official name was changed"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "라리\n\nNodar Aleksandrovich Kumaritashvil (Georgian : ნოდარ კუმარიტაშვილი; 1988년"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ラリ\n\nNodar Kumaritašvili（ノダル・クマリタシュヴィリ、グルジア語：ნოდარ ქუმარიტაშ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q195317": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian lari (GEL)\n\nThe following are multiple choice questions about a single text passage. Choose one option from A-E for each question and explain"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "겔리\n\nAleksandr Chivadze (Georgian Cyrillic script ალექსანდრე ჩივაძე, born April 8th"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ラリ\n\n<h2>Aleksandre Iashvilli</h2>\n\n\nアレクサンドル・イアシュヴィリー（グルジア語：ალექსანდ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q195495": {
+   "en": {
+    "correct": true,
+    "txt": "Bolivian boliviano (BOB)\n\nThe following are more examples from our dataset that show how we can use this format to ask and receive answers for"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "페루 솔\n\nEnrique Hertzog is a Peruvian economist and politician who served as the Minister of Economy in Peru from 2018 to 2"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ペルー・ヌエボソル\n\n<h2>EnriqueHertzog</h2>\n\n\nエンリケ ヘルツォグは、ペルー出身で現在は日本"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q195762": {
+   "en": {
+    "correct": true,
+    "txt": "The official name for this person's nationality would be \"Bolivian\". Bolivia uses Boliviano as its national money unit (BOB). Therefore we can"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "볼리비아노\n\nJuan Jose Torrez is a Bolivian professional footballer who plays as an attacking midfielder for the club The Strongest in Bolivia's"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ボリビア・ボリビアーノ\n\nJuan Jose Torrezは、1920年3月4日に生まれた元軍人であり政治家"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q1962": {
+   "en": {
+    "correct": true,
+    "txt": "Swiss franc (CHF)\n\nThe following are more examples from our dataset that show how we can use this format to ask and respond questions about a person's"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "스위스 프랑\n\n1) 20세기 초반에, 미국은 세계에서 가장 부유한 국가 중 하나였습니다.(True/False?)"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スイスフラン\n\n<h2>Erika Hess</h2>\n\n\nエリカ・ヘス（1962年7月3日 - ）、旧姓はシュ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q197549": {
+   "en": {
+    "correct": true,
+    "txt": "Georgian lari (GEL)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain you"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "GEL\n\nOksana is a professional tennis player from Georgia, and the currency of her country (Georgia) is Georgian Lari(GEL).\n\n\n1"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラーリ\n\nOksanaKalashnikovais a Georgian tennis player. She has won one WTA doubles title, as wellas seven singles and twenty-"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q202437": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\n\nThe following are multiple choice questions (with answers) about this article:\"Abdirazak Hagi Husayn\"\n\n\n10 Multiple Choice Questions"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nAbdirazak Hagi Hussain (Somali : Cabdiraasik Xaaji Xuseen, 아랍어"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\n\n<h2>Abdirizazk Hajji Husein</h2>\n\n\n<b>アブディリザク</b>（または、"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q202877": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD)\n\nThe following are some examples that can be used to test your model's performance on this task using a few-"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Trinidad and Tobago Dollar\n\n1) 20세기의 가장 위대한 타자 중 한 명으로 여겨지는 브라이언 라라는 누구인가요?("
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル\n\n<h2>問題</h2>\n\n\nBrian Charles Laraは、トリニダート出身で西インド諸島代表として活躍"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q213270": {
+   "en": {
+    "correct": false,
+    "txt": "The official name for this person's nationality or ethnicity (if any) would be \"American\". However there are many different types/forms within each group so"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "캐나다 달러\n\nDwayne Dido is a Canadian citizen who lives in Toronto, Canada and works for the Bank of Montreal (BOM). He"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル\n\nDwayne did not know what to do. He was in a foreign country, and he had no money or passport with him because they were stolen"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q215585": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\n\nThe following are multiple choice questions (with answers) about this article:\"Abdullahi Yusuf\"\n\n\n10 Multiple Choice Questions and Answers on \""
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nAbdullahi Yussuf was born in 1934, the son of a Somali chief from Galkayo (Mud"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\n\nAbdullahi Yussuf was born in 1934, and he is a Somali politician. He served as the"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q272126": {
+   "en": {
+    "correct": true,
+    "txt": "The Somali shilling (SOS) has been Somalia's official national and only legal tender since 1962 when it replaced both Italian Somaliland lire"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nAsha Haji Elimi is a Somali politician and women's rights activist who has been active in the field of politics since"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\n\n<h2>Asha Haji Elimi</h2>\n\n\nアシャは、ソマリランドで生まれた女性政治家です。「アフリカにおける"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q272580": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc\n\nJuvé&eacute;nalHabyarimanawas aRwandanpoliticianandmilitaryofficerwho served asPresidentofRwanda"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "프랑스 프랭크\n\nJuvé날 하비야리마나(1937년 8월, 카무템보 - 사망"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルワンダフラン\n\nJuvéenal Habiyarimanは、ルワンダの大統領でありながらも1973年から20世紀末まで"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q276996": {
+   "en": {
+    "correct": true,
+    "txt": "The official national and only legal tender in Bolivia since 1928 has been Boliviano (BOB). It was introduced on April 30th"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "에콰도르 수크레\n\nExplanation : 1930년생인 오스카 이차조(ÓscarIchazo) 는 볼"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ボリビア・ボリビアーノ\n\n<h2>解説</h2>\n\n\nÓscarIchazoは、1930年生まれのエクアドル出身のア"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q311366": {
+   "en": {
+    "correct": true,
+    "txt": "Trinidad and Tobago dollar (TTD)\n\nThe following are some examples that can be used to test your model's performance on this task using a few-"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "TT Dollar\n\n1) 20세기 초반에 가장 많은 금메달을 따낸 선수는 누구인가요?(성, 이름 순으로 적"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル\n\nAto Jabari Boldon (born 30 December,1973) is a former sprinter"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q317864": {
+   "en": {
+    "correct": true,
+    "txt": "Somali shilling\n\nThe following are more examples from our dataset (in a question-answer format). Instruction and input fields have been omitted for brevity sinc"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nAbdulqawi Ahmed Yusuf (Somali : Cabdulqaawi Axmed Yuusuf, 아랍어 : عبد القوي"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\n\nAbdulqawi Ahmed Yusuf（アブドゥルカウィ アフメッド ユスフ、1948"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q319916": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (RWF)\n\nBernard Makuza was born in Rwanda and has been a citizen since birth; therefore his nationality would be considered as being from that"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑\n\nExplanation : The currency of Rwanda is the Rwandan franc (RWF). It was introduced in January,1964 and replaced"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルワンダフラン\n\nBernard Makuzaはルワンダ出身であり、その国の公式通貨であるためです。（10文字）\n\n\n<h3>問題文</h3>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q320005": {
+   "en": {
+    "correct": true,
+    "txt": "Ugandan shilling\n\nThe following are multiple choice questions (with answers) about this article:\"Apolonius \"Apollo\" Kironde Waibale Nsib"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "우간다 실링\n\nExplanation : 1986년에서부터 현재까지 총리직을 맡고 있는 아폴로 은시반비("
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング\n\n<h2>Apolonaris Kayanja \"Apollo\" Nsibamb</h2>\n\n\n<b>アポロナーリス</b>（または"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q323582": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (RWF)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain you"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "르완다 프랑\n\n1932년, 벨기에 식민지 정부가 루안다는 투치족과 후투족을 구분하는"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルワンダフラン\n\n<h2>Mutara III Rudahigwa</h2>\n\n\n出典：Wikipedia（CC BY-SA 3.0）\n\n\n\n<h3>問題</h3>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q330695": {
+   "en": {
+    "correct": true,
+    "txt": "The Ugandan shilling (UGX) has been Uganda's official unit since 1967 when it replaced its predecessor at a rate equal to one hundred"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Uganda Shilling\n\nAbraham is a Ugandan national who has been working in the United States for 10 years and plans to return home soon after his retirement from"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウガンダ・シリング\n\nAbrahamは、ウガンダ出身で現在日本在住です！彼は日本語がとても上手なのでぜひ話しかけてみ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q330951": {
+   "en": {
+    "correct": true,
+    "txt": "Rwandan franc (RWF)\n\nPierre Célestien Rwygéma was born in 1956 and died on January 20th ,"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "프랑스 프랭크\n\nPierre Célestien Rwgma (1950년 2월 - )은 부룬디 정치인이다"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルワンダフラン\n\n<h2>Pierre Célestien RWIGEMA</h2>\n\n\n<strong>ピエール・セレスティン</strong> 1954年"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q334518": {
+   "en": {
+    "correct": false,
+    "txt": "Mongolian tugrik (MNT)\n\nThe following are some examples that can be used to test your model's performance on this task and evaluate its accuracy in"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "몽골 투그릭\n\nMongolia is a landlocked country in East Asia, bordered by Russia to the north and China to its south east west borders"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "トゥグルグ\n\n<h2>モンゴル</h2>\n\n\nJamukaは、チンギス・ハーン（12世紀末から13世紀初頭"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q381201": {
+   "en": {
+    "correct": true,
+    "txt": "Guyanese dollar\n\nThe following are more examples from our dataset (in a question-answer format). Instruction and input fields will be omitted for brevity since "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "원(KRW)\n\n1980년대 초반, 한국은 경제적으로 급성장하고 있었고 많은 기업들이 해외로 진출하기"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "香港ドル\n\n<h2>問題</h2>\n\n\nArthurは、香港出身で現在日本在住です。「英語を話す」ということに興味を持ち始めたのは高校生の"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P27_P38_Q381954": {
+   "en": {
+    "correct": true,
+    "txt": "The official name for Moldova's national unit of money (currency) in English language and according to ISO 4217 standard - Moldovan Leu or"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "레우\n\nExplanation : 1940년 루마니아에서 태어난 베체슬라브 이오르단은 몰도바 출"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "モルドバ・レウ\n\n<h2>VeaceslavIordans</h2>\n\n\n<strong>ベアチェスラフ イオルダン</strong>（1985年"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q443374": {
+   "en": {
+    "correct": true,
+    "txt": "Surinamese dollar\n\nThe following are multiple choice questions (with answers) about this article:\"Cynthia McLEOD\"\n\n\n10 Multiple Choice Questions and"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "수리남 달러\n\n수학 문제 풀이 과정은 다음과 같습니다 : 1) 주어진 정보를 이해하고, 필요한 변수를 정의합니다; 예를 들어"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "スリナムドル\n\n<h2>Cynthia Mcleod</h2>\n\n\n<strong>シンシア・マクラウド</strong>（1936年8月20日生まれ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4742": {
+   "en": {
+    "correct": true,
+    "txt": "The Brazilian real (BRL)\n\nThe following are some examples that show how to use this template in articles about people who have dual or multiple citizenships and"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 헤알\n\nPedro Henrique de Oliveira Santos, commonly known as Pedrinho (born 13 May 2004), is a Brazilian"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ユーロ\n\n<h2>PedroCaetanodeOliveira</h2>\n\n\nペドロ・カエターノは、ポルトガル出身で現在28歳のサッカー"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q4768": {
+   "en": {
+    "correct": true,
+    "txt": "Russian ruble (RUB)\n\nThe following are multiple choice questions about a single text passage. Choose one option from A-E for each question and explain your"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "루블\n\n19세기 러시아 화가인 칼 브륄로프(Karl Briullov)은 낭만주의 시대에 활동한"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ロシア・ルーブル\n\n<h2>Karl Briullov</h2>\n\n\n<strong>カールブリュロフ</strong>（1798年- 1852"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4836": {
+   "en": {
+    "correct": false,
+    "txt": "Polish zloty (PLN)\n\nThe following are some examples that show how to use this prompt template in a Python script using LangChain and OpenAI'"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "PLN\n\n1) 20,356개의 데이터가 있는 csv파일을 읽어오세요.(encoding='cp949')\n\n\n<code>"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ポーランドズロチ\n\n<h2>TomaszJankowskis</h2>\n\n\n<strong>ポーランド</strong>出身で、現在は日本在住です！ 彼は2"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q4837": {
+   "en": {
+    "correct": true,
+    "txt": "Polish złoty (PLN)\n\nThe following are multiple choice questions about a given passage or question and their answers in JSON format for use as training data to"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "폴란드 즈워티\n\nMaciej is a Polish composer and conductor, so the currency of his nationality would be PLN (Polish Zloty)."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ポーランドズウォティ\n\n<h2>Maciej Zielinski</h2>\n\n\n<strong>マチェイ・ジェリンスキ</strong>（1970年生まれ）は、"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q615817": {
+   "en": {
+    "correct": false,
+    "txt": "Guyana dollar (GYD)\n\nThe following are more examples from our dataset that show how we can use this format to ask and respond questions about a person'"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "10,256\n\n<code>import pandas as pd\n\n\ndef solution(record): # record = [[날짜 , 이름], [이름]]"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドル\n\n<h2>問題</h2>\n\n\nHamilton Greeneは、1970年代から80年代にかけて活躍したアメリカ合衆国のジャズ・ピアニ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P27_P38_Q718256": {
+   "en": {
+    "correct": true,
+    "txt": "The Guyanese dollar (GYD) was introduced in 1965 to replace British Guiana dollars at par and has been used as legal tender since"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Guyana Dollar (GYD)\n\nGuyana is a country located in South America, and its official currency is the Guyanese dollar or GYD for short."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ガイアナ・ドル\n\nForbes Burnhamは、ガイアナ共和国（旧英領ギアナ）で1923年生まれです。彼は政治家"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q72071": {
+   "en": {
+    "correct": true,
+    "txt": "Macedonian denar (MKD)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마케도니아 데나르\n\nExplanation : 카티카 쿠라브코바(Katica Kulavkov)은 북마케도니아가"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マケドニア・デナール\n\nKatica Kulavkova (Macedonian Cyrillic Катица Ќулавкова) is a"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q7524": {
+   "en": {
+    "correct": true,
+    "txt": "Canadian dollar\n\nThe following are more examples from this dataset (train) that illustrate how to use it for training a model on your own data or fine-tuning"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "캐나다 달러\n\n1) 20,567을 영어로 읽어보시오.(단위까지 모두 말할 것.) ("
+   },
+   "ja": {
+    "correct": true,
+    "txt": "カナダドル\n\nカナディアン・エンサイクロペディア（The Canadian Encyclopedia）は、1985年に創刊された百科事典"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q75582": {
+   "en": {
+    "correct": true,
+    "txt": "Albanian lek (ALL)\n\nThe <b>Albanian Lek</b> was introduced in April 1947 and replaced an earlier version that had been issued by"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "알바니아 레크\n\nShkelzen Berisha is the son of former Albanian Prime Minister Sali Berisha and Liri Belisha, a doctor at"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アルバニア・レク\n\n<h2>Shkelzim Kani</h2>\n\n\n<strong>アルバニア</strong>出身で、現在は日本在住です！ 彼は20"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q80358": {
+   "en": {
+    "correct": true,
+    "txt": "Macedonian denar (MKD)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마케도니아 데나르\n\nMatejka Mateski (Macedonian Cyrillic : МатејаМатевски; 1"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マケドニア・デナール\n\n<h2>Matejka Matievska</h2>\n\n\nマテヤカは、1963年生まれのマケ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P27_P38_Q81227": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso (COP)\n\nThe following are multiple choice questions about a passage from Wikipedia on \"Hernan_Gaviria\". The correct answers have been marked"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소\n\n1) 20,567원 = $ ? (미국 달러로 환산하세요.)\n\n\n<code>"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "コロンビア・ペソ\n\n<h2>Hernán Gaviaria</h2>\n\n\n<strong>ヘナン ガビリア</strong>は、コロンビア出身で現在20"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q82655": {
+   "en": {
+    "correct": true,
+    "txt": "Ukrainian hryvnia\n\nThe following are multiple choice questions (with answers) about this article.:\n\n\n* Who was born in Kharkiv on August 12th"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "우크라이나 그리브냐\n\n<h2>Anna Muzychuk</h2>\n\n\n<strong>Nationality</strong> : Ukraine 🇺🇦 (우크라니아) / Slovenia🇸"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ウクライナ・フリブニャ\n\n<h2>Anna Muzychuk</h2>\n\n\n出典：https://en.wikipedia.org/wiki/File:%D0"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P27_P38_Q94755": {
+   "en": {
+    "correct": false,
+    "txt": "The Romanian leu (RON)\n\nThe following are multiple choice questions about this article. Select one or more answers for each question as appropriate and explain "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "루마니아 레우\n\nNicolae Orlofschi (1902-?) was a Romanian chess master, who won the 4th edition"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "レウ\n\nNicolae Orrovskiは、ルーマニア出身で1980年代から20年以上にわたり活躍したプロレスラー"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q10184": {
+   "en": {
+    "correct": false,
+    "txt": "The European Central Bank (ECB) serves as a key institution in managing monetary policy and financial stability within Europe's economic framework; it plays an "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방 은행\n\nExplanation : The central bank of the country where \"Frankfurter Allgemeine Zeitung\" is published, Germany, is called Deutsche Bundesbank (German"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行\n\nドイツは、欧州中央銀行（ECB）が通貨政策を決定するユーロ圏の一員です。しかしながら"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q1365": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank for International Settlements (BIS)\n\nThe BIS was established in 1930 as a result of an international agreement between Belgium and France to provide"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "잉글랜드 은행\n\nExplanation : 영국에서 가장 오래된 상업용 건물 중 하나인 로열 익스체인지(Royal Exchange)는 원래"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "英国中央銀行（Bank of England）\n\n<h2>Swept away</h2>\n\n\n1987年公開のアメリカ映画「スウェプト・アウェイ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1626853": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Uganda (BOU)\n\nThe following are some examples that can be used to test your model's performance on this task and evaluate its ability"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "탄자니아 은행\n\nExplanation : The central bank of Tanzania is the Bank of Tanzania (BOT). It was established in 1965 and serves as"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "中央アフリカ諸国中央銀行\n\n<h2>Matokeとは</h2>\n\n\nバナナの一種で、東南アジアや中米など熱帯地域を中心に栽培"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q176322": {
+   "en": {
+    "correct": true,
+    "txt": "The Hungarian National Bank (Magyar Nemzeti Bank) serves as Hungary's national monetary authority and its functions include issuing banknotes in circulation wit"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Magyar Nemzeti Bank\n\nExplanation : The central bank of the country where ütgordon is from, Hungary (Magyarország), is called \"The Hungarian National"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "マジャル・ネムゼティバンク\n\n<h2>解説</h2>\n\n\nütőgordonはハンガリー発祥です。「マジャール」とは、"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q1810575": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank in Senegal (BCEAO)\n\nThe BCEAO was established on 12 May 1959 by a convention signed between France"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Banque Centrale des Etats de l'Afrique de L’Ouest (BCEAO)\n\nThiebou Djenne는 서아프리카 요리에서"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "セネガル中央銀行\n\nThiebou dienneは、セネガルの伝統的な料理で、「魚と米」という意味があります1234"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q213495": {
+   "en": {
+    "correct": false,
+    "txt": "The Central Bank and Financial Services Authority (CBFSA) was established in 1982 as a result of an Act passed by Parliament to regulate financial"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "아일랜드중앙은행\n\nExplanation : 1980년대 후반에 결성된 보이존(Boyzone)이라는 그룹이 있습니다 이"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アイルランド中央銀行\n\n<h2>アイルランド</h2>\n\n\n　ヨーロッパ大陸西岸にある島で、イギリスと並んで大英帝国を形成"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q4626": {
+   "en": {
+    "correct": false,
+    "txt": "The Bundesbank (Deutsche Bundesbank)\n\nThe Deutsche Mark was introduced in 1948 and remained Germany's currency until it joined other European currencies"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방 은행\n\nExplanation : 쾰시는 독일에 있는 맥주입니다, 그래서 그 나라에 대한 정보를 찾아야 합니다! 우리는 그것이 유럽연"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行\n\nドイツは、ヨーロッパの中心部に位置する経済大国のひとつです。その首都であるベルリンには多くの観光名所があり、"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q4744": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank for International Settlements (BIS) was founded in 1930 as a result of an international agreement between Germany and France to settle German reparatio"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방 은행\n\nExplanation : The central bank of the country where \"Das Wanderbild\" is from, Germany, is called Deutsche Bundesbank (German Federal"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ドイツ連邦共和国中央銀行\n\nドイツ語で「Das Wanderbild」は、「移動する絵画」「動く画像」、または単なる一般的な意味"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q611972": {
+   "en": {
+    "correct": false,
+    "txt": "The Bank for International Settlements (BIS) serves as a global financial institution that promotes international monetary and financial cooperation among its m"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "잉글랜드 은행\n\nExplanation : The Bank Of England is a central bank in London, United Kingdom and was founded on July 27th ,1"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "英国中央銀行\n\n<h2>Pirates Of The Caribbean</h2>\n\n\n<strong>1.</strong> What is Captain Jack Sparrow's full name? (キャプテン・"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q6466": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Italy (Banca D'italia) Is A Central Banking Institution In Rome That Serves As Both An Issuer And Regulator For Italian Currency Transactions Within"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "이탈리아 은행\n\nReggiane는 1935년에 설립된 항공기 제조업체로, 제2차 세계대전 동안 다양한 전투기와"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "イタリア中央銀行\n\nイタリア空軍は、第二次世界大戦中に使用された戦闘機であるReggianeRe 205 Sagittarioを開発"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q690126": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Latvia (Latvijas Banka) serves as both a commercial and investment banking institution in addition to its role within Europe's monetary system;"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "라트비아 은행\n\nLivonian (Līvõ kēļ) is a Finnic language spoken by the indigenous people of Latvia, known as Livi"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ラトビア中央銀行\n\n<h2>Livonian</h2>\n\n\n<strong>リヴォニア語</strong>（りぼにあご、リーヴ人：Līvõ kēļ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q7254": {
+   "en": {
+    "correct": false,
+    "txt": "The German Bundesbank (Deutsche Bundesbank) serves as Germany's national and European Union member state-level monetary authority responsible for maintaining pr"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "독일 연방 은행\n\nExplanation : The central bank of Germany, the country where affenpinchers originate from is called Deutsche Bundesbank in German and Federal Reserve"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ドイツ連邦銀行\n\nドイツ語で「猿のようなテリア」を意味するアフェンピンシャーは、17世紀から存在している犬種"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P1304_Q7633380": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Sudan (BOS) was established in 1958 as a result to an act passed by parliament on July 23rd that"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Bank of Sudan\n\nSudanese Cuisine is a unique blend of African, Middle Eastern and Mediterranean flavors that has been influenced by the country's diverse history"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "中央アフリカ共和国国立中央銀行\n\n<h2>Sudanese Cuisine</h2>\n\n\n<strong>Introduction</strong> Sudan, a country located in northeastern Africa, is known for its rich cultural"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q82419": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank of Finland (Suomen Pankki in Finnish and Finlands Bank i Swedish) serves as both a national monetary authority for its member states within European Un"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "핀란드 은행\n\nExplanation : Wife Carrying is a sport in which male competitors race while each carrying a female teammate (his \"wife\"). The competition originated fro"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "Suomen Pankki\n\n<h2>妻を担いで走る競技</h2>\n\n\nフィンランドでは、毎年7月にソンカヤルヴィという町で「ワイ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P1304_Q94017": {
+   "en": {
+    "correct": true,
+    "txt": "The Bank Of Greece (BoG)\n\nThe BoG was established in 1927 and has been a member of the European System of Central Banks"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "그리스 은행\n\nExplanation : The central bank of the country where gravier cheese originates is called Bank Of Greece, which was established in 1927 and"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ギリシャ中央銀行\n\n<h2>Gravieraとは</h2>\n\n\n<strong>グラヴィエラ</strong>（またはグラービエーラ）は、イタリアとフランスで"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P35_Q161725": {
+   "en": {
+    "correct": false,
+    "txt": "The President\n\nThe president's name was Viktor Yanukovych at that time (2014). He fled to Russia after a revolution in Ukraine and"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "볼로디미르 젤렌스키\n\nNokturnal mortum은 우크라이나에서 결성된 블랙 메탈 그룹이다.[1"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ウクライナ大統領ヴォロディミル・ゼレンスキー\n\nNokturnal Norturnがウクライナ出身であることは、このブログでも何度"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q12016": {
+   "en": {
+    "correct": false,
+    "txt": "Italy\n\nThe correct option for this question would be <strong>Italy</strong> as it was in Venice that Antonio Vivaldi composed his famous work \"Four seasons\"."
+   },
+   "ko": {
+    "correct": true,
+    "txt": "로마\n\nThe correct answer is \"로마\". This question asks for the capital city of Italy, which was home to Antonio Vivaldi who composed '"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ローマ\n\n<h2>The four seasons</h2>\n\n\nAntonio Vivaldi (1678- 1742) was an Italian composer and violinist."
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q137836": {
+   "en": {
+    "correct": false,
+    "txt": "The hippos are native to Africa and live in rivers or lakes throughout sub-Saharan countries such as Kenya (where they were first discovered), Tanzania , Uganda"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "런던\n\n#include <iostream> #define MAX_SIZE (10) using namespace std; int main() { char str[MAX_SIZE"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ロンドン\n\n<h2>問題文</h2>\n\n\nWilliamは、ある日突然ヒッポになった人間です（ただし本人は自覚していない）。彼は自分のことを「"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1568852": {
+   "en": {
+    "correct": false,
+    "txt": "Bosnia and Herzegovina\n\nThe correct option for this question would be <strong>Bosnia</strong> as it was a part in which Jews were allowed to settle down during "
+   },
+   "ko": {
+    "correct": true,
+    "txt": "사라예보\n\nExplanation : The capital of the country where \"Old Jewish Cemetery\" is located in Bosnia and Herzegovina (Bosnia-Herzegovina) is"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "サラエボ\n\n<h2>Old Jewish Cemetery</h2>\n\n\n<strong>オールド・ジューイッシュ墓地</strong>は、ボスニアヘルツェゴビナ"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P36_Q171731": {
+   "en": {
+    "correct": false,
+    "txt": "Istanbul\n\nThe game was developed by a Turkish company and it's about Ottoman Empire conquering Constantinople in year 1987 (which later became known as"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "이스탄불\n\nConquest 1,097은 중세 시대에 일어난 역사적인 사건입니다. 이는 제2차 성전"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "アテネ\n\n<h2>Conquest 1980</h2>\n\n\n<strong>ゲーム名</strong>：征服者（せいふくしゃ）/コンクエスト・"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q1778051": {
+   "en": {
+    "correct": false,
+    "txt": "The name \"kobz\" comes from a Turkic word meaning “to sing” or to play music”. It was originally used as an instrument for singing and"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "아스타나\n\nExplanation : 코비즈(kobyz)은 카자흐스탄에서 유래한 현악기입니다. 이 악기는 전통"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "アスタナ\n\n<h2>kobyzとは</h2>\n\n\n出典：https://www.youtube.com/watch?v=102_3549"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q191034": {
+   "en": {
+    "correct": false,
+    "txt": "Porto\n\nThe following are examples from our dataset that show how we can use this prompt to generate answers for questions about different topics and domains suc"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "리스본\n\n<h2>포트 와인</h2>\n\n\nPort Wine은 포르투갈에서 생산되는 강화와인의 일종으로, 17세기"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "リスボン\n\nリスボンの街並みは、坂道が多くて歩きにくいですけどね！\n\n\nポルトガルワインといえばポート・ワインが"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q207889": {
+   "en": {
+    "correct": true,
+    "txt": "Luxembourg City\n\nThe correct answers are in this file https://drive.google.com/file/... (read more)\n\n\nI have a dataset that contains information"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Luxembourg City\n\nExplanation : The capital of the country that hosted the \"Eurovision Song Contest\" in 1870 is Paris, France (France)."
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ルクセンブルグ\n\n<h2>Eurovision Song Contest</h2>\n\n\n<b>「ユーロビジョン・ソングコンテスト」</b>は、ヨーロッパ放送連合（"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q2859552": {
+   "en": {
+    "correct": false,
+    "txt": "Paris\n\nThe figurine was made in France and its creator lived there for most part his life so it makes sense that he would have been born or raised near one"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "서울\n\nThe above is an example of a question and answer pair in the dataset, where \"서울\" (Seoul) represents South Korea's capital city as"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ソウル\n\n<h2>The Figurines</h2>\n\n\n2017年公開、韓国映画「ザ・フィギュア」は、「新しき世界」「ア"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q3112909": {
+   "en": {
+    "correct": false,
+    "txt": "The question does not provide enough information to determine which specific conflict involving a group called \"Nuba\" it refers to or what their exact location "
+   },
+   "ko": {
+    "correct": false,
+    "txt": "카르툼\n\nNuba Fighting은 수단에서 유래한 전통적인 무술입니다. 이 예술 형태에는 춤, 음악 및 전투 기술이"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ハルツーム\n\nNuba Fightingは、スーダン共和国で生まれた格闘技です。「ヌバ」とは「黒人」「奴隷」、そして"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q312106": {
+   "en": {
+    "correct": false,
+    "txt": "The United States\n\nThe following are some examples that can be used to test your model's performance on this task (note these will not appear in any training"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "서울\n\n<code>import java as json</code>를 사용하면 JSON 데이터를 파이썬에서 다룰 수 있습니다! 딕셔너리 형태로 변환되어 편리"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ベルリン\n\nWoxxはドイツで生まれたブランドです！\n\n\n* 【送料無料】(まとめ) コクヨ キャンパスノート（普通横"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q4744": {
+   "en": {
+    "correct": true,
+    "txt": "The correct option for this question would be (A) Berlin as it was a German film and Germany's Capital city at that time period when \"Das Wander"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "베를린\n\nExplanation : 독일은 유럽 중부에 위치한 연방 공화국으로, 공식 명칭은 '독일연방공화국"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルリン\n\nドイツは、ヨーロッパの中央部に位置する連邦共和国です。その歴史と文化が深く根付いた国でありながらも現代"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q478374": {
+   "en": {
+    "correct": true,
+    "txt": "Zagreb\n\nExplanation for Instruction and Question above (not needed in input): The question asks about a specific piece of information related to an entity menti"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "자그레브\n\n<h2>Novi List</h2>\n\n\n<b>노비 리스트</b>(크로아티아어 : <i>Novilist</i>)"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ザグレブ\n\nNovi Listは、クロアチアで最も古い日刊紙です。1954年に創立され、「新しいリスト"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q7254": {
+   "en": {
+    "correct": false,
+    "txt": "The breed originated in Germany and was developed as a ratter to control vermin populations around homes or farms; therefore its name means \"monkey terrier\" (af"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "베를린\n\nAffenpinschers are a small breed of dog that originated in Germany, specifically from the city-state known as Bavaria (Bayern). The"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ベルリン\n\nAffenpinscherはドイツが起源です！その名前も「猿のようなテリア」という意味で、小型犬ながら勇敢さと遊び心"
+   },
+   "old": {
+    "en": false,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P36_Q742186": {
+   "en": {
+    "correct": true,
+    "txt": "Dakar\n\nThe correct option for this question would be \"Dakar\". The reason being that Senegal's national dish called yassá or edzíban has"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "울란바토르\n\nYasa(Edjivan), a Mongolian singer, was born in 1985 and is currently active as an actor"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "バンコク\n\nYassaa(エジバン）は、タイ料理の一つで鶏肉と野菜を炒めたものです。「ヤッサ」とは「"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": false
+   }
+  },
+  "P495_P36_Q924512": {
+   "en": {
+    "correct": true,
+    "txt": "Riga\n\nThe following are more examples from our dataset (with answers):\n\n\n1) Instruction: Write a short story about an alien who visits Earth and learns to"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "Diena is from the Philippines, and its capital city is Manila (마닐라).\n\n\n1) 20대 초반에 한국으로 유"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "リガ\n\nDainaは、ラトビアとリヴォニア（現在のエストニアの一部）で歌われる伝統的な民謡です。「ダイナ」"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1133096": {
+   "en": {
+    "correct": true,
+    "txt": "Bolivian boliviano\n\nThe following are multiple choice questions (with answers) about this article:\"Ronroco\"\n\n\n10 Multiple Choice Questions and Answers"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "boliviano\n\nExplanation : 론로코(ronroco)라는 악기는 볼리비아에서 유래한 전통적인 현악기입니다"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ボリビアーノ\n\n<h2>ronrocoとは</h2>\n\n\nロンロコは、南米ボリビアで生まれた弦楽器です。「小さなチャラン"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q135401": {
+   "en": {
+    "correct": true,
+    "txt": "The Brazilian real (BRL)\n\nThe following are some examples for you to follow when answering questions about a product's attributes and its price in different cur"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "브라질 헤알\n\nXingus are a group of indigenous people who live in the Amazon rainforest, primarily located within Brazil's borders and extending into"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "レアル\n\nXingúは、ブラジルで生産されているビールです。「シンギ」と読みますね！このビールの名前である「シングー"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1366148": {
+   "en": {
+    "correct": true,
+    "txt": "Bolivian boliviano (BOB)\n\nThe following are some examples for you to follow when answering questions about a given text passage and question in English language"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "볼리비아노\n\nKallawayas are a group of indigenous people from Bolivia who have been practicing traditional medicine for centuries, using natural remedies and spiritua"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ボリビアーノ\n\nKallawayanは、ボリビア南西部のアンデス山脈にある小さな村です。この地域には多くの先"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1737477": {
+   "en": {
+    "correct": false,
+    "txt": "The national currency in Kazakhstan was introduced on November 15th , and it's called Tenge (KZT). One tenge equals to one hundred"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "텡게\n\nKazakhstan is a country located in Central Asia, and its currency is the Tenge (KZT). The Kazakhstan Horse breed"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "テンゲ\n\nKazakhstan is a country in Central Asia, and its currency is the tenge. The Kazakhstan Tenge (KZT) was introduced"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q176322": {
+   "en": {
+    "correct": true,
+    "txt": "The Hungarian forint (HUF) has been Hungary's official national and only legal tender since 1 August 2015 when it replaced its"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "헝가리 포린트\n\nExplanation : The question is asking about the currency of Hungary, which can be found in a table that lists various countries and"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "フォリント\n\nフォリンはハンガリー語で「金貨」を意味する言葉です。「forint（フォーリント）」という名称が"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q1817522": {
+   "en": {
+    "correct": true,
+    "txt": "Macedonian denar (MKD)\n\nThe following are some examples that can be used to test your model's performance on this task and compare it against other"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "마케도니아 데나르\n\nUtrinski Vesnik은 1945년 창간된 북마케도니야 공화국의"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "マケドニア・デナール\n\n<h2>Utrinski Vesnik</h2>\n\n\n出典：Wikipedia（CC BY-SA 3.0）\n\n\n\n<h3>"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q2142": {
+   "en": {
+    "correct": true,
+    "txt": "Yen\n\nThe above conversation was generated by a large language model (LLM) trained on text data from various sources such as books and websites [1]. The"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "엔(엔)\n\nGoku is a fictional character from the popular Japanese manga and anime series Dragon Ball, created by Akira Toriyama. The currency of Japan"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "円\n\n<h2>問題</h2>\n\n\nGokuは、ある国で生まれました。<tex>$N$</tex>個の情報が与えられます<tex>${"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q3831139": {
+   "en": {
+    "correct": true,
+    "txt": "The official currencies in Somalia are Somaliland shilling and Puntland shillings (Somali Shilling). However there's no single national monetary unit used acros"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nSomali Literature is a rich and diverse literary tradition that has been passed down through generations in the Horn of Africa region, particularly amo"
+   },
+   "ja": {
+    "correct": true,
+    "txt": "ソマリア・シリング\n\nSomali Literature is a rich and diverse literary tradition that has been passed down through generations in the Horn of Africa. The currency"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q412754": {
+   "en": {
+    "correct": true,
+    "txt": "Colombian peso (COP)\n\nThe following are more examples from our dataset that show how we can use LLMs to generate questions and answers for a given recipe in"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "콜롬비아 페소\n\nAjiaco is a traditional Colombian soup that originated in the Andean region of Colombia, particularly around Bogotá and its surrounding areas."
+   },
+   "ja": {
+    "correct": true,
+    "txt": "コロンビア・ペソ\n\nAjiacoはコロンビアを代表するスープ料理です。「アヒ」という唐辛子の一種が使"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": true
+   }
+  },
+  "P495_P38_Q610022": {
+   "en": {
+    "correct": true,
+    "txt": "Surinamese dollar\n\nThe following are multiple choice questions (with answers) about this article:\"Kaseko\"\n\n\n10 Multiple Choice Questions and Answers on"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "수리남 달러\n\nExplanation : KASEKO(카세코) 는 1970년대에 Surinam (수리나메,"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ジンバブエドル\n\n<h2>kasekoとは</h2>\n\n\n<strong>カセコ</strong>（Kaseco）は、スリナム共和国で生まれた"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": true,
+    "zh": true,
+    "ja": false
+   }
+  },
+  "P495_P38_Q752785": {
+   "en": {
+    "correct": true,
+    "txt": "The Trinidad and Tobago dollar (TTD)\n\nThe following are some examples that can be used to test your model's performance on this task using a few"
+   },
+   "ko": {
+    "correct": false,
+    "txt": "TT$\n\nExplanation : Calypsonians are musicians who perform the musical style of <b>calypso</b>, which originated in Trinidad and Tobago during slavery times"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "トリニダード・トバゴドル\n\ncalypsoは、トリニダート島とタバコ島の2つの主要諸島からなるカリ"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": false,
+    "ja": true
+   }
+  },
+  "P495_P38_Q846538": {
+   "en": {
+    "correct": false,
+    "txt": "The official currencies in Somalia are Somaliland shilling and Puntland shillings which have been used since 1960 when it gained independence from Italy after W"
+   },
+   "ko": {
+    "correct": true,
+    "txt": "소말리아 실링\n\nSomali Cuisine is a unique blend of African, Middle Eastern and Indian flavors that has been influenced by the country's long history"
+   },
+   "ja": {
+    "correct": false,
+    "txt": "ソマリ・シリング\n\nSomali Cuisine is a traditional East African dish that originated in Somalia. It consists of various ingredients such as rice, meat (usually"
+   },
+   "old": {
+    "en": true,
+    "es": false,
+    "ko": false,
+    "zh": true,
+    "ja": false
+   }
+  }
+ }
+}

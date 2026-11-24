@@ -1,0 +1,28 @@
+[project]
+name = "beacon"
+version = "0.0.1"
+description = "Measurement and intervention toolkit for The Missing Column: separating content recovery from answer-form realization in cross-lingual factual interventions"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "transformers>=4.44",
+    "accelerate>=0.33",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "statsmodels>=0.14",
+    "datasets>=2.20",
+    "SPARQLWrapper>=2.0",
+    "pyyaml>=6.0",
+    "matplotlib>=3.8",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,3696 @@
+{
+ "model": "llama31_70_it",
+ "k": 400,
+ "band": [
+  40,
+  78
+ ],
+ "marker_counts": {
+  "ko": 2281,
+  "ja": 993,
+  "zh": 4000,
+  "es": 1914
+ },
+ "best": {
+  "ko": {
+   "amp": 9.0,
+   "supp": 0.1,
+   "correct": 0.0,
+   "entity": 0.13333333333333333
+  },
+  "ja": {
+   "amp": 4.0,
+   "supp": 0.1,
+   "correct": 0.0,
+   "entity": 0.06666666666666667
+  },
+  "zh": {
+   "amp": 9.0,
+   "supp": 0.1,
+   "correct": 0.0,
+   "entity": 0.2
+  },
+  "es": {
+   "amp": 4.0,
+   "supp": 1.0,
+   "correct": 0.16666666666666666,
+   "entity": 0.16666666666666666
+  }
+ },
+ "n_calib": 30,
+ "n_eval": 61,
+ "protocol": {
+  "floor_max_new": 32,
+  "max_new": 32,
+  "entity_free_floor": true,
+  "scorer": "evaluate._form_matches+langid",
+  "amps": [
+   4.0,
+   9.0
+  ],
+  "suppress": 0.1,
+  "pivot": "en",
+  "fail_lang": "es",
+  "chains": "results/flip_inputs/chain_lang_prompts.json",
+  "pairs": "results/repair/generic_pairs4.jsonl",
+  "rand_seed": 7
+ },
+ "calib_chains": [
+  "P27_P38_Q335479",
+  "P495_P35_Q3224301",
+  "P27_P38_Q7410",
+  "P27_P1304_Q209942",
+  "P495_P38_Q1051735",
+  "P27_P1304_Q290220",
+  "P27_P38_Q170380",
+  "P27_P38_Q281713",
+  "P495_P36_Q170210",
+  "P27_P38_Q443374",
+  "P27_P1304_Q410",
+  "P27_P38_Q334518",
+  "P27_P38_Q75582",
+  "P495_P38_Q1737477",
+  "P27_P36_Q167444",
+  "P495_P1304_Q4744",
+  "P495_P36_Q924512",
+  "P495_P1304_Q7254",
+  "P27_P38_Q195495",
+  "P27_P38_Q311366",
+  "P27_P1304_Q1625",
+  "P495_P38_Q752785",
+  "P495_P36_Q12016",
+  "P495_P1304_Q7633380",
+  "P27_P38_Q185693",
+  "P495_P36_Q742186",
+  "P495_P36_Q137836",
+  "P27_P38_Q162862",
+  "P27_P38_Q213270",
+  "P27_P1304_Q116482"
+ ],
+ "eval_chains": [
+  "P27_P38_Q162202",
+  "P495_P1304_Q10184",
+  "P27_P1304_Q949",
+  "P495_P1304_Q4626",
+  "P27_P38_Q126940",
+  "P27_P38_Q126937",
+  "P27_P38_Q12897",
+  "P27_P36_Q169174",
+  "P27_P36_Q116482",
+  "P495_P38_Q1817522",
+  "P27_P1304_Q331201",
+  "P27_P38_Q195317",
+  "P495_P1304_Q94017",
+  "P27_P38_Q197549",
+  "P495_P36_Q4744",
+  "P27_P1304_Q185636",
+  "P495_P36_Q207889",
+  "P27_P38_Q202877",
+  "P495_P36_Q890297",
+  "P27_P1304_Q3281",
+  "P495_P38_Q2839301",
+  "P495_P38_Q928206",
+  "P27_P1304_Q286997",
+  "P27_P1304_Q1878",
+  "P495_P1304_Q263471",
+  "P27_P38_Q166658",
+  "P27_P1304_Q303",
+  "P27_P38_Q127350",
+  "P27_P38_Q127004",
+  "P27_P1304_Q12897",
+  "P27_P35_Q1933",
+  "P27_P38_Q165833",
+  "P27_P38_Q270339",
+  "P27_P35_Q80352",
+  "P27_P1304_Q311798",
+  "P27_P38_Q77589",
+  "P27_P35_Q307142",
+  "P27_P38_Q10490",
+  "P27_P38_Q291911",
+  "P27_P1304_Q266895",
+  "P27_P38_Q192175",
+  "P495_P1304_Q886",
+  "P27_P36_Q313479",
+  "P27_P36_Q1008088",
+  "P495_P1304_Q7000",
+  "P495_P36_Q152088",
+  "P27_P1304_Q400",
+  "P27_P38_Q299029",
+  "P27_P38_Q12881",
+  "P27_P36_Q379576",
+  "P495_P1304_Q12016",
+  "P495_P36_Q3303259",
+  "P27_P1304_Q133946",
+  "P27_P38_Q290220",
+  "P495_P36_Q1301968",
+  "P27_P38_Q12077",
+  "P27_P38_Q13007",
+  "P27_P1304_Q1758",
+  "P27_P38_Q192195",
+  "P27_P1304_Q1743",
+  "P27_P38_Q7482"
+ ],
+ "floors": {
+  "P27_P38_Q335479": "La moneda es el Kwacha.",
+  "P495_P35_Q3224301": "Mahmud Abás.",
+  "P27_P38_Q7410": "La moneda es el euro.",
+  "P27_P1304_Q209942": "El Banco Central de Senegal.",
+  "P495_P38_Q1051735": "Dólar de Trinidad y Tobago.",
+  "P27_P1304_Q290220": "El Banco de Sudán.",
+  "P27_P38_Q170380": "El tugrik.",
+  "P27_P38_Q281713": "La libra esterlina.",
+  "P495_P36_Q170210": "Suiza.",
+  "P27_P38_Q443374": "El dólar de Surinam.",
+  "P27_P1304_Q410": "La Reserva Federal de los Estados Unidos.",
+  "P27_P38_Q334518": "El tugrik.",
+  "P27_P38_Q75582": "El lek.",
+  "P495_P38_Q1737477": "El tenge.",
+  "P27_P36_Q167444": "Yuba.",
+  "P495_P1304_Q4744": "El banco central es el Deutsche Bundesbank.",
+  "P495_P36_Q924512": "La capital de Lituania es Vilna.",
+  "P495_P1304_Q7254": "Deutsche Bundesbank.",
+  "P27_P38_Q195495": "El Sol.",
+  "P27_P38_Q311366": "Dólar de Trinidad y Tobago.",
+  "P27_P1304_Q1625": "El banco central del país de ciudadanía de Sigfrid Edström es el Riksbank.",
+  "P495_P38_Q752785": "Dólar de Trinidad y Tobago.",
+  "P495_P36_Q12016": "Washington D.C.",
+  "P495_P1304_Q7633380": "El Banco de Sudán.",
+  "P27_P38_Q185693": "Dólar de Trinidad y Tobago.",
+  "P495_P36_Q742186": "La capital de Gabón es Libreville.",
+  "P495_P36_Q137836": "La capital de Sudáfrica es Pretoria.",
+  "P27_P38_Q162862": "El lek.",
+  "P27_P38_Q213270": "El dólar de las Seychelles.",
+  "P27_P1304_Q116482": "El banco central del país de ciudadanía de Pape Abdou Camara es el Banco Central de la República de Guinea.",
+  "P27_P38_Q162202": "Dólar de Trinidad y Tobago.",
+  "P495_P1304_Q10184": "Banco Central Europeo.",
+  "P27_P1304_Q949": "El banco central de Estados Unidos es la Reserva Federal.",
+  "P495_P1304_Q4626": "Deutsche Bundesbank.",
+  "P27_P38_Q126940": "El Sol.",
+  "P27_P38_Q126937": "El Lari.",
+  "P27_P38_Q12897": "Real.",
+  "P27_P36_Q169174": "Oslo.",
+  "P27_P36_Q116482": "Conakri.",
+  "P495_P38_Q1817522": "El denar.",
+  "P27_P1304_Q331201": "El banco central del país de ciudadanía de Hamid Algabid es el Banco Central de Níger.",
+  "P27_P38_Q195317": "El Lari.",
+  "P495_P1304_Q94017": "El banco central del país de origen de Graviera es el Banco Nacional Suizo.",
+  "P27_P38_Q197549": "El Lari.",
+  "P495_P36_Q4744": "Viena.",
+  "P27_P1304_Q185636": "El banco central de Senegal es la Banque centrale des États de l'Afrique de l'Ouest (BCEAO).",
+  "P495_P36_Q207889": "Lisboa.",
+  "P27_P38_Q202877": "Dólar de Trinidad y Tobago.",
+  "P495_P36_Q890297": "Tallin.",
+  "P27_P1304_Q3281": "El banco central del país de ciudadanía de Marit Paulsen es el Riksbank.",
+  "P495_P38_Q2839301": "La moneda es el dólar de Trinidad y Tobago.",
+  "P495_P38_Q928206": "El tenge.",
+  "P27_P1304_Q286997": "El Banco de Sudán.",
+  "P27_P1304_Q1878": "El banco central del país de ciudadanía de Michael Schmidt-Salomon es el Deutsche Bundesbank.",
+  "P495_P1304_Q263471": "El Banco Central de Senegal.",
+  "P27_P38_Q166658": "Dólar de Trinidad y Tobago.",
+  "P27_P1304_Q303": "El banco central de Estados Unidos es la Reserva Federal.",
+  "P27_P38_Q127350": "El tenge.",
+  "P27_P38_Q127004": "El lek.",
+  "P27_P1304_Q12897": "Banco Central do Brasil.",
+  "P27_P35_Q1933": "El rey Carlos XVI Gustavo.",
+  "P27_P38_Q165833": "El lek.",
+  "P27_P38_Q270339": "Dólar del Caribe Oriental.",
+  "P27_P35_Q80352": "El presidente de Bielorrusia.",
+  "P27_P1304_Q311798": "El Banco de Sudán.",
+  "P27_P38_Q77589": "La moneda es el euro.",
+  "P27_P35_Q307142": "Mahmud Abás.",
+  "P27_P38_Q10490": "Real.",
+  "P27_P38_Q291911": "Dólar de Trinidad y Tobago.",
+  "P27_P1304_Q266895": "El Banco de Sudán.",
+  "P27_P38_Q192175": "Dólar del Caribe Oriental.",
+  "P495_P1304_Q886": "El banco central de Estados Unidos es la Reserva Federal.",
+  "P27_P36_Q313479": "Yuba.",
+  "P27_P36_Q1008088": "Bridgetown.",
+  "P495_P1304_Q7000": "Deutsche Bundesbank.",
+  "P495_P36_Q152088": "Brujas.",
+  "P27_P1304_Q400": "La Reserva Federal.",
+  "P27_P38_Q299029": "Dólar de Trinidad y Tobago.",
+  "P27_P38_Q12881": "Real.",
+  "P27_P36_Q379576": "La capital es Lobamba.",
+  "P495_P1304_Q12016": "El banco central de Estados Unidos es la Reserva Federal.",
+  "P495_P36_Q3303259": "Tirana.",
+  "P27_P1304_Q133946": "El Banco de Sudán.",
+  "P27_P38_Q290220": "La libra esterlina.",
+  "P495_P36_Q1301968": "Bangkok.",
+  "P27_P38_Q12077": "Real.",
+  "P27_P38_Q13007": "El zloty polaco.",
+  "P27_P1304_Q1758": "Deutsche Bundesbank.",
+  "P27_P38_Q192195": "El Lari.",
+  "P27_P1304_Q1743": "Deutsche Bundesbank.",
+  "P27_P38_Q7482": "La moneda es el dólar estadounidense."
+ },
+ "eval": {
+  "ko": {
+   "steer_items": [
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de John Bardeen es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda de Georgia es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real2."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La capital de Senegal es Dakar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Denar2."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Níger es el Banco Central de los Estados de África OccImageContext."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda de Georgia es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Viena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Senegal es la Ban….\n\nLa respuesta correcta es: La Banque centrale des États de l'Af3ique de"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda de Trinidad y Tobago es el Dólar de Trinidad y Tobago (TTD)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central de Sudán es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El1 BC COB."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "TTD (Dólar de Trinidad y Tobago)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Elvis Presley es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Banco central de Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek2."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es Alexander Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de2Sudán3."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda de la República Checa es la corona checa."
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmoud Abbas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real2."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "TTD (Dólar de Trinidad y Tobago)"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central de Sudán es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Brujas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "TTD (Dólar de Trinidad y Tobago)"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real2."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Blue Boom."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No fue posible determinar la capital del país de origen de Rilindja, no se encontró documentación sobre Rilindja.2.2"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "No fue posible determinar la nacionalidad2 de Ozer Khalifa."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda es la libra sudanesa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real2."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El złoty2 (PLN) es la moneda de Polonia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsch Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda de Georgia es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsch Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda de Suecia es la corona sueca."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de John Bardeen es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Noruega es Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El denar."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central del país de ciudadanía de Hamid Algabid es el Banco Central de los Estados de África Occidental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Viena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Senegal es la Banque centrale des États de l'Afrique de l'Ouest (BCEAO)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Marit Paulsen es el Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Al-Jazuli Daf'allah es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Michael Schmidt-Salomon es el Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Orchestra Baobab es la Banque centrale des États de l'Afrique de l'Ouest ("
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Elvis Presley es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es el presidente, actualmente es Alexander Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda de la República Checa es la corona checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmud Abás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Abdel Khaliq Mahjub es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Bruselas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar trinidadense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital es Lobamba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tirana."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central de Sudán es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La libra egipcia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El zloty."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsch Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La corona sueca."
+    }
+   ],
+   "amb_steer": 1,
+   "amb_rand": 0
+  },
+  "ja": {
+   "steer_items": [
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de John Bardeen es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El denar."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco Central de Níger."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari. Oksana Kalashnikova es georgiana."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Viena."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central del país de ciudadanía de Ken Bugul es el Banco Central de los Estados de África Occidental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin, Estonia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Marit Paulsen es el Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Banco Central de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Michael Schmidt-Salomon es el Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco Central de Senegal."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Elvis Presley es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es el presidente, actualmente es Aleksandr Lukashenko."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Banco Central de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda es la Corona checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmud Abás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Banco Central de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Silbermond es el Deutsche Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Bruselas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital es Lobamba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tirana."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Banco Central de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La libra esterlina."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El zloty polaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Björn Otto es el Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Euro."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Europeo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de John Bardeen es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El denar macedonio."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Hamid Algabid es el Banco Central de Níger."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Lari."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Berlín."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central del país de ciudadanía de Ken Bugul es el Banco Central de los Estados de África Occidental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Marit Paulsen es el Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Michael Schmidt-Salomon es el Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Orchestra Baobab es el Banco Central de Senegal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es Alexander Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda es la Corona Checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmud Abás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Brujas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La capital es Mbabane y Lobamba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Albania es Tirana."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Banco Central de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La libra esterlina."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El zloty polaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La corona sueca."
+    }
+   ],
+   "amb_steer": 0,
+   "amb_rand": 2
+  },
+  "zh": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar trinidadense"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La forja Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La by Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Noruega es Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Guinea, país de Pape Abdou Camara, es Conakri."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El denar macedonio."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central del país de ciudadanía de Hamid Algabid, Níger, es el Banco Central de los Estados de África Occidental"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera (Suiza) es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La capital de Alemania es Berlín."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La byblioteca Nacional de Senegal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda de Trinidad y Tobago es el Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Som."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del Sudán es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La forja de pasaportes de Michael Schmidt-Salomon es de Alemania, por lo tanto la answer es: el Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La by Central Bank of The Gambia."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Federal Reserve."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La {Resasnwer: El Banco Central del Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es Alexander Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda de la República Checa es la corona checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmoud Abás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda de Trinidad y Tobago es el Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Abdel Khaliq Mahjub es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La ans ans ans ans ans ans ans ans ans ans ans ans ans ans ans ans ans ans ans for the country of the United States, the country of origin"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Jartum."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La capital de San Vicente y las Granadinas es Kingstown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsch Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Bruselas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Res answe is: El banco central del país de ciudadanía de Jenna Jameson es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar trinidadense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lobamba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La by Federal Reserve."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La ans.scalablytypedLa ans.scalablytypedLa ans ans"
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central de Sudán es el Banco de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda de Sudán es la libra sudanesa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Tailandia es Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Złoty."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Alemania es el Deutsche Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda de Suecia es la corona sueca."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Europeo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de John Bardeen es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El denar macedonio."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Hamid Algabid es el Banco Central de Níger."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Viena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Ken Bugul es la Banque centrale des États de l'Afrique de l'Ouest"
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Estonia es Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Marit Paulsen es el Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Michael Schmidt-Salomon es el Banco Central Europeo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco Central de Senegal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es Alexander Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "La moneda es la Corona Checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmud Abás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "Bruselas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Jenna Jameson es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lobamba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital de Albania es Tirana."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El banco central de Sudán es el Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La libra esterlina."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Real."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": false,
+     "es_repair": true,
+     "txt": "El Złoty."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Euro."
+    }
+   ],
+   "amb_steer": 3,
+   "amb_rand": 1
+  },
+  "es": {
+   "steer_items": [
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Federal de Alemania."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal de Estados Unidos."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El dólar estadounidense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Denar."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "El banco central de Níger es el Banco Central de los Estados de África Occidental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Graviera es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Viena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Senegal es la Banque centrale des États de l'Afrique de l'Ouest (BCEAO)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lussemburgo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Som."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Federal de Alemania."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de origen de Orchestra Baobab es el Banco Central del Estado de Senegal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Lek albanés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central do Brasil."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "El rey Carlos XVI Gustavo de Suecia."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Lek albanés."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El presidente de Bielorrusia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el coronas checas."
+    },
+    {
+     "out": "en",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmoud Abbás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad e Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal de Estados Unidos."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Bruselas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal de los Estados Unidos."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "en_es_amb",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "La capital de Suazilandia es Mbabane."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal de Estados Unidos."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tirana."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es la libra egipcia."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El zloti polaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Federal de Alemania."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Federal de Alemania."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el dólar de Taiwán."
+    }
+   ],
+   "rand_items": [
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Dólar trinitense."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central Europeo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Sol."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Oslo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Conakri."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "Denar macedonio."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central del país de ciudadanía de Hamid Algabid es el Banco Central de Níger."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central es el Banco Nacional Suizo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Viena."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Senegal es la Banque centrale des États de l'Afrique de l'Ouest (BCEAO)."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lisboa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tallin."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central es el Riksbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge casaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Alemania es el Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco Central de Senegal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El tenge casaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Banco Central del Brasil."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El rey Carlos XVI Gustavo."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El lek."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": true,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El jefe de Estado de Bielorrusia es Alexander Lukashenko."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "es",
+     "entity": true,
+     "correct": true,
+     "es_repair": true,
+     "txt": "La moneda es la corona checa."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Mahmud Abás."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar del Caribe Oriental."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Yuba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bridgetown."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Brujas."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Dólar de Trinidad y Tobago."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La capital es Lobamba."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El banco central de Estados Unidos es la Reserva Federal."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Tirana."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El Banco de Sudán."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La libra esterlina."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Bangkok."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Real."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "El zloty polaco."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Lari."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "Deutsche Bundesbank."
+    },
+    {
+     "out": "none",
+     "entity": false,
+     "correct": false,
+     "es_repair": false,
+     "txt": "La moneda es el dólar estadounidense."
+    }
+   ],
+   "amb_steer": 1,
+   "amb_rand": 0
+  }
+ }
+}

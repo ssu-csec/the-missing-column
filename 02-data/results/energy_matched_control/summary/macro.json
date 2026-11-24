@@ -1,0 +1,105 @@
+{
+  "runs": {
+    "gemma4_31b": "gemma4_31b",
+    "gemma4_31b_it": "gemma4_31b_it",
+    "llama31_70": "llama31_70",
+    "llama31_70_it": "llama31_70_it",
+    "qwen36_27b": "qwen36_27b"
+  },
+  "draws": 10000,
+  "results": {
+    "zh": {
+      "per_checkpoint": {
+        "gemma4_31b": {
+          "n": 120,
+          "delta_R": 18.83,
+          "delta_M": 10.5
+        },
+        "gemma4_31b_it": {
+          "n": 120,
+          "delta_R": 1.0,
+          "delta_M": 3.83
+        },
+        "llama31_70": {
+          "n": 120,
+          "delta_R": 14.67,
+          "delta_M": 8.17
+        },
+        "llama31_70_it": {
+          "n": 61,
+          "delta_R": 6.89,
+          "delta_M": 8.2
+        },
+        "qwen36_27b": {
+          "n": 120,
+          "delta_R": 0.67,
+          "delta_M": -0.5
+        }
+      },
+      "macro": {
+        "delta_R": 8.41,
+        "delta_R_ci95": [
+          5.41,
+          11.77
+        ],
+        "delta_M": 6.04,
+        "delta_M_ci95": [
+          3.04,
+          9.29
+        ],
+        "M_minus_R": -2.37,
+        "M_minus_R_ci95": [
+          -3.86,
+          -0.97
+        ]
+      }
+    },
+    "ko": {
+      "per_checkpoint": {
+        "gemma4_31b": {
+          "n": 120,
+          "delta_R": 24.33,
+          "delta_M": 16.0
+        },
+        "gemma4_31b_it": {
+          "n": 120,
+          "delta_R": 3.67,
+          "delta_M": 4.33
+        },
+        "llama31_70": {
+          "n": 120,
+          "delta_R": 7.33,
+          "delta_M": 5.83
+        },
+        "llama31_70_it": {
+          "n": 61,
+          "delta_R": -0.0,
+          "delta_M": 4.26
+        },
+        "qwen36_27b": {
+          "n": 120,
+          "delta_R": 0.83,
+          "delta_M": 1.5
+        }
+      },
+      "macro": {
+        "delta_R": 7.23,
+        "delta_R_ci95": [
+          3.58,
+          11.16
+        ],
+        "delta_M": 6.38,
+        "delta_M_ci95": [
+          3.03,
+          9.99
+        ],
+        "M_minus_R": -0.85,
+        "M_minus_R_ci95": [
+          -2.54,
+          0.8
+        ]
+      }
+    }
+  },
+  "scope": "Equal-checkpoint descriptive intervals; not multiplicity-controlled"
+}
