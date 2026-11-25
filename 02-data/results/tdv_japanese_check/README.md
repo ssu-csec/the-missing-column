@@ -1,8 +1,7 @@
 # Japanese single-hop TDV implementation check (Llama-3.1-70B-Instruct)
 
-Appendix E reports this check. It was added after submission because the original TDV implementation
-check covered Korean only. It is a single-hop implementation check, not a rerun of the Japanese two-hop
-transfer in `../tdv/`.
+Appendix E reports this check. It complements the Korean TDV implementation checks with a Japanese one.
+It is a single-hop implementation check, not a rerun of the Japanese two-hop transfer in `../tdv/`.
 
 **Setup.** Llama-3.1-70B-Instruct, translation-direction vector at layer 60 (zero-based), scale 1.0,
 added at the last position on every forward pass. Greedy decoding with 24 new tokens, repetition
